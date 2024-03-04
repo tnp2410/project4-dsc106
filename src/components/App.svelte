@@ -1,5 +1,6 @@
 <main>
   <div id="tree-container"></div>
+  <p> Click on the text to collapse or decollapse the Pokemon Tree! </p>
   <h1>Pokemon Collapsible Tree </h1>
   <p>
   We began the project with data cleaning the Pokemon dataset by dropping unnecessary columns, fixing N/A values, and converting types into a list. The next step began by looking at examples of how to implement our visualization. Our original plan was to implement a radar chart to display how effective different types of pokemon are against each other. After spending a few hours, we kept running into errors because we couldn’t figure out how to get the visualization to display properly. We decided to shift gears and approach our project by implementing a Zoomable sunburst and changing our goals to exploring different Pokemon types sorted by generations. As we tried to implement this visualization, we stumbled upon the Collapsible Tree visualization which was perfect for the Pokemon dataset and how they are sorted in different generations.
