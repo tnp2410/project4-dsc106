@@ -1,0 +1,802 @@
+,classfication,name,pokedex_number,generation,is_legendary,type
+0,Seed Pokémon,Bulbasaur,1,1,0,"['grass', 'poison']"
+1,Seed Pokémon,Ivysaur,2,1,0,"['grass', 'poison']"
+2,Seed Pokémon,Venusaur,3,1,0,"['grass', 'poison']"
+3,Lizard Pokémon,Charmander,4,1,0,['fire']
+4,Flame Pokémon,Charmeleon,5,1,0,['fire']
+5,Flame Pokémon,Charizard,6,1,0,"['fire', 'flying']"
+6,Tiny Turtle Pokémon,Squirtle,7,1,0,['water']
+7,Turtle Pokémon,Wartortle,8,1,0,['water']
+8,Shellfish Pokémon,Blastoise,9,1,0,['water']
+9,Worm Pokémon,Caterpie,10,1,0,['bug']
+10,Cocoon Pokémon,Metapod,11,1,0,['bug']
+11,Butterfly Pokémon,Butterfree,12,1,0,"['bug', 'flying']"
+12,Hairy Pokémon,Weedle,13,1,0,"['bug', 'poison']"
+13,Cocoon Pokémon,Kakuna,14,1,0,"['bug', 'poison']"
+14,Poison Bee Pokémon,Beedrill,15,1,0,"['bug', 'poison']"
+15,Tiny Bird Pokémon,Pidgey,16,1,0,"['normal', 'flying']"
+16,Bird Pokémon,Pidgeotto,17,1,0,"['normal', 'flying']"
+17,Bird Pokémon,Pidgeot,18,1,0,"['normal', 'flying']"
+18,Mouse Pokémon,Rattata,19,1,0,"['normal', 'dark']"
+19,Mouse Pokémon,Raticate,20,1,0,"['normal', 'dark']"
+20,Tiny Bird Pokémon,Spearow,21,1,0,"['normal', 'flying']"
+21,Beak Pokémon,Fearow,22,1,0,"['normal', 'flying']"
+22,Snake Pokémon,Ekans,23,1,0,['poison']
+23,Cobra Pokémon,Arbok,24,1,0,['poison']
+24,Mouse Pokémon,Pikachu,25,1,0,['electric']
+25,Mouse Pokémon,Raichu,26,1,0,"['electric', 'electric']"
+26,Mouse Pokémon,Sandshrew,27,1,0,"['ground', 'ice']"
+27,Mouse Pokémon,Sandslash,28,1,0,"['ground', 'ice']"
+28,Poison Pin Pokémon,Nidoran♀,29,1,0,['poison']
+29,Poison Pin Pokémon,Nidorina,30,1,0,['poison']
+30,Drill Pokémon,Nidoqueen,31,1,0,"['poison', 'ground']"
+31,Poison Pin Pokémon,Nidoran♂,32,1,0,['poison']
+32,Poison Pin Pokémon,Nidorino,33,1,0,['poison']
+33,Drill Pokémon,Nidoking,34,1,0,"['poison', 'ground']"
+34,Fairy Pokémon,Clefairy,35,1,0,['fairy']
+35,Fairy Pokémon,Clefable,36,1,0,['fairy']
+36,Fox Pokémon,Vulpix,37,1,0,"['fire', 'ice']"
+37,Fox Pokémon,Ninetales,38,1,0,"['fire', 'ice']"
+38,Balloon Pokémon,Jigglypuff,39,1,0,"['normal', 'fairy']"
+39,Balloon Pokémon,Wigglytuff,40,1,0,"['normal', 'fairy']"
+40,Bat Pokémon,Zubat,41,1,0,"['poison', 'flying']"
+41,Bat Pokémon,Golbat,42,1,0,"['poison', 'flying']"
+42,Weed Pokémon,Oddish,43,1,0,"['grass', 'poison']"
+43,Weed Pokémon,Gloom,44,1,0,"['grass', 'poison']"
+44,Flower Pokémon,Vileplume,45,1,0,"['grass', 'poison']"
+45,Mushroom Pokémon,Paras,46,1,0,"['bug', 'grass']"
+46,Mushroom Pokémon,Parasect,47,1,0,"['bug', 'grass']"
+47,Insect Pokémon,Venonat,48,1,0,"['bug', 'poison']"
+48,Poison Moth Pokémon,Venomoth,49,1,0,"['bug', 'poison']"
+49,Mole Pokémon,Diglett,50,1,0,"['ground', 'ground']"
+50,Mole Pokémon,Dugtrio,51,1,0,"['ground', 'ground']"
+51,Scratch Cat Pokémon,Meowth,52,1,0,"['normal', 'dark']"
+52,Classy Cat Pokémon,Persian,53,1,0,"['normal', 'dark']"
+53,Duck Pokémon,Psyduck,54,1,0,['water']
+54,Duck Pokémon,Golduck,55,1,0,['water']
+55,Pig Monkey Pokémon,Mankey,56,1,0,['fighting']
+56,Pig Monkey Pokémon,Primeape,57,1,0,['fighting']
+57,Puppy Pokémon,Growlithe,58,1,0,['fire']
+58,Legendary Pokémon,Arcanine,59,1,0,['fire']
+59,Tadpole Pokémon,Poliwag,60,1,0,['water']
+60,Tadpole Pokémon,Poliwhirl,61,1,0,['water']
+61,Tadpole Pokémon,Poliwrath,62,1,0,"['water', 'fighting']"
+62,Psi Pokémon,Abra,63,1,0,['psychic']
+63,Psi Pokémon,Kadabra,64,1,0,['psychic']
+64,Psi Pokémon,Alakazam,65,1,0,['psychic']
+65,Superpower Pokémon,Machop,66,1,0,['fighting']
+66,Superpower Pokémon,Machoke,67,1,0,['fighting']
+67,Superpower Pokémon,Machamp,68,1,0,['fighting']
+68,Flower Pokémon,Bellsprout,69,1,0,"['grass', 'poison']"
+69,Flycatcher Pokémon,Weepinbell,70,1,0,"['grass', 'poison']"
+70,Flycatcher Pokémon,Victreebel,71,1,0,"['grass', 'poison']"
+71,Jellyfish Pokémon,Tentacool,72,1,0,"['water', 'poison']"
+72,Jellyfish Pokémon,Tentacruel,73,1,0,"['water', 'poison']"
+73,Rock Pokémon,Geodude,74,1,0,"['rock', 'ground']"
+74,Rock Pokémon,Graveler,75,1,0,"['rock', 'ground']"
+75,Megaton Pokémon,Golem,76,1,0,"['rock', 'ground']"
+76,Fire Horse Pokémon,Ponyta,77,1,0,['fire']
+77,Fire Horse Pokémon,Rapidash,78,1,0,['fire']
+78,Dopey Pokémon,Slowpoke,79,1,0,"['water', 'psychic']"
+79,Hermit Crab Pokémon,Slowbro,80,1,0,"['water', 'psychic']"
+80,Magnet Pokémon,Magnemite,81,1,0,"['electric', 'steel']"
+81,Magnet Pokémon,Magneton,82,1,0,"['electric', 'steel']"
+82,Wild Duck Pokémon,Farfetch'd,83,1,0,"['normal', 'flying']"
+83,Twin Bird Pokémon,Doduo,84,1,0,"['normal', 'flying']"
+84,Triple Bird Pokémon,Dodrio,85,1,0,"['normal', 'flying']"
+85,Sea Lion Pokémon,Seel,86,1,0,['water']
+86,Sea Lion Pokémon,Dewgong,87,1,0,"['water', 'ice']"
+87,Sludge Pokémon,Grimer,88,1,0,"['poison', 'poison']"
+88,Sludge Pokémon,Muk,89,1,0,"['poison', 'poison']"
+89,Bivalve Pokémon,Shellder,90,1,0,['water']
+90,Bivalve Pokémon,Cloyster,91,1,0,"['water', 'ice']"
+91,Gas Pokémon,Gastly,92,1,0,"['ghost', 'poison']"
+92,Gas Pokémon,Haunter,93,1,0,"['ghost', 'poison']"
+93,Shadow Pokémon,Gengar,94,1,0,"['ghost', 'poison']"
+94,Rock Snake Pokémon,Onix,95,1,0,"['rock', 'ground']"
+95,Hypnosis Pokémon,Drowzee,96,1,0,['psychic']
+96,Hypnosis Pokémon,Hypno,97,1,0,['psychic']
+97,River Crab Pokémon,Krabby,98,1,0,['water']
+98,Pincer Pokémon,Kingler,99,1,0,['water']
+99,Ball Pokémon,Voltorb,100,1,0,['electric']
+100,Ball Pokémon,Electrode,101,1,0,['electric']
+101,Egg Pokémon,Exeggcute,102,1,0,"['grass', 'psychic']"
+102,Coconut Pokémon,Exeggutor,103,1,0,"['grass', 'psychic']"
+103,Lonely Pokémon,Cubone,104,1,0,['ground']
+104,Bone Keeper Pokémon,Marowak,105,1,0,"['ground', 'fire']"
+105,Kicking Pokémon,Hitmonlee,106,1,0,['fighting']
+106,Punching Pokémon,Hitmonchan,107,1,0,['fighting']
+107,Licking Pokémon,Lickitung,108,1,0,['normal']
+108,Poison Gas Pokémon,Koffing,109,1,0,['poison']
+109,Poison Gas Pokémon,Weezing,110,1,0,['poison']
+110,Spikes Pokémon,Rhyhorn,111,1,0,"['ground', 'rock']"
+111,Drill Pokémon,Rhydon,112,1,0,"['ground', 'rock']"
+112,Egg Pokémon,Chansey,113,1,0,['normal']
+113,Vine Pokémon,Tangela,114,1,0,['grass']
+114,Parent Pokémon,Kangaskhan,115,1,0,['normal']
+115,Dragon Pokémon,Horsea,116,1,0,['water']
+116,Dragon Pokémon,Seadra,117,1,0,['water']
+117,Goldfish Pokémon,Goldeen,118,1,0,['water']
+118,Goldfish Pokémon,Seaking,119,1,0,['water']
+119,Starshape Pokémon,Staryu,120,1,0,['water']
+120,Mysterious Pokémon,Starmie,121,1,0,"['water', 'psychic']"
+121,Barrier Pokémon,Mr. Mime,122,1,0,"['psychic', 'fairy']"
+122,Mantis Pokémon,Scyther,123,1,0,"['bug', 'flying']"
+123,Humanshape Pokémon,Jynx,124,1,0,"['ice', 'psychic']"
+124,Electric Pokémon,Electabuzz,125,1,0,['electric']
+125,Spitfire Pokémon,Magmar,126,1,0,['fire']
+126,Stagbeetle Pokémon,Pinsir,127,1,0,['bug']
+127,Wild Bull Pokémon,Tauros,128,1,0,['normal']
+128,Fish Pokémon,Magikarp,129,1,0,['water']
+129,Atrocious Pokémon,Gyarados,130,1,0,"['water', 'flying']"
+130,Transport Pokémon,Lapras,131,1,0,"['water', 'ice']"
+131,Transform Pokémon,Ditto,132,1,0,['normal']
+132,Evolution Pokémon,Eevee,133,1,0,['normal']
+133,Bubble Jet Pokémon,Vaporeon,134,1,0,['water']
+134,Lightning Pokémon,Jolteon,135,1,0,['electric']
+135,Flame Pokémon,Flareon,136,1,0,['fire']
+136,Virtual Pokémon,Porygon,137,1,0,['normal']
+137,Spiral Pokémon,Omanyte,138,1,0,"['rock', 'water']"
+138,Spiral Pokémon,Omastar,139,1,0,"['rock', 'water']"
+139,Shellfish Pokémon,Kabuto,140,1,0,"['rock', 'water']"
+140,Shellfish Pokémon,Kabutops,141,1,0,"['rock', 'water']"
+141,Fossil Pokémon,Aerodactyl,142,1,0,"['rock', 'flying']"
+142,Sleeping Pokémon,Snorlax,143,1,0,['normal']
+143,Freeze Pokémon,Articuno,144,1,1,"['ice', 'flying']"
+144,Electric Pokémon,Zapdos,145,1,1,"['electric', 'flying']"
+145,Flame Pokémon,Moltres,146,1,1,"['fire', 'flying']"
+146,Dragon Pokémon,Dratini,147,1,0,['dragon']
+147,Dragon Pokémon,Dragonair,148,1,0,['dragon']
+148,Dragon Pokémon,Dragonite,149,1,0,"['dragon', 'flying']"
+149,Genetic Pokémon,Mewtwo,150,1,1,['psychic']
+150,New Species Pokémon,Mew,151,1,1,['psychic']
+151,Leaf Pokémon,Chikorita,152,2,0,['grass']
+152,Leaf Pokémon,Bayleef,153,2,0,['grass']
+153,Herb Pokémon,Meganium,154,2,0,['grass']
+154,Fire Mouse Pokémon,Cyndaquil,155,2,0,['fire']
+155,Volcano Pokémon,Quilava,156,2,0,['fire']
+156,Volcano Pokémon,Typhlosion,157,2,0,['fire']
+157,Big Jaw Pokémon,Totodile,158,2,0,['water']
+158,Big Jaw Pokémon,Croconaw,159,2,0,['water']
+159,Big Jaw Pokémon,Feraligatr,160,2,0,['water']
+160,Scout Pokémon,Sentret,161,2,0,['normal']
+161,Long Body Pokémon,Furret,162,2,0,['normal']
+162,Owl Pokémon,Hoothoot,163,2,0,"['normal', 'flying']"
+163,Owl Pokémon,Noctowl,164,2,0,"['normal', 'flying']"
+164,Five Star Pokémon,Ledyba,165,2,0,"['bug', 'flying']"
+165,Five Star Pokémon,Ledian,166,2,0,"['bug', 'flying']"
+166,String Spit Pokémon,Spinarak,167,2,0,"['bug', 'poison']"
+167,Long Leg Pokémon,Ariados,168,2,0,"['bug', 'poison']"
+168,Bat Pokémon,Crobat,169,2,0,"['poison', 'flying']"
+169,Angler Pokémon,Chinchou,170,2,0,"['water', 'electric']"
+170,Light Pokémon,Lanturn,171,2,0,"['water', 'electric']"
+171,Tiny Mouse Pokémon,Pichu,172,2,0,['electric']
+172,Star Shape Pokémon,Cleffa,173,2,0,['fairy']
+173,Balloon Pokémon,Igglybuff,174,2,0,"['normal', 'fairy']"
+174,Spike Ball Pokémon,Togepi,175,2,0,['fairy']
+175,Happiness Pokémon,Togetic,176,2,0,"['fairy', 'flying']"
+176,Little Bird Pokémon,Natu,177,2,0,"['psychic', 'flying']"
+177,Mystic Pokémon,Xatu,178,2,0,"['psychic', 'flying']"
+178,Wool Pokémon,Mareep,179,2,0,['electric']
+179,Wool Pokémon,Flaaffy,180,2,0,['electric']
+180,Light Pokémon,Ampharos,181,2,0,['electric']
+181,Flower Pokémon,Bellossom,182,2,0,['grass']
+182,Aquamouse Pokémon,Marill,183,2,0,"['water', 'fairy']"
+183,Aquarabbit Pokémon,Azumarill,184,2,0,"['water', 'fairy']"
+184,Imitation Pokémon,Sudowoodo,185,2,0,['rock']
+185,Frog Pokémon,Politoed,186,2,0,['water']
+186,Cottonweed Pokémon,Hoppip,187,2,0,"['grass', 'flying']"
+187,Cottonweed Pokémon,Skiploom,188,2,0,"['grass', 'flying']"
+188,Cottonweed Pokémon,Jumpluff,189,2,0,"['grass', 'flying']"
+189,Long Tail Pokémon,Aipom,190,2,0,['normal']
+190,Seed Pokémon,Sunkern,191,2,0,['grass']
+191,Sun Pokémon,Sunflora,192,2,0,['grass']
+192,Clear Wing Pokémon,Yanma,193,2,0,"['bug', 'flying']"
+193,Water Fish Pokémon,Wooper,194,2,0,"['water', 'ground']"
+194,Water Fish Pokémon,Quagsire,195,2,0,"['water', 'ground']"
+195,Sun Pokémon,Espeon,196,2,0,['psychic']
+196,Moonlight Pokémon,Umbreon,197,2,0,['dark']
+197,Darkness Pokémon,Murkrow,198,2,0,"['dark', 'flying']"
+198,Royal Pokémon,Slowking,199,2,0,"['water', 'psychic']"
+199,Screech Pokémon,Misdreavus,200,2,0,['ghost']
+200,Symbol Pokémon,Unown,201,2,0,['psychic']
+201,Patient Pokémon,Wobbuffet,202,2,0,['psychic']
+202,Long Neck Pokémon,Girafarig,203,2,0,"['normal', 'psychic']"
+203,Bagworm Pokémon,Pineco,204,2,0,['bug']
+204,Bagworm Pokémon,Forretress,205,2,0,"['bug', 'steel']"
+205,Land Snake Pokémon,Dunsparce,206,2,0,['normal']
+206,Flyscorpion Pokémon,Gligar,207,2,0,"['ground', 'flying']"
+207,Iron Snake Pokémon,Steelix,208,2,0,"['steel', 'ground']"
+208,Fairy Pokémon,Snubbull,209,2,0,['fairy']
+209,Fairy Pokémon,Granbull,210,2,0,['fairy']
+210,Balloon Pokémon,Qwilfish,211,2,0,"['water', 'poison']"
+211,Pincer Pokémon,Scizor,212,2,0,"['bug', 'steel']"
+212,Mold Pokémon,Shuckle,213,2,0,"['bug', 'rock']"
+213,Singlehorn Pokémon,Heracross,214,2,0,"['bug', 'fighting']"
+214,Sharp Claw Pokémon,Sneasel,215,2,0,"['dark', 'ice']"
+215,Little Bear Pokémon,Teddiursa,216,2,0,['normal']
+216,Hibernator Pokémon,Ursaring,217,2,0,['normal']
+217,Lava Pokémon,Slugma,218,2,0,['fire']
+218,Lava Pokémon,Magcargo,219,2,0,"['fire', 'rock']"
+219,Pig Pokémon,Swinub,220,2,0,"['ice', 'ground']"
+220,Swine Pokémon,Piloswine,221,2,0,"['ice', 'ground']"
+221,Coral Pokémon,Corsola,222,2,0,"['water', 'rock']"
+222,Jet Pokémon,Remoraid,223,2,0,['water']
+223,Jet Pokémon,Octillery,224,2,0,['water']
+224,Delivery Pokémon,Delibird,225,2,0,"['ice', 'flying']"
+225,Kite Pokémon,Mantine,226,2,0,"['water', 'flying']"
+226,Armor Bird Pokémon,Skarmory,227,2,0,"['steel', 'flying']"
+227,Dark Pokémon,Houndour,228,2,0,"['dark', 'fire']"
+228,Dark Pokémon,Houndoom,229,2,0,"['dark', 'fire']"
+229,Dragon Pokémon,Kingdra,230,2,0,"['water', 'dragon']"
+230,Long Nose Pokémon,Phanpy,231,2,0,['ground']
+231,Armor Pokémon,Donphan,232,2,0,['ground']
+232,Virtual Pokémon,Porygon2,233,2,0,['normal']
+233,Big Horn Pokémon,Stantler,234,2,0,['normal']
+234,Painter Pokémon,Smeargle,235,2,0,['normal']
+235,Scuffle Pokémon,Tyrogue,236,2,0,['fighting']
+236,Handstand Pokémon,Hitmontop,237,2,0,['fighting']
+237,Kiss Pokémon,Smoochum,238,2,0,"['ice', 'psychic']"
+238,Electric Pokémon,Elekid,239,2,0,['electric']
+239,Live Coal Pokémon,Magby,240,2,0,['fire']
+240,Milk Cow Pokémon,Miltank,241,2,0,['normal']
+241,Happiness Pokémon,Blissey,242,2,0,['normal']
+242,Thunder Pokémon,Raikou,243,2,1,['electric']
+243,Volcano Pokémon,Entei,244,2,1,['fire']
+244,Aurora Pokémon,Suicune,245,2,1,['water']
+245,Rock Skin Pokémon,Larvitar,246,2,0,"['rock', 'ground']"
+246,Hard Shell Pokémon,Pupitar,247,2,0,"['rock', 'ground']"
+247,Armor Pokémon,Tyranitar,248,2,0,"['rock', 'dark']"
+248,Diving Pokémon,Lugia,249,2,1,"['psychic', 'flying']"
+249,Rainbow Pokémon,Ho-Oh,250,2,1,"['fire', 'flying']"
+250,Time Travel Pokémon,Celebi,251,2,1,"['psychic', 'grass']"
+251,Wood Gecko Pokémon,Treecko,252,3,0,['grass']
+252,Wood Gecko Pokémon,Grovyle,253,3,0,['grass']
+253,Forest Pokémon,Sceptile,254,3,0,['grass']
+254,Chick Pokémon,Torchic,255,3,0,['fire']
+255,Young Fowl Pokémon,Combusken,256,3,0,"['fire', 'fighting']"
+256,Blaze Pokémon,Blaziken,257,3,0,"['fire', 'fighting']"
+257,Mud Fish Pokémon,Mudkip,258,3,0,['water']
+258,Mud Fish Pokémon,Marshtomp,259,3,0,"['water', 'ground']"
+259,Mud Fish Pokémon,Swampert,260,3,0,"['water', 'ground']"
+260,Bite Pokémon,Poochyena,261,3,0,['dark']
+261,Bite Pokémon,Mightyena,262,3,0,['dark']
+262,Tiny Racoon Pokémon,Zigzagoon,263,3,0,['normal']
+263,Rush Pokémon,Linoone,264,3,0,['normal']
+264,Worm Pokémon,Wurmple,265,3,0,['bug']
+265,Cocoon Pokémon,Silcoon,266,3,0,['bug']
+266,Butterfly Pokémon,Beautifly,267,3,0,"['bug', 'flying']"
+267,Cocoon Pokémon,Cascoon,268,3,0,['bug']
+268,Poison Moth Pokémon,Dustox,269,3,0,"['bug', 'poison']"
+269,Water Weed Pokémon,Lotad,270,3,0,"['water', 'grass']"
+270,Jolly Pokémon,Lombre,271,3,0,"['water', 'grass']"
+271,Carefree Pokémon,Ludicolo,272,3,0,"['water', 'grass']"
+272,Acorn Pokémon,Seedot,273,3,0,['grass']
+273,Wily Pokémon,Nuzleaf,274,3,0,"['grass', 'dark']"
+274,Wickid Pokémon,Shiftry,275,3,0,"['grass', 'dark']"
+275,TinySwallow Pokémon,Taillow,276,3,0,"['normal', 'flying']"
+276,Swallow Pokémon,Swellow,277,3,0,"['normal', 'flying']"
+277,Seagull Pokémon,Wingull,278,3,0,"['water', 'flying']"
+278,Water Bird Pokémon,Pelipper,279,3,0,"['water', 'flying']"
+279,Feeling Pokémon,Ralts,280,3,0,"['psychic', 'fairy']"
+280,Emotion Pokémon,Kirlia,281,3,0,"['psychic', 'fairy']"
+281,Embrace Pokémon,Gardevoir,282,3,0,"['psychic', 'fairy']"
+282,Pond Skater Pokémon,Surskit,283,3,0,"['bug', 'water']"
+283,Eyeball Pokémon,Masquerain,284,3,0,"['bug', 'flying']"
+284,Mushroom Pokémon,Shroomish,285,3,0,['grass']
+285,Mushroom Pokémon,Breloom,286,3,0,"['grass', 'fighting']"
+286,Slacker Pokémon,Slakoth,287,3,0,['normal']
+287,Wild Monkey Pokémon,Vigoroth,288,3,0,['normal']
+288,Lazy Pokémon,Slaking,289,3,0,['normal']
+289,Trainee Pokémon,Nincada,290,3,0,"['bug', 'ground']"
+290,Ninja Pokémon,Ninjask,291,3,0,"['bug', 'flying']"
+291,Shed Pokémon,Shedinja,292,3,0,"['bug', 'ghost']"
+292,Whisper Pokémon,Whismur,293,3,0,['normal']
+293,Big Voice Pokémon,Loudred,294,3,0,['normal']
+294,Loud Noise Pokémon,Exploud,295,3,0,['normal']
+295,Guts Pokémon,Makuhita,296,3,0,['fighting']
+296,Arm Thrust Pokémon,Hariyama,297,3,0,['fighting']
+297,Polka Dot Pokémon,Azurill,298,3,0,"['normal', 'fairy']"
+298,Compass Pokémon,Nosepass,299,3,0,['rock']
+299,Kitten Pokémon,Skitty,300,3,0,['normal']
+300,Prim Pokémon,Delcatty,301,3,0,['normal']
+301,Darkness Pokémon,Sableye,302,3,0,"['dark', 'ghost']"
+302,Deceiver Pokémon,Mawile,303,3,0,"['steel', 'fairy']"
+303,Iron Armor Pokémon,Aron,304,3,0,"['steel', 'rock']"
+304,Iron Armor Pokémon,Lairon,305,3,0,"['steel', 'rock']"
+305,Iron Armor Pokémon,Aggron,306,3,0,"['steel', 'rock']"
+306,Meditate Pokémon,Meditite,307,3,0,"['fighting', 'psychic']"
+307,Meditate Pokémon,Medicham,308,3,0,"['fighting', 'psychic']"
+308,Lightning Pokémon,Electrike,309,3,0,['electric']
+309,Discharge Pokémon,Manectric,310,3,0,['electric']
+310,Cheering Pokémon,Plusle,311,3,0,['electric']
+311,Cheering Pokémon,Minun,312,3,0,['electric']
+312,Firefly Pokémon,Volbeat,313,3,0,['bug']
+313,Firefly Pokémon,Illumise,314,3,0,['bug']
+314,Thorn Pokémon,Roselia,315,3,0,"['grass', 'poison']"
+315,Stomach Pokémon,Gulpin,316,3,0,['poison']
+316,Poison Bag Pokémon,Swalot,317,3,0,['poison']
+317,Savage Pokémon,Carvanha,318,3,0,"['water', 'dark']"
+318,Brutal Pokémon,Sharpedo,319,3,0,"['water', 'dark']"
+319,Ball Whale Pokémon,Wailmer,320,3,0,['water']
+320,Float Whale Pokémon,Wailord,321,3,0,['water']
+321,Numb Pokémon,Numel,322,3,0,"['fire', 'ground']"
+322,Eruption Pokémon,Camerupt,323,3,0,"['fire', 'ground']"
+323,Coal Pokémon,Torkoal,324,3,0,['fire']
+324,Bounce Pokémon,Spoink,325,3,0,['psychic']
+325,Manipulate Pokémon,Grumpig,326,3,0,['psychic']
+326,Spot Panda Pokémon,Spinda,327,3,0,['normal']
+327,Ant Pit Pokémon,Trapinch,328,3,0,['ground']
+328,Vibration Pokémon,Vibrava,329,3,0,"['ground', 'dragon']"
+329,Mystic Pokémon,Flygon,330,3,0,"['ground', 'dragon']"
+330,Cactus Pokémon,Cacnea,331,3,0,['grass']
+331,Scarecrow Pokémon,Cacturne,332,3,0,"['grass', 'dark']"
+332,Cotton Bird Pokémon,Swablu,333,3,0,"['normal', 'flying']"
+333,Humming Pokémon,Altaria,334,3,0,"['dragon', 'flying']"
+334,Cat Ferret Pokémon,Zangoose,335,3,0,['normal']
+335,Fang Snake Pokémon,Seviper,336,3,0,['poison']
+336,Meteorite Pokémon,Lunatone,337,3,0,"['rock', 'psychic']"
+337,Meteorite Pokémon,Solrock,338,3,0,"['rock', 'psychic']"
+338,Whiskers Pokémon,Barboach,339,3,0,"['water', 'ground']"
+339,Whiskers Pokémon,Whiscash,340,3,0,"['water', 'ground']"
+340,Ruffian Pokémon,Corphish,341,3,0,['water']
+341,Rogue Pokémon,Crawdaunt,342,3,0,"['water', 'dark']"
+342,Clay Doll Pokémon,Baltoy,343,3,0,"['ground', 'psychic']"
+343,Clay Doll Pokémon,Claydol,344,3,0,"['ground', 'psychic']"
+344,Sea Lily Pokémon,Lileep,345,3,0,"['rock', 'grass']"
+345,Barnacle Pokémon,Cradily,346,3,0,"['rock', 'grass']"
+346,Old Shrimp Pokémon,Anorith,347,3,0,"['rock', 'bug']"
+347,Plate Pokémon,Armaldo,348,3,0,"['rock', 'bug']"
+348,Fish Pokémon,Feebas,349,3,0,['water']
+349,Tender Pokémon,Milotic,350,3,0,['water']
+350,Weather Pokémon,Castform,351,3,0,['normal']
+351,Color Swap Pokémon,Kecleon,352,3,0,['normal']
+352,Puppet Pokémon,Shuppet,353,3,0,['ghost']
+353,Marionette Pokémon,Banette,354,3,0,['ghost']
+354,Requiem Pokémon,Duskull,355,3,0,['ghost']
+355,Beckon Pokémon,Dusclops,356,3,0,['ghost']
+356,Fruit Pokémon,Tropius,357,3,0,"['grass', 'flying']"
+357,Wind Chime Pokémon,Chimecho,358,3,0,['psychic']
+358,Disaster Pokémon,Absol,359,3,0,['dark']
+359,Bright Pokémon,Wynaut,360,3,0,['psychic']
+360,Snow Hat Pokémon,Snorunt,361,3,0,['ice']
+361,Face Pokémon,Glalie,362,3,0,['ice']
+362,Clap Pokémon,Spheal,363,3,0,"['ice', 'water']"
+363,Ball Roll Pokémon,Sealeo,364,3,0,"['ice', 'water']"
+364,Ice Break Pokémon,Walrein,365,3,0,"['ice', 'water']"
+365,Bivalve Pokémon,Clamperl,366,3,0,['water']
+366,Deep Sea Pokémon,Huntail,367,3,0,['water']
+367,South Sea Pokémon,Gorebyss,368,3,0,['water']
+368,Longevity Pokémon,Relicanth,369,3,0,"['water', 'rock']"
+369,Rendezvous Pokémon,Luvdisc,370,3,0,['water']
+370,Rock Head Pokémon,Bagon,371,3,0,['dragon']
+371,Endurance Pokémon,Shelgon,372,3,0,['dragon']
+372,Dragon Pokémon,Salamence,373,3,0,"['dragon', 'flying']"
+373,Iron Ball Pokémon,Beldum,374,3,0,"['steel', 'psychic']"
+374,Iron Claw Pokémon,Metang,375,3,0,"['steel', 'psychic']"
+375,Iron Leg Pokémon,Metagross,376,3,0,"['steel', 'psychic']"
+376,Rock Peak Pokémon,Regirock,377,3,1,['rock']
+377,Iceberg Pokémon,Regice,378,3,1,['ice']
+378,Iron Pokémon,Registeel,379,3,1,['steel']
+379,Eon Pokémon,Latias,380,3,1,"['dragon', 'psychic']"
+380,Eon Pokémon,Latios,381,3,1,"['dragon', 'psychic']"
+381,Sea Basin Pokémon,Kyogre,382,3,1,['water']
+382,Continent Pokémon,Groudon,383,3,1,['ground']
+383,Sky High Pokémon,Rayquaza,384,3,1,"['dragon', 'flying']"
+384,Wish Pokémon,Jirachi,385,3,1,"['steel', 'psychic']"
+385,DNA Pokémon,Deoxys,386,3,1,['psychic']
+386,Tiny Leaf Pokémon,Turtwig,387,4,0,['grass']
+387,Grove Pokémon,Grotle,388,4,0,['grass']
+388,Continent Pokémon,Torterra,389,4,0,"['grass', 'ground']"
+389,Chimp Pokémon,Chimchar,390,4,0,['fire']
+390,Playful Pokémon,Monferno,391,4,0,"['fire', 'fighting']"
+391,Flame Pokémon,Infernape,392,4,0,"['fire', 'fighting']"
+392,Penguin Pokémon,Piplup,393,4,0,['water']
+393,Penguin Pokémon,Prinplup,394,4,0,['water']
+394,Emperor Pokémon,Empoleon,395,4,0,"['water', 'steel']"
+395,Starling Pokémon,Starly,396,4,0,"['normal', 'flying']"
+396,Starling Pokémon,Staravia,397,4,0,"['normal', 'flying']"
+397,Predator Pokémon,Staraptor,398,4,0,"['normal', 'flying']"
+398,Plump Mouse Pokémon,Bidoof,399,4,0,['normal']
+399,Beaver Pokémon,Bibarel,400,4,0,"['normal', 'water']"
+400,Cricket Pokémon,Kricketot,401,4,0,['bug']
+401,Cricket Pokémon,Kricketune,402,4,0,['bug']
+402,Flash Pokémon,Shinx,403,4,0,['electric']
+403,Spark Pokémon,Luxio,404,4,0,['electric']
+404,Gleam Eyes Pokémon,Luxray,405,4,0,['electric']
+405,Bud Pokémon,Budew,406,4,0,"['grass', 'poison']"
+406,Bouquet Pokémon,Roserade,407,4,0,"['grass', 'poison']"
+407,Head Butt Pokémon,Cranidos,408,4,0,['rock']
+408,Head Butt Pokémon,Rampardos,409,4,0,['rock']
+409,Shield Pokémon,Shieldon,410,4,0,"['rock', 'steel']"
+410,Shield Pokémon,Bastiodon,411,4,0,"['rock', 'steel']"
+411,Bagworm Pokémon,Burmy,412,4,0,['bug']
+412,Bagworm Pokémon,Wormadam,413,4,0,"['bug', 'grass']"
+413,Moth Pokémon,Mothim,414,4,0,"['bug', 'flying']"
+414,Tiny Bee Pokémon,Combee,415,4,0,"['bug', 'flying']"
+415,Beehive Pokémon,Vespiquen,416,4,0,"['bug', 'flying']"
+416,EleSquirrel Pokémon,Pachirisu,417,4,0,['electric']
+417,Sea Weasel Pokémon,Buizel,418,4,0,['water']
+418,Sea Weasel Pokémon,Floatzel,419,4,0,['water']
+419,Cherry Pokémon,Cherubi,420,4,0,['grass']
+420,Blossom Pokémon,Cherrim,421,4,0,['grass']
+421,Sea Slug Pokémon,Shellos,422,4,0,['water']
+422,Sea Slug Pokémon,Gastrodon,423,4,0,"['water', 'ground']"
+423,Long Tail Pokémon,Ambipom,424,4,0,['normal']
+424,Balloon Pokémon,Drifloon,425,4,0,"['ghost', 'flying']"
+425,Blimp Pokémon,Drifblim,426,4,0,"['ghost', 'flying']"
+426,Rabbit Pokémon,Buneary,427,4,0,['normal']
+427,Rabbit Pokémon,Lopunny,428,4,0,['normal']
+428,Magical Pokémon,Mismagius,429,4,0,['ghost']
+429,Big Boss Pokémon,Honchkrow,430,4,0,"['dark', 'flying']"
+430,Catty Pokémon,Glameow,431,4,0,['normal']
+431,Tiger Cat Pokémon,Purugly,432,4,0,['normal']
+432,Bell Pokémon,Chingling,433,4,0,['psychic']
+433,Skunk Pokémon,Stunky,434,4,0,"['poison', 'dark']"
+434,Skunk Pokémon,Skuntank,435,4,0,"['poison', 'dark']"
+435,Bronze Pokémon,Bronzor,436,4,0,"['steel', 'psychic']"
+436,Bronze Bell Pokémon,Bronzong,437,4,0,"['steel', 'psychic']"
+437,Bonsai Pokémon,Bonsly,438,4,0,['rock']
+438,Mime Pokémon,Mime Jr.,439,4,0,"['psychic', 'fairy']"
+439,Playhouse Pokémon,Happiny,440,4,0,['normal']
+440,Music Note Pokémon,Chatot,441,4,0,"['normal', 'flying']"
+441,Forbidden Pokémon,Spiritomb,442,4,0,"['ghost', 'dark']"
+442,Land Shark Pokémon,Gible,443,4,0,"['dragon', 'ground']"
+443,Cave Pokémon,Gabite,444,4,0,"['dragon', 'ground']"
+444,Mach Pokémon,Garchomp,445,4,0,"['dragon', 'ground']"
+445,Big Eater Pokémon,Munchlax,446,4,0,['normal']
+446,Emanation Pokémon,Riolu,447,4,0,['fighting']
+447,Aura Pokémon,Lucario,448,4,0,"['fighting', 'steel']"
+448,Hippo Pokémon,Hippopotas,449,4,0,['ground']
+449,Heavyweight Pokémon,Hippowdon,450,4,0,['ground']
+450,Scorpion Pokémon,Skorupi,451,4,0,"['poison', 'bug']"
+451,Ogre Scorp Pokémon,Drapion,452,4,0,"['poison', 'dark']"
+452,Toxic Mouth Pokémon,Croagunk,453,4,0,"['poison', 'fighting']"
+453,Toxic Mouth Pokémon,Toxicroak,454,4,0,"['poison', 'fighting']"
+454,Bug Catcher Pokémon,Carnivine,455,4,0,['grass']
+455,Wing Fish Pokémon,Finneon,456,4,0,['water']
+456,Neon Pokémon,Lumineon,457,4,0,['water']
+457,Kite Pokémon,Mantyke,458,4,0,"['water', 'flying']"
+458,Frosted Tree Pokémon,Snover,459,4,0,"['grass', 'ice']"
+459,Frosted Tree Pokémon,Abomasnow,460,4,0,"['grass', 'ice']"
+460,Sharp Claw Pokémon,Weavile,461,4,0,"['dark', 'ice']"
+461,Magnet Area Pokémon,Magnezone,462,4,0,"['electric', 'steel']"
+462,Licking Pokémon,Lickilicky,463,4,0,['normal']
+463,Drill Pokémon,Rhyperior,464,4,0,"['ground', 'rock']"
+464,Vine Pokémon,Tangrowth,465,4,0,['grass']
+465,Thunderbolt Pokémon,Electivire,466,4,0,['electric']
+466,Blast Pokémon,Magmortar,467,4,0,['fire']
+467,Jubilee Pokémon,Togekiss,468,4,0,"['fairy', 'flying']"
+468,Ogre Darner Pokémon,Yanmega,469,4,0,"['bug', 'flying']"
+469,Verdant Pokémon,Leafeon,470,4,0,['grass']
+470,Fresh Snow Pokémon,Glaceon,471,4,0,['ice']
+471,Fang Scorp Pokémon,Gliscor,472,4,0,"['ground', 'flying']"
+472,Twin Tusk Pokémon,Mamoswine,473,4,0,"['ice', 'ground']"
+473,Virtual Pokémon,Porygon-Z,474,4,0,['normal']
+474,Blade Pokémon,Gallade,475,4,0,"['psychic', 'fighting']"
+475,Compass Pokémon,Probopass,476,4,0,"['rock', 'steel']"
+476,Gripper Pokémon,Dusknoir,477,4,0,['ghost']
+477,Snow Land Pokémon,Froslass,478,4,0,"['ice', 'ghost']"
+478,Plasma Pokémon,Rotom,479,4,0,"['electric', 'ghost']"
+479,Knowledge Pokémon,Uxie,480,4,1,['psychic']
+480,Emotion Pokémon,Mesprit,481,4,1,['psychic']
+481,Willpower Pokémon,Azelf,482,4,1,['psychic']
+482,Temporal Pokémon,Dialga,483,4,1,"['steel', 'dragon']"
+483,Spatial Pokémon,Palkia,484,4,1,"['water', 'dragon']"
+484,Lava Dome Pokémon,Heatran,485,4,1,"['fire', 'steel']"
+485,Colossal Pokémon,Regigigas,486,4,1,['normal']
+486,Renegade Pokémon,Giratina,487,4,1,"['ghost', 'dragon']"
+487,Lunar Pokémon,Cresselia,488,4,1,['psychic']
+488,Sea Drifter Pokémon,Phione,489,4,0,['water']
+489,Seafaring Pokémon,Manaphy,490,4,1,['water']
+490,Pitch-Black Pokémon,Darkrai,491,4,1,['dark']
+491,Gratitude Pokémon,Shaymin,492,4,1,"['grass', 'grass']"
+492,Alpha Pokémon,Arceus,493,4,1,['normal']
+493,Victory Pokémon,Victini,494,5,1,"['psychic', 'fire']"
+494,Grass Snake Pokémon,Snivy,495,5,0,['grass']
+495,Grass Snake Pokémon,Servine,496,5,0,['grass']
+496,Regal Pokémon,Serperior,497,5,0,['grass']
+497,Fire Pig Pokémon,Tepig,498,5,0,['fire']
+498,Fire Pig Pokémon,Pignite,499,5,0,"['fire', 'fighting']"
+499,Mega Fire Pig Pokémon,Emboar,500,5,0,"['fire', 'fighting']"
+500,Sea Otter Pokémon,Oshawott,501,5,0,['water']
+501,Discipline Pokémon,Dewott,502,5,0,['water']
+502,Formidable Pokémon,Samurott,503,5,0,['water']
+503,Scout Pokémon,Patrat,504,5,0,['normal']
+504,Lookout Pokémon,Watchog,505,5,0,['normal']
+505,Puppy Pokémon,Lillipup,506,5,0,['normal']
+506,Loyal Dog Pokémon,Herdier,507,5,0,['normal']
+507,Big-Hearted Pokémon,Stoutland,508,5,0,['normal']
+508,Devious Pokémon,Purrloin,509,5,0,['dark']
+509,Cruel Pokémon,Liepard,510,5,0,['dark']
+510,Grass Monkey Pokémon,Pansage,511,5,0,['grass']
+511,Thorn Monkey Pokémon,Simisage,512,5,0,['grass']
+512,High Temp Pokémon,Pansear,513,5,0,['fire']
+513,Ember Pokémon,Simisear,514,5,0,['fire']
+514,Spray Pokémon,Panpour,515,5,0,['water']
+515,Geyser Pokémon,Simipour,516,5,0,['water']
+516,Dream Eater Pokémon,Munna,517,5,0,['psychic']
+517,Drowsing Pokémon,Musharna,518,5,0,['psychic']
+518,Tiny Pigeon Pokémon,Pidove,519,5,0,"['normal', 'flying']"
+519,Wild Pigeon Pokémon,Tranquill,520,5,0,"['normal', 'flying']"
+520,Proud Pokémon,Unfezant,521,5,0,"['normal', 'flying']"
+521,Electrified Pokémon,Blitzle,522,5,0,['electric']
+522,Thunderbolt Pokémon,Zebstrika,523,5,0,['electric']
+523,Mantle Pokémon,Roggenrola,524,5,0,['rock']
+524,Ore Pokémon,Boldore,525,5,0,['rock']
+525,Compressed Pokémon,Gigalith,526,5,0,['rock']
+526,Bat Pokémon,Woobat,527,5,0,"['psychic', 'flying']"
+527,Courting Pokémon,Swoobat,528,5,0,"['psychic', 'flying']"
+528,Mole Pokémon,Drilbur,529,5,0,['ground']
+529,Subterrene Pokémon,Excadrill,530,5,0,"['ground', 'steel']"
+530,Hearing Pokémon,Audino,531,5,0,['normal']
+531,Muscular Pokémon,Timburr,532,5,0,['fighting']
+532,Muscular Pokémon,Gurdurr,533,5,0,['fighting']
+533,Muscular Pokémon,Conkeldurr,534,5,0,['fighting']
+534,Tadpole Pokémon,Tympole,535,5,0,['water']
+535,Vibration Pokémon,Palpitoad,536,5,0,"['water', 'ground']"
+536,Vibration Pokémon,Seismitoad,537,5,0,"['water', 'ground']"
+537,Judo Pokémon,Throh,538,5,0,['fighting']
+538,Karate Pokémon,Sawk,539,5,0,['fighting']
+539,Sewing Pokémon,Sewaddle,540,5,0,"['bug', 'grass']"
+540,Leaf-Wrapped Pokémon,Swadloon,541,5,0,"['bug', 'grass']"
+541,Nurturing Pokémon,Leavanny,542,5,0,"['bug', 'grass']"
+542,Centipede Pokémon,Venipede,543,5,0,"['bug', 'poison']"
+543,Curlipede Pokémon,Whirlipede,544,5,0,"['bug', 'poison']"
+544,Megapede Pokémon,Scolipede,545,5,0,"['bug', 'poison']"
+545,Cotton Puff Pokémon,Cottonee,546,5,0,"['grass', 'fairy']"
+546,Windveiled Pokémon,Whimsicott,547,5,0,"['grass', 'fairy']"
+547,Bulb Pokémon,Petilil,548,5,0,['grass']
+548,Flowering Pokémon,Lilligant,549,5,0,['grass']
+549,Hostile Pokémon,Basculin,550,5,0,['water']
+550,Desert Croc Pokémon,Sandile,551,5,0,"['ground', 'dark']"
+551,Desert Croc Pokémon,Krokorok,552,5,0,"['ground', 'dark']"
+552,Intimidation Pokémon,Krookodile,553,5,0,"['ground', 'dark']"
+553,Zen Charm Pokémon,Darumaka,554,5,0,['fire']
+554,Blazing Pokémon,Darmanitan,555,5,0,"['fire', 'fire']"
+555,Cactus Pokémon,Maractus,556,5,0,['grass']
+556,Rock Inn Pokémon,Dwebble,557,5,0,"['bug', 'rock']"
+557,Stone Home Pokémon,Crustle,558,5,0,"['bug', 'rock']"
+558,Shedding Pokémon,Scraggy,559,5,0,"['dark', 'fighting']"
+559,Hoodlum Pokémon,Scrafty,560,5,0,"['dark', 'fighting']"
+560,Avianoid Pokémon,Sigilyph,561,5,0,"['psychic', 'flying']"
+561,Spirit Pokémon,Yamask,562,5,0,['ghost']
+562,Coffin Pokémon,Cofagrigus,563,5,0,['ghost']
+563,Prototurtle Pokémon,Tirtouga,564,5,0,"['water', 'rock']"
+564,Prototurtle Pokémon,Carracosta,565,5,0,"['water', 'rock']"
+565,First Bird Pokémon,Archen,566,5,0,"['rock', 'flying']"
+566,First Bird Pokémon,Archeops,567,5,0,"['rock', 'flying']"
+567,Trash Bag Pokémon,Trubbish,568,5,0,['poison']
+568,Trash Heap Pokémon,Garbodor,569,5,0,['poison']
+569,Tricky Fox Pokémon,Zorua,570,5,0,['dark']
+570,Illusion Fox Pokémon,Zoroark,571,5,0,['dark']
+571,Chinchilla Pokémon,Minccino,572,5,0,['normal']
+572,Scarf Pokémon,Cinccino,573,5,0,['normal']
+573,Fixation Pokémon,Gothita,574,5,0,['psychic']
+574,Manipulate Pokémon,Gothorita,575,5,0,['psychic']
+575,Astral Body Pokémon,Gothitelle,576,5,0,['psychic']
+576,Cell Pokémon,Solosis,577,5,0,['psychic']
+577,Mitosis Pokémon,Duosion,578,5,0,['psychic']
+578,Multiplying Pokémon,Reuniclus,579,5,0,['psychic']
+579,Water Bird Pokémon,Ducklett,580,5,0,"['water', 'flying']"
+580,White Bird Pokémon,Swanna,581,5,0,"['water', 'flying']"
+581,Fresh Snow Pokémon,Vanillite,582,5,0,['ice']
+582,Icy Snow Pokémon,Vanillish,583,5,0,['ice']
+583,Snowstorm Pokémon,Vanilluxe,584,5,0,['ice']
+584,Season Pokémon,Deerling,585,5,0,"['normal', 'grass']"
+585,Season Pokémon,Sawsbuck,586,5,0,"['normal', 'grass']"
+586,Sky Squirrel Pokémon,Emolga,587,5,0,"['electric', 'flying']"
+587,Clamping Pokémon,Karrablast,588,5,0,['bug']
+588,Cavalry Pokémon,Escavalier,589,5,0,"['bug', 'steel']"
+589,Mushroom Pokémon,Foongus,590,5,0,"['grass', 'poison']"
+590,Mushroom Pokémon,Amoonguss,591,5,0,"['grass', 'poison']"
+591,Floating Pokémon,Frillish,592,5,0,"['water', 'ghost']"
+592,Floating Pokémon,Jellicent,593,5,0,"['water', 'ghost']"
+593,Caring Pokémon,Alomomola,594,5,0,['water']
+594,Attaching Pokémon,Joltik,595,5,0,"['bug', 'electric']"
+595,EleSpider Pokémon,Galvantula,596,5,0,"['bug', 'electric']"
+596,Thorn Seed Pokémon,Ferroseed,597,5,0,"['grass', 'steel']"
+597,Thorn Pod Pokémon,Ferrothorn,598,5,0,"['grass', 'steel']"
+598,Gear Pokémon,Klink,599,5,0,['steel']
+599,Gear Pokémon,Klang,600,5,0,['steel']
+600,Gear Pokémon,Klinklang,601,5,0,['steel']
+601,EleFish Pokémon,Tynamo,602,5,0,['electric']
+602,EleFish Pokémon,Eelektrik,603,5,0,['electric']
+603,EleFish Pokémon,Eelektross,604,5,0,['electric']
+604,Cerebral Pokémon,Elgyem,605,5,0,['psychic']
+605,Cerebral Pokémon,Beheeyem,606,5,0,['psychic']
+606,Candle Pokémon,Litwick,607,5,0,"['ghost', 'fire']"
+607,Lamp Pokémon,Lampent,608,5,0,"['ghost', 'fire']"
+608,Luring Pokémon,Chandelure,609,5,0,"['ghost', 'fire']"
+609,Tusk Pokémon,Axew,610,5,0,['dragon']
+610,Axe Jaw Pokémon,Fraxure,611,5,0,['dragon']
+611,Axe Jaw Pokémon,Haxorus,612,5,0,['dragon']
+612,Chill Pokémon,Cubchoo,613,5,0,['ice']
+613,Freezing Pokémon,Beartic,614,5,0,['ice']
+614,Crystallizing Pokémon,Cryogonal,615,5,0,['ice']
+615,Snail Pokémon,Shelmet,616,5,0,['bug']
+616,Shell Out Pokémon,Accelgor,617,5,0,['bug']
+617,Trap Pokémon,Stunfisk,618,5,0,"['ground', 'electric']"
+618,Martial Arts Pokémon,Mienfoo,619,5,0,['fighting']
+619,Martial Arts Pokémon,Mienshao,620,5,0,['fighting']
+620,Cave Pokémon,Druddigon,621,5,0,['dragon']
+621,Automaton Pokémon,Golett,622,5,0,"['ground', 'ghost']"
+622,Automaton Pokémon,Golurk,623,5,0,"['ground', 'ghost']"
+623,Sharp Blade Pokémon,Pawniard,624,5,0,"['dark', 'steel']"
+624,Sword Blade Pokémon,Bisharp,625,5,0,"['dark', 'steel']"
+625,Bash Buffalo Pokémon,Bouffalant,626,5,0,['normal']
+626,Eaglet Pokémon,Rufflet,627,5,0,"['normal', 'flying']"
+627,Valiant Pokémon,Braviary,628,5,0,"['normal', 'flying']"
+628,Diapered Pokémon,Vullaby,629,5,0,"['dark', 'flying']"
+629,Bone Vulture Pokémon,Mandibuzz,630,5,0,"['dark', 'flying']"
+630,Anteater Pokémon,Heatmor,631,5,0,['fire']
+631,Iron Ant Pokémon,Durant,632,5,0,"['bug', 'steel']"
+632,Irate Pokémon,Deino,633,5,0,"['dark', 'dragon']"
+633,Hostile Pokémon,Zweilous,634,5,0,"['dark', 'dragon']"
+634,Brutal Pokémon,Hydreigon,635,5,0,"['dark', 'dragon']"
+635,Torch Pokémon,Larvesta,636,5,0,"['bug', 'fire']"
+636,Sun Pokémon,Volcarona,637,5,0,"['bug', 'fire']"
+637,Iron Will Pokémon,Cobalion,638,5,1,"['steel', 'fighting']"
+638,Cavern Pokémon,Terrakion,639,5,1,"['rock', 'fighting']"
+639,Grassland Pokémon,Virizion,640,5,1,"['grass', 'fighting']"
+640,Cyclone Pokémon,Tornadus,641,5,1,['flying']
+641,Bolt Strike Pokémon,Thundurus,642,5,1,"['electric', 'flying']"
+642,Vast White Pokémon,Reshiram,643,5,1,"['dragon', 'fire']"
+643,Deep Black Pokémon,Zekrom,644,5,1,"['dragon', 'electric']"
+644,Abundance Pokémon,Landorus,645,5,1,"['ground', 'flying']"
+645,Boundary Pokémon,Kyurem,646,5,1,"['dragon', 'ice']"
+646,Colt Pokémon,Keldeo,647,5,1,"['water', 'fighting']"
+647,Melody Pokémon,Meloetta,648,5,1,"['normal', 'psychic']"
+648,Paleozoic Pokémon,Genesect,649,5,1,"['bug', 'steel']"
+649,Spiky Nut Pokémon,Chespin,650,6,0,['grass']
+650,Spiny Armor Pokémon,Quilladin,651,6,0,['grass']
+651,Spiny Armor Pokémon,Chesnaught,652,6,0,"['grass', 'fighting']"
+652,Fox Pokémon,Fennekin,653,6,0,['fire']
+653,Fox Pokémon,Braixen,654,6,0,['fire']
+654,Fox Pokémon,Delphox,655,6,0,"['fire', 'psychic']"
+655,Bubble Frog Pokémon,Froakie,656,6,0,['water']
+656,Bubble Frog Pokémon,Frogadier,657,6,0,['water']
+657,Ninja Pokémon,Greninja,658,6,0,"['water', 'dark']"
+658,Digging Pokémon,Bunnelby,659,6,0,['normal']
+659,Digging Pokémon,Diggersby,660,6,0,"['normal', 'ground']"
+660,Tiny Robin Pokémon,Fletchling,661,6,0,"['normal', 'flying']"
+661,Ember Pokémon,Fletchinder,662,6,0,"['fire', 'flying']"
+662,Scorching Pokémon,Talonflame,663,6,0,"['fire', 'flying']"
+663,Scatterdust Pokémon,Scatterbug,664,6,0,['bug']
+664,Scatterdust Pokémon,Spewpa,665,6,0,['bug']
+665,Scale Pokémon,Vivillon,666,6,0,"['bug', 'flying']"
+666,Lion Cub Pokémon,Litleo,667,6,0,"['fire', 'normal']"
+667,Royal Pokémon,Pyroar,668,6,0,"['fire', 'normal']"
+668,Single Bloom Pokémon,Flabébé,669,6,0,['fairy']
+669,Fairy Pokémon,Floette,670,6,0,['fairy']
+670,Garden Pokémon,Florges,671,6,0,['fairy']
+671,Mount Pokémon,Skiddo,672,6,0,['grass']
+672,Mount Pokémon,Gogoat,673,6,0,['grass']
+673,Playful Pokémon,Pancham,674,6,0,['fighting']
+674,Daunting Pokémon,Pangoro,675,6,0,"['fighting', 'dark']"
+675,Poodle Pokémon,Furfrou,676,6,0,['normal']
+676,Restraint Pokémon,Espurr,677,6,0,['psychic']
+677,Constraint Pokémon,Meowstic,678,6,0,['psychic']
+678,Sword Pokémon,Honedge,679,6,0,"['steel', 'ghost']"
+679,Sword Pokémon,Doublade,680,6,0,"['steel', 'ghost']"
+680,Royal Sword Pokémon,Aegislash,681,6,0,"['steel', 'ghost']"
+681,Perfume Pokémon,Spritzee,682,6,0,['fairy']
+682,Fragrance Pokémon,Aromatisse,683,6,0,['fairy']
+683,Cotton Candy Pokémon,Swirlix,684,6,0,['fairy']
+684,Meringue Pokémon,Slurpuff,685,6,0,['fairy']
+685,Revolving Pokémon,Inkay,686,6,0,"['dark', 'psychic']"
+686,Overturning Pokémon,Malamar,687,6,0,"['dark', 'psychic']"
+687,Two-Handed Pokémon,Binacle,688,6,0,"['rock', 'water']"
+688,Collective Pokémon,Barbaracle,689,6,0,"['rock', 'water']"
+689,Mock Kelp Pokémon,Skrelp,690,6,0,"['poison', 'water']"
+690,Mock Kelp Pokémon,Dragalge,691,6,0,"['poison', 'dragon']"
+691,Water Gun Pokémon,Clauncher,692,6,0,['water']
+692,Howitzer Pokémon,Clawitzer,693,6,0,['water']
+693,Generator Pokémon,Helioptile,694,6,0,"['electric', 'normal']"
+694,Generator Pokémon,Heliolisk,695,6,0,"['electric', 'normal']"
+695,Royal Heir Pokémon,Tyrunt,696,6,0,"['rock', 'dragon']"
+696,Despot Pokémon,Tyrantrum,697,6,0,"['rock', 'dragon']"
+697,Tundra Pokémon,Amaura,698,6,0,"['rock', 'ice']"
+698,Tundra Pokémon,Aurorus,699,6,0,"['rock', 'ice']"
+699,Intertwining Pokémon,Sylveon,700,6,0,['fairy']
+700,Wrestling Pokémon,Hawlucha,701,6,0,"['fighting', 'flying']"
+701,Antenna Pokémon,Dedenne,702,6,0,"['electric', 'fairy']"
+702,Jewel Pokémon,Carbink,703,6,0,"['rock', 'fairy']"
+703,Soft Tissue Pokémon,Goomy,704,6,0,['dragon']
+704,Soft Tissue Pokémon,Sliggoo,705,6,0,['dragon']
+705,Dragon Pokémon,Goodra,706,6,0,['dragon']
+706,Key Ring Pokémon,Klefki,707,6,0,"['steel', 'fairy']"
+707,Stump Pokémon,Phantump,708,6,0,"['ghost', 'grass']"
+708,Elder Tree Pokémon,Trevenant,709,6,0,"['ghost', 'grass']"
+709,Pumpkin Pokémon,Pumpkaboo,710,6,0,"['ghost', 'grass']"
+710,Pumpkin Pokémon,Gourgeist,711,6,0,"['ghost', 'grass']"
+711,Ice Chunk Pokémon,Bergmite,712,6,0,['ice']
+712,Iceberg Pokémon,Avalugg,713,6,0,['ice']
+713,Sound Wave Pokémon,Noibat,714,6,0,"['flying', 'dragon']"
+714,Sound Wave Pokémon,Noivern,715,6,0,"['flying', 'dragon']"
+715,Life Pokémon,Xerneas,716,6,1,['fairy']
+716,Destruction Pokémon,Yveltal,717,6,1,"['dark', 'flying']"
+717,Order Pokémon,Zygarde,718,6,1,"['dragon', 'ground']"
+718,Jewel Pokémon,Diancie,719,6,1,"['rock', 'fairy']"
+719,Mischief Pokémon (Confined)Djinn Pokémonn (Unbound),Hoopa,720,6,1,"['psychic', 'ghost']"
+720,Steam Pokémon,Volcanion,721,6,1,"['fire', 'water']"
+721,Grass Quill Pokémon,Rowlet,722,7,0,"['grass', 'flying']"
+722,Blade Quill Pokémon,Dartrix,723,7,0,"['grass', 'flying']"
+723,Arrow Quill Pokémon,Decidueye,724,7,0,"['grass', 'ghost']"
+724,Fire Cat Pokémon,Litten,725,7,0,['fire']
+725,Fire Cat Pokémon,Torracat,726,7,0,['fire']
+726,Heel Pokémon,Incineroar,727,7,0,"['fire', 'dark']"
+727,Sea Lion Pokémon,Popplio,728,7,0,['water']
+728,Pop Star Pokémon,Brionne,729,7,0,['water']
+729,Soloist Pokémon,Primarina,730,7,0,"['water', 'fairy']"
+730,Woodpecker Pokémon,Pikipek,731,7,0,"['normal', 'flying']"
+731,Bugle Beak Pokémon,Trumbeak,732,7,0,"['normal', 'flying']"
+732,Cannon Pokémon,Toucannon,733,7,0,"['normal', 'flying']"
+733,Loitering Pokémon,Yungoos,734,7,0,['normal']
+734,Stakeout Pokémon,Gumshoos,735,7,0,['normal']
+735,Larva Pokémon,Grubbin,736,7,0,['bug']
+736,Battery Pokémon,Charjabug,737,7,0,"['bug', 'electric']"
+737,Stag Beetle Pokémon,Vikavolt,738,7,0,"['bug', 'electric']"
+738,Boxing Pokémon,Crabrawler,739,7,0,['fighting']
+739,Woolly Crab Pokémon,Crabominable,740,7,0,"['fighting', 'ice']"
+740,Dancing Pokémon,Oricorio,741,7,0,"['fire', 'flying']"
+741,Bee Fly Pokémon,Cutiefly,742,7,0,"['bug', 'fairy']"
+742,Bee Fly Pokémon,Ribombee,743,7,0,"['bug', 'fairy']"
+743,Puppy Pokémon,Rockruff,744,7,0,['rock']
+744,Wolf Pokémon,Lycanroc,745,7,0,['rock']
+745,Small Fry Pokémon,Wishiwashi,746,7,0,['water']
+746,Brutal Star Pokémon,Mareanie,747,7,0,"['poison', 'water']"
+747,Brutal Star Pokémon,Toxapex,748,7,0,"['poison', 'water']"
+748,Donkey Pokémon,Mudbray,749,7,0,['ground']
+749,Draft Horse Pokémon,Mudsdale,750,7,0,['ground']
+750,Water Bubble Pokémon,Dewpider,751,7,0,"['water', 'bug']"
+751,Water Bubble Pokémon,Araquanid,752,7,0,"['water', 'bug']"
+752,Sickle Grass Pokémon,Fomantis,753,7,0,['grass']
+753,Bloom Sickle Pokémon,Lurantis,754,7,0,['grass']
+754,Illuminating Pokémon,Morelull,755,7,0,"['grass', 'fairy']"
+755,Illuminating Pokémon,Shiinotic,756,7,0,"['grass', 'fairy']"
+756,Toxic Lizard Pokémon,Salandit,757,7,0,"['poison', 'fire']"
+757,Toxic Lizard Pokémon,Salazzle,758,7,0,"['poison', 'fire']"
+758,Flailing Pokémon,Stufful,759,7,0,"['normal', 'fighting']"
+759,Strong Arm Pokémon,Bewear,760,7,0,"['normal', 'fighting']"
+760,Fruit Pokémon,Bounsweet,761,7,0,['grass']
+761,Fruit Pokémon,Steenee,762,7,0,['grass']
+762,Fruit Pokémon,Tsareena,763,7,0,['grass']
+763,Posy Picker Pokémon,Comfey,764,7,0,['fairy']
+764,Sage Pokémon,Oranguru,765,7,0,"['normal', 'psychic']"
+765,Teamwork Pokémon,Passimian,766,7,0,['fighting']
+766,Turn Tail Pokémon,Wimpod,767,7,0,"['bug', 'water']"
+767,Hard Scale Pokémon,Golisopod,768,7,0,"['bug', 'water']"
+768,Sand Heap Pokémon,Sandygast,769,7,0,"['ghost', 'ground']"
+769,Sand Castle Pokémon,Palossand,770,7,0,"['ghost', 'ground']"
+770,Sea Cucumber Pokémon,Pyukumuku,771,7,0,['water']
+771,Synthetic Pokémon,Type: Null,772,7,0,['normal']
+772,Synthetic Pokémon,Silvally,773,7,0,['normal']
+773,Meteor Pokémon,Minior,774,7,0,"['rock', 'flying']"
+774,Drowsing Pokémon,Komala,775,7,0,['normal']
+775,Blast Turtle Pokémon,Turtonator,776,7,0,"['fire', 'dragon']"
+776,Roly-Poly Pokémon,Togedemaru,777,7,0,"['electric', 'steel']"
+777,Disguise Pokémon,Mimikyu,778,7,0,"['ghost', 'fairy']"
+778,Gnash Teeth Pokémon,Bruxish,779,7,0,"['water', 'psychic']"
+779,Placid Pokémon,Drampa,780,7,0,"['normal', 'dragon']"
+780,Sea Creeper Pokémon,Dhelmise,781,7,0,"['ghost', 'grass']"
+781,Scaly Pokémon,Jangmo-o,782,7,0,['dragon']
+782,Scaly Pokémon,Hakamo-o,783,7,0,"['dragon', 'fighting']"
+783,Scaly Pokémon,Kommo-o,784,7,0,"['dragon', 'fighting']"
+784,Land Spirit Pokémon,Tapu Koko,785,7,1,"['electric', 'fairy']"
+785,Land Spirit Pokémon,Tapu Lele,786,7,1,"['psychic', 'fairy']"
+786,Land Spirit Pokémon,Tapu Bulu,787,7,1,"['grass', 'fairy']"
+787,Land Spirit Pokémon,Tapu Fini,788,7,1,"['water', 'fairy']"
+788,Nebula Pokémon,Cosmog,789,7,1,['psychic']
+789,Protostar Pokémon,Cosmoem,790,7,1,['psychic']
+790,Sunne Pokémon,Solgaleo,791,7,1,"['psychic', 'steel']"
+791,Moone Pokémon,Lunala,792,7,1,"['psychic', 'ghost']"
+792,Parasite Pokémon,Nihilego,793,7,1,"['rock', 'poison']"
+793,Swollen Pokémon,Buzzwole,794,7,1,"['bug', 'fighting']"
+794,Lissome Pokémon,Pheromosa,795,7,1,"['bug', 'fighting']"
+795,Glowing Pokémon,Xurkitree,796,7,1,['electric']
+796,Launch Pokémon,Celesteela,797,7,1,"['steel', 'flying']"
+797,Drawn Sword Pokémon,Kartana,798,7,1,"['grass', 'steel']"
+798,Junkivore Pokémon,Guzzlord,799,7,1,"['dark', 'dragon']"
+799,Prism Pokémon,Necrozma,800,7,1,['psychic']
+800,Artificial Pokémon,Magearna,801,7,1,"['steel', 'fairy']"
