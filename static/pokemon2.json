@@ -1,0 +1,5683 @@
+{
+  "name": "Pok\u00e9mon",
+  "children": [
+    {
+      "name": "Generation 1",
+      "children": [
+        {
+          "name": "Atrocious Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gyarados"
+            }
+          ]
+        },
+        {
+          "name": "Ball Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Voltorb"
+            },
+            {
+              "name": "Electrode"
+            }
+          ]
+        },
+        {
+          "name": "Balloon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Jigglypuff"
+            },
+            {
+              "name": "Wigglytuff"
+            }
+          ]
+        },
+        {
+          "name": "Barrier Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mr. Mime"
+            }
+          ]
+        },
+        {
+          "name": "Bat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zubat"
+            },
+            {
+              "name": "Golbat"
+            }
+          ]
+        },
+        {
+          "name": "Beak Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Fearow"
+            }
+          ]
+        },
+        {
+          "name": "Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pidgeotto"
+            },
+            {
+              "name": "Pidgeot"
+            }
+          ]
+        },
+        {
+          "name": "Bivalve Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shellder"
+            },
+            {
+              "name": "Cloyster"
+            }
+          ]
+        },
+        {
+          "name": "Bone Keeper Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Marowak"
+            }
+          ]
+        },
+        {
+          "name": "Bubble Jet Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vaporeon"
+            }
+          ]
+        },
+        {
+          "name": "Butterfly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Butterfree"
+            }
+          ]
+        },
+        {
+          "name": "Classy Cat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Persian"
+            }
+          ]
+        },
+        {
+          "name": "Cobra Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Arbok"
+            }
+          ]
+        },
+        {
+          "name": "Coconut Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Exeggutor"
+            }
+          ]
+        },
+        {
+          "name": "Cocoon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Metapod"
+            },
+            {
+              "name": "Kakuna"
+            }
+          ]
+        },
+        {
+          "name": "Dopey Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slowpoke"
+            }
+          ]
+        },
+        {
+          "name": "Dragon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Horsea"
+            },
+            {
+              "name": "Seadra"
+            },
+            {
+              "name": "Dratini"
+            },
+            {
+              "name": "Dragonair"
+            },
+            {
+              "name": "Dragonite"
+            }
+          ]
+        },
+        {
+          "name": "Drill Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Nidoqueen"
+            },
+            {
+              "name": "Nidoking"
+            },
+            {
+              "name": "Rhydon"
+            }
+          ]
+        },
+        {
+          "name": "Duck Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Psyduck"
+            },
+            {
+              "name": "Golduck"
+            }
+          ]
+        },
+        {
+          "name": "Egg Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Exeggcute"
+            },
+            {
+              "name": "Chansey"
+            }
+          ]
+        },
+        {
+          "name": "Electric Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Electabuzz"
+            },
+            {
+              "name": "Zapdos"
+            }
+          ]
+        },
+        {
+          "name": "Evolution Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Eevee"
+            }
+          ]
+        },
+        {
+          "name": "Fairy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Clefairy"
+            },
+            {
+              "name": "Clefable"
+            }
+          ]
+        },
+        {
+          "name": "Fire Horse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ponyta"
+            },
+            {
+              "name": "Rapidash"
+            }
+          ]
+        },
+        {
+          "name": "Fish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magikarp"
+            }
+          ]
+        },
+        {
+          "name": "Flame Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Charmeleon"
+            },
+            {
+              "name": "Charizard"
+            },
+            {
+              "name": "Flareon"
+            },
+            {
+              "name": "Moltres"
+            }
+          ]
+        },
+        {
+          "name": "Flower Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vileplume"
+            },
+            {
+              "name": "Bellsprout"
+            }
+          ]
+        },
+        {
+          "name": "Flycatcher Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Weepinbell"
+            },
+            {
+              "name": "Victreebel"
+            }
+          ]
+        },
+        {
+          "name": "Fossil Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Aerodactyl"
+            }
+          ]
+        },
+        {
+          "name": "Fox Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vulpix"
+            },
+            {
+              "name": "Ninetales"
+            }
+          ]
+        },
+        {
+          "name": "Freeze Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Articuno"
+            }
+          ]
+        },
+        {
+          "name": "Gas Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gastly"
+            },
+            {
+              "name": "Haunter"
+            }
+          ]
+        },
+        {
+          "name": "Genetic Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mewtwo"
+            }
+          ]
+        },
+        {
+          "name": "Goldfish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Goldeen"
+            },
+            {
+              "name": "Seaking"
+            }
+          ]
+        },
+        {
+          "name": "Hairy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Weedle"
+            }
+          ]
+        },
+        {
+          "name": "Hermit Crab Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slowbro"
+            }
+          ]
+        },
+        {
+          "name": "Humanshape Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Jynx"
+            }
+          ]
+        },
+        {
+          "name": "Hypnosis Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Drowzee"
+            },
+            {
+              "name": "Hypno"
+            }
+          ]
+        },
+        {
+          "name": "Insect Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Venonat"
+            }
+          ]
+        },
+        {
+          "name": "Jellyfish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tentacool"
+            },
+            {
+              "name": "Tentacruel"
+            }
+          ]
+        },
+        {
+          "name": "Kicking Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hitmonlee"
+            }
+          ]
+        },
+        {
+          "name": "Legendary Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Arcanine"
+            }
+          ]
+        },
+        {
+          "name": "Licking Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lickitung"
+            }
+          ]
+        },
+        {
+          "name": "Lightning Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Jolteon"
+            }
+          ]
+        },
+        {
+          "name": "Lizard Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Charmander"
+            }
+          ]
+        },
+        {
+          "name": "Lonely Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cubone"
+            }
+          ]
+        },
+        {
+          "name": "Magnet Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magnemite"
+            },
+            {
+              "name": "Magneton"
+            }
+          ]
+        },
+        {
+          "name": "Mantis Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Scyther"
+            }
+          ]
+        },
+        {
+          "name": "Megaton Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Golem"
+            }
+          ]
+        },
+        {
+          "name": "Mole Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Diglett"
+            },
+            {
+              "name": "Dugtrio"
+            }
+          ]
+        },
+        {
+          "name": "Mouse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rattata"
+            },
+            {
+              "name": "Raticate"
+            },
+            {
+              "name": "Pikachu"
+            },
+            {
+              "name": "Raichu"
+            },
+            {
+              "name": "Sandshrew"
+            },
+            {
+              "name": "Sandslash"
+            }
+          ]
+        },
+        {
+          "name": "Mushroom Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Paras"
+            },
+            {
+              "name": "Parasect"
+            }
+          ]
+        },
+        {
+          "name": "Mysterious Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Starmie"
+            }
+          ]
+        },
+        {
+          "name": "New Species Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mew"
+            }
+          ]
+        },
+        {
+          "name": "Parent Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kangaskhan"
+            }
+          ]
+        },
+        {
+          "name": "Pig Monkey Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mankey"
+            },
+            {
+              "name": "Primeape"
+            }
+          ]
+        },
+        {
+          "name": "Pincer Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kingler"
+            }
+          ]
+        },
+        {
+          "name": "Poison Bee Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Beedrill"
+            }
+          ]
+        },
+        {
+          "name": "Poison Gas Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Koffing"
+            },
+            {
+              "name": "Weezing"
+            }
+          ]
+        },
+        {
+          "name": "Poison Moth Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Venomoth"
+            }
+          ]
+        },
+        {
+          "name": "Poison Pin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Nidoran\u2640"
+            },
+            {
+              "name": "Nidorina"
+            },
+            {
+              "name": "Nidoran\u2642"
+            },
+            {
+              "name": "Nidorino"
+            }
+          ]
+        },
+        {
+          "name": "Psi Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Abra"
+            },
+            {
+              "name": "Kadabra"
+            },
+            {
+              "name": "Alakazam"
+            }
+          ]
+        },
+        {
+          "name": "Punching Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hitmonchan"
+            }
+          ]
+        },
+        {
+          "name": "Puppy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Growlithe"
+            }
+          ]
+        },
+        {
+          "name": "River Crab Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Krabby"
+            }
+          ]
+        },
+        {
+          "name": "Rock Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Geodude"
+            },
+            {
+              "name": "Graveler"
+            }
+          ]
+        },
+        {
+          "name": "Rock Snake Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Onix"
+            }
+          ]
+        },
+        {
+          "name": "Scratch Cat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Meowth"
+            }
+          ]
+        },
+        {
+          "name": "Sea Lion Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Seel"
+            },
+            {
+              "name": "Dewgong"
+            }
+          ]
+        },
+        {
+          "name": "Seed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bulbasaur"
+            },
+            {
+              "name": "Ivysaur"
+            },
+            {
+              "name": "Venusaur"
+            }
+          ]
+        },
+        {
+          "name": "Shadow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gengar"
+            }
+          ]
+        },
+        {
+          "name": "Shellfish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Blastoise"
+            },
+            {
+              "name": "Kabuto"
+            },
+            {
+              "name": "Kabutops"
+            }
+          ]
+        },
+        {
+          "name": "Sleeping Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Snorlax"
+            }
+          ]
+        },
+        {
+          "name": "Sludge Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Grimer"
+            },
+            {
+              "name": "Muk"
+            }
+          ]
+        },
+        {
+          "name": "Snake Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ekans"
+            }
+          ]
+        },
+        {
+          "name": "Spikes Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rhyhorn"
+            }
+          ]
+        },
+        {
+          "name": "Spiral Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Omanyte"
+            },
+            {
+              "name": "Omastar"
+            }
+          ]
+        },
+        {
+          "name": "Spitfire Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magmar"
+            }
+          ]
+        },
+        {
+          "name": "Stagbeetle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pinsir"
+            }
+          ]
+        },
+        {
+          "name": "Starshape Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Staryu"
+            }
+          ]
+        },
+        {
+          "name": "Superpower Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Machop"
+            },
+            {
+              "name": "Machoke"
+            },
+            {
+              "name": "Machamp"
+            }
+          ]
+        },
+        {
+          "name": "Tadpole Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Poliwag"
+            },
+            {
+              "name": "Poliwhirl"
+            },
+            {
+              "name": "Poliwrath"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pidgey"
+            },
+            {
+              "name": "Spearow"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Turtle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Squirtle"
+            }
+          ]
+        },
+        {
+          "name": "Transform Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ditto"
+            }
+          ]
+        },
+        {
+          "name": "Transport Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lapras"
+            }
+          ]
+        },
+        {
+          "name": "Triple Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dodrio"
+            }
+          ]
+        },
+        {
+          "name": "Turtle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wartortle"
+            }
+          ]
+        },
+        {
+          "name": "Twin Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Doduo"
+            }
+          ]
+        },
+        {
+          "name": "Vine Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tangela"
+            }
+          ]
+        },
+        {
+          "name": "Virtual Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Porygon"
+            }
+          ]
+        },
+        {
+          "name": "Weed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Oddish"
+            },
+            {
+              "name": "Gloom"
+            }
+          ]
+        },
+        {
+          "name": "Wild Bull Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tauros"
+            }
+          ]
+        },
+        {
+          "name": "Wild Duck Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Farfetch'd"
+            }
+          ]
+        },
+        {
+          "name": "Worm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Caterpie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generation 2",
+      "children": [
+        {
+          "name": "Angler Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chinchou"
+            }
+          ]
+        },
+        {
+          "name": "Aquamouse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Marill"
+            }
+          ]
+        },
+        {
+          "name": "Aquarabbit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Azumarill"
+            }
+          ]
+        },
+        {
+          "name": "Armor Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Skarmory"
+            }
+          ]
+        },
+        {
+          "name": "Armor Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Donphan"
+            },
+            {
+              "name": "Tyranitar"
+            }
+          ]
+        },
+        {
+          "name": "Aurora Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Suicune"
+            }
+          ]
+        },
+        {
+          "name": "Bagworm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pineco"
+            },
+            {
+              "name": "Forretress"
+            }
+          ]
+        },
+        {
+          "name": "Balloon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Igglybuff"
+            },
+            {
+              "name": "Qwilfish"
+            }
+          ]
+        },
+        {
+          "name": "Bat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Crobat"
+            }
+          ]
+        },
+        {
+          "name": "Big Horn Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Stantler"
+            }
+          ]
+        },
+        {
+          "name": "Big Jaw Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Totodile"
+            },
+            {
+              "name": "Croconaw"
+            },
+            {
+              "name": "Feraligatr"
+            }
+          ]
+        },
+        {
+          "name": "Clear Wing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Yanma"
+            }
+          ]
+        },
+        {
+          "name": "Coral Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Corsola"
+            }
+          ]
+        },
+        {
+          "name": "Cottonweed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hoppip"
+            },
+            {
+              "name": "Skiploom"
+            },
+            {
+              "name": "Jumpluff"
+            }
+          ]
+        },
+        {
+          "name": "Dark Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Houndour"
+            },
+            {
+              "name": "Houndoom"
+            }
+          ]
+        },
+        {
+          "name": "Darkness Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Murkrow"
+            }
+          ]
+        },
+        {
+          "name": "Delivery Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Delibird"
+            }
+          ]
+        },
+        {
+          "name": "Diving Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lugia"
+            }
+          ]
+        },
+        {
+          "name": "Dragon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kingdra"
+            }
+          ]
+        },
+        {
+          "name": "Electric Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Elekid"
+            }
+          ]
+        },
+        {
+          "name": "Fairy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Snubbull"
+            },
+            {
+              "name": "Granbull"
+            }
+          ]
+        },
+        {
+          "name": "Fire Mouse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cyndaquil"
+            }
+          ]
+        },
+        {
+          "name": "Five Star Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ledyba"
+            },
+            {
+              "name": "Ledian"
+            }
+          ]
+        },
+        {
+          "name": "Flower Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bellossom"
+            }
+          ]
+        },
+        {
+          "name": "Flyscorpion Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gligar"
+            }
+          ]
+        },
+        {
+          "name": "Frog Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Politoed"
+            }
+          ]
+        },
+        {
+          "name": "Handstand Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hitmontop"
+            }
+          ]
+        },
+        {
+          "name": "Happiness Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Togetic"
+            },
+            {
+              "name": "Blissey"
+            }
+          ]
+        },
+        {
+          "name": "Hard Shell Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pupitar"
+            }
+          ]
+        },
+        {
+          "name": "Herb Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Meganium"
+            }
+          ]
+        },
+        {
+          "name": "Hibernator Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ursaring"
+            }
+          ]
+        },
+        {
+          "name": "Imitation Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sudowoodo"
+            }
+          ]
+        },
+        {
+          "name": "Iron Snake Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Steelix"
+            }
+          ]
+        },
+        {
+          "name": "Jet Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Remoraid"
+            },
+            {
+              "name": "Octillery"
+            }
+          ]
+        },
+        {
+          "name": "Kiss Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Smoochum"
+            }
+          ]
+        },
+        {
+          "name": "Kite Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mantine"
+            }
+          ]
+        },
+        {
+          "name": "Land Snake Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dunsparce"
+            }
+          ]
+        },
+        {
+          "name": "Lava Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slugma"
+            },
+            {
+              "name": "Magcargo"
+            }
+          ]
+        },
+        {
+          "name": "Leaf Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chikorita"
+            },
+            {
+              "name": "Bayleef"
+            }
+          ]
+        },
+        {
+          "name": "Light Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lanturn"
+            },
+            {
+              "name": "Ampharos"
+            }
+          ]
+        },
+        {
+          "name": "Little Bear Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Teddiursa"
+            }
+          ]
+        },
+        {
+          "name": "Little Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Natu"
+            }
+          ]
+        },
+        {
+          "name": "Live Coal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magby"
+            }
+          ]
+        },
+        {
+          "name": "Long Body Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Furret"
+            }
+          ]
+        },
+        {
+          "name": "Long Leg Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ariados"
+            }
+          ]
+        },
+        {
+          "name": "Long Neck Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Girafarig"
+            }
+          ]
+        },
+        {
+          "name": "Long Nose Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Phanpy"
+            }
+          ]
+        },
+        {
+          "name": "Long Tail Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Aipom"
+            }
+          ]
+        },
+        {
+          "name": "Milk Cow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Miltank"
+            }
+          ]
+        },
+        {
+          "name": "Mold Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shuckle"
+            }
+          ]
+        },
+        {
+          "name": "Moonlight Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Umbreon"
+            }
+          ]
+        },
+        {
+          "name": "Mystic Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Xatu"
+            }
+          ]
+        },
+        {
+          "name": "Owl Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hoothoot"
+            },
+            {
+              "name": "Noctowl"
+            }
+          ]
+        },
+        {
+          "name": "Painter Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Smeargle"
+            }
+          ]
+        },
+        {
+          "name": "Patient Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wobbuffet"
+            }
+          ]
+        },
+        {
+          "name": "Pig Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swinub"
+            }
+          ]
+        },
+        {
+          "name": "Pincer Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Scizor"
+            }
+          ]
+        },
+        {
+          "name": "Rainbow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ho-Oh"
+            }
+          ]
+        },
+        {
+          "name": "Rock Skin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Larvitar"
+            }
+          ]
+        },
+        {
+          "name": "Royal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slowking"
+            }
+          ]
+        },
+        {
+          "name": "Scout Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sentret"
+            }
+          ]
+        },
+        {
+          "name": "Screech Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Misdreavus"
+            }
+          ]
+        },
+        {
+          "name": "Scuffle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tyrogue"
+            }
+          ]
+        },
+        {
+          "name": "Seed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sunkern"
+            }
+          ]
+        },
+        {
+          "name": "Sharp Claw Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sneasel"
+            }
+          ]
+        },
+        {
+          "name": "Singlehorn Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Heracross"
+            }
+          ]
+        },
+        {
+          "name": "Spike Ball Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Togepi"
+            }
+          ]
+        },
+        {
+          "name": "Star Shape Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cleffa"
+            }
+          ]
+        },
+        {
+          "name": "String Spit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Spinarak"
+            }
+          ]
+        },
+        {
+          "name": "Sun Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sunflora"
+            },
+            {
+              "name": "Espeon"
+            }
+          ]
+        },
+        {
+          "name": "Swine Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Piloswine"
+            }
+          ]
+        },
+        {
+          "name": "Symbol Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Unown"
+            }
+          ]
+        },
+        {
+          "name": "Thunder Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Raikou"
+            }
+          ]
+        },
+        {
+          "name": "Time Travel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Celebi"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Mouse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pichu"
+            }
+          ]
+        },
+        {
+          "name": "Virtual Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Porygon2"
+            }
+          ]
+        },
+        {
+          "name": "Volcano Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Quilava"
+            },
+            {
+              "name": "Typhlosion"
+            },
+            {
+              "name": "Entei"
+            }
+          ]
+        },
+        {
+          "name": "Water Fish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wooper"
+            },
+            {
+              "name": "Quagsire"
+            }
+          ]
+        },
+        {
+          "name": "Wool Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mareep"
+            },
+            {
+              "name": "Flaaffy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generation 3",
+      "children": [
+        {
+          "name": "Acorn Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Seedot"
+            }
+          ]
+        },
+        {
+          "name": "Ant Pit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Trapinch"
+            }
+          ]
+        },
+        {
+          "name": "Arm Thrust Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hariyama"
+            }
+          ]
+        },
+        {
+          "name": "Ball Roll Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sealeo"
+            }
+          ]
+        },
+        {
+          "name": "Ball Whale Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wailmer"
+            }
+          ]
+        },
+        {
+          "name": "Barnacle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cradily"
+            }
+          ]
+        },
+        {
+          "name": "Beckon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dusclops"
+            }
+          ]
+        },
+        {
+          "name": "Big Voice Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Loudred"
+            }
+          ]
+        },
+        {
+          "name": "Bite Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Poochyena"
+            },
+            {
+              "name": "Mightyena"
+            }
+          ]
+        },
+        {
+          "name": "Bivalve Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Clamperl"
+            }
+          ]
+        },
+        {
+          "name": "Blaze Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Blaziken"
+            }
+          ]
+        },
+        {
+          "name": "Bounce Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Spoink"
+            }
+          ]
+        },
+        {
+          "name": "Bright Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wynaut"
+            }
+          ]
+        },
+        {
+          "name": "Brutal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sharpedo"
+            }
+          ]
+        },
+        {
+          "name": "Butterfly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Beautifly"
+            }
+          ]
+        },
+        {
+          "name": "Cactus Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cacnea"
+            }
+          ]
+        },
+        {
+          "name": "Carefree Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ludicolo"
+            }
+          ]
+        },
+        {
+          "name": "Cat Ferret Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zangoose"
+            }
+          ]
+        },
+        {
+          "name": "Cheering Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Plusle"
+            },
+            {
+              "name": "Minun"
+            }
+          ]
+        },
+        {
+          "name": "Chick Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Torchic"
+            }
+          ]
+        },
+        {
+          "name": "Clap Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Spheal"
+            }
+          ]
+        },
+        {
+          "name": "Clay Doll Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Baltoy"
+            },
+            {
+              "name": "Claydol"
+            }
+          ]
+        },
+        {
+          "name": "Coal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Torkoal"
+            }
+          ]
+        },
+        {
+          "name": "Cocoon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Silcoon"
+            },
+            {
+              "name": "Cascoon"
+            }
+          ]
+        },
+        {
+          "name": "Color Swap Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kecleon"
+            }
+          ]
+        },
+        {
+          "name": "Compass Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Nosepass"
+            }
+          ]
+        },
+        {
+          "name": "Continent Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Groudon"
+            }
+          ]
+        },
+        {
+          "name": "Cotton Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swablu"
+            }
+          ]
+        },
+        {
+          "name": "DNA Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Deoxys"
+            }
+          ]
+        },
+        {
+          "name": "Darkness Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sableye"
+            }
+          ]
+        },
+        {
+          "name": "Deceiver Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mawile"
+            }
+          ]
+        },
+        {
+          "name": "Deep Sea Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Huntail"
+            }
+          ]
+        },
+        {
+          "name": "Disaster Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Absol"
+            }
+          ]
+        },
+        {
+          "name": "Discharge Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Manectric"
+            }
+          ]
+        },
+        {
+          "name": "Dragon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Salamence"
+            }
+          ]
+        },
+        {
+          "name": "Embrace Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gardevoir"
+            }
+          ]
+        },
+        {
+          "name": "Emotion Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kirlia"
+            }
+          ]
+        },
+        {
+          "name": "Endurance Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shelgon"
+            }
+          ]
+        },
+        {
+          "name": "Eon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Latias"
+            },
+            {
+              "name": "Latios"
+            }
+          ]
+        },
+        {
+          "name": "Eruption Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Camerupt"
+            }
+          ]
+        },
+        {
+          "name": "Eyeball Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Masquerain"
+            }
+          ]
+        },
+        {
+          "name": "Face Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Glalie"
+            }
+          ]
+        },
+        {
+          "name": "Fang Snake Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Seviper"
+            }
+          ]
+        },
+        {
+          "name": "Feeling Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ralts"
+            }
+          ]
+        },
+        {
+          "name": "Firefly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Volbeat"
+            },
+            {
+              "name": "Illumise"
+            }
+          ]
+        },
+        {
+          "name": "Fish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Feebas"
+            }
+          ]
+        },
+        {
+          "name": "Float Whale Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wailord"
+            }
+          ]
+        },
+        {
+          "name": "Forest Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sceptile"
+            }
+          ]
+        },
+        {
+          "name": "Fruit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tropius"
+            }
+          ]
+        },
+        {
+          "name": "Guts Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Makuhita"
+            }
+          ]
+        },
+        {
+          "name": "Humming Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Altaria"
+            }
+          ]
+        },
+        {
+          "name": "Ice Break Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Walrein"
+            }
+          ]
+        },
+        {
+          "name": "Iceberg Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Regice"
+            }
+          ]
+        },
+        {
+          "name": "Iron Armor Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Aron"
+            },
+            {
+              "name": "Lairon"
+            },
+            {
+              "name": "Aggron"
+            }
+          ]
+        },
+        {
+          "name": "Iron Ball Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Beldum"
+            }
+          ]
+        },
+        {
+          "name": "Iron Claw Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Metang"
+            }
+          ]
+        },
+        {
+          "name": "Iron Leg Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Metagross"
+            }
+          ]
+        },
+        {
+          "name": "Iron Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Registeel"
+            }
+          ]
+        },
+        {
+          "name": "Jolly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lombre"
+            }
+          ]
+        },
+        {
+          "name": "Kitten Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Skitty"
+            }
+          ]
+        },
+        {
+          "name": "Lazy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slaking"
+            }
+          ]
+        },
+        {
+          "name": "Lightning Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Electrike"
+            }
+          ]
+        },
+        {
+          "name": "Longevity Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Relicanth"
+            }
+          ]
+        },
+        {
+          "name": "Loud Noise Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Exploud"
+            }
+          ]
+        },
+        {
+          "name": "Manipulate Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Grumpig"
+            }
+          ]
+        },
+        {
+          "name": "Marionette Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Banette"
+            }
+          ]
+        },
+        {
+          "name": "Meditate Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Meditite"
+            },
+            {
+              "name": "Medicham"
+            }
+          ]
+        },
+        {
+          "name": "Meteorite Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lunatone"
+            },
+            {
+              "name": "Solrock"
+            }
+          ]
+        },
+        {
+          "name": "Mud Fish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mudkip"
+            },
+            {
+              "name": "Marshtomp"
+            },
+            {
+              "name": "Swampert"
+            }
+          ]
+        },
+        {
+          "name": "Mushroom Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shroomish"
+            },
+            {
+              "name": "Breloom"
+            }
+          ]
+        },
+        {
+          "name": "Mystic Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Flygon"
+            }
+          ]
+        },
+        {
+          "name": "Ninja Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ninjask"
+            }
+          ]
+        },
+        {
+          "name": "Numb Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Numel"
+            }
+          ]
+        },
+        {
+          "name": "Old Shrimp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Anorith"
+            }
+          ]
+        },
+        {
+          "name": "Plate Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Armaldo"
+            }
+          ]
+        },
+        {
+          "name": "Poison Bag Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swalot"
+            }
+          ]
+        },
+        {
+          "name": "Poison Moth Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dustox"
+            }
+          ]
+        },
+        {
+          "name": "Polka Dot Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Azurill"
+            }
+          ]
+        },
+        {
+          "name": "Pond Skater Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Surskit"
+            }
+          ]
+        },
+        {
+          "name": "Prim Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Delcatty"
+            }
+          ]
+        },
+        {
+          "name": "Puppet Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shuppet"
+            }
+          ]
+        },
+        {
+          "name": "Rendezvous Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Luvdisc"
+            }
+          ]
+        },
+        {
+          "name": "Requiem Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Duskull"
+            }
+          ]
+        },
+        {
+          "name": "Rock Head Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bagon"
+            }
+          ]
+        },
+        {
+          "name": "Rock Peak Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Regirock"
+            }
+          ]
+        },
+        {
+          "name": "Rogue Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Crawdaunt"
+            }
+          ]
+        },
+        {
+          "name": "Ruffian Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Corphish"
+            }
+          ]
+        },
+        {
+          "name": "Rush Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Linoone"
+            }
+          ]
+        },
+        {
+          "name": "Savage Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Carvanha"
+            }
+          ]
+        },
+        {
+          "name": "Scarecrow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cacturne"
+            }
+          ]
+        },
+        {
+          "name": "Sea Basin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kyogre"
+            }
+          ]
+        },
+        {
+          "name": "Sea Lily Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lileep"
+            }
+          ]
+        },
+        {
+          "name": "Seagull Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wingull"
+            }
+          ]
+        },
+        {
+          "name": "Shed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shedinja"
+            }
+          ]
+        },
+        {
+          "name": "Sky High Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rayquaza"
+            }
+          ]
+        },
+        {
+          "name": "Slacker Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slakoth"
+            }
+          ]
+        },
+        {
+          "name": "Snow Hat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Snorunt"
+            }
+          ]
+        },
+        {
+          "name": "South Sea Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gorebyss"
+            }
+          ]
+        },
+        {
+          "name": "Spot Panda Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Spinda"
+            }
+          ]
+        },
+        {
+          "name": "Stomach Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gulpin"
+            }
+          ]
+        },
+        {
+          "name": "Swallow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swellow"
+            }
+          ]
+        },
+        {
+          "name": "Tender Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Milotic"
+            }
+          ]
+        },
+        {
+          "name": "Thorn Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Roselia"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Racoon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zigzagoon"
+            }
+          ]
+        },
+        {
+          "name": "TinySwallow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Taillow"
+            }
+          ]
+        },
+        {
+          "name": "Trainee Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Nincada"
+            }
+          ]
+        },
+        {
+          "name": "Vibration Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vibrava"
+            }
+          ]
+        },
+        {
+          "name": "Water Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pelipper"
+            }
+          ]
+        },
+        {
+          "name": "Water Weed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lotad"
+            }
+          ]
+        },
+        {
+          "name": "Weather Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Castform"
+            }
+          ]
+        },
+        {
+          "name": "Whiskers Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Barboach"
+            },
+            {
+              "name": "Whiscash"
+            }
+          ]
+        },
+        {
+          "name": "Whisper Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Whismur"
+            }
+          ]
+        },
+        {
+          "name": "Wickid Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shiftry"
+            }
+          ]
+        },
+        {
+          "name": "Wild Monkey Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vigoroth"
+            }
+          ]
+        },
+        {
+          "name": "Wily Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Nuzleaf"
+            }
+          ]
+        },
+        {
+          "name": "Wind Chime Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chimecho"
+            }
+          ]
+        },
+        {
+          "name": "Wish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Jirachi"
+            }
+          ]
+        },
+        {
+          "name": "Wood Gecko Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Treecko"
+            },
+            {
+              "name": "Grovyle"
+            }
+          ]
+        },
+        {
+          "name": "Worm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wurmple"
+            }
+          ]
+        },
+        {
+          "name": "Young Fowl Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Combusken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generation 4",
+      "children": [
+        {
+          "name": "Alpha Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Arceus"
+            }
+          ]
+        },
+        {
+          "name": "Aura Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lucario"
+            }
+          ]
+        },
+        {
+          "name": "Bagworm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Burmy"
+            },
+            {
+              "name": "Wormadam"
+            }
+          ]
+        },
+        {
+          "name": "Balloon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Drifloon"
+            }
+          ]
+        },
+        {
+          "name": "Beaver Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bibarel"
+            }
+          ]
+        },
+        {
+          "name": "Beehive Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vespiquen"
+            }
+          ]
+        },
+        {
+          "name": "Bell Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chingling"
+            }
+          ]
+        },
+        {
+          "name": "Big Boss Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Honchkrow"
+            }
+          ]
+        },
+        {
+          "name": "Big Eater Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Munchlax"
+            }
+          ]
+        },
+        {
+          "name": "Blade Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gallade"
+            }
+          ]
+        },
+        {
+          "name": "Blast Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magmortar"
+            }
+          ]
+        },
+        {
+          "name": "Blimp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Drifblim"
+            }
+          ]
+        },
+        {
+          "name": "Blossom Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cherrim"
+            }
+          ]
+        },
+        {
+          "name": "Bonsai Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bonsly"
+            }
+          ]
+        },
+        {
+          "name": "Bouquet Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Roserade"
+            }
+          ]
+        },
+        {
+          "name": "Bronze Bell Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bronzong"
+            }
+          ]
+        },
+        {
+          "name": "Bronze Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bronzor"
+            }
+          ]
+        },
+        {
+          "name": "Bud Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Budew"
+            }
+          ]
+        },
+        {
+          "name": "Bug Catcher Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Carnivine"
+            }
+          ]
+        },
+        {
+          "name": "Catty Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Glameow"
+            }
+          ]
+        },
+        {
+          "name": "Cave Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gabite"
+            }
+          ]
+        },
+        {
+          "name": "Cherry Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cherubi"
+            }
+          ]
+        },
+        {
+          "name": "Chimp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chimchar"
+            }
+          ]
+        },
+        {
+          "name": "Colossal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Regigigas"
+            }
+          ]
+        },
+        {
+          "name": "Compass Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Probopass"
+            }
+          ]
+        },
+        {
+          "name": "Continent Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Torterra"
+            }
+          ]
+        },
+        {
+          "name": "Cricket Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kricketot"
+            },
+            {
+              "name": "Kricketune"
+            }
+          ]
+        },
+        {
+          "name": "Drill Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rhyperior"
+            }
+          ]
+        },
+        {
+          "name": "EleSquirrel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pachirisu"
+            }
+          ]
+        },
+        {
+          "name": "Emanation Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Riolu"
+            }
+          ]
+        },
+        {
+          "name": "Emotion Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mesprit"
+            }
+          ]
+        },
+        {
+          "name": "Emperor Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Empoleon"
+            }
+          ]
+        },
+        {
+          "name": "Fang Scorp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gliscor"
+            }
+          ]
+        },
+        {
+          "name": "Flame Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Infernape"
+            }
+          ]
+        },
+        {
+          "name": "Flash Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shinx"
+            }
+          ]
+        },
+        {
+          "name": "Forbidden Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Spiritomb"
+            }
+          ]
+        },
+        {
+          "name": "Fresh Snow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Glaceon"
+            }
+          ]
+        },
+        {
+          "name": "Frosted Tree Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Snover"
+            },
+            {
+              "name": "Abomasnow"
+            }
+          ]
+        },
+        {
+          "name": "Gleam Eyes Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Luxray"
+            }
+          ]
+        },
+        {
+          "name": "Gratitude Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shaymin"
+            }
+          ]
+        },
+        {
+          "name": "Gripper Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dusknoir"
+            }
+          ]
+        },
+        {
+          "name": "Grove Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Grotle"
+            }
+          ]
+        },
+        {
+          "name": "Head Butt Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cranidos"
+            },
+            {
+              "name": "Rampardos"
+            }
+          ]
+        },
+        {
+          "name": "Heavyweight Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hippowdon"
+            }
+          ]
+        },
+        {
+          "name": "Hippo Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hippopotas"
+            }
+          ]
+        },
+        {
+          "name": "Jubilee Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Togekiss"
+            }
+          ]
+        },
+        {
+          "name": "Kite Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mantyke"
+            }
+          ]
+        },
+        {
+          "name": "Knowledge Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Uxie"
+            }
+          ]
+        },
+        {
+          "name": "Land Shark Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gible"
+            }
+          ]
+        },
+        {
+          "name": "Lava Dome Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Heatran"
+            }
+          ]
+        },
+        {
+          "name": "Licking Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lickilicky"
+            }
+          ]
+        },
+        {
+          "name": "Long Tail Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ambipom"
+            }
+          ]
+        },
+        {
+          "name": "Lunar Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cresselia"
+            }
+          ]
+        },
+        {
+          "name": "Mach Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Garchomp"
+            }
+          ]
+        },
+        {
+          "name": "Magical Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mismagius"
+            }
+          ]
+        },
+        {
+          "name": "Magnet Area Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magnezone"
+            }
+          ]
+        },
+        {
+          "name": "Mime Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mime Jr."
+            }
+          ]
+        },
+        {
+          "name": "Moth Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mothim"
+            }
+          ]
+        },
+        {
+          "name": "Music Note Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chatot"
+            }
+          ]
+        },
+        {
+          "name": "Neon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lumineon"
+            }
+          ]
+        },
+        {
+          "name": "Ogre Darner Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Yanmega"
+            }
+          ]
+        },
+        {
+          "name": "Ogre Scorp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Drapion"
+            }
+          ]
+        },
+        {
+          "name": "Penguin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Piplup"
+            },
+            {
+              "name": "Prinplup"
+            }
+          ]
+        },
+        {
+          "name": "Pitch-Black Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Darkrai"
+            }
+          ]
+        },
+        {
+          "name": "Plasma Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rotom"
+            }
+          ]
+        },
+        {
+          "name": "Playful Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Monferno"
+            }
+          ]
+        },
+        {
+          "name": "Playhouse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Happiny"
+            }
+          ]
+        },
+        {
+          "name": "Plump Mouse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bidoof"
+            }
+          ]
+        },
+        {
+          "name": "Predator Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Staraptor"
+            }
+          ]
+        },
+        {
+          "name": "Rabbit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Buneary"
+            },
+            {
+              "name": "Lopunny"
+            }
+          ]
+        },
+        {
+          "name": "Renegade Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Giratina"
+            }
+          ]
+        },
+        {
+          "name": "Scorpion Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Skorupi"
+            }
+          ]
+        },
+        {
+          "name": "Sea Drifter Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Phione"
+            }
+          ]
+        },
+        {
+          "name": "Sea Slug Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shellos"
+            },
+            {
+              "name": "Gastrodon"
+            }
+          ]
+        },
+        {
+          "name": "Sea Weasel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Buizel"
+            },
+            {
+              "name": "Floatzel"
+            }
+          ]
+        },
+        {
+          "name": "Seafaring Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Manaphy"
+            }
+          ]
+        },
+        {
+          "name": "Sharp Claw Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Weavile"
+            }
+          ]
+        },
+        {
+          "name": "Shield Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shieldon"
+            },
+            {
+              "name": "Bastiodon"
+            }
+          ]
+        },
+        {
+          "name": "Skunk Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Stunky"
+            },
+            {
+              "name": "Skuntank"
+            }
+          ]
+        },
+        {
+          "name": "Snow Land Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Froslass"
+            }
+          ]
+        },
+        {
+          "name": "Spark Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Luxio"
+            }
+          ]
+        },
+        {
+          "name": "Spatial Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Palkia"
+            }
+          ]
+        },
+        {
+          "name": "Starling Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Starly"
+            },
+            {
+              "name": "Staravia"
+            }
+          ]
+        },
+        {
+          "name": "Temporal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dialga"
+            }
+          ]
+        },
+        {
+          "name": "Thunderbolt Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Electivire"
+            }
+          ]
+        },
+        {
+          "name": "Tiger Cat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Purugly"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Bee Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Combee"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Leaf Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Turtwig"
+            }
+          ]
+        },
+        {
+          "name": "Toxic Mouth Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Croagunk"
+            },
+            {
+              "name": "Toxicroak"
+            }
+          ]
+        },
+        {
+          "name": "Twin Tusk Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mamoswine"
+            }
+          ]
+        },
+        {
+          "name": "Verdant Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Leafeon"
+            }
+          ]
+        },
+        {
+          "name": "Vine Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tangrowth"
+            }
+          ]
+        },
+        {
+          "name": "Virtual Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Porygon-Z"
+            }
+          ]
+        },
+        {
+          "name": "Willpower Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Azelf"
+            }
+          ]
+        },
+        {
+          "name": "Wing Fish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Finneon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generation 5",
+      "children": [
+        {
+          "name": "Abundance Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Landorus"
+            }
+          ]
+        },
+        {
+          "name": "Anteater Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Heatmor"
+            }
+          ]
+        },
+        {
+          "name": "Astral Body Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gothitelle"
+            }
+          ]
+        },
+        {
+          "name": "Attaching Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Joltik"
+            }
+          ]
+        },
+        {
+          "name": "Automaton Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Golett"
+            },
+            {
+              "name": "Golurk"
+            }
+          ]
+        },
+        {
+          "name": "Avianoid Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sigilyph"
+            }
+          ]
+        },
+        {
+          "name": "Axe Jaw Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Fraxure"
+            },
+            {
+              "name": "Haxorus"
+            }
+          ]
+        },
+        {
+          "name": "Bash Buffalo Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bouffalant"
+            }
+          ]
+        },
+        {
+          "name": "Bat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Woobat"
+            }
+          ]
+        },
+        {
+          "name": "Big-Hearted Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Stoutland"
+            }
+          ]
+        },
+        {
+          "name": "Blazing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Darmanitan"
+            }
+          ]
+        },
+        {
+          "name": "Bolt Strike Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Thundurus"
+            }
+          ]
+        },
+        {
+          "name": "Bone Vulture Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mandibuzz"
+            }
+          ]
+        },
+        {
+          "name": "Boundary Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kyurem"
+            }
+          ]
+        },
+        {
+          "name": "Brutal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hydreigon"
+            }
+          ]
+        },
+        {
+          "name": "Bulb Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Petilil"
+            }
+          ]
+        },
+        {
+          "name": "Cactus Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Maractus"
+            }
+          ]
+        },
+        {
+          "name": "Candle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Litwick"
+            }
+          ]
+        },
+        {
+          "name": "Caring Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Alomomola"
+            }
+          ]
+        },
+        {
+          "name": "Cavalry Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Escavalier"
+            }
+          ]
+        },
+        {
+          "name": "Cave Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Druddigon"
+            }
+          ]
+        },
+        {
+          "name": "Cavern Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Terrakion"
+            }
+          ]
+        },
+        {
+          "name": "Cell Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Solosis"
+            }
+          ]
+        },
+        {
+          "name": "Centipede Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Venipede"
+            }
+          ]
+        },
+        {
+          "name": "Cerebral Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Elgyem"
+            },
+            {
+              "name": "Beheeyem"
+            }
+          ]
+        },
+        {
+          "name": "Chill Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cubchoo"
+            }
+          ]
+        },
+        {
+          "name": "Chinchilla Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Minccino"
+            }
+          ]
+        },
+        {
+          "name": "Clamping Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Karrablast"
+            }
+          ]
+        },
+        {
+          "name": "Coffin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cofagrigus"
+            }
+          ]
+        },
+        {
+          "name": "Colt Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Keldeo"
+            }
+          ]
+        },
+        {
+          "name": "Compressed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gigalith"
+            }
+          ]
+        },
+        {
+          "name": "Cotton Puff Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cottonee"
+            }
+          ]
+        },
+        {
+          "name": "Courting Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swoobat"
+            }
+          ]
+        },
+        {
+          "name": "Cruel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Liepard"
+            }
+          ]
+        },
+        {
+          "name": "Crystallizing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cryogonal"
+            }
+          ]
+        },
+        {
+          "name": "Curlipede Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Whirlipede"
+            }
+          ]
+        },
+        {
+          "name": "Cyclone Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tornadus"
+            }
+          ]
+        },
+        {
+          "name": "Deep Black Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zekrom"
+            }
+          ]
+        },
+        {
+          "name": "Desert Croc Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sandile"
+            },
+            {
+              "name": "Krokorok"
+            }
+          ]
+        },
+        {
+          "name": "Devious Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Purrloin"
+            }
+          ]
+        },
+        {
+          "name": "Diapered Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vullaby"
+            }
+          ]
+        },
+        {
+          "name": "Discipline Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dewott"
+            }
+          ]
+        },
+        {
+          "name": "Dream Eater Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Munna"
+            }
+          ]
+        },
+        {
+          "name": "Drowsing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Musharna"
+            }
+          ]
+        },
+        {
+          "name": "Eaglet Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rufflet"
+            }
+          ]
+        },
+        {
+          "name": "EleFish Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tynamo"
+            },
+            {
+              "name": "Eelektrik"
+            },
+            {
+              "name": "Eelektross"
+            }
+          ]
+        },
+        {
+          "name": "EleSpider Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Galvantula"
+            }
+          ]
+        },
+        {
+          "name": "Electrified Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Blitzle"
+            }
+          ]
+        },
+        {
+          "name": "Ember Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Simisear"
+            }
+          ]
+        },
+        {
+          "name": "Fire Pig Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tepig"
+            },
+            {
+              "name": "Pignite"
+            }
+          ]
+        },
+        {
+          "name": "First Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Archen"
+            },
+            {
+              "name": "Archeops"
+            }
+          ]
+        },
+        {
+          "name": "Fixation Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gothita"
+            }
+          ]
+        },
+        {
+          "name": "Floating Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Frillish"
+            },
+            {
+              "name": "Jellicent"
+            }
+          ]
+        },
+        {
+          "name": "Flowering Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lilligant"
+            }
+          ]
+        },
+        {
+          "name": "Formidable Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Samurott"
+            }
+          ]
+        },
+        {
+          "name": "Freezing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Beartic"
+            }
+          ]
+        },
+        {
+          "name": "Fresh Snow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vanillite"
+            }
+          ]
+        },
+        {
+          "name": "Gear Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Klink"
+            },
+            {
+              "name": "Klang"
+            },
+            {
+              "name": "Klinklang"
+            }
+          ]
+        },
+        {
+          "name": "Geyser Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Simipour"
+            }
+          ]
+        },
+        {
+          "name": "Grass Monkey Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pansage"
+            }
+          ]
+        },
+        {
+          "name": "Grass Snake Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Snivy"
+            },
+            {
+              "name": "Servine"
+            }
+          ]
+        },
+        {
+          "name": "Grassland Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Virizion"
+            }
+          ]
+        },
+        {
+          "name": "Hearing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Audino"
+            }
+          ]
+        },
+        {
+          "name": "High Temp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pansear"
+            }
+          ]
+        },
+        {
+          "name": "Hoodlum Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Scrafty"
+            }
+          ]
+        },
+        {
+          "name": "Hostile Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Basculin"
+            },
+            {
+              "name": "Zweilous"
+            }
+          ]
+        },
+        {
+          "name": "Icy Snow Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vanillish"
+            }
+          ]
+        },
+        {
+          "name": "Illusion Fox Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zoroark"
+            }
+          ]
+        },
+        {
+          "name": "Intimidation Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Krookodile"
+            }
+          ]
+        },
+        {
+          "name": "Irate Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Deino"
+            }
+          ]
+        },
+        {
+          "name": "Iron Ant Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Durant"
+            }
+          ]
+        },
+        {
+          "name": "Iron Will Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cobalion"
+            }
+          ]
+        },
+        {
+          "name": "Judo Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Throh"
+            }
+          ]
+        },
+        {
+          "name": "Karate Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sawk"
+            }
+          ]
+        },
+        {
+          "name": "Lamp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lampent"
+            }
+          ]
+        },
+        {
+          "name": "Leaf-Wrapped Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swadloon"
+            }
+          ]
+        },
+        {
+          "name": "Lookout Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Watchog"
+            }
+          ]
+        },
+        {
+          "name": "Loyal Dog Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Herdier"
+            }
+          ]
+        },
+        {
+          "name": "Luring Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chandelure"
+            }
+          ]
+        },
+        {
+          "name": "Manipulate Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gothorita"
+            }
+          ]
+        },
+        {
+          "name": "Mantle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Roggenrola"
+            }
+          ]
+        },
+        {
+          "name": "Martial Arts Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mienfoo"
+            },
+            {
+              "name": "Mienshao"
+            }
+          ]
+        },
+        {
+          "name": "Mega Fire Pig Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Emboar"
+            }
+          ]
+        },
+        {
+          "name": "Megapede Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Scolipede"
+            }
+          ]
+        },
+        {
+          "name": "Melody Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Meloetta"
+            }
+          ]
+        },
+        {
+          "name": "Mitosis Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Duosion"
+            }
+          ]
+        },
+        {
+          "name": "Mole Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Drilbur"
+            }
+          ]
+        },
+        {
+          "name": "Multiplying Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Reuniclus"
+            }
+          ]
+        },
+        {
+          "name": "Muscular Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Timburr"
+            },
+            {
+              "name": "Gurdurr"
+            },
+            {
+              "name": "Conkeldurr"
+            }
+          ]
+        },
+        {
+          "name": "Mushroom Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Foongus"
+            },
+            {
+              "name": "Amoonguss"
+            }
+          ]
+        },
+        {
+          "name": "Nurturing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Leavanny"
+            }
+          ]
+        },
+        {
+          "name": "Ore Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Boldore"
+            }
+          ]
+        },
+        {
+          "name": "Paleozoic Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Genesect"
+            }
+          ]
+        },
+        {
+          "name": "Prototurtle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tirtouga"
+            },
+            {
+              "name": "Carracosta"
+            }
+          ]
+        },
+        {
+          "name": "Proud Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Unfezant"
+            }
+          ]
+        },
+        {
+          "name": "Puppy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lillipup"
+            }
+          ]
+        },
+        {
+          "name": "Regal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Serperior"
+            }
+          ]
+        },
+        {
+          "name": "Rock Inn Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dwebble"
+            }
+          ]
+        },
+        {
+          "name": "Scarf Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cinccino"
+            }
+          ]
+        },
+        {
+          "name": "Scout Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Patrat"
+            }
+          ]
+        },
+        {
+          "name": "Sea Otter Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Oshawott"
+            }
+          ]
+        },
+        {
+          "name": "Season Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Deerling"
+            },
+            {
+              "name": "Sawsbuck"
+            }
+          ]
+        },
+        {
+          "name": "Sewing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sewaddle"
+            }
+          ]
+        },
+        {
+          "name": "Sharp Blade Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pawniard"
+            }
+          ]
+        },
+        {
+          "name": "Shedding Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Scraggy"
+            }
+          ]
+        },
+        {
+          "name": "Shell Out Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Accelgor"
+            }
+          ]
+        },
+        {
+          "name": "Sky Squirrel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Emolga"
+            }
+          ]
+        },
+        {
+          "name": "Snail Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Shelmet"
+            }
+          ]
+        },
+        {
+          "name": "Snowstorm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vanilluxe"
+            }
+          ]
+        },
+        {
+          "name": "Spirit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Yamask"
+            }
+          ]
+        },
+        {
+          "name": "Spray Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Panpour"
+            }
+          ]
+        },
+        {
+          "name": "Stone Home Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Crustle"
+            }
+          ]
+        },
+        {
+          "name": "Subterrene Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Excadrill"
+            }
+          ]
+        },
+        {
+          "name": "Sun Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Volcarona"
+            }
+          ]
+        },
+        {
+          "name": "Sword Blade Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bisharp"
+            }
+          ]
+        },
+        {
+          "name": "Tadpole Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tympole"
+            }
+          ]
+        },
+        {
+          "name": "Thorn Monkey Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Simisage"
+            }
+          ]
+        },
+        {
+          "name": "Thorn Pod Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ferrothorn"
+            }
+          ]
+        },
+        {
+          "name": "Thorn Seed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ferroseed"
+            }
+          ]
+        },
+        {
+          "name": "Thunderbolt Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zebstrika"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Pigeon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pidove"
+            }
+          ]
+        },
+        {
+          "name": "Torch Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Larvesta"
+            }
+          ]
+        },
+        {
+          "name": "Trap Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Stunfisk"
+            }
+          ]
+        },
+        {
+          "name": "Trash Bag Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Trubbish"
+            }
+          ]
+        },
+        {
+          "name": "Trash Heap Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Garbodor"
+            }
+          ]
+        },
+        {
+          "name": "Tricky Fox Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zorua"
+            }
+          ]
+        },
+        {
+          "name": "Tusk Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Axew"
+            }
+          ]
+        },
+        {
+          "name": "Valiant Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Braviary"
+            }
+          ]
+        },
+        {
+          "name": "Vast White Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Reshiram"
+            }
+          ]
+        },
+        {
+          "name": "Vibration Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Palpitoad"
+            },
+            {
+              "name": "Seismitoad"
+            }
+          ]
+        },
+        {
+          "name": "Victory Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Victini"
+            }
+          ]
+        },
+        {
+          "name": "Water Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Ducklett"
+            }
+          ]
+        },
+        {
+          "name": "White Bird Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swanna"
+            }
+          ]
+        },
+        {
+          "name": "Wild Pigeon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tranquill"
+            }
+          ]
+        },
+        {
+          "name": "Windveiled Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Whimsicott"
+            }
+          ]
+        },
+        {
+          "name": "Zen Charm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Darumaka"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generation 6",
+      "children": [
+        {
+          "name": "Antenna Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dedenne"
+            }
+          ]
+        },
+        {
+          "name": "Bubble Frog Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Froakie"
+            },
+            {
+              "name": "Frogadier"
+            }
+          ]
+        },
+        {
+          "name": "Collective Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Barbaracle"
+            }
+          ]
+        },
+        {
+          "name": "Constraint Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Meowstic"
+            }
+          ]
+        },
+        {
+          "name": "Cotton Candy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Swirlix"
+            }
+          ]
+        },
+        {
+          "name": "Daunting Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pangoro"
+            }
+          ]
+        },
+        {
+          "name": "Despot Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tyrantrum"
+            }
+          ]
+        },
+        {
+          "name": "Destruction Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Yveltal"
+            }
+          ]
+        },
+        {
+          "name": "Digging Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bunnelby"
+            },
+            {
+              "name": "Diggersby"
+            }
+          ]
+        },
+        {
+          "name": "Dragon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Goodra"
+            }
+          ]
+        },
+        {
+          "name": "Elder Tree Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Trevenant"
+            }
+          ]
+        },
+        {
+          "name": "Ember Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Fletchinder"
+            }
+          ]
+        },
+        {
+          "name": "Fairy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Floette"
+            }
+          ]
+        },
+        {
+          "name": "Fox Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Fennekin"
+            },
+            {
+              "name": "Braixen"
+            },
+            {
+              "name": "Delphox"
+            }
+          ]
+        },
+        {
+          "name": "Fragrance Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Aromatisse"
+            }
+          ]
+        },
+        {
+          "name": "Garden Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Florges"
+            }
+          ]
+        },
+        {
+          "name": "Generator Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Helioptile"
+            },
+            {
+              "name": "Heliolisk"
+            }
+          ]
+        },
+        {
+          "name": "Howitzer Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Clawitzer"
+            }
+          ]
+        },
+        {
+          "name": "Ice Chunk Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bergmite"
+            }
+          ]
+        },
+        {
+          "name": "Iceberg Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Avalugg"
+            }
+          ]
+        },
+        {
+          "name": "Intertwining Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sylveon"
+            }
+          ]
+        },
+        {
+          "name": "Jewel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Carbink"
+            },
+            {
+              "name": "Diancie"
+            }
+          ]
+        },
+        {
+          "name": "Key Ring Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Klefki"
+            }
+          ]
+        },
+        {
+          "name": "Life Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Xerneas"
+            }
+          ]
+        },
+        {
+          "name": "Lion Cub Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Litleo"
+            }
+          ]
+        },
+        {
+          "name": "Meringue Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Slurpuff"
+            }
+          ]
+        },
+        {
+          "name": "Mischief Pok\u00e9mon (Confined)Djinn Pok\u00e9monn (Unbound)",
+          "children": [
+            {
+              "name": "Hoopa"
+            }
+          ]
+        },
+        {
+          "name": "Mock Kelp Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Skrelp"
+            },
+            {
+              "name": "Dragalge"
+            }
+          ]
+        },
+        {
+          "name": "Mount Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Skiddo"
+            },
+            {
+              "name": "Gogoat"
+            }
+          ]
+        },
+        {
+          "name": "Ninja Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Greninja"
+            }
+          ]
+        },
+        {
+          "name": "Order Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Zygarde"
+            }
+          ]
+        },
+        {
+          "name": "Overturning Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Malamar"
+            }
+          ]
+        },
+        {
+          "name": "Perfume Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Spritzee"
+            }
+          ]
+        },
+        {
+          "name": "Playful Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pancham"
+            }
+          ]
+        },
+        {
+          "name": "Poodle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Furfrou"
+            }
+          ]
+        },
+        {
+          "name": "Pumpkin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pumpkaboo"
+            },
+            {
+              "name": "Gourgeist"
+            }
+          ]
+        },
+        {
+          "name": "Restraint Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Espurr"
+            }
+          ]
+        },
+        {
+          "name": "Revolving Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Inkay"
+            }
+          ]
+        },
+        {
+          "name": "Royal Heir Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tyrunt"
+            }
+          ]
+        },
+        {
+          "name": "Royal Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pyroar"
+            }
+          ]
+        },
+        {
+          "name": "Royal Sword Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Aegislash"
+            }
+          ]
+        },
+        {
+          "name": "Scale Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vivillon"
+            }
+          ]
+        },
+        {
+          "name": "Scatterdust Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Scatterbug"
+            },
+            {
+              "name": "Spewpa"
+            }
+          ]
+        },
+        {
+          "name": "Scorching Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Talonflame"
+            }
+          ]
+        },
+        {
+          "name": "Single Bloom Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Flab\u00e9b\u00e9"
+            }
+          ]
+        },
+        {
+          "name": "Soft Tissue Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Goomy"
+            },
+            {
+              "name": "Sliggoo"
+            }
+          ]
+        },
+        {
+          "name": "Sound Wave Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Noibat"
+            },
+            {
+              "name": "Noivern"
+            }
+          ]
+        },
+        {
+          "name": "Spiky Nut Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Chespin"
+            }
+          ]
+        },
+        {
+          "name": "Spiny Armor Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Quilladin"
+            },
+            {
+              "name": "Chesnaught"
+            }
+          ]
+        },
+        {
+          "name": "Steam Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Volcanion"
+            }
+          ]
+        },
+        {
+          "name": "Stump Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Phantump"
+            }
+          ]
+        },
+        {
+          "name": "Sword Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Honedge"
+            },
+            {
+              "name": "Doublade"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Robin Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Fletchling"
+            }
+          ]
+        },
+        {
+          "name": "Tundra Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Amaura"
+            },
+            {
+              "name": "Aurorus"
+            }
+          ]
+        },
+        {
+          "name": "Two-Handed Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Binacle"
+            }
+          ]
+        },
+        {
+          "name": "Water Gun Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Clauncher"
+            }
+          ]
+        },
+        {
+          "name": "Wrestling Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Hawlucha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generation 7",
+      "children": [
+        {
+          "name": "Arrow Quill Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Decidueye"
+            }
+          ]
+        },
+        {
+          "name": "Artificial Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Magearna"
+            }
+          ]
+        },
+        {
+          "name": "Battery Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Charjabug"
+            }
+          ]
+        },
+        {
+          "name": "Bee Fly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cutiefly"
+            },
+            {
+              "name": "Ribombee"
+            }
+          ]
+        },
+        {
+          "name": "Blade Quill Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dartrix"
+            }
+          ]
+        },
+        {
+          "name": "Blast Turtle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Turtonator"
+            }
+          ]
+        },
+        {
+          "name": "Bloom Sickle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lurantis"
+            }
+          ]
+        },
+        {
+          "name": "Boxing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Crabrawler"
+            }
+          ]
+        },
+        {
+          "name": "Brutal Star Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mareanie"
+            },
+            {
+              "name": "Toxapex"
+            }
+          ]
+        },
+        {
+          "name": "Bugle Beak Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Trumbeak"
+            }
+          ]
+        },
+        {
+          "name": "Cannon Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Toucannon"
+            }
+          ]
+        },
+        {
+          "name": "Dancing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Oricorio"
+            }
+          ]
+        },
+        {
+          "name": "Disguise Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mimikyu"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mudbray"
+            }
+          ]
+        },
+        {
+          "name": "Draft Horse Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Mudsdale"
+            }
+          ]
+        },
+        {
+          "name": "Drawn Sword Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Kartana"
+            }
+          ]
+        },
+        {
+          "name": "Drowsing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Komala"
+            }
+          ]
+        },
+        {
+          "name": "Fire Cat Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Litten"
+            },
+            {
+              "name": "Torracat"
+            }
+          ]
+        },
+        {
+          "name": "Flailing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Stufful"
+            }
+          ]
+        },
+        {
+          "name": "Fruit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bounsweet"
+            },
+            {
+              "name": "Steenee"
+            },
+            {
+              "name": "Tsareena"
+            }
+          ]
+        },
+        {
+          "name": "Glowing Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Xurkitree"
+            }
+          ]
+        },
+        {
+          "name": "Gnash Teeth Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bruxish"
+            }
+          ]
+        },
+        {
+          "name": "Grass Quill Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rowlet"
+            }
+          ]
+        },
+        {
+          "name": "Hard Scale Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Golisopod"
+            }
+          ]
+        },
+        {
+          "name": "Heel Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Incineroar"
+            }
+          ]
+        },
+        {
+          "name": "Illuminating Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Morelull"
+            },
+            {
+              "name": "Shiinotic"
+            }
+          ]
+        },
+        {
+          "name": "Junkivore Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Guzzlord"
+            }
+          ]
+        },
+        {
+          "name": "Land Spirit Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Tapu Koko"
+            },
+            {
+              "name": "Tapu Lele"
+            },
+            {
+              "name": "Tapu Bulu"
+            },
+            {
+              "name": "Tapu Fini"
+            }
+          ]
+        },
+        {
+          "name": "Larva Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Grubbin"
+            }
+          ]
+        },
+        {
+          "name": "Launch Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Celesteela"
+            }
+          ]
+        },
+        {
+          "name": "Lissome Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pheromosa"
+            }
+          ]
+        },
+        {
+          "name": "Loitering Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Yungoos"
+            }
+          ]
+        },
+        {
+          "name": "Meteor Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Minior"
+            }
+          ]
+        },
+        {
+          "name": "Moone Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lunala"
+            }
+          ]
+        },
+        {
+          "name": "Nebula Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cosmog"
+            }
+          ]
+        },
+        {
+          "name": "Parasite Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Nihilego"
+            }
+          ]
+        },
+        {
+          "name": "Placid Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Drampa"
+            }
+          ]
+        },
+        {
+          "name": "Pop Star Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Brionne"
+            }
+          ]
+        },
+        {
+          "name": "Posy Picker Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Comfey"
+            }
+          ]
+        },
+        {
+          "name": "Prism Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Necrozma"
+            }
+          ]
+        },
+        {
+          "name": "Protostar Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Cosmoem"
+            }
+          ]
+        },
+        {
+          "name": "Puppy Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Rockruff"
+            }
+          ]
+        },
+        {
+          "name": "Roly-Poly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Togedemaru"
+            }
+          ]
+        },
+        {
+          "name": "Sage Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Oranguru"
+            }
+          ]
+        },
+        {
+          "name": "Sand Castle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Palossand"
+            }
+          ]
+        },
+        {
+          "name": "Sand Heap Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Sandygast"
+            }
+          ]
+        },
+        {
+          "name": "Scaly Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Jangmo-o"
+            },
+            {
+              "name": "Hakamo-o"
+            },
+            {
+              "name": "Kommo-o"
+            }
+          ]
+        },
+        {
+          "name": "Sea Creeper Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dhelmise"
+            }
+          ]
+        },
+        {
+          "name": "Sea Cucumber Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pyukumuku"
+            }
+          ]
+        },
+        {
+          "name": "Sea Lion Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Popplio"
+            }
+          ]
+        },
+        {
+          "name": "Sickle Grass Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Fomantis"
+            }
+          ]
+        },
+        {
+          "name": "Small Fry Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wishiwashi"
+            }
+          ]
+        },
+        {
+          "name": "Soloist Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Primarina"
+            }
+          ]
+        },
+        {
+          "name": "Stag Beetle Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Vikavolt"
+            }
+          ]
+        },
+        {
+          "name": "Stakeout Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Gumshoos"
+            }
+          ]
+        },
+        {
+          "name": "Strong Arm Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Bewear"
+            }
+          ]
+        },
+        {
+          "name": "Sunne Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Solgaleo"
+            }
+          ]
+        },
+        {
+          "name": "Swollen Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Buzzwole"
+            }
+          ]
+        },
+        {
+          "name": "Synthetic Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Type: Null"
+            },
+            {
+              "name": "Silvally"
+            }
+          ]
+        },
+        {
+          "name": "Teamwork Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Passimian"
+            }
+          ]
+        },
+        {
+          "name": "Toxic Lizard Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Salandit"
+            },
+            {
+              "name": "Salazzle"
+            }
+          ]
+        },
+        {
+          "name": "Turn Tail Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Wimpod"
+            }
+          ]
+        },
+        {
+          "name": "Water Bubble Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Dewpider"
+            },
+            {
+              "name": "Araquanid"
+            }
+          ]
+        },
+        {
+          "name": "Wolf Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Lycanroc"
+            }
+          ]
+        },
+        {
+          "name": "Woodpecker Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Pikipek"
+            }
+          ]
+        },
+        {
+          "name": "Woolly Crab Pok\u00e9mon",
+          "children": [
+            {
+              "name": "Crabominable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
