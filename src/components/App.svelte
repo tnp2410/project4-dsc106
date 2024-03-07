@@ -17,11 +17,11 @@
   let svg;
 
   onMount(() => {
-    const width = 928;
-    const marginTop = 10;
+    const width = 1000;
+    const marginTop = 30;
     const marginRight = 10;
-    const marginBottom = 10;
-    const marginLeft = 50;
+    const marginBottom = 30;
+    const marginLeft = 200;
 
     // Load data from JSON files
     Promise.all([
@@ -45,7 +45,7 @@
 
       const gLink = svg.append('g')
         .attr('fill', 'none')
-        .attr('stroke', '#555')
+        .attr('stroke', '#831313')
         .attr('stroke-opacity', 0.4)
         .attr('stroke-width', 1.5);
 
@@ -91,7 +91,7 @@
 
         nodeEnter.append('circle')
           .attr('r', 2.5)
-          .attr('fill', d => d._children ? '#555' : '#999')
+          .attr('fill', d => d._children ? '#400' : '#400')
           .attr('stroke-width', 10);
 
         nodeEnter.append('text')
@@ -105,19 +105,29 @@
           .attr('paint-order', 'stroke')
           // Add tooltip functionality
           .on('mouseover', (event, d) => {
-            const tooltip = d3.select('body').append('div')
-              .attr('class', 'tooltip')
-              .style('position', 'absolute')
-              .style('background-color', 'white')
-              .style('border', 'solid')
-              .style('border-width', '1px')
-              .style('border-radius', '5px')
-              .style('padding', '10px')
-              .text(tooltipData[d.data.name]); // Use the tooltip data from the external file
+            if (!d.children) {
+              const tooltip = d3.select('body').append('div')
+                .attr('class', 'tooltip')
+                .style('position', 'absolute')
+                .style('background-color', 'rgba(255, 192, 203, 0.3)')
+                .style('border', 'none')
+                .style('border-width', '1px')
+                .style('border-radius', '5px')
+                .style('padding', '5px')
+                .html(`
+    Stats: <br>
+    Attack - ${tooltipData[d.data.name].attack} <br>
+    Defense - ${tooltipData[d.data.name].defense} <br>
+    Speed - ${tooltipData[d.data.name].speed} <br>
+    HP - ${tooltipData[d.data.name].hp} <br>
+    Special Attack - ${tooltipData[d.data.name].sp_attack} <br>
+    Special Defense - ${tooltipData[d.data.name].sp_defense}
+  `);
 
-            // Position the tooltip relative to the mouse pointer
-            tooltip.style('left', (event.pageX + 10) + 'px')
-              .style('top', (event.pageY + 10) + 'px');
+              // Position the tooltip relative to the mouse pointer
+              tooltip.style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY + 10) + 'px');
+            }
           })
           .on('mouseout', () => {
             // Remove the tooltip when mouse is out
@@ -182,4 +192,5 @@
   .tooltip {
     /* Define tooltip styles here */
   }
+
 </style>
