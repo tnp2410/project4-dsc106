@@ -3,13 +3,13 @@
   <p> Click on the text to collapse or decollapse the Pokemon Tree! </p>
   <h1>Pokemon Collapsible Tree </h1>
   <p>
-  We began the project by data cleaning the Pokemon dataset by dropping unnecessary columns, fixing N/A values, and converting types into a list. The next step began by looking at examples of how to implement our visualization. Our original plan was to implement a radar chart to display how effective different types of Pokemon are against each other. After spending a few hours, we kept running into errors because we couldn’t figure out how to get the visualization to display properly. We decided to shift gears and approach our project by implementing a Zoomable sunburst and changing our goals to exploring different Pokemon types sorted by generation. As we tried to implement this visualization, we stumbled upon the Collapsible Tree visualization which was perfect for the Pokemon dataset. With this visualization, the Pokemon are sorted by generation and then by classification, which allows the users to navigate and see the variety of Pokemon. 
+    We began the project by data cleaning the Pokemon dataset by dropping unnecessary columns, fixing N/A values, and converting types into a list. The next step began by looking at examples of how to implement our visualization. Our original plan was to implement a radar chart to display how effective different types of Pokemon are against each other. After spending a few hours, we kept running into errors because we couldn’t figure out how to get the visualization to display properly. We decided to shift gears and approach our project by implementing a Zoomable sunburst and changing our goals to exploring different Pokemon types sorted by generation. As we tried to implement this visualization, we stumbled upon the Collapsible Tree visualization which was perfect for the Pokemon dataset. With this visualization, the Pokemon are sorted by generation and then by classification, which allows the users to navigate and see the variety of Pokemon. 
   </p>
   <p>
-  The most challenging part of our project design was getting the visualization to load onto the website by connecting all the moving parts such as importing d3. We realized after many trials and errors that our issues lay in the format of our data file. We were using a csv file that was not compatible with the format needed for collapsible tree visualization. When we switched to a JSON file with the data in a hierarchical format, we were able to make significant progress. Another difficulty we faced was correctly importing the data as we intended because there was confusion in figuring out how to use the proper variables in each file. Although this is just a prototype, I anticipate further data cleaning for each Pokemon evolution will be tedious to implement. Once we figure out the finishing touches such as color coding, the visualization will look complete.
+    The most challenging part of our project design was getting the visualization to load onto the website by connecting all the moving parts such as importing d3. We realized after many trials and errors that our issues lay in the format of our data file. We were using a csv file that was not compatible with the format needed for collapsible tree visualization. When we switched to a JSON file with the data in a hierarchical format, we were able to make significant progress. Another difficulty we faced was correctly importing the data as we intended because there was confusion in figuring out how to use the proper variables in each file. Although this is just a prototype, I anticipate further data cleaning for each Pokemon evolution will be tedious to implement. Once we figure out the finishing touches such as color coding, the visualization will look complete.
   </p>
-
 </main>
+
 <script>
   import { onMount } from 'svelte';
   import * as d3 from 'd3';
@@ -23,9 +23,12 @@
     const marginBottom = 10;
     const marginLeft = 50;
 
-    // Load data from JSON file
-    d3.json('pokemon3.json').then(data => {
-      const root = d3.hierarchy(data);
+    // Load data from JSON files
+    Promise.all([
+      d3.json('pokemon3.json'),
+      d3.json('tooltipStats.json')
+    ]).then(([pokemonData, tooltipData]) => {
+      const root = d3.hierarchy(pokemonData);
 
       const dx = 10;
       const dy = (width - marginRight - marginLeft) / (1 + root.height);
@@ -99,7 +102,27 @@
           .attr('stroke-linejoin', 'round')
           .attr('stroke-width', 3)
           .attr('stroke', 'white')
-          .attr('paint-order', 'stroke');
+          .attr('paint-order', 'stroke')
+          // Add tooltip functionality
+          .on('mouseover', (event, d) => {
+            const tooltip = d3.select('body').append('div')
+              .attr('class', 'tooltip')
+              .style('position', 'absolute')
+              .style('background-color', 'white')
+              .style('border', 'solid')
+              .style('border-width', '1px')
+              .style('border-radius', '5px')
+              .style('padding', '10px')
+              .text(tooltipData[d.data.name]); // Use the tooltip data from the external file
+
+            // Position the tooltip relative to the mouse pointer
+            tooltip.style('left', (event.pageX + 10) + 'px')
+              .style('top', (event.pageY + 10) + 'px');
+          })
+          .on('mouseout', () => {
+            // Remove the tooltip when mouse is out
+            d3.selectAll('.tooltip').remove();
+          });
 
         const nodeUpdate = node.merge(nodeEnter).transition(transition)
           .attr('transform', d => `translate(${d.y},${d.x})`)
@@ -154,5 +177,9 @@
   p {  
     padding-left: 75px;  
     padding-right: 80px;
-  }  
+  } 
+
+  .tooltip {
+    /* Define tooltip styles here */
+  }
 </style>

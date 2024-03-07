@@ -1,0 +1,7211 @@
+{
+  "Bulbasaur": {
+    "attack": 49,
+    "classfication": "Seed Pok\u00e9mon",
+    "defense": 49,
+    "hp": 45,
+    "sp_attack": 65,
+    "sp_defense": 65,
+    "speed": 45
+  },
+  "Ivysaur": {
+    "attack": 62,
+    "classfication": "Seed Pok\u00e9mon",
+    "defense": 63,
+    "hp": 60,
+    "sp_attack": 80,
+    "sp_defense": 80,
+    "speed": 60
+  },
+  "Venusaur": {
+    "attack": 100,
+    "classfication": "Seed Pok\u00e9mon",
+    "defense": 123,
+    "hp": 80,
+    "sp_attack": 122,
+    "sp_defense": 120,
+    "speed": 80
+  },
+  "Charmander": {
+    "attack": 52,
+    "classfication": "Lizard Pok\u00e9mon",
+    "defense": 43,
+    "hp": 39,
+    "sp_attack": 60,
+    "sp_defense": 50,
+    "speed": 65
+  },
+  "Charmeleon": {
+    "attack": 64,
+    "classfication": "Flame Pok\u00e9mon",
+    "defense": 58,
+    "hp": 58,
+    "sp_attack": 80,
+    "sp_defense": 65,
+    "speed": 80
+  },
+  "Charizard": {
+    "attack": 104,
+    "classfication": "Flame Pok\u00e9mon",
+    "defense": 78,
+    "hp": 78,
+    "sp_attack": 159,
+    "sp_defense": 115,
+    "speed": 100
+  },
+  "Squirtle": {
+    "attack": 48,
+    "classfication": "Tiny Turtle Pok\u00e9mon",
+    "defense": 65,
+    "hp": 44,
+    "sp_attack": 50,
+    "sp_defense": 64,
+    "speed": 43
+  },
+  "Wartortle": {
+    "attack": 63,
+    "classfication": "Turtle Pok\u00e9mon",
+    "defense": 80,
+    "hp": 59,
+    "sp_attack": 65,
+    "sp_defense": 80,
+    "speed": 58
+  },
+  "Blastoise": {
+    "attack": 103,
+    "classfication": "Shellfish Pok\u00e9mon",
+    "defense": 120,
+    "hp": 79,
+    "sp_attack": 135,
+    "sp_defense": 115,
+    "speed": 78
+  },
+  "Caterpie": {
+    "attack": 30,
+    "classfication": "Worm Pok\u00e9mon",
+    "defense": 35,
+    "hp": 45,
+    "sp_attack": 20,
+    "sp_defense": 20,
+    "speed": 45
+  },
+  "Metapod": {
+    "attack": 20,
+    "classfication": "Cocoon Pok\u00e9mon",
+    "defense": 55,
+    "hp": 50,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 30
+  },
+  "Butterfree": {
+    "attack": 45,
+    "classfication": "Butterfly Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 90,
+    "sp_defense": 80,
+    "speed": 70
+  },
+  "Weedle": {
+    "attack": 35,
+    "classfication": "Hairy Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 20,
+    "sp_defense": 20,
+    "speed": 50
+  },
+  "Kakuna": {
+    "attack": 25,
+    "classfication": "Cocoon Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 35
+  },
+  "Beedrill": {
+    "attack": 150,
+    "classfication": "Poison Bee Pok\u00e9mon",
+    "defense": 40,
+    "hp": 65,
+    "sp_attack": 15,
+    "sp_defense": 80,
+    "speed": 145
+  },
+  "Pidgey": {
+    "attack": 45,
+    "classfication": "Tiny Bird Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 56
+  },
+  "Pidgeotto": {
+    "attack": 60,
+    "classfication": "Bird Pok\u00e9mon",
+    "defense": 55,
+    "hp": 63,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 71
+  },
+  "Pidgeot": {
+    "attack": 80,
+    "classfication": "Bird Pok\u00e9mon",
+    "defense": 80,
+    "hp": 83,
+    "sp_attack": 135,
+    "sp_defense": 80,
+    "speed": 121
+  },
+  "Rattata": {
+    "attack": 56,
+    "classfication": "Mouse Pok\u00e9mon",
+    "defense": 35,
+    "hp": 30,
+    "sp_attack": 25,
+    "sp_defense": 35,
+    "speed": 72
+  },
+  "Raticate": {
+    "attack": 71,
+    "classfication": "Mouse Pok\u00e9mon",
+    "defense": 70,
+    "hp": 75,
+    "sp_attack": 40,
+    "sp_defense": 80,
+    "speed": 77
+  },
+  "Spearow": {
+    "attack": 60,
+    "classfication": "Tiny Bird Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 31,
+    "sp_defense": 31,
+    "speed": 70
+  },
+  "Fearow": {
+    "attack": 90,
+    "classfication": "Beak Pok\u00e9mon",
+    "defense": 65,
+    "hp": 65,
+    "sp_attack": 61,
+    "sp_defense": 61,
+    "speed": 100
+  },
+  "Ekans": {
+    "attack": 60,
+    "classfication": "Snake Pok\u00e9mon",
+    "defense": 44,
+    "hp": 35,
+    "sp_attack": 40,
+    "sp_defense": 54,
+    "speed": 55
+  },
+  "Arbok": {
+    "attack": 95,
+    "classfication": "Cobra Pok\u00e9mon",
+    "defense": 69,
+    "hp": 60,
+    "sp_attack": 65,
+    "sp_defense": 79,
+    "speed": 80
+  },
+  "Pikachu": {
+    "attack": 55,
+    "classfication": "Mouse Pok\u00e9mon",
+    "defense": 40,
+    "hp": 35,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 90
+  },
+  "Raichu": {
+    "attack": 85,
+    "classfication": "Mouse Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 95,
+    "sp_defense": 85,
+    "speed": 110
+  },
+  "Sandshrew": {
+    "attack": 75,
+    "classfication": "Mouse Pok\u00e9mon",
+    "defense": 90,
+    "hp": 50,
+    "sp_attack": 10,
+    "sp_defense": 35,
+    "speed": 40
+  },
+  "Sandslash": {
+    "attack": 100,
+    "classfication": "Mouse Pok\u00e9mon",
+    "defense": 120,
+    "hp": 75,
+    "sp_attack": 25,
+    "sp_defense": 65,
+    "speed": 65
+  },
+  "Nidoran\u2640": {
+    "attack": 47,
+    "classfication": "Poison Pin Pok\u00e9mon",
+    "defense": 52,
+    "hp": 55,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 41
+  },
+  "Nidorina": {
+    "attack": 62,
+    "classfication": "Poison Pin Pok\u00e9mon",
+    "defense": 67,
+    "hp": 70,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 56
+  },
+  "Nidoqueen": {
+    "attack": 92,
+    "classfication": "Drill Pok\u00e9mon",
+    "defense": 87,
+    "hp": 90,
+    "sp_attack": 75,
+    "sp_defense": 85,
+    "speed": 76
+  },
+  "Nidoran\u2642": {
+    "attack": 57,
+    "classfication": "Poison Pin Pok\u00e9mon",
+    "defense": 40,
+    "hp": 46,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 50
+  },
+  "Nidorino": {
+    "attack": 72,
+    "classfication": "Poison Pin Pok\u00e9mon",
+    "defense": 57,
+    "hp": 61,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 65
+  },
+  "Nidoking": {
+    "attack": 102,
+    "classfication": "Drill Pok\u00e9mon",
+    "defense": 77,
+    "hp": 81,
+    "sp_attack": 85,
+    "sp_defense": 75,
+    "speed": 85
+  },
+  "Clefairy": {
+    "attack": 45,
+    "classfication": "Fairy Pok\u00e9mon",
+    "defense": 48,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 65,
+    "speed": 35
+  },
+  "Clefable": {
+    "attack": 70,
+    "classfication": "Fairy Pok\u00e9mon",
+    "defense": 73,
+    "hp": 95,
+    "sp_attack": 95,
+    "sp_defense": 90,
+    "speed": 60
+  },
+  "Vulpix": {
+    "attack": 41,
+    "classfication": "Fox Pok\u00e9mon",
+    "defense": 40,
+    "hp": 38,
+    "sp_attack": 50,
+    "sp_defense": 65,
+    "speed": 65
+  },
+  "Ninetales": {
+    "attack": 67,
+    "classfication": "Fox Pok\u00e9mon",
+    "defense": 75,
+    "hp": 73,
+    "sp_attack": 81,
+    "sp_defense": 100,
+    "speed": 109
+  },
+  "Jigglypuff": {
+    "attack": 45,
+    "classfication": "Balloon Pok\u00e9mon",
+    "defense": 20,
+    "hp": 115,
+    "sp_attack": 45,
+    "sp_defense": 25,
+    "speed": 20
+  },
+  "Wigglytuff": {
+    "attack": 70,
+    "classfication": "Balloon Pok\u00e9mon",
+    "defense": 45,
+    "hp": 140,
+    "sp_attack": 85,
+    "sp_defense": 50,
+    "speed": 45
+  },
+  "Zubat": {
+    "attack": 45,
+    "classfication": "Bat Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 30,
+    "sp_defense": 40,
+    "speed": 55
+  },
+  "Golbat": {
+    "attack": 80,
+    "classfication": "Bat Pok\u00e9mon",
+    "defense": 70,
+    "hp": 75,
+    "sp_attack": 65,
+    "sp_defense": 75,
+    "speed": 90
+  },
+  "Oddish": {
+    "attack": 50,
+    "classfication": "Weed Pok\u00e9mon",
+    "defense": 55,
+    "hp": 45,
+    "sp_attack": 75,
+    "sp_defense": 65,
+    "speed": 30
+  },
+  "Gloom": {
+    "attack": 65,
+    "classfication": "Weed Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 85,
+    "sp_defense": 75,
+    "speed": 40
+  },
+  "Vileplume": {
+    "attack": 80,
+    "classfication": "Flower Pok\u00e9mon",
+    "defense": 85,
+    "hp": 75,
+    "sp_attack": 110,
+    "sp_defense": 90,
+    "speed": 50
+  },
+  "Paras": {
+    "attack": 70,
+    "classfication": "Mushroom Pok\u00e9mon",
+    "defense": 55,
+    "hp": 35,
+    "sp_attack": 45,
+    "sp_defense": 55,
+    "speed": 25
+  },
+  "Parasect": {
+    "attack": 95,
+    "classfication": "Mushroom Pok\u00e9mon",
+    "defense": 80,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 80,
+    "speed": 30
+  },
+  "Venonat": {
+    "attack": 55,
+    "classfication": "Insect Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 40,
+    "sp_defense": 55,
+    "speed": 45
+  },
+  "Venomoth": {
+    "attack": 65,
+    "classfication": "Poison Moth Pok\u00e9mon",
+    "defense": 60,
+    "hp": 70,
+    "sp_attack": 90,
+    "sp_defense": 75,
+    "speed": 90
+  },
+  "Diglett": {
+    "attack": 55,
+    "classfication": "Mole Pok\u00e9mon",
+    "defense": 30,
+    "hp": 10,
+    "sp_attack": 35,
+    "sp_defense": 45,
+    "speed": 90
+  },
+  "Dugtrio": {
+    "attack": 100,
+    "classfication": "Mole Pok\u00e9mon",
+    "defense": 60,
+    "hp": 35,
+    "sp_attack": 50,
+    "sp_defense": 70,
+    "speed": 110
+  },
+  "Meowth": {
+    "attack": 35,
+    "classfication": "Scratch Cat Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 50,
+    "sp_defense": 40,
+    "speed": 90
+  },
+  "Persian": {
+    "attack": 60,
+    "classfication": "Classy Cat Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 75,
+    "sp_defense": 65,
+    "speed": 115
+  },
+  "Psyduck": {
+    "attack": 52,
+    "classfication": "Duck Pok\u00e9mon",
+    "defense": 48,
+    "hp": 50,
+    "sp_attack": 65,
+    "sp_defense": 50,
+    "speed": 55
+  },
+  "Golduck": {
+    "attack": 82,
+    "classfication": "Duck Pok\u00e9mon",
+    "defense": 78,
+    "hp": 80,
+    "sp_attack": 95,
+    "sp_defense": 80,
+    "speed": 85
+  },
+  "Mankey": {
+    "attack": 80,
+    "classfication": "Pig Monkey Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 35,
+    "sp_defense": 45,
+    "speed": 70
+  },
+  "Primeape": {
+    "attack": 105,
+    "classfication": "Pig Monkey Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 95
+  },
+  "Growlithe": {
+    "attack": 70,
+    "classfication": "Puppy Pok\u00e9mon",
+    "defense": 45,
+    "hp": 55,
+    "sp_attack": 70,
+    "sp_defense": 50,
+    "speed": 60
+  },
+  "Arcanine": {
+    "attack": 110,
+    "classfication": "Legendary Pok\u00e9mon",
+    "defense": 80,
+    "hp": 90,
+    "sp_attack": 100,
+    "sp_defense": 80,
+    "speed": 95
+  },
+  "Poliwag": {
+    "attack": 50,
+    "classfication": "Tadpole Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 90
+  },
+  "Poliwhirl": {
+    "attack": 65,
+    "classfication": "Tadpole Pok\u00e9mon",
+    "defense": 65,
+    "hp": 65,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 90
+  },
+  "Poliwrath": {
+    "attack": 95,
+    "classfication": "Tadpole Pok\u00e9mon",
+    "defense": 95,
+    "hp": 90,
+    "sp_attack": 70,
+    "sp_defense": 90,
+    "speed": 70
+  },
+  "Abra": {
+    "attack": 20,
+    "classfication": "Psi Pok\u00e9mon",
+    "defense": 15,
+    "hp": 25,
+    "sp_attack": 105,
+    "sp_defense": 55,
+    "speed": 90
+  },
+  "Kadabra": {
+    "attack": 35,
+    "classfication": "Psi Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 120,
+    "sp_defense": 70,
+    "speed": 105
+  },
+  "Alakazam": {
+    "attack": 50,
+    "classfication": "Psi Pok\u00e9mon",
+    "defense": 65,
+    "hp": 55,
+    "sp_attack": 175,
+    "sp_defense": 105,
+    "speed": 150
+  },
+  "Machop": {
+    "attack": 80,
+    "classfication": "Superpower Pok\u00e9mon",
+    "defense": 50,
+    "hp": 70,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 35
+  },
+  "Machoke": {
+    "attack": 100,
+    "classfication": "Superpower Pok\u00e9mon",
+    "defense": 70,
+    "hp": 80,
+    "sp_attack": 50,
+    "sp_defense": 60,
+    "speed": 45
+  },
+  "Machamp": {
+    "attack": 130,
+    "classfication": "Superpower Pok\u00e9mon",
+    "defense": 80,
+    "hp": 90,
+    "sp_attack": 65,
+    "sp_defense": 85,
+    "speed": 55
+  },
+  "Bellsprout": {
+    "attack": 75,
+    "classfication": "Flower Pok\u00e9mon",
+    "defense": 35,
+    "hp": 50,
+    "sp_attack": 70,
+    "sp_defense": 30,
+    "speed": 40
+  },
+  "Weepinbell": {
+    "attack": 90,
+    "classfication": "Flycatcher Pok\u00e9mon",
+    "defense": 50,
+    "hp": 65,
+    "sp_attack": 85,
+    "sp_defense": 45,
+    "speed": 55
+  },
+  "Victreebel": {
+    "attack": 105,
+    "classfication": "Flycatcher Pok\u00e9mon",
+    "defense": 65,
+    "hp": 80,
+    "sp_attack": 100,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Tentacool": {
+    "attack": 40,
+    "classfication": "Jellyfish Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 50,
+    "sp_defense": 100,
+    "speed": 70
+  },
+  "Tentacruel": {
+    "attack": 70,
+    "classfication": "Jellyfish Pok\u00e9mon",
+    "defense": 65,
+    "hp": 80,
+    "sp_attack": 80,
+    "sp_defense": 120,
+    "speed": 100
+  },
+  "Geodude": {
+    "attack": 80,
+    "classfication": "Rock Pok\u00e9mon",
+    "defense": 100,
+    "hp": 40,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 20
+  },
+  "Graveler": {
+    "attack": 95,
+    "classfication": "Rock Pok\u00e9mon",
+    "defense": 115,
+    "hp": 55,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 35
+  },
+  "Golem": {
+    "attack": 120,
+    "classfication": "Megaton Pok\u00e9mon",
+    "defense": 130,
+    "hp": 80,
+    "sp_attack": 55,
+    "sp_defense": 65,
+    "speed": 45
+  },
+  "Ponyta": {
+    "attack": 85,
+    "classfication": "Fire Horse Pok\u00e9mon",
+    "defense": 55,
+    "hp": 50,
+    "sp_attack": 65,
+    "sp_defense": 65,
+    "speed": 90
+  },
+  "Rapidash": {
+    "attack": 100,
+    "classfication": "Fire Horse Pok\u00e9mon",
+    "defense": 70,
+    "hp": 65,
+    "sp_attack": 80,
+    "sp_defense": 80,
+    "speed": 105
+  },
+  "Slowpoke": {
+    "attack": 65,
+    "classfication": "Dopey Pok\u00e9mon",
+    "defense": 65,
+    "hp": 90,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 15
+  },
+  "Slowbro": {
+    "attack": 75,
+    "classfication": "Hermit Crab Pok\u00e9mon",
+    "defense": 180,
+    "hp": 95,
+    "sp_attack": 130,
+    "sp_defense": 80,
+    "speed": 30
+  },
+  "Magnemite": {
+    "attack": 35,
+    "classfication": "Magnet Pok\u00e9mon",
+    "defense": 70,
+    "hp": 25,
+    "sp_attack": 95,
+    "sp_defense": 55,
+    "speed": 45
+  },
+  "Magneton": {
+    "attack": 60,
+    "classfication": "Magnet Pok\u00e9mon",
+    "defense": 95,
+    "hp": 50,
+    "sp_attack": 120,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Farfetch'd": {
+    "attack": 90,
+    "classfication": "Wild Duck Pok\u00e9mon",
+    "defense": 55,
+    "hp": 52,
+    "sp_attack": 58,
+    "sp_defense": 62,
+    "speed": 60
+  },
+  "Doduo": {
+    "attack": 85,
+    "classfication": "Twin Bird Pok\u00e9mon",
+    "defense": 45,
+    "hp": 35,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 75
+  },
+  "Dodrio": {
+    "attack": 110,
+    "classfication": "Triple Bird Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 110
+  },
+  "Seel": {
+    "attack": 45,
+    "classfication": "Sea Lion Pok\u00e9mon",
+    "defense": 55,
+    "hp": 65,
+    "sp_attack": 45,
+    "sp_defense": 70,
+    "speed": 45
+  },
+  "Dewgong": {
+    "attack": 70,
+    "classfication": "Sea Lion Pok\u00e9mon",
+    "defense": 80,
+    "hp": 90,
+    "sp_attack": 70,
+    "sp_defense": 95,
+    "speed": 70
+  },
+  "Grimer": {
+    "attack": 80,
+    "classfication": "Sludge Pok\u00e9mon",
+    "defense": 50,
+    "hp": 80,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 25
+  },
+  "Muk": {
+    "attack": 105,
+    "classfication": "Sludge Pok\u00e9mon",
+    "defense": 75,
+    "hp": 105,
+    "sp_attack": 65,
+    "sp_defense": 100,
+    "speed": 50
+  },
+  "Shellder": {
+    "attack": 65,
+    "classfication": "Bivalve Pok\u00e9mon",
+    "defense": 100,
+    "hp": 30,
+    "sp_attack": 45,
+    "sp_defense": 25,
+    "speed": 40
+  },
+  "Cloyster": {
+    "attack": 95,
+    "classfication": "Bivalve Pok\u00e9mon",
+    "defense": 180,
+    "hp": 50,
+    "sp_attack": 85,
+    "sp_defense": 45,
+    "speed": 70
+  },
+  "Gastly": {
+    "attack": 35,
+    "classfication": "Gas Pok\u00e9mon",
+    "defense": 30,
+    "hp": 30,
+    "sp_attack": 100,
+    "sp_defense": 35,
+    "speed": 80
+  },
+  "Haunter": {
+    "attack": 50,
+    "classfication": "Gas Pok\u00e9mon",
+    "defense": 45,
+    "hp": 45,
+    "sp_attack": 115,
+    "sp_defense": 55,
+    "speed": 95
+  },
+  "Gengar": {
+    "attack": 65,
+    "classfication": "Shadow Pok\u00e9mon",
+    "defense": 80,
+    "hp": 60,
+    "sp_attack": 170,
+    "sp_defense": 95,
+    "speed": 130
+  },
+  "Onix": {
+    "attack": 45,
+    "classfication": "Rock Snake Pok\u00e9mon",
+    "defense": 160,
+    "hp": 35,
+    "sp_attack": 30,
+    "sp_defense": 45,
+    "speed": 70
+  },
+  "Drowzee": {
+    "attack": 48,
+    "classfication": "Hypnosis Pok\u00e9mon",
+    "defense": 45,
+    "hp": 60,
+    "sp_attack": 43,
+    "sp_defense": 90,
+    "speed": 42
+  },
+  "Hypno": {
+    "attack": 73,
+    "classfication": "Hypnosis Pok\u00e9mon",
+    "defense": 70,
+    "hp": 85,
+    "sp_attack": 73,
+    "sp_defense": 115,
+    "speed": 67
+  },
+  "Krabby": {
+    "attack": 105,
+    "classfication": "River Crab Pok\u00e9mon",
+    "defense": 90,
+    "hp": 30,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 50
+  },
+  "Kingler": {
+    "attack": 130,
+    "classfication": "Pincer Pok\u00e9mon",
+    "defense": 115,
+    "hp": 55,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 75
+  },
+  "Voltorb": {
+    "attack": 30,
+    "classfication": "Ball Pok\u00e9mon",
+    "defense": 50,
+    "hp": 40,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 100
+  },
+  "Electrode": {
+    "attack": 50,
+    "classfication": "Ball Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 80,
+    "sp_defense": 80,
+    "speed": 150
+  },
+  "Exeggcute": {
+    "attack": 40,
+    "classfication": "Egg Pok\u00e9mon",
+    "defense": 80,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 45,
+    "speed": 40
+  },
+  "Exeggutor": {
+    "attack": 105,
+    "classfication": "Coconut Pok\u00e9mon",
+    "defense": 85,
+    "hp": 95,
+    "sp_attack": 125,
+    "sp_defense": 75,
+    "speed": 45
+  },
+  "Cubone": {
+    "attack": 50,
+    "classfication": "Lonely Pok\u00e9mon",
+    "defense": 95,
+    "hp": 50,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 35
+  },
+  "Marowak": {
+    "attack": 80,
+    "classfication": "Bone Keeper Pok\u00e9mon",
+    "defense": 110,
+    "hp": 60,
+    "sp_attack": 50,
+    "sp_defense": 80,
+    "speed": 45
+  },
+  "Hitmonlee": {
+    "attack": 120,
+    "classfication": "Kicking Pok\u00e9mon",
+    "defense": 53,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 110,
+    "speed": 87
+  },
+  "Hitmonchan": {
+    "attack": 105,
+    "classfication": "Punching Pok\u00e9mon",
+    "defense": 79,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 110,
+    "speed": 76
+  },
+  "Lickitung": {
+    "attack": 55,
+    "classfication": "Licking Pok\u00e9mon",
+    "defense": 75,
+    "hp": 90,
+    "sp_attack": 60,
+    "sp_defense": 75,
+    "speed": 30
+  },
+  "Koffing": {
+    "attack": 65,
+    "classfication": "Poison Gas Pok\u00e9mon",
+    "defense": 95,
+    "hp": 40,
+    "sp_attack": 60,
+    "sp_defense": 45,
+    "speed": 35
+  },
+  "Weezing": {
+    "attack": 90,
+    "classfication": "Poison Gas Pok\u00e9mon",
+    "defense": 120,
+    "hp": 65,
+    "sp_attack": 85,
+    "sp_defense": 70,
+    "speed": 60
+  },
+  "Rhyhorn": {
+    "attack": 85,
+    "classfication": "Spikes Pok\u00e9mon",
+    "defense": 95,
+    "hp": 80,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 25
+  },
+  "Rhydon": {
+    "attack": 130,
+    "classfication": "Drill Pok\u00e9mon",
+    "defense": 120,
+    "hp": 105,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 40
+  },
+  "Chansey": {
+    "attack": 5,
+    "classfication": "Egg Pok\u00e9mon",
+    "defense": 5,
+    "hp": 250,
+    "sp_attack": 35,
+    "sp_defense": 105,
+    "speed": 50
+  },
+  "Tangela": {
+    "attack": 55,
+    "classfication": "Vine Pok\u00e9mon",
+    "defense": 115,
+    "hp": 65,
+    "sp_attack": 100,
+    "sp_defense": 40,
+    "speed": 60
+  },
+  "Kangaskhan": {
+    "attack": 125,
+    "classfication": "Parent Pok\u00e9mon",
+    "defense": 100,
+    "hp": 105,
+    "sp_attack": 60,
+    "sp_defense": 100,
+    "speed": 100
+  },
+  "Horsea": {
+    "attack": 40,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 70,
+    "hp": 30,
+    "sp_attack": 70,
+    "sp_defense": 25,
+    "speed": 60
+  },
+  "Seadra": {
+    "attack": 65,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 95,
+    "hp": 55,
+    "sp_attack": 95,
+    "sp_defense": 45,
+    "speed": 85
+  },
+  "Goldeen": {
+    "attack": 67,
+    "classfication": "Goldfish Pok\u00e9mon",
+    "defense": 60,
+    "hp": 45,
+    "sp_attack": 35,
+    "sp_defense": 50,
+    "speed": 63
+  },
+  "Seaking": {
+    "attack": 92,
+    "classfication": "Goldfish Pok\u00e9mon",
+    "defense": 65,
+    "hp": 80,
+    "sp_attack": 65,
+    "sp_defense": 80,
+    "speed": 68
+  },
+  "Staryu": {
+    "attack": 45,
+    "classfication": "Starshape Pok\u00e9mon",
+    "defense": 55,
+    "hp": 30,
+    "sp_attack": 70,
+    "sp_defense": 55,
+    "speed": 85
+  },
+  "Starmie": {
+    "attack": 75,
+    "classfication": "Mysterious Pok\u00e9mon",
+    "defense": 85,
+    "hp": 60,
+    "sp_attack": 100,
+    "sp_defense": 85,
+    "speed": 115
+  },
+  "Mr. Mime": {
+    "attack": 45,
+    "classfication": "Barrier Pok\u00e9mon",
+    "defense": 65,
+    "hp": 40,
+    "sp_attack": 100,
+    "sp_defense": 120,
+    "speed": 90
+  },
+  "Scyther": {
+    "attack": 110,
+    "classfication": "Mantis Pok\u00e9mon",
+    "defense": 80,
+    "hp": 70,
+    "sp_attack": 55,
+    "sp_defense": 80,
+    "speed": 105
+  },
+  "Jynx": {
+    "attack": 50,
+    "classfication": "Humanshape Pok\u00e9mon",
+    "defense": 35,
+    "hp": 65,
+    "sp_attack": 115,
+    "sp_defense": 95,
+    "speed": 95
+  },
+  "Electabuzz": {
+    "attack": 83,
+    "classfication": "Electric Pok\u00e9mon",
+    "defense": 57,
+    "hp": 65,
+    "sp_attack": 95,
+    "sp_defense": 85,
+    "speed": 105
+  },
+  "Magmar": {
+    "attack": 95,
+    "classfication": "Spitfire Pok\u00e9mon",
+    "defense": 57,
+    "hp": 65,
+    "sp_attack": 100,
+    "sp_defense": 85,
+    "speed": 93
+  },
+  "Pinsir": {
+    "attack": 155,
+    "classfication": "Stagbeetle Pok\u00e9mon",
+    "defense": 120,
+    "hp": 65,
+    "sp_attack": 65,
+    "sp_defense": 90,
+    "speed": 105
+  },
+  "Tauros": {
+    "attack": 100,
+    "classfication": "Wild Bull Pok\u00e9mon",
+    "defense": 95,
+    "hp": 75,
+    "sp_attack": 40,
+    "sp_defense": 70,
+    "speed": 110
+  },
+  "Magikarp": {
+    "attack": 10,
+    "classfication": "Fish Pok\u00e9mon",
+    "defense": 55,
+    "hp": 20,
+    "sp_attack": 15,
+    "sp_defense": 20,
+    "speed": 80
+  },
+  "Gyarados": {
+    "attack": 155,
+    "classfication": "Atrocious Pok\u00e9mon",
+    "defense": 109,
+    "hp": 95,
+    "sp_attack": 70,
+    "sp_defense": 130,
+    "speed": 81
+  },
+  "Lapras": {
+    "attack": 85,
+    "classfication": "Transport Pok\u00e9mon",
+    "defense": 80,
+    "hp": 130,
+    "sp_attack": 85,
+    "sp_defense": 95,
+    "speed": 60
+  },
+  "Ditto": {
+    "attack": 48,
+    "classfication": "Transform Pok\u00e9mon",
+    "defense": 48,
+    "hp": 48,
+    "sp_attack": 48,
+    "sp_defense": 48,
+    "speed": 48
+  },
+  "Eevee": {
+    "attack": 55,
+    "classfication": "Evolution Pok\u00e9mon",
+    "defense": 50,
+    "hp": 55,
+    "sp_attack": 45,
+    "sp_defense": 65,
+    "speed": 55
+  },
+  "Vaporeon": {
+    "attack": 65,
+    "classfication": "Bubble Jet Pok\u00e9mon",
+    "defense": 60,
+    "hp": 130,
+    "sp_attack": 110,
+    "sp_defense": 95,
+    "speed": 65
+  },
+  "Jolteon": {
+    "attack": 65,
+    "classfication": "Lightning Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 110,
+    "sp_defense": 95,
+    "speed": 130
+  },
+  "Flareon": {
+    "attack": 130,
+    "classfication": "Flame Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 95,
+    "sp_defense": 110,
+    "speed": 65
+  },
+  "Porygon": {
+    "attack": 60,
+    "classfication": "Virtual Pok\u00e9mon",
+    "defense": 70,
+    "hp": 65,
+    "sp_attack": 85,
+    "sp_defense": 75,
+    "speed": 40
+  },
+  "Omanyte": {
+    "attack": 40,
+    "classfication": "Spiral Pok\u00e9mon",
+    "defense": 100,
+    "hp": 35,
+    "sp_attack": 90,
+    "sp_defense": 55,
+    "speed": 35
+  },
+  "Omastar": {
+    "attack": 60,
+    "classfication": "Spiral Pok\u00e9mon",
+    "defense": 125,
+    "hp": 70,
+    "sp_attack": 115,
+    "sp_defense": 70,
+    "speed": 55
+  },
+  "Kabuto": {
+    "attack": 80,
+    "classfication": "Shellfish Pok\u00e9mon",
+    "defense": 90,
+    "hp": 30,
+    "sp_attack": 55,
+    "sp_defense": 45,
+    "speed": 55
+  },
+  "Kabutops": {
+    "attack": 115,
+    "classfication": "Shellfish Pok\u00e9mon",
+    "defense": 105,
+    "hp": 60,
+    "sp_attack": 65,
+    "sp_defense": 70,
+    "speed": 80
+  },
+  "Aerodactyl": {
+    "attack": 135,
+    "classfication": "Fossil Pok\u00e9mon",
+    "defense": 85,
+    "hp": 80,
+    "sp_attack": 70,
+    "sp_defense": 95,
+    "speed": 150
+  },
+  "Snorlax": {
+    "attack": 110,
+    "classfication": "Sleeping Pok\u00e9mon",
+    "defense": 65,
+    "hp": 160,
+    "sp_attack": 65,
+    "sp_defense": 110,
+    "speed": 30
+  },
+  "Articuno": {
+    "attack": 85,
+    "classfication": "Freeze Pok\u00e9mon",
+    "defense": 100,
+    "hp": 90,
+    "sp_attack": 95,
+    "sp_defense": 125,
+    "speed": 85
+  },
+  "Zapdos": {
+    "attack": 90,
+    "classfication": "Electric Pok\u00e9mon",
+    "defense": 85,
+    "hp": 90,
+    "sp_attack": 125,
+    "sp_defense": 90,
+    "speed": 100
+  },
+  "Moltres": {
+    "attack": 100,
+    "classfication": "Flame Pok\u00e9mon",
+    "defense": 90,
+    "hp": 90,
+    "sp_attack": 125,
+    "sp_defense": 85,
+    "speed": 90
+  },
+  "Dratini": {
+    "attack": 64,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 45,
+    "hp": 41,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 50
+  },
+  "Dragonair": {
+    "attack": 84,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 65,
+    "hp": 61,
+    "sp_attack": 70,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Dragonite": {
+    "attack": 134,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 95,
+    "hp": 91,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 80
+  },
+  "Mewtwo": {
+    "attack": 150,
+    "classfication": "Genetic Pok\u00e9mon",
+    "defense": 70,
+    "hp": 106,
+    "sp_attack": 194,
+    "sp_defense": 120,
+    "speed": 140
+  },
+  "Mew": {
+    "attack": 100,
+    "classfication": "New Species Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 100
+  },
+  "Chikorita": {
+    "attack": 49,
+    "classfication": "Leaf Pok\u00e9mon",
+    "defense": 65,
+    "hp": 45,
+    "sp_attack": 49,
+    "sp_defense": 65,
+    "speed": 45
+  },
+  "Bayleef": {
+    "attack": 62,
+    "classfication": "Leaf Pok\u00e9mon",
+    "defense": 80,
+    "hp": 60,
+    "sp_attack": 63,
+    "sp_defense": 80,
+    "speed": 60
+  },
+  "Meganium": {
+    "attack": 82,
+    "classfication": "Herb Pok\u00e9mon",
+    "defense": 100,
+    "hp": 80,
+    "sp_attack": 83,
+    "sp_defense": 100,
+    "speed": 80
+  },
+  "Cyndaquil": {
+    "attack": 52,
+    "classfication": "Fire Mouse Pok\u00e9mon",
+    "defense": 43,
+    "hp": 39,
+    "sp_attack": 60,
+    "sp_defense": 50,
+    "speed": 65
+  },
+  "Quilava": {
+    "attack": 64,
+    "classfication": "Volcano Pok\u00e9mon",
+    "defense": 58,
+    "hp": 58,
+    "sp_attack": 80,
+    "sp_defense": 65,
+    "speed": 80
+  },
+  "Typhlosion": {
+    "attack": 84,
+    "classfication": "Volcano Pok\u00e9mon",
+    "defense": 78,
+    "hp": 78,
+    "sp_attack": 109,
+    "sp_defense": 85,
+    "speed": 100
+  },
+  "Totodile": {
+    "attack": 65,
+    "classfication": "Big Jaw Pok\u00e9mon",
+    "defense": 64,
+    "hp": 50,
+    "sp_attack": 44,
+    "sp_defense": 48,
+    "speed": 43
+  },
+  "Croconaw": {
+    "attack": 80,
+    "classfication": "Big Jaw Pok\u00e9mon",
+    "defense": 80,
+    "hp": 65,
+    "sp_attack": 59,
+    "sp_defense": 63,
+    "speed": 58
+  },
+  "Feraligatr": {
+    "attack": 105,
+    "classfication": "Big Jaw Pok\u00e9mon",
+    "defense": 100,
+    "hp": 85,
+    "sp_attack": 79,
+    "sp_defense": 83,
+    "speed": 78
+  },
+  "Sentret": {
+    "attack": 46,
+    "classfication": "Scout Pok\u00e9mon",
+    "defense": 34,
+    "hp": 35,
+    "sp_attack": 35,
+    "sp_defense": 45,
+    "speed": 20
+  },
+  "Furret": {
+    "attack": 76,
+    "classfication": "Long Body Pok\u00e9mon",
+    "defense": 64,
+    "hp": 85,
+    "sp_attack": 45,
+    "sp_defense": 55,
+    "speed": 90
+  },
+  "Hoothoot": {
+    "attack": 30,
+    "classfication": "Owl Pok\u00e9mon",
+    "defense": 30,
+    "hp": 60,
+    "sp_attack": 36,
+    "sp_defense": 56,
+    "speed": 50
+  },
+  "Noctowl": {
+    "attack": 50,
+    "classfication": "Owl Pok\u00e9mon",
+    "defense": 50,
+    "hp": 100,
+    "sp_attack": 86,
+    "sp_defense": 96,
+    "speed": 70
+  },
+  "Ledyba": {
+    "attack": 20,
+    "classfication": "Five Star Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 40,
+    "sp_defense": 80,
+    "speed": 55
+  },
+  "Ledian": {
+    "attack": 35,
+    "classfication": "Five Star Pok\u00e9mon",
+    "defense": 50,
+    "hp": 55,
+    "sp_attack": 55,
+    "sp_defense": 110,
+    "speed": 85
+  },
+  "Spinarak": {
+    "attack": 60,
+    "classfication": "String Spit Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 30
+  },
+  "Ariados": {
+    "attack": 90,
+    "classfication": "Long Leg Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 40
+  },
+  "Crobat": {
+    "attack": 90,
+    "classfication": "Bat Pok\u00e9mon",
+    "defense": 80,
+    "hp": 85,
+    "sp_attack": 70,
+    "sp_defense": 80,
+    "speed": 130
+  },
+  "Chinchou": {
+    "attack": 38,
+    "classfication": "Angler Pok\u00e9mon",
+    "defense": 38,
+    "hp": 75,
+    "sp_attack": 56,
+    "sp_defense": 56,
+    "speed": 67
+  },
+  "Lanturn": {
+    "attack": 58,
+    "classfication": "Light Pok\u00e9mon",
+    "defense": 58,
+    "hp": 125,
+    "sp_attack": 76,
+    "sp_defense": 76,
+    "speed": 67
+  },
+  "Pichu": {
+    "attack": 40,
+    "classfication": "Tiny Mouse Pok\u00e9mon",
+    "defense": 15,
+    "hp": 20,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 60
+  },
+  "Cleffa": {
+    "attack": 25,
+    "classfication": "Star Shape Pok\u00e9mon",
+    "defense": 28,
+    "hp": 50,
+    "sp_attack": 45,
+    "sp_defense": 55,
+    "speed": 15
+  },
+  "Igglybuff": {
+    "attack": 30,
+    "classfication": "Balloon Pok\u00e9mon",
+    "defense": 15,
+    "hp": 90,
+    "sp_attack": 40,
+    "sp_defense": 20,
+    "speed": 15
+  },
+  "Togepi": {
+    "attack": 20,
+    "classfication": "Spike Ball Pok\u00e9mon",
+    "defense": 65,
+    "hp": 35,
+    "sp_attack": 40,
+    "sp_defense": 65,
+    "speed": 20
+  },
+  "Togetic": {
+    "attack": 40,
+    "classfication": "Happiness Pok\u00e9mon",
+    "defense": 85,
+    "hp": 55,
+    "sp_attack": 80,
+    "sp_defense": 105,
+    "speed": 40
+  },
+  "Natu": {
+    "attack": 50,
+    "classfication": "Little Bird Pok\u00e9mon",
+    "defense": 45,
+    "hp": 40,
+    "sp_attack": 70,
+    "sp_defense": 45,
+    "speed": 70
+  },
+  "Xatu": {
+    "attack": 75,
+    "classfication": "Mystic Pok\u00e9mon",
+    "defense": 70,
+    "hp": 65,
+    "sp_attack": 95,
+    "sp_defense": 70,
+    "speed": 95
+  },
+  "Mareep": {
+    "attack": 40,
+    "classfication": "Wool Pok\u00e9mon",
+    "defense": 40,
+    "hp": 55,
+    "sp_attack": 65,
+    "sp_defense": 45,
+    "speed": 35
+  },
+  "Flaaffy": {
+    "attack": 55,
+    "classfication": "Wool Pok\u00e9mon",
+    "defense": 55,
+    "hp": 70,
+    "sp_attack": 80,
+    "sp_defense": 60,
+    "speed": 45
+  },
+  "Ampharos": {
+    "attack": 95,
+    "classfication": "Light Pok\u00e9mon",
+    "defense": 105,
+    "hp": 90,
+    "sp_attack": 165,
+    "sp_defense": 110,
+    "speed": 45
+  },
+  "Bellossom": {
+    "attack": 80,
+    "classfication": "Flower Pok\u00e9mon",
+    "defense": 95,
+    "hp": 75,
+    "sp_attack": 90,
+    "sp_defense": 100,
+    "speed": 50
+  },
+  "Marill": {
+    "attack": 20,
+    "classfication": "Aquamouse Pok\u00e9mon",
+    "defense": 50,
+    "hp": 70,
+    "sp_attack": 20,
+    "sp_defense": 50,
+    "speed": 40
+  },
+  "Azumarill": {
+    "attack": 50,
+    "classfication": "Aquarabbit Pok\u00e9mon",
+    "defense": 80,
+    "hp": 100,
+    "sp_attack": 60,
+    "sp_defense": 80,
+    "speed": 50
+  },
+  "Sudowoodo": {
+    "attack": 100,
+    "classfication": "Imitation Pok\u00e9mon",
+    "defense": 115,
+    "hp": 70,
+    "sp_attack": 30,
+    "sp_defense": 65,
+    "speed": 30
+  },
+  "Politoed": {
+    "attack": 75,
+    "classfication": "Frog Pok\u00e9mon",
+    "defense": 75,
+    "hp": 90,
+    "sp_attack": 90,
+    "sp_defense": 100,
+    "speed": 70
+  },
+  "Hoppip": {
+    "attack": 35,
+    "classfication": "Cottonweed Pok\u00e9mon",
+    "defense": 40,
+    "hp": 35,
+    "sp_attack": 35,
+    "sp_defense": 55,
+    "speed": 50
+  },
+  "Skiploom": {
+    "attack": 45,
+    "classfication": "Cottonweed Pok\u00e9mon",
+    "defense": 50,
+    "hp": 55,
+    "sp_attack": 45,
+    "sp_defense": 65,
+    "speed": 80
+  },
+  "Jumpluff": {
+    "attack": 55,
+    "classfication": "Cottonweed Pok\u00e9mon",
+    "defense": 70,
+    "hp": 75,
+    "sp_attack": 55,
+    "sp_defense": 95,
+    "speed": 110
+  },
+  "Aipom": {
+    "attack": 70,
+    "classfication": "Long Tail Pok\u00e9mon",
+    "defense": 55,
+    "hp": 55,
+    "sp_attack": 40,
+    "sp_defense": 55,
+    "speed": 85
+  },
+  "Sunkern": {
+    "attack": 30,
+    "classfication": "Seed Pok\u00e9mon",
+    "defense": 30,
+    "hp": 30,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 30
+  },
+  "Sunflora": {
+    "attack": 75,
+    "classfication": "Sun Pok\u00e9mon",
+    "defense": 55,
+    "hp": 75,
+    "sp_attack": 105,
+    "sp_defense": 85,
+    "speed": 30
+  },
+  "Yanma": {
+    "attack": 65,
+    "classfication": "Clear Wing Pok\u00e9mon",
+    "defense": 45,
+    "hp": 65,
+    "sp_attack": 75,
+    "sp_defense": 45,
+    "speed": 95
+  },
+  "Wooper": {
+    "attack": 45,
+    "classfication": "Water Fish Pok\u00e9mon",
+    "defense": 45,
+    "hp": 55,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 15
+  },
+  "Quagsire": {
+    "attack": 85,
+    "classfication": "Water Fish Pok\u00e9mon",
+    "defense": 85,
+    "hp": 95,
+    "sp_attack": 65,
+    "sp_defense": 65,
+    "speed": 35
+  },
+  "Espeon": {
+    "attack": 65,
+    "classfication": "Sun Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 130,
+    "sp_defense": 95,
+    "speed": 110
+  },
+  "Umbreon": {
+    "attack": 65,
+    "classfication": "Moonlight Pok\u00e9mon",
+    "defense": 110,
+    "hp": 95,
+    "sp_attack": 60,
+    "sp_defense": 130,
+    "speed": 65
+  },
+  "Murkrow": {
+    "attack": 85,
+    "classfication": "Darkness Pok\u00e9mon",
+    "defense": 42,
+    "hp": 60,
+    "sp_attack": 85,
+    "sp_defense": 42,
+    "speed": 91
+  },
+  "Slowking": {
+    "attack": 75,
+    "classfication": "Royal Pok\u00e9mon",
+    "defense": 80,
+    "hp": 95,
+    "sp_attack": 100,
+    "sp_defense": 110,
+    "speed": 30
+  },
+  "Misdreavus": {
+    "attack": 60,
+    "classfication": "Screech Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 85,
+    "sp_defense": 85,
+    "speed": 85
+  },
+  "Unown": {
+    "attack": 72,
+    "classfication": "Symbol Pok\u00e9mon",
+    "defense": 48,
+    "hp": 48,
+    "sp_attack": 72,
+    "sp_defense": 48,
+    "speed": 48
+  },
+  "Wobbuffet": {
+    "attack": 33,
+    "classfication": "Patient Pok\u00e9mon",
+    "defense": 58,
+    "hp": 190,
+    "sp_attack": 33,
+    "sp_defense": 58,
+    "speed": 33
+  },
+  "Girafarig": {
+    "attack": 80,
+    "classfication": "Long Neck Pok\u00e9mon",
+    "defense": 65,
+    "hp": 70,
+    "sp_attack": 90,
+    "sp_defense": 65,
+    "speed": 85
+  },
+  "Pineco": {
+    "attack": 65,
+    "classfication": "Bagworm Pok\u00e9mon",
+    "defense": 90,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 15
+  },
+  "Forretress": {
+    "attack": 90,
+    "classfication": "Bagworm Pok\u00e9mon",
+    "defense": 140,
+    "hp": 75,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 40
+  },
+  "Dunsparce": {
+    "attack": 70,
+    "classfication": "Land Snake Pok\u00e9mon",
+    "defense": 70,
+    "hp": 100,
+    "sp_attack": 65,
+    "sp_defense": 65,
+    "speed": 45
+  },
+  "Gligar": {
+    "attack": 75,
+    "classfication": "Flyscorpion Pok\u00e9mon",
+    "defense": 105,
+    "hp": 65,
+    "sp_attack": 35,
+    "sp_defense": 65,
+    "speed": 85
+  },
+  "Steelix": {
+    "attack": 125,
+    "classfication": "Iron Snake Pok\u00e9mon",
+    "defense": 230,
+    "hp": 75,
+    "sp_attack": 55,
+    "sp_defense": 95,
+    "speed": 30
+  },
+  "Snubbull": {
+    "attack": 80,
+    "classfication": "Fairy Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 30
+  },
+  "Granbull": {
+    "attack": 120,
+    "classfication": "Fairy Pok\u00e9mon",
+    "defense": 75,
+    "hp": 90,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 45
+  },
+  "Qwilfish": {
+    "attack": 95,
+    "classfication": "Balloon Pok\u00e9mon",
+    "defense": 85,
+    "hp": 65,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 85
+  },
+  "Scizor": {
+    "attack": 150,
+    "classfication": "Pincer Pok\u00e9mon",
+    "defense": 140,
+    "hp": 70,
+    "sp_attack": 65,
+    "sp_defense": 100,
+    "speed": 75
+  },
+  "Shuckle": {
+    "attack": 10,
+    "classfication": "Mold Pok\u00e9mon",
+    "defense": 230,
+    "hp": 20,
+    "sp_attack": 10,
+    "sp_defense": 230,
+    "speed": 5
+  },
+  "Heracross": {
+    "attack": 185,
+    "classfication": "Singlehorn Pok\u00e9mon",
+    "defense": 115,
+    "hp": 80,
+    "sp_attack": 40,
+    "sp_defense": 105,
+    "speed": 75
+  },
+  "Sneasel": {
+    "attack": 95,
+    "classfication": "Sharp Claw Pok\u00e9mon",
+    "defense": 55,
+    "hp": 55,
+    "sp_attack": 35,
+    "sp_defense": 75,
+    "speed": 115
+  },
+  "Teddiursa": {
+    "attack": 80,
+    "classfication": "Little Bear Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 40
+  },
+  "Ursaring": {
+    "attack": 130,
+    "classfication": "Hibernator Pok\u00e9mon",
+    "defense": 75,
+    "hp": 90,
+    "sp_attack": 75,
+    "sp_defense": 75,
+    "speed": 55
+  },
+  "Slugma": {
+    "attack": 40,
+    "classfication": "Lava Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 70,
+    "sp_defense": 40,
+    "speed": 20
+  },
+  "Magcargo": {
+    "attack": 50,
+    "classfication": "Lava Pok\u00e9mon",
+    "defense": 120,
+    "hp": 60,
+    "sp_attack": 90,
+    "sp_defense": 80,
+    "speed": 30
+  },
+  "Swinub": {
+    "attack": 50,
+    "classfication": "Pig Pok\u00e9mon",
+    "defense": 40,
+    "hp": 50,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 50
+  },
+  "Piloswine": {
+    "attack": 100,
+    "classfication": "Swine Pok\u00e9mon",
+    "defense": 80,
+    "hp": 100,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 50
+  },
+  "Corsola": {
+    "attack": 55,
+    "classfication": "Coral Pok\u00e9mon",
+    "defense": 95,
+    "hp": 65,
+    "sp_attack": 65,
+    "sp_defense": 95,
+    "speed": 35
+  },
+  "Remoraid": {
+    "attack": 65,
+    "classfication": "Jet Pok\u00e9mon",
+    "defense": 35,
+    "hp": 35,
+    "sp_attack": 65,
+    "sp_defense": 35,
+    "speed": 65
+  },
+  "Octillery": {
+    "attack": 105,
+    "classfication": "Jet Pok\u00e9mon",
+    "defense": 75,
+    "hp": 75,
+    "sp_attack": 105,
+    "sp_defense": 75,
+    "speed": 45
+  },
+  "Delibird": {
+    "attack": 55,
+    "classfication": "Delivery Pok\u00e9mon",
+    "defense": 45,
+    "hp": 45,
+    "sp_attack": 65,
+    "sp_defense": 45,
+    "speed": 75
+  },
+  "Mantine": {
+    "attack": 40,
+    "classfication": "Kite Pok\u00e9mon",
+    "defense": 70,
+    "hp": 85,
+    "sp_attack": 80,
+    "sp_defense": 140,
+    "speed": 70
+  },
+  "Skarmory": {
+    "attack": 80,
+    "classfication": "Armor Bird Pok\u00e9mon",
+    "defense": 140,
+    "hp": 65,
+    "sp_attack": 40,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Houndour": {
+    "attack": 60,
+    "classfication": "Dark Pok\u00e9mon",
+    "defense": 30,
+    "hp": 45,
+    "sp_attack": 80,
+    "sp_defense": 50,
+    "speed": 65
+  },
+  "Houndoom": {
+    "attack": 90,
+    "classfication": "Dark Pok\u00e9mon",
+    "defense": 90,
+    "hp": 75,
+    "sp_attack": 140,
+    "sp_defense": 90,
+    "speed": 115
+  },
+  "Kingdra": {
+    "attack": 95,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 95,
+    "hp": 75,
+    "sp_attack": 95,
+    "sp_defense": 95,
+    "speed": 85
+  },
+  "Phanpy": {
+    "attack": 60,
+    "classfication": "Long Nose Pok\u00e9mon",
+    "defense": 60,
+    "hp": 90,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 40
+  },
+  "Donphan": {
+    "attack": 120,
+    "classfication": "Armor Pok\u00e9mon",
+    "defense": 120,
+    "hp": 90,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 50
+  },
+  "Porygon2": {
+    "attack": 80,
+    "classfication": "Virtual Pok\u00e9mon",
+    "defense": 90,
+    "hp": 85,
+    "sp_attack": 105,
+    "sp_defense": 95,
+    "speed": 60
+  },
+  "Stantler": {
+    "attack": 95,
+    "classfication": "Big Horn Pok\u00e9mon",
+    "defense": 62,
+    "hp": 73,
+    "sp_attack": 85,
+    "sp_defense": 65,
+    "speed": 85
+  },
+  "Smeargle": {
+    "attack": 20,
+    "classfication": "Painter Pok\u00e9mon",
+    "defense": 35,
+    "hp": 55,
+    "sp_attack": 20,
+    "sp_defense": 45,
+    "speed": 75
+  },
+  "Tyrogue": {
+    "attack": 35,
+    "classfication": "Scuffle Pok\u00e9mon",
+    "defense": 35,
+    "hp": 35,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 35
+  },
+  "Hitmontop": {
+    "attack": 95,
+    "classfication": "Handstand Pok\u00e9mon",
+    "defense": 95,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 110,
+    "speed": 70
+  },
+  "Smoochum": {
+    "attack": 30,
+    "classfication": "Kiss Pok\u00e9mon",
+    "defense": 15,
+    "hp": 45,
+    "sp_attack": 85,
+    "sp_defense": 65,
+    "speed": 65
+  },
+  "Elekid": {
+    "attack": 63,
+    "classfication": "Electric Pok\u00e9mon",
+    "defense": 37,
+    "hp": 45,
+    "sp_attack": 65,
+    "sp_defense": 55,
+    "speed": 95
+  },
+  "Magby": {
+    "attack": 75,
+    "classfication": "Live Coal Pok\u00e9mon",
+    "defense": 37,
+    "hp": 45,
+    "sp_attack": 70,
+    "sp_defense": 55,
+    "speed": 83
+  },
+  "Miltank": {
+    "attack": 80,
+    "classfication": "Milk Cow Pok\u00e9mon",
+    "defense": 105,
+    "hp": 95,
+    "sp_attack": 40,
+    "sp_defense": 70,
+    "speed": 100
+  },
+  "Blissey": {
+    "attack": 10,
+    "classfication": "Happiness Pok\u00e9mon",
+    "defense": 10,
+    "hp": 255,
+    "sp_attack": 75,
+    "sp_defense": 135,
+    "speed": 55
+  },
+  "Raikou": {
+    "attack": 85,
+    "classfication": "Thunder Pok\u00e9mon",
+    "defense": 75,
+    "hp": 90,
+    "sp_attack": 115,
+    "sp_defense": 100,
+    "speed": 115
+  },
+  "Entei": {
+    "attack": 115,
+    "classfication": "Volcano Pok\u00e9mon",
+    "defense": 85,
+    "hp": 115,
+    "sp_attack": 90,
+    "sp_defense": 75,
+    "speed": 100
+  },
+  "Suicune": {
+    "attack": 75,
+    "classfication": "Aurora Pok\u00e9mon",
+    "defense": 115,
+    "hp": 100,
+    "sp_attack": 90,
+    "sp_defense": 115,
+    "speed": 85
+  },
+  "Larvitar": {
+    "attack": 64,
+    "classfication": "Rock Skin Pok\u00e9mon",
+    "defense": 50,
+    "hp": 50,
+    "sp_attack": 45,
+    "sp_defense": 50,
+    "speed": 41
+  },
+  "Pupitar": {
+    "attack": 84,
+    "classfication": "Hard Shell Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 65,
+    "sp_defense": 70,
+    "speed": 51
+  },
+  "Tyranitar": {
+    "attack": 164,
+    "classfication": "Armor Pok\u00e9mon",
+    "defense": 150,
+    "hp": 100,
+    "sp_attack": 95,
+    "sp_defense": 120,
+    "speed": 71
+  },
+  "Lugia": {
+    "attack": 90,
+    "classfication": "Diving Pok\u00e9mon",
+    "defense": 130,
+    "hp": 106,
+    "sp_attack": 90,
+    "sp_defense": 154,
+    "speed": 110
+  },
+  "Ho-Oh": {
+    "attack": 130,
+    "classfication": "Rainbow Pok\u00e9mon",
+    "defense": 90,
+    "hp": 106,
+    "sp_attack": 110,
+    "sp_defense": 154,
+    "speed": 90
+  },
+  "Celebi": {
+    "attack": 100,
+    "classfication": "Time Travel Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 100
+  },
+  "Treecko": {
+    "attack": 45,
+    "classfication": "Wood Gecko Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 65,
+    "sp_defense": 55,
+    "speed": 70
+  },
+  "Grovyle": {
+    "attack": 65,
+    "classfication": "Wood Gecko Pok\u00e9mon",
+    "defense": 45,
+    "hp": 50,
+    "sp_attack": 85,
+    "sp_defense": 65,
+    "speed": 95
+  },
+  "Sceptile": {
+    "attack": 110,
+    "classfication": "Forest Pok\u00e9mon",
+    "defense": 75,
+    "hp": 70,
+    "sp_attack": 145,
+    "sp_defense": 85,
+    "speed": 145
+  },
+  "Torchic": {
+    "attack": 60,
+    "classfication": "Chick Pok\u00e9mon",
+    "defense": 40,
+    "hp": 45,
+    "sp_attack": 70,
+    "sp_defense": 50,
+    "speed": 45
+  },
+  "Combusken": {
+    "attack": 85,
+    "classfication": "Young Fowl Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 85,
+    "sp_defense": 60,
+    "speed": 55
+  },
+  "Blaziken": {
+    "attack": 160,
+    "classfication": "Blaze Pok\u00e9mon",
+    "defense": 80,
+    "hp": 80,
+    "sp_attack": 130,
+    "sp_defense": 80,
+    "speed": 100
+  },
+  "Mudkip": {
+    "attack": 70,
+    "classfication": "Mud Fish Pok\u00e9mon",
+    "defense": 50,
+    "hp": 50,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 40
+  },
+  "Marshtomp": {
+    "attack": 85,
+    "classfication": "Mud Fish Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 50
+  },
+  "Swampert": {
+    "attack": 150,
+    "classfication": "Mud Fish Pok\u00e9mon",
+    "defense": 110,
+    "hp": 100,
+    "sp_attack": 95,
+    "sp_defense": 110,
+    "speed": 70
+  },
+  "Poochyena": {
+    "attack": 55,
+    "classfication": "Bite Pok\u00e9mon",
+    "defense": 35,
+    "hp": 35,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 35
+  },
+  "Mightyena": {
+    "attack": 90,
+    "classfication": "Bite Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 70
+  },
+  "Zigzagoon": {
+    "attack": 30,
+    "classfication": "Tiny Racoon Pok\u00e9mon",
+    "defense": 41,
+    "hp": 38,
+    "sp_attack": 30,
+    "sp_defense": 41,
+    "speed": 60
+  },
+  "Linoone": {
+    "attack": 70,
+    "classfication": "Rush Pok\u00e9mon",
+    "defense": 61,
+    "hp": 78,
+    "sp_attack": 50,
+    "sp_defense": 61,
+    "speed": 100
+  },
+  "Wurmple": {
+    "attack": 45,
+    "classfication": "Worm Pok\u00e9mon",
+    "defense": 35,
+    "hp": 45,
+    "sp_attack": 20,
+    "sp_defense": 30,
+    "speed": 20
+  },
+  "Silcoon": {
+    "attack": 35,
+    "classfication": "Cocoon Pok\u00e9mon",
+    "defense": 55,
+    "hp": 50,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 15
+  },
+  "Beautifly": {
+    "attack": 70,
+    "classfication": "Butterfly Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 100,
+    "sp_defense": 50,
+    "speed": 65
+  },
+  "Cascoon": {
+    "attack": 35,
+    "classfication": "Cocoon Pok\u00e9mon",
+    "defense": 55,
+    "hp": 50,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 15
+  },
+  "Dustox": {
+    "attack": 50,
+    "classfication": "Poison Moth Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 50,
+    "sp_defense": 90,
+    "speed": 65
+  },
+  "Lotad": {
+    "attack": 30,
+    "classfication": "Water Weed Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 30
+  },
+  "Lombre": {
+    "attack": 50,
+    "classfication": "Jolly Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 50
+  },
+  "Ludicolo": {
+    "attack": 70,
+    "classfication": "Carefree Pok\u00e9mon",
+    "defense": 70,
+    "hp": 80,
+    "sp_attack": 90,
+    "sp_defense": 100,
+    "speed": 70
+  },
+  "Seedot": {
+    "attack": 40,
+    "classfication": "Acorn Pok\u00e9mon",
+    "defense": 50,
+    "hp": 40,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 30
+  },
+  "Nuzleaf": {
+    "attack": 70,
+    "classfication": "Wily Pok\u00e9mon",
+    "defense": 40,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 40,
+    "speed": 60
+  },
+  "Shiftry": {
+    "attack": 100,
+    "classfication": "Wickid Pok\u00e9mon",
+    "defense": 60,
+    "hp": 90,
+    "sp_attack": 90,
+    "sp_defense": 60,
+    "speed": 80
+  },
+  "Taillow": {
+    "attack": 55,
+    "classfication": "TinySwallow Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 85
+  },
+  "Swellow": {
+    "attack": 85,
+    "classfication": "Swallow Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 75,
+    "sp_defense": 50,
+    "speed": 125
+  },
+  "Wingull": {
+    "attack": 30,
+    "classfication": "Seagull Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 55,
+    "sp_defense": 30,
+    "speed": 85
+  },
+  "Pelipper": {
+    "attack": 50,
+    "classfication": "Water Bird Pok\u00e9mon",
+    "defense": 100,
+    "hp": 60,
+    "sp_attack": 95,
+    "sp_defense": 70,
+    "speed": 65
+  },
+  "Ralts": {
+    "attack": 25,
+    "classfication": "Feeling Pok\u00e9mon",
+    "defense": 25,
+    "hp": 28,
+    "sp_attack": 45,
+    "sp_defense": 35,
+    "speed": 40
+  },
+  "Kirlia": {
+    "attack": 35,
+    "classfication": "Emotion Pok\u00e9mon",
+    "defense": 35,
+    "hp": 38,
+    "sp_attack": 65,
+    "sp_defense": 55,
+    "speed": 50
+  },
+  "Gardevoir": {
+    "attack": 85,
+    "classfication": "Embrace Pok\u00e9mon",
+    "defense": 65,
+    "hp": 68,
+    "sp_attack": 165,
+    "sp_defense": 135,
+    "speed": 100
+  },
+  "Surskit": {
+    "attack": 30,
+    "classfication": "Pond Skater Pok\u00e9mon",
+    "defense": 32,
+    "hp": 40,
+    "sp_attack": 50,
+    "sp_defense": 52,
+    "speed": 65
+  },
+  "Masquerain": {
+    "attack": 60,
+    "classfication": "Eyeball Pok\u00e9mon",
+    "defense": 62,
+    "hp": 70,
+    "sp_attack": 100,
+    "sp_defense": 82,
+    "speed": 80
+  },
+  "Shroomish": {
+    "attack": 40,
+    "classfication": "Mushroom Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 40,
+    "sp_defense": 60,
+    "speed": 35
+  },
+  "Breloom": {
+    "attack": 130,
+    "classfication": "Mushroom Pok\u00e9mon",
+    "defense": 80,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 70
+  },
+  "Slakoth": {
+    "attack": 60,
+    "classfication": "Slacker Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 30
+  },
+  "Vigoroth": {
+    "attack": 80,
+    "classfication": "Wild Monkey Pok\u00e9mon",
+    "defense": 80,
+    "hp": 80,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 90
+  },
+  "Slaking": {
+    "attack": 160,
+    "classfication": "Lazy Pok\u00e9mon",
+    "defense": 100,
+    "hp": 150,
+    "sp_attack": 95,
+    "sp_defense": 65,
+    "speed": 100
+  },
+  "Nincada": {
+    "attack": 45,
+    "classfication": "Trainee Pok\u00e9mon",
+    "defense": 90,
+    "hp": 31,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 40
+  },
+  "Ninjask": {
+    "attack": 90,
+    "classfication": "Ninja Pok\u00e9mon",
+    "defense": 45,
+    "hp": 61,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 160
+  },
+  "Shedinja": {
+    "attack": 90,
+    "classfication": "Shed Pok\u00e9mon",
+    "defense": 45,
+    "hp": 1,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 40
+  },
+  "Whismur": {
+    "attack": 51,
+    "classfication": "Whisper Pok\u00e9mon",
+    "defense": 23,
+    "hp": 64,
+    "sp_attack": 51,
+    "sp_defense": 23,
+    "speed": 28
+  },
+  "Loudred": {
+    "attack": 71,
+    "classfication": "Big Voice Pok\u00e9mon",
+    "defense": 43,
+    "hp": 84,
+    "sp_attack": 71,
+    "sp_defense": 43,
+    "speed": 48
+  },
+  "Exploud": {
+    "attack": 91,
+    "classfication": "Loud Noise Pok\u00e9mon",
+    "defense": 63,
+    "hp": 104,
+    "sp_attack": 91,
+    "sp_defense": 73,
+    "speed": 68
+  },
+  "Makuhita": {
+    "attack": 60,
+    "classfication": "Guts Pok\u00e9mon",
+    "defense": 30,
+    "hp": 72,
+    "sp_attack": 20,
+    "sp_defense": 30,
+    "speed": 25
+  },
+  "Hariyama": {
+    "attack": 120,
+    "classfication": "Arm Thrust Pok\u00e9mon",
+    "defense": 60,
+    "hp": 144,
+    "sp_attack": 40,
+    "sp_defense": 60,
+    "speed": 50
+  },
+  "Azurill": {
+    "attack": 20,
+    "classfication": "Polka Dot Pok\u00e9mon",
+    "defense": 40,
+    "hp": 50,
+    "sp_attack": 20,
+    "sp_defense": 40,
+    "speed": 20
+  },
+  "Nosepass": {
+    "attack": 45,
+    "classfication": "Compass Pok\u00e9mon",
+    "defense": 135,
+    "hp": 30,
+    "sp_attack": 45,
+    "sp_defense": 90,
+    "speed": 30
+  },
+  "Skitty": {
+    "attack": 45,
+    "classfication": "Kitten Pok\u00e9mon",
+    "defense": 45,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 50
+  },
+  "Delcatty": {
+    "attack": 65,
+    "classfication": "Prim Pok\u00e9mon",
+    "defense": 65,
+    "hp": 70,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 90
+  },
+  "Sableye": {
+    "attack": 85,
+    "classfication": "Darkness Pok\u00e9mon",
+    "defense": 125,
+    "hp": 50,
+    "sp_attack": 85,
+    "sp_defense": 115,
+    "speed": 20
+  },
+  "Mawile": {
+    "attack": 105,
+    "classfication": "Deceiver Pok\u00e9mon",
+    "defense": 125,
+    "hp": 50,
+    "sp_attack": 55,
+    "sp_defense": 95,
+    "speed": 50
+  },
+  "Aron": {
+    "attack": 70,
+    "classfication": "Iron Armor Pok\u00e9mon",
+    "defense": 100,
+    "hp": 50,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 30
+  },
+  "Lairon": {
+    "attack": 90,
+    "classfication": "Iron Armor Pok\u00e9mon",
+    "defense": 140,
+    "hp": 60,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 40
+  },
+  "Aggron": {
+    "attack": 140,
+    "classfication": "Iron Armor Pok\u00e9mon",
+    "defense": 230,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 80,
+    "speed": 50
+  },
+  "Meditite": {
+    "attack": 40,
+    "classfication": "Meditate Pok\u00e9mon",
+    "defense": 55,
+    "hp": 30,
+    "sp_attack": 40,
+    "sp_defense": 55,
+    "speed": 60
+  },
+  "Medicham": {
+    "attack": 100,
+    "classfication": "Meditate Pok\u00e9mon",
+    "defense": 85,
+    "hp": 60,
+    "sp_attack": 80,
+    "sp_defense": 85,
+    "speed": 100
+  },
+  "Electrike": {
+    "attack": 45,
+    "classfication": "Lightning Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 65,
+    "sp_defense": 40,
+    "speed": 65
+  },
+  "Manectric": {
+    "attack": 75,
+    "classfication": "Discharge Pok\u00e9mon",
+    "defense": 80,
+    "hp": 70,
+    "sp_attack": 135,
+    "sp_defense": 80,
+    "speed": 135
+  },
+  "Plusle": {
+    "attack": 50,
+    "classfication": "Cheering Pok\u00e9mon",
+    "defense": 40,
+    "hp": 60,
+    "sp_attack": 85,
+    "sp_defense": 75,
+    "speed": 95
+  },
+  "Minun": {
+    "attack": 40,
+    "classfication": "Cheering Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 75,
+    "sp_defense": 85,
+    "speed": 95
+  },
+  "Volbeat": {
+    "attack": 73,
+    "classfication": "Firefly Pok\u00e9mon",
+    "defense": 75,
+    "hp": 65,
+    "sp_attack": 47,
+    "sp_defense": 85,
+    "speed": 85
+  },
+  "Illumise": {
+    "attack": 47,
+    "classfication": "Firefly Pok\u00e9mon",
+    "defense": 75,
+    "hp": 65,
+    "sp_attack": 73,
+    "sp_defense": 85,
+    "speed": 85
+  },
+  "Roselia": {
+    "attack": 60,
+    "classfication": "Thorn Pok\u00e9mon",
+    "defense": 45,
+    "hp": 50,
+    "sp_attack": 100,
+    "sp_defense": 80,
+    "speed": 65
+  },
+  "Gulpin": {
+    "attack": 43,
+    "classfication": "Stomach Pok\u00e9mon",
+    "defense": 53,
+    "hp": 70,
+    "sp_attack": 43,
+    "sp_defense": 53,
+    "speed": 40
+  },
+  "Swalot": {
+    "attack": 73,
+    "classfication": "Poison Bag Pok\u00e9mon",
+    "defense": 83,
+    "hp": 100,
+    "sp_attack": 73,
+    "sp_defense": 83,
+    "speed": 55
+  },
+  "Carvanha": {
+    "attack": 90,
+    "classfication": "Savage Pok\u00e9mon",
+    "defense": 20,
+    "hp": 45,
+    "sp_attack": 65,
+    "sp_defense": 20,
+    "speed": 65
+  },
+  "Sharpedo": {
+    "attack": 140,
+    "classfication": "Brutal Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 110,
+    "sp_defense": 65,
+    "speed": 105
+  },
+  "Wailmer": {
+    "attack": 70,
+    "classfication": "Ball Whale Pok\u00e9mon",
+    "defense": 35,
+    "hp": 130,
+    "sp_attack": 70,
+    "sp_defense": 35,
+    "speed": 60
+  },
+  "Wailord": {
+    "attack": 90,
+    "classfication": "Float Whale Pok\u00e9mon",
+    "defense": 45,
+    "hp": 170,
+    "sp_attack": 90,
+    "sp_defense": 45,
+    "speed": 60
+  },
+  "Numel": {
+    "attack": 60,
+    "classfication": "Numb Pok\u00e9mon",
+    "defense": 40,
+    "hp": 60,
+    "sp_attack": 65,
+    "sp_defense": 45,
+    "speed": 35
+  },
+  "Camerupt": {
+    "attack": 120,
+    "classfication": "Eruption Pok\u00e9mon",
+    "defense": 100,
+    "hp": 70,
+    "sp_attack": 145,
+    "sp_defense": 105,
+    "speed": 20
+  },
+  "Torkoal": {
+    "attack": 85,
+    "classfication": "Coal Pok\u00e9mon",
+    "defense": 140,
+    "hp": 70,
+    "sp_attack": 85,
+    "sp_defense": 70,
+    "speed": 20
+  },
+  "Spoink": {
+    "attack": 25,
+    "classfication": "Bounce Pok\u00e9mon",
+    "defense": 35,
+    "hp": 60,
+    "sp_attack": 70,
+    "sp_defense": 80,
+    "speed": 60
+  },
+  "Grumpig": {
+    "attack": 45,
+    "classfication": "Manipulate Pok\u00e9mon",
+    "defense": 65,
+    "hp": 80,
+    "sp_attack": 90,
+    "sp_defense": 110,
+    "speed": 80
+  },
+  "Spinda": {
+    "attack": 60,
+    "classfication": "Spot Panda Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 60
+  },
+  "Trapinch": {
+    "attack": 100,
+    "classfication": "Ant Pit Pok\u00e9mon",
+    "defense": 45,
+    "hp": 45,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 10
+  },
+  "Vibrava": {
+    "attack": 70,
+    "classfication": "Vibration Pok\u00e9mon",
+    "defense": 50,
+    "hp": 50,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 70
+  },
+  "Flygon": {
+    "attack": 100,
+    "classfication": "Mystic Pok\u00e9mon",
+    "defense": 80,
+    "hp": 80,
+    "sp_attack": 80,
+    "sp_defense": 80,
+    "speed": 100
+  },
+  "Cacnea": {
+    "attack": 85,
+    "classfication": "Cactus Pok\u00e9mon",
+    "defense": 40,
+    "hp": 50,
+    "sp_attack": 85,
+    "sp_defense": 40,
+    "speed": 35
+  },
+  "Cacturne": {
+    "attack": 115,
+    "classfication": "Scarecrow Pok\u00e9mon",
+    "defense": 60,
+    "hp": 70,
+    "sp_attack": 115,
+    "sp_defense": 60,
+    "speed": 55
+  },
+  "Swablu": {
+    "attack": 40,
+    "classfication": "Cotton Bird Pok\u00e9mon",
+    "defense": 60,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 75,
+    "speed": 50
+  },
+  "Altaria": {
+    "attack": 110,
+    "classfication": "Humming Pok\u00e9mon",
+    "defense": 110,
+    "hp": 75,
+    "sp_attack": 110,
+    "sp_defense": 105,
+    "speed": 80
+  },
+  "Zangoose": {
+    "attack": 115,
+    "classfication": "Cat Ferret Pok\u00e9mon",
+    "defense": 60,
+    "hp": 73,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 90
+  },
+  "Seviper": {
+    "attack": 100,
+    "classfication": "Fang Snake Pok\u00e9mon",
+    "defense": 60,
+    "hp": 73,
+    "sp_attack": 100,
+    "sp_defense": 60,
+    "speed": 65
+  },
+  "Lunatone": {
+    "attack": 55,
+    "classfication": "Meteorite Pok\u00e9mon",
+    "defense": 65,
+    "hp": 90,
+    "sp_attack": 95,
+    "sp_defense": 85,
+    "speed": 70
+  },
+  "Solrock": {
+    "attack": 95,
+    "classfication": "Meteorite Pok\u00e9mon",
+    "defense": 85,
+    "hp": 90,
+    "sp_attack": 55,
+    "sp_defense": 65,
+    "speed": 70
+  },
+  "Barboach": {
+    "attack": 48,
+    "classfication": "Whiskers Pok\u00e9mon",
+    "defense": 43,
+    "hp": 50,
+    "sp_attack": 46,
+    "sp_defense": 41,
+    "speed": 60
+  },
+  "Whiscash": {
+    "attack": 78,
+    "classfication": "Whiskers Pok\u00e9mon",
+    "defense": 73,
+    "hp": 110,
+    "sp_attack": 76,
+    "sp_defense": 71,
+    "speed": 60
+  },
+  "Corphish": {
+    "attack": 80,
+    "classfication": "Ruffian Pok\u00e9mon",
+    "defense": 65,
+    "hp": 43,
+    "sp_attack": 50,
+    "sp_defense": 35,
+    "speed": 35
+  },
+  "Crawdaunt": {
+    "attack": 120,
+    "classfication": "Rogue Pok\u00e9mon",
+    "defense": 85,
+    "hp": 63,
+    "sp_attack": 90,
+    "sp_defense": 55,
+    "speed": 55
+  },
+  "Baltoy": {
+    "attack": 40,
+    "classfication": "Clay Doll Pok\u00e9mon",
+    "defense": 55,
+    "hp": 40,
+    "sp_attack": 40,
+    "sp_defense": 70,
+    "speed": 55
+  },
+  "Claydol": {
+    "attack": 70,
+    "classfication": "Clay Doll Pok\u00e9mon",
+    "defense": 105,
+    "hp": 60,
+    "sp_attack": 70,
+    "sp_defense": 120,
+    "speed": 75
+  },
+  "Lileep": {
+    "attack": 41,
+    "classfication": "Sea Lily Pok\u00e9mon",
+    "defense": 77,
+    "hp": 66,
+    "sp_attack": 61,
+    "sp_defense": 87,
+    "speed": 23
+  },
+  "Cradily": {
+    "attack": 81,
+    "classfication": "Barnacle Pok\u00e9mon",
+    "defense": 97,
+    "hp": 86,
+    "sp_attack": 81,
+    "sp_defense": 107,
+    "speed": 43
+  },
+  "Anorith": {
+    "attack": 95,
+    "classfication": "Old Shrimp Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 75
+  },
+  "Armaldo": {
+    "attack": 125,
+    "classfication": "Plate Pok\u00e9mon",
+    "defense": 100,
+    "hp": 75,
+    "sp_attack": 70,
+    "sp_defense": 80,
+    "speed": 45
+  },
+  "Feebas": {
+    "attack": 15,
+    "classfication": "Fish Pok\u00e9mon",
+    "defense": 20,
+    "hp": 20,
+    "sp_attack": 10,
+    "sp_defense": 55,
+    "speed": 80
+  },
+  "Milotic": {
+    "attack": 60,
+    "classfication": "Tender Pok\u00e9mon",
+    "defense": 79,
+    "hp": 95,
+    "sp_attack": 100,
+    "sp_defense": 125,
+    "speed": 81
+  },
+  "Castform": {
+    "attack": 70,
+    "classfication": "Weather Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 70,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Kecleon": {
+    "attack": 90,
+    "classfication": "Color Swap Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 120,
+    "speed": 40
+  },
+  "Shuppet": {
+    "attack": 75,
+    "classfication": "Puppet Pok\u00e9mon",
+    "defense": 35,
+    "hp": 44,
+    "sp_attack": 63,
+    "sp_defense": 33,
+    "speed": 45
+  },
+  "Banette": {
+    "attack": 165,
+    "classfication": "Marionette Pok\u00e9mon",
+    "defense": 75,
+    "hp": 64,
+    "sp_attack": 93,
+    "sp_defense": 83,
+    "speed": 75
+  },
+  "Duskull": {
+    "attack": 40,
+    "classfication": "Requiem Pok\u00e9mon",
+    "defense": 90,
+    "hp": 20,
+    "sp_attack": 30,
+    "sp_defense": 90,
+    "speed": 25
+  },
+  "Dusclops": {
+    "attack": 70,
+    "classfication": "Beckon Pok\u00e9mon",
+    "defense": 130,
+    "hp": 40,
+    "sp_attack": 60,
+    "sp_defense": 130,
+    "speed": 25
+  },
+  "Tropius": {
+    "attack": 68,
+    "classfication": "Fruit Pok\u00e9mon",
+    "defense": 83,
+    "hp": 99,
+    "sp_attack": 72,
+    "sp_defense": 87,
+    "speed": 51
+  },
+  "Chimecho": {
+    "attack": 50,
+    "classfication": "Wind Chime Pok\u00e9mon",
+    "defense": 80,
+    "hp": 75,
+    "sp_attack": 95,
+    "sp_defense": 90,
+    "speed": 65
+  },
+  "Absol": {
+    "attack": 150,
+    "classfication": "Disaster Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 115,
+    "sp_defense": 60,
+    "speed": 115
+  },
+  "Wynaut": {
+    "attack": 23,
+    "classfication": "Bright Pok\u00e9mon",
+    "defense": 48,
+    "hp": 95,
+    "sp_attack": 23,
+    "sp_defense": 48,
+    "speed": 23
+  },
+  "Snorunt": {
+    "attack": 50,
+    "classfication": "Snow Hat Pok\u00e9mon",
+    "defense": 50,
+    "hp": 50,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 50
+  },
+  "Glalie": {
+    "attack": 120,
+    "classfication": "Face Pok\u00e9mon",
+    "defense": 80,
+    "hp": 80,
+    "sp_attack": 120,
+    "sp_defense": 80,
+    "speed": 100
+  },
+  "Spheal": {
+    "attack": 40,
+    "classfication": "Clap Pok\u00e9mon",
+    "defense": 50,
+    "hp": 70,
+    "sp_attack": 55,
+    "sp_defense": 50,
+    "speed": 25
+  },
+  "Sealeo": {
+    "attack": 60,
+    "classfication": "Ball Roll Pok\u00e9mon",
+    "defense": 70,
+    "hp": 90,
+    "sp_attack": 75,
+    "sp_defense": 70,
+    "speed": 45
+  },
+  "Walrein": {
+    "attack": 80,
+    "classfication": "Ice Break Pok\u00e9mon",
+    "defense": 90,
+    "hp": 110,
+    "sp_attack": 95,
+    "sp_defense": 90,
+    "speed": 65
+  },
+  "Clamperl": {
+    "attack": 64,
+    "classfication": "Bivalve Pok\u00e9mon",
+    "defense": 85,
+    "hp": 35,
+    "sp_attack": 74,
+    "sp_defense": 55,
+    "speed": 32
+  },
+  "Huntail": {
+    "attack": 104,
+    "classfication": "Deep Sea Pok\u00e9mon",
+    "defense": 105,
+    "hp": 55,
+    "sp_attack": 94,
+    "sp_defense": 75,
+    "speed": 52
+  },
+  "Gorebyss": {
+    "attack": 84,
+    "classfication": "South Sea Pok\u00e9mon",
+    "defense": 105,
+    "hp": 55,
+    "sp_attack": 114,
+    "sp_defense": 75,
+    "speed": 52
+  },
+  "Relicanth": {
+    "attack": 90,
+    "classfication": "Longevity Pok\u00e9mon",
+    "defense": 130,
+    "hp": 100,
+    "sp_attack": 45,
+    "sp_defense": 65,
+    "speed": 55
+  },
+  "Luvdisc": {
+    "attack": 30,
+    "classfication": "Rendezvous Pok\u00e9mon",
+    "defense": 55,
+    "hp": 43,
+    "sp_attack": 40,
+    "sp_defense": 65,
+    "speed": 97
+  },
+  "Bagon": {
+    "attack": 75,
+    "classfication": "Rock Head Pok\u00e9mon",
+    "defense": 60,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 30,
+    "speed": 50
+  },
+  "Shelgon": {
+    "attack": 95,
+    "classfication": "Endurance Pok\u00e9mon",
+    "defense": 100,
+    "hp": 65,
+    "sp_attack": 60,
+    "sp_defense": 50,
+    "speed": 50
+  },
+  "Salamence": {
+    "attack": 145,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 130,
+    "hp": 95,
+    "sp_attack": 120,
+    "sp_defense": 90,
+    "speed": 120
+  },
+  "Beldum": {
+    "attack": 55,
+    "classfication": "Iron Ball Pok\u00e9mon",
+    "defense": 80,
+    "hp": 40,
+    "sp_attack": 35,
+    "sp_defense": 60,
+    "speed": 30
+  },
+  "Metang": {
+    "attack": 75,
+    "classfication": "Iron Claw Pok\u00e9mon",
+    "defense": 100,
+    "hp": 60,
+    "sp_attack": 55,
+    "sp_defense": 80,
+    "speed": 50
+  },
+  "Metagross": {
+    "attack": 145,
+    "classfication": "Iron Leg Pok\u00e9mon",
+    "defense": 150,
+    "hp": 80,
+    "sp_attack": 105,
+    "sp_defense": 110,
+    "speed": 110
+  },
+  "Regirock": {
+    "attack": 100,
+    "classfication": "Rock Peak Pok\u00e9mon",
+    "defense": 200,
+    "hp": 80,
+    "sp_attack": 50,
+    "sp_defense": 100,
+    "speed": 50
+  },
+  "Regice": {
+    "attack": 50,
+    "classfication": "Iceberg Pok\u00e9mon",
+    "defense": 100,
+    "hp": 80,
+    "sp_attack": 100,
+    "sp_defense": 200,
+    "speed": 50
+  },
+  "Registeel": {
+    "attack": 75,
+    "classfication": "Iron Pok\u00e9mon",
+    "defense": 150,
+    "hp": 80,
+    "sp_attack": 75,
+    "sp_defense": 150,
+    "speed": 50
+  },
+  "Latias": {
+    "attack": 100,
+    "classfication": "Eon Pok\u00e9mon",
+    "defense": 120,
+    "hp": 80,
+    "sp_attack": 140,
+    "sp_defense": 150,
+    "speed": 110
+  },
+  "Latios": {
+    "attack": 130,
+    "classfication": "Eon Pok\u00e9mon",
+    "defense": 100,
+    "hp": 80,
+    "sp_attack": 160,
+    "sp_defense": 120,
+    "speed": 110
+  },
+  "Kyogre": {
+    "attack": 150,
+    "classfication": "Sea Basin Pok\u00e9mon",
+    "defense": 90,
+    "hp": 100,
+    "sp_attack": 180,
+    "sp_defense": 160,
+    "speed": 90
+  },
+  "Groudon": {
+    "attack": 180,
+    "classfication": "Continent Pok\u00e9mon",
+    "defense": 160,
+    "hp": 100,
+    "sp_attack": 150,
+    "sp_defense": 90,
+    "speed": 90
+  },
+  "Rayquaza": {
+    "attack": 180,
+    "classfication": "Sky High Pok\u00e9mon",
+    "defense": 100,
+    "hp": 105,
+    "sp_attack": 180,
+    "sp_defense": 100,
+    "speed": 115
+  },
+  "Jirachi": {
+    "attack": 100,
+    "classfication": "Wish Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 100
+  },
+  "Deoxys": {
+    "attack": 95,
+    "classfication": "DNA Pok\u00e9mon",
+    "defense": 90,
+    "hp": 50,
+    "sp_attack": 95,
+    "sp_defense": 90,
+    "speed": 180
+  },
+  "Turtwig": {
+    "attack": 68,
+    "classfication": "Tiny Leaf Pok\u00e9mon",
+    "defense": 64,
+    "hp": 55,
+    "sp_attack": 45,
+    "sp_defense": 55,
+    "speed": 31
+  },
+  "Grotle": {
+    "attack": 89,
+    "classfication": "Grove Pok\u00e9mon",
+    "defense": 85,
+    "hp": 75,
+    "sp_attack": 55,
+    "sp_defense": 65,
+    "speed": 36
+  },
+  "Torterra": {
+    "attack": 109,
+    "classfication": "Continent Pok\u00e9mon",
+    "defense": 105,
+    "hp": 95,
+    "sp_attack": 75,
+    "sp_defense": 85,
+    "speed": 56
+  },
+  "Chimchar": {
+    "attack": 58,
+    "classfication": "Chimp Pok\u00e9mon",
+    "defense": 44,
+    "hp": 44,
+    "sp_attack": 58,
+    "sp_defense": 44,
+    "speed": 61
+  },
+  "Monferno": {
+    "attack": 78,
+    "classfication": "Playful Pok\u00e9mon",
+    "defense": 52,
+    "hp": 64,
+    "sp_attack": 78,
+    "sp_defense": 52,
+    "speed": 81
+  },
+  "Infernape": {
+    "attack": 104,
+    "classfication": "Flame Pok\u00e9mon",
+    "defense": 71,
+    "hp": 76,
+    "sp_attack": 104,
+    "sp_defense": 71,
+    "speed": 108
+  },
+  "Piplup": {
+    "attack": 51,
+    "classfication": "Penguin Pok\u00e9mon",
+    "defense": 53,
+    "hp": 53,
+    "sp_attack": 61,
+    "sp_defense": 56,
+    "speed": 40
+  },
+  "Prinplup": {
+    "attack": 66,
+    "classfication": "Penguin Pok\u00e9mon",
+    "defense": 68,
+    "hp": 64,
+    "sp_attack": 81,
+    "sp_defense": 76,
+    "speed": 50
+  },
+  "Empoleon": {
+    "attack": 86,
+    "classfication": "Emperor Pok\u00e9mon",
+    "defense": 88,
+    "hp": 84,
+    "sp_attack": 111,
+    "sp_defense": 101,
+    "speed": 60
+  },
+  "Starly": {
+    "attack": 55,
+    "classfication": "Starling Pok\u00e9mon",
+    "defense": 30,
+    "hp": 40,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 60
+  },
+  "Staravia": {
+    "attack": 75,
+    "classfication": "Starling Pok\u00e9mon",
+    "defense": 50,
+    "hp": 55,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 80
+  },
+  "Staraptor": {
+    "attack": 120,
+    "classfication": "Predator Pok\u00e9mon",
+    "defense": 70,
+    "hp": 85,
+    "sp_attack": 50,
+    "sp_defense": 60,
+    "speed": 100
+  },
+  "Bidoof": {
+    "attack": 45,
+    "classfication": "Plump Mouse Pok\u00e9mon",
+    "defense": 40,
+    "hp": 59,
+    "sp_attack": 35,
+    "sp_defense": 40,
+    "speed": 31
+  },
+  "Bibarel": {
+    "attack": 85,
+    "classfication": "Beaver Pok\u00e9mon",
+    "defense": 60,
+    "hp": 79,
+    "sp_attack": 55,
+    "sp_defense": 60,
+    "speed": 71
+  },
+  "Kricketot": {
+    "attack": 25,
+    "classfication": "Cricket Pok\u00e9mon",
+    "defense": 41,
+    "hp": 37,
+    "sp_attack": 25,
+    "sp_defense": 41,
+    "speed": 25
+  },
+  "Kricketune": {
+    "attack": 85,
+    "classfication": "Cricket Pok\u00e9mon",
+    "defense": 51,
+    "hp": 77,
+    "sp_attack": 55,
+    "sp_defense": 51,
+    "speed": 65
+  },
+  "Shinx": {
+    "attack": 65,
+    "classfication": "Flash Pok\u00e9mon",
+    "defense": 34,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 34,
+    "speed": 45
+  },
+  "Luxio": {
+    "attack": 85,
+    "classfication": "Spark Pok\u00e9mon",
+    "defense": 49,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 49,
+    "speed": 60
+  },
+  "Luxray": {
+    "attack": 120,
+    "classfication": "Gleam Eyes Pok\u00e9mon",
+    "defense": 79,
+    "hp": 80,
+    "sp_attack": 95,
+    "sp_defense": 79,
+    "speed": 70
+  },
+  "Budew": {
+    "attack": 30,
+    "classfication": "Bud Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 50,
+    "sp_defense": 70,
+    "speed": 55
+  },
+  "Roserade": {
+    "attack": 70,
+    "classfication": "Bouquet Pok\u00e9mon",
+    "defense": 65,
+    "hp": 60,
+    "sp_attack": 125,
+    "sp_defense": 105,
+    "speed": 90
+  },
+  "Cranidos": {
+    "attack": 125,
+    "classfication": "Head Butt Pok\u00e9mon",
+    "defense": 40,
+    "hp": 67,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 58
+  },
+  "Rampardos": {
+    "attack": 165,
+    "classfication": "Head Butt Pok\u00e9mon",
+    "defense": 60,
+    "hp": 97,
+    "sp_attack": 65,
+    "sp_defense": 50,
+    "speed": 58
+  },
+  "Shieldon": {
+    "attack": 42,
+    "classfication": "Shield Pok\u00e9mon",
+    "defense": 118,
+    "hp": 30,
+    "sp_attack": 42,
+    "sp_defense": 88,
+    "speed": 30
+  },
+  "Bastiodon": {
+    "attack": 52,
+    "classfication": "Shield Pok\u00e9mon",
+    "defense": 168,
+    "hp": 60,
+    "sp_attack": 47,
+    "sp_defense": 138,
+    "speed": 30
+  },
+  "Burmy": {
+    "attack": 29,
+    "classfication": "Bagworm Pok\u00e9mon",
+    "defense": 45,
+    "hp": 40,
+    "sp_attack": 29,
+    "sp_defense": 45,
+    "speed": 36
+  },
+  "Wormadam": {
+    "attack": 69,
+    "classfication": "Bagworm Pok\u00e9mon",
+    "defense": 95,
+    "hp": 60,
+    "sp_attack": 69,
+    "sp_defense": 95,
+    "speed": 36
+  },
+  "Mothim": {
+    "attack": 94,
+    "classfication": "Moth Pok\u00e9mon",
+    "defense": 50,
+    "hp": 70,
+    "sp_attack": 94,
+    "sp_defense": 50,
+    "speed": 66
+  },
+  "Combee": {
+    "attack": 30,
+    "classfication": "Tiny Bee Pok\u00e9mon",
+    "defense": 42,
+    "hp": 30,
+    "sp_attack": 30,
+    "sp_defense": 42,
+    "speed": 70
+  },
+  "Vespiquen": {
+    "attack": 80,
+    "classfication": "Beehive Pok\u00e9mon",
+    "defense": 102,
+    "hp": 70,
+    "sp_attack": 80,
+    "sp_defense": 102,
+    "speed": 40
+  },
+  "Pachirisu": {
+    "attack": 45,
+    "classfication": "EleSquirrel Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 45,
+    "sp_defense": 90,
+    "speed": 95
+  },
+  "Buizel": {
+    "attack": 65,
+    "classfication": "Sea Weasel Pok\u00e9mon",
+    "defense": 35,
+    "hp": 55,
+    "sp_attack": 60,
+    "sp_defense": 30,
+    "speed": 85
+  },
+  "Floatzel": {
+    "attack": 105,
+    "classfication": "Sea Weasel Pok\u00e9mon",
+    "defense": 55,
+    "hp": 85,
+    "sp_attack": 85,
+    "sp_defense": 50,
+    "speed": 115
+  },
+  "Cherubi": {
+    "attack": 35,
+    "classfication": "Cherry Pok\u00e9mon",
+    "defense": 45,
+    "hp": 45,
+    "sp_attack": 62,
+    "sp_defense": 53,
+    "speed": 35
+  },
+  "Cherrim": {
+    "attack": 60,
+    "classfication": "Blossom Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 87,
+    "sp_defense": 78,
+    "speed": 85
+  },
+  "Shellos": {
+    "attack": 48,
+    "classfication": "Sea Slug Pok\u00e9mon",
+    "defense": 48,
+    "hp": 76,
+    "sp_attack": 57,
+    "sp_defense": 62,
+    "speed": 34
+  },
+  "Gastrodon": {
+    "attack": 83,
+    "classfication": "Sea Slug Pok\u00e9mon",
+    "defense": 68,
+    "hp": 111,
+    "sp_attack": 92,
+    "sp_defense": 82,
+    "speed": 39
+  },
+  "Ambipom": {
+    "attack": 100,
+    "classfication": "Long Tail Pok\u00e9mon",
+    "defense": 66,
+    "hp": 75,
+    "sp_attack": 60,
+    "sp_defense": 66,
+    "speed": 115
+  },
+  "Drifloon": {
+    "attack": 50,
+    "classfication": "Balloon Pok\u00e9mon",
+    "defense": 34,
+    "hp": 90,
+    "sp_attack": 60,
+    "sp_defense": 44,
+    "speed": 70
+  },
+  "Drifblim": {
+    "attack": 80,
+    "classfication": "Blimp Pok\u00e9mon",
+    "defense": 44,
+    "hp": 150,
+    "sp_attack": 90,
+    "sp_defense": 54,
+    "speed": 80
+  },
+  "Buneary": {
+    "attack": 66,
+    "classfication": "Rabbit Pok\u00e9mon",
+    "defense": 44,
+    "hp": 55,
+    "sp_attack": 44,
+    "sp_defense": 56,
+    "speed": 85
+  },
+  "Lopunny": {
+    "attack": 136,
+    "classfication": "Rabbit Pok\u00e9mon",
+    "defense": 94,
+    "hp": 65,
+    "sp_attack": 54,
+    "sp_defense": 96,
+    "speed": 135
+  },
+  "Mismagius": {
+    "attack": 60,
+    "classfication": "Magical Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 105,
+    "sp_defense": 105,
+    "speed": 105
+  },
+  "Honchkrow": {
+    "attack": 125,
+    "classfication": "Big Boss Pok\u00e9mon",
+    "defense": 52,
+    "hp": 100,
+    "sp_attack": 105,
+    "sp_defense": 52,
+    "speed": 71
+  },
+  "Glameow": {
+    "attack": 55,
+    "classfication": "Catty Pok\u00e9mon",
+    "defense": 42,
+    "hp": 49,
+    "sp_attack": 42,
+    "sp_defense": 37,
+    "speed": 85
+  },
+  "Purugly": {
+    "attack": 82,
+    "classfication": "Tiger Cat Pok\u00e9mon",
+    "defense": 64,
+    "hp": 71,
+    "sp_attack": 64,
+    "sp_defense": 59,
+    "speed": 112
+  },
+  "Chingling": {
+    "attack": 30,
+    "classfication": "Bell Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 65,
+    "sp_defense": 50,
+    "speed": 45
+  },
+  "Stunky": {
+    "attack": 63,
+    "classfication": "Skunk Pok\u00e9mon",
+    "defense": 47,
+    "hp": 63,
+    "sp_attack": 41,
+    "sp_defense": 41,
+    "speed": 74
+  },
+  "Skuntank": {
+    "attack": 93,
+    "classfication": "Skunk Pok\u00e9mon",
+    "defense": 67,
+    "hp": 103,
+    "sp_attack": 71,
+    "sp_defense": 61,
+    "speed": 84
+  },
+  "Bronzor": {
+    "attack": 24,
+    "classfication": "Bronze Pok\u00e9mon",
+    "defense": 86,
+    "hp": 57,
+    "sp_attack": 24,
+    "sp_defense": 86,
+    "speed": 23
+  },
+  "Bronzong": {
+    "attack": 89,
+    "classfication": "Bronze Bell Pok\u00e9mon",
+    "defense": 116,
+    "hp": 67,
+    "sp_attack": 79,
+    "sp_defense": 116,
+    "speed": 33
+  },
+  "Bonsly": {
+    "attack": 80,
+    "classfication": "Bonsai Pok\u00e9mon",
+    "defense": 95,
+    "hp": 50,
+    "sp_attack": 10,
+    "sp_defense": 45,
+    "speed": 10
+  },
+  "Mime Jr.": {
+    "attack": 25,
+    "classfication": "Mime Pok\u00e9mon",
+    "defense": 45,
+    "hp": 20,
+    "sp_attack": 70,
+    "sp_defense": 90,
+    "speed": 60
+  },
+  "Happiny": {
+    "attack": 5,
+    "classfication": "Playhouse Pok\u00e9mon",
+    "defense": 5,
+    "hp": 100,
+    "sp_attack": 15,
+    "sp_defense": 65,
+    "speed": 30
+  },
+  "Chatot": {
+    "attack": 65,
+    "classfication": "Music Note Pok\u00e9mon",
+    "defense": 45,
+    "hp": 76,
+    "sp_attack": 92,
+    "sp_defense": 42,
+    "speed": 91
+  },
+  "Spiritomb": {
+    "attack": 92,
+    "classfication": "Forbidden Pok\u00e9mon",
+    "defense": 108,
+    "hp": 50,
+    "sp_attack": 92,
+    "sp_defense": 108,
+    "speed": 35
+  },
+  "Gible": {
+    "attack": 70,
+    "classfication": "Land Shark Pok\u00e9mon",
+    "defense": 45,
+    "hp": 58,
+    "sp_attack": 40,
+    "sp_defense": 45,
+    "speed": 42
+  },
+  "Gabite": {
+    "attack": 90,
+    "classfication": "Cave Pok\u00e9mon",
+    "defense": 65,
+    "hp": 68,
+    "sp_attack": 50,
+    "sp_defense": 55,
+    "speed": 82
+  },
+  "Garchomp": {
+    "attack": 170,
+    "classfication": "Mach Pok\u00e9mon",
+    "defense": 115,
+    "hp": 108,
+    "sp_attack": 120,
+    "sp_defense": 95,
+    "speed": 92
+  },
+  "Munchlax": {
+    "attack": 85,
+    "classfication": "Big Eater Pok\u00e9mon",
+    "defense": 40,
+    "hp": 135,
+    "sp_attack": 40,
+    "sp_defense": 85,
+    "speed": 5
+  },
+  "Riolu": {
+    "attack": 70,
+    "classfication": "Emanation Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 35,
+    "sp_defense": 40,
+    "speed": 60
+  },
+  "Lucario": {
+    "attack": 145,
+    "classfication": "Aura Pok\u00e9mon",
+    "defense": 88,
+    "hp": 70,
+    "sp_attack": 140,
+    "sp_defense": 70,
+    "speed": 112
+  },
+  "Hippopotas": {
+    "attack": 72,
+    "classfication": "Hippo Pok\u00e9mon",
+    "defense": 78,
+    "hp": 68,
+    "sp_attack": 38,
+    "sp_defense": 42,
+    "speed": 32
+  },
+  "Hippowdon": {
+    "attack": 112,
+    "classfication": "Heavyweight Pok\u00e9mon",
+    "defense": 118,
+    "hp": 108,
+    "sp_attack": 68,
+    "sp_defense": 72,
+    "speed": 47
+  },
+  "Skorupi": {
+    "attack": 50,
+    "classfication": "Scorpion Pok\u00e9mon",
+    "defense": 90,
+    "hp": 40,
+    "sp_attack": 30,
+    "sp_defense": 55,
+    "speed": 65
+  },
+  "Drapion": {
+    "attack": 90,
+    "classfication": "Ogre Scorp Pok\u00e9mon",
+    "defense": 110,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 75,
+    "speed": 95
+  },
+  "Croagunk": {
+    "attack": 61,
+    "classfication": "Toxic Mouth Pok\u00e9mon",
+    "defense": 40,
+    "hp": 48,
+    "sp_attack": 61,
+    "sp_defense": 40,
+    "speed": 50
+  },
+  "Toxicroak": {
+    "attack": 106,
+    "classfication": "Toxic Mouth Pok\u00e9mon",
+    "defense": 65,
+    "hp": 83,
+    "sp_attack": 86,
+    "sp_defense": 65,
+    "speed": 85
+  },
+  "Carnivine": {
+    "attack": 100,
+    "classfication": "Bug Catcher Pok\u00e9mon",
+    "defense": 72,
+    "hp": 74,
+    "sp_attack": 90,
+    "sp_defense": 72,
+    "speed": 46
+  },
+  "Finneon": {
+    "attack": 49,
+    "classfication": "Wing Fish Pok\u00e9mon",
+    "defense": 56,
+    "hp": 49,
+    "sp_attack": 49,
+    "sp_defense": 61,
+    "speed": 66
+  },
+  "Lumineon": {
+    "attack": 69,
+    "classfication": "Neon Pok\u00e9mon",
+    "defense": 76,
+    "hp": 69,
+    "sp_attack": 69,
+    "sp_defense": 86,
+    "speed": 91
+  },
+  "Mantyke": {
+    "attack": 20,
+    "classfication": "Kite Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 60,
+    "sp_defense": 120,
+    "speed": 50
+  },
+  "Snover": {
+    "attack": 62,
+    "classfication": "Frosted Tree Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 62,
+    "sp_defense": 60,
+    "speed": 40
+  },
+  "Abomasnow": {
+    "attack": 132,
+    "classfication": "Frosted Tree Pok\u00e9mon",
+    "defense": 105,
+    "hp": 90,
+    "sp_attack": 132,
+    "sp_defense": 105,
+    "speed": 30
+  },
+  "Weavile": {
+    "attack": 120,
+    "classfication": "Sharp Claw Pok\u00e9mon",
+    "defense": 65,
+    "hp": 70,
+    "sp_attack": 45,
+    "sp_defense": 85,
+    "speed": 125
+  },
+  "Magnezone": {
+    "attack": 70,
+    "classfication": "Magnet Area Pok\u00e9mon",
+    "defense": 115,
+    "hp": 70,
+    "sp_attack": 130,
+    "sp_defense": 90,
+    "speed": 60
+  },
+  "Lickilicky": {
+    "attack": 85,
+    "classfication": "Licking Pok\u00e9mon",
+    "defense": 95,
+    "hp": 110,
+    "sp_attack": 80,
+    "sp_defense": 95,
+    "speed": 50
+  },
+  "Rhyperior": {
+    "attack": 140,
+    "classfication": "Drill Pok\u00e9mon",
+    "defense": 130,
+    "hp": 115,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 40
+  },
+  "Tangrowth": {
+    "attack": 100,
+    "classfication": "Vine Pok\u00e9mon",
+    "defense": 125,
+    "hp": 100,
+    "sp_attack": 110,
+    "sp_defense": 50,
+    "speed": 50
+  },
+  "Electivire": {
+    "attack": 123,
+    "classfication": "Thunderbolt Pok\u00e9mon",
+    "defense": 67,
+    "hp": 75,
+    "sp_attack": 95,
+    "sp_defense": 85,
+    "speed": 95
+  },
+  "Magmortar": {
+    "attack": 95,
+    "classfication": "Blast Pok\u00e9mon",
+    "defense": 67,
+    "hp": 75,
+    "sp_attack": 125,
+    "sp_defense": 95,
+    "speed": 83
+  },
+  "Togekiss": {
+    "attack": 50,
+    "classfication": "Jubilee Pok\u00e9mon",
+    "defense": 95,
+    "hp": 85,
+    "sp_attack": 120,
+    "sp_defense": 115,
+    "speed": 80
+  },
+  "Yanmega": {
+    "attack": 76,
+    "classfication": "Ogre Darner Pok\u00e9mon",
+    "defense": 86,
+    "hp": 86,
+    "sp_attack": 116,
+    "sp_defense": 56,
+    "speed": 95
+  },
+  "Leafeon": {
+    "attack": 110,
+    "classfication": "Verdant Pok\u00e9mon",
+    "defense": 130,
+    "hp": 65,
+    "sp_attack": 60,
+    "sp_defense": 65,
+    "speed": 95
+  },
+  "Glaceon": {
+    "attack": 60,
+    "classfication": "Fresh Snow Pok\u00e9mon",
+    "defense": 110,
+    "hp": 65,
+    "sp_attack": 130,
+    "sp_defense": 95,
+    "speed": 65
+  },
+  "Gliscor": {
+    "attack": 95,
+    "classfication": "Fang Scorp Pok\u00e9mon",
+    "defense": 125,
+    "hp": 75,
+    "sp_attack": 45,
+    "sp_defense": 75,
+    "speed": 95
+  },
+  "Mamoswine": {
+    "attack": 130,
+    "classfication": "Twin Tusk Pok\u00e9mon",
+    "defense": 80,
+    "hp": 110,
+    "sp_attack": 70,
+    "sp_defense": 60,
+    "speed": 80
+  },
+  "Porygon-Z": {
+    "attack": 80,
+    "classfication": "Virtual Pok\u00e9mon",
+    "defense": 70,
+    "hp": 85,
+    "sp_attack": 135,
+    "sp_defense": 75,
+    "speed": 90
+  },
+  "Gallade": {
+    "attack": 165,
+    "classfication": "Blade Pok\u00e9mon",
+    "defense": 95,
+    "hp": 68,
+    "sp_attack": 65,
+    "sp_defense": 115,
+    "speed": 110
+  },
+  "Probopass": {
+    "attack": 55,
+    "classfication": "Compass Pok\u00e9mon",
+    "defense": 145,
+    "hp": 60,
+    "sp_attack": 75,
+    "sp_defense": 150,
+    "speed": 40
+  },
+  "Dusknoir": {
+    "attack": 100,
+    "classfication": "Gripper Pok\u00e9mon",
+    "defense": 135,
+    "hp": 45,
+    "sp_attack": 65,
+    "sp_defense": 135,
+    "speed": 45
+  },
+  "Froslass": {
+    "attack": 80,
+    "classfication": "Snow Land Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 80,
+    "sp_defense": 70,
+    "speed": 110
+  },
+  "Rotom": {
+    "attack": 65,
+    "classfication": "Plasma Pok\u00e9mon",
+    "defense": 107,
+    "hp": 50,
+    "sp_attack": 105,
+    "sp_defense": 107,
+    "speed": 86
+  },
+  "Uxie": {
+    "attack": 75,
+    "classfication": "Knowledge Pok\u00e9mon",
+    "defense": 130,
+    "hp": 75,
+    "sp_attack": 75,
+    "sp_defense": 130,
+    "speed": 95
+  },
+  "Mesprit": {
+    "attack": 105,
+    "classfication": "Emotion Pok\u00e9mon",
+    "defense": 105,
+    "hp": 80,
+    "sp_attack": 105,
+    "sp_defense": 105,
+    "speed": 80
+  },
+  "Azelf": {
+    "attack": 125,
+    "classfication": "Willpower Pok\u00e9mon",
+    "defense": 70,
+    "hp": 75,
+    "sp_attack": 125,
+    "sp_defense": 70,
+    "speed": 115
+  },
+  "Dialga": {
+    "attack": 120,
+    "classfication": "Temporal Pok\u00e9mon",
+    "defense": 120,
+    "hp": 100,
+    "sp_attack": 150,
+    "sp_defense": 100,
+    "speed": 90
+  },
+  "Palkia": {
+    "attack": 120,
+    "classfication": "Spatial Pok\u00e9mon",
+    "defense": 100,
+    "hp": 90,
+    "sp_attack": 150,
+    "sp_defense": 120,
+    "speed": 100
+  },
+  "Heatran": {
+    "attack": 90,
+    "classfication": "Lava Dome Pok\u00e9mon",
+    "defense": 106,
+    "hp": 91,
+    "sp_attack": 130,
+    "sp_defense": 106,
+    "speed": 77
+  },
+  "Regigigas": {
+    "attack": 160,
+    "classfication": "Colossal Pok\u00e9mon",
+    "defense": 110,
+    "hp": 110,
+    "sp_attack": 80,
+    "sp_defense": 110,
+    "speed": 100
+  },
+  "Giratina": {
+    "attack": 120,
+    "classfication": "Renegade Pok\u00e9mon",
+    "defense": 100,
+    "hp": 150,
+    "sp_attack": 120,
+    "sp_defense": 100,
+    "speed": 90
+  },
+  "Cresselia": {
+    "attack": 70,
+    "classfication": "Lunar Pok\u00e9mon",
+    "defense": 120,
+    "hp": 120,
+    "sp_attack": 75,
+    "sp_defense": 130,
+    "speed": 85
+  },
+  "Phione": {
+    "attack": 80,
+    "classfication": "Sea Drifter Pok\u00e9mon",
+    "defense": 80,
+    "hp": 80,
+    "sp_attack": 80,
+    "sp_defense": 80,
+    "speed": 80
+  },
+  "Manaphy": {
+    "attack": 100,
+    "classfication": "Seafaring Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 100
+  },
+  "Darkrai": {
+    "attack": 90,
+    "classfication": "Pitch-Black Pok\u00e9mon",
+    "defense": 90,
+    "hp": 70,
+    "sp_attack": 135,
+    "sp_defense": 90,
+    "speed": 125
+  },
+  "Shaymin": {
+    "attack": 103,
+    "classfication": "Gratitude Pok\u00e9mon",
+    "defense": 75,
+    "hp": 100,
+    "sp_attack": 120,
+    "sp_defense": 75,
+    "speed": 127
+  },
+  "Arceus": {
+    "attack": 120,
+    "classfication": "Alpha Pok\u00e9mon",
+    "defense": 120,
+    "hp": 120,
+    "sp_attack": 120,
+    "sp_defense": 120,
+    "speed": 120
+  },
+  "Victini": {
+    "attack": 100,
+    "classfication": "Victory Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 100
+  },
+  "Snivy": {
+    "attack": 45,
+    "classfication": "Grass Snake Pok\u00e9mon",
+    "defense": 55,
+    "hp": 45,
+    "sp_attack": 45,
+    "sp_defense": 55,
+    "speed": 63
+  },
+  "Servine": {
+    "attack": 60,
+    "classfication": "Grass Snake Pok\u00e9mon",
+    "defense": 75,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 75,
+    "speed": 83
+  },
+  "Serperior": {
+    "attack": 75,
+    "classfication": "Regal Pok\u00e9mon",
+    "defense": 95,
+    "hp": 75,
+    "sp_attack": 75,
+    "sp_defense": 95,
+    "speed": 113
+  },
+  "Tepig": {
+    "attack": 63,
+    "classfication": "Fire Pig Pok\u00e9mon",
+    "defense": 45,
+    "hp": 65,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 45
+  },
+  "Pignite": {
+    "attack": 93,
+    "classfication": "Fire Pig Pok\u00e9mon",
+    "defense": 55,
+    "hp": 90,
+    "sp_attack": 70,
+    "sp_defense": 55,
+    "speed": 55
+  },
+  "Emboar": {
+    "attack": 123,
+    "classfication": "Mega Fire Pig Pok\u00e9mon",
+    "defense": 65,
+    "hp": 110,
+    "sp_attack": 100,
+    "sp_defense": 65,
+    "speed": 65
+  },
+  "Oshawott": {
+    "attack": 55,
+    "classfication": "Sea Otter Pok\u00e9mon",
+    "defense": 45,
+    "hp": 55,
+    "sp_attack": 63,
+    "sp_defense": 45,
+    "speed": 45
+  },
+  "Dewott": {
+    "attack": 75,
+    "classfication": "Discipline Pok\u00e9mon",
+    "defense": 60,
+    "hp": 75,
+    "sp_attack": 83,
+    "sp_defense": 60,
+    "speed": 60
+  },
+  "Samurott": {
+    "attack": 100,
+    "classfication": "Formidable Pok\u00e9mon",
+    "defense": 85,
+    "hp": 95,
+    "sp_attack": 108,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Patrat": {
+    "attack": 55,
+    "classfication": "Scout Pok\u00e9mon",
+    "defense": 39,
+    "hp": 45,
+    "sp_attack": 35,
+    "sp_defense": 39,
+    "speed": 42
+  },
+  "Watchog": {
+    "attack": 85,
+    "classfication": "Lookout Pok\u00e9mon",
+    "defense": 69,
+    "hp": 60,
+    "sp_attack": 60,
+    "sp_defense": 69,
+    "speed": 77
+  },
+  "Lillipup": {
+    "attack": 60,
+    "classfication": "Puppy Pok\u00e9mon",
+    "defense": 45,
+    "hp": 45,
+    "sp_attack": 25,
+    "sp_defense": 45,
+    "speed": 55
+  },
+  "Herdier": {
+    "attack": 80,
+    "classfication": "Loyal Dog Pok\u00e9mon",
+    "defense": 65,
+    "hp": 65,
+    "sp_attack": 35,
+    "sp_defense": 65,
+    "speed": 60
+  },
+  "Stoutland": {
+    "attack": 110,
+    "classfication": "Big-Hearted Pok\u00e9mon",
+    "defense": 90,
+    "hp": 85,
+    "sp_attack": 45,
+    "sp_defense": 90,
+    "speed": 80
+  },
+  "Purrloin": {
+    "attack": 50,
+    "classfication": "Devious Pok\u00e9mon",
+    "defense": 37,
+    "hp": 41,
+    "sp_attack": 50,
+    "sp_defense": 37,
+    "speed": 66
+  },
+  "Liepard": {
+    "attack": 88,
+    "classfication": "Cruel Pok\u00e9mon",
+    "defense": 50,
+    "hp": 64,
+    "sp_attack": 88,
+    "sp_defense": 50,
+    "speed": 106
+  },
+  "Pansage": {
+    "attack": 53,
+    "classfication": "Grass Monkey Pok\u00e9mon",
+    "defense": 48,
+    "hp": 50,
+    "sp_attack": 53,
+    "sp_defense": 48,
+    "speed": 64
+  },
+  "Simisage": {
+    "attack": 98,
+    "classfication": "Thorn Monkey Pok\u00e9mon",
+    "defense": 63,
+    "hp": 75,
+    "sp_attack": 98,
+    "sp_defense": 63,
+    "speed": 101
+  },
+  "Pansear": {
+    "attack": 53,
+    "classfication": "High Temp Pok\u00e9mon",
+    "defense": 48,
+    "hp": 50,
+    "sp_attack": 53,
+    "sp_defense": 48,
+    "speed": 64
+  },
+  "Simisear": {
+    "attack": 98,
+    "classfication": "Ember Pok\u00e9mon",
+    "defense": 63,
+    "hp": 75,
+    "sp_attack": 98,
+    "sp_defense": 63,
+    "speed": 101
+  },
+  "Panpour": {
+    "attack": 53,
+    "classfication": "Spray Pok\u00e9mon",
+    "defense": 48,
+    "hp": 50,
+    "sp_attack": 53,
+    "sp_defense": 48,
+    "speed": 64
+  },
+  "Simipour": {
+    "attack": 98,
+    "classfication": "Geyser Pok\u00e9mon",
+    "defense": 63,
+    "hp": 75,
+    "sp_attack": 98,
+    "sp_defense": 63,
+    "speed": 101
+  },
+  "Munna": {
+    "attack": 25,
+    "classfication": "Dream Eater Pok\u00e9mon",
+    "defense": 45,
+    "hp": 76,
+    "sp_attack": 67,
+    "sp_defense": 55,
+    "speed": 24
+  },
+  "Musharna": {
+    "attack": 55,
+    "classfication": "Drowsing Pok\u00e9mon",
+    "defense": 85,
+    "hp": 116,
+    "sp_attack": 107,
+    "sp_defense": 95,
+    "speed": 29
+  },
+  "Pidove": {
+    "attack": 55,
+    "classfication": "Tiny Pigeon Pok\u00e9mon",
+    "defense": 50,
+    "hp": 50,
+    "sp_attack": 36,
+    "sp_defense": 30,
+    "speed": 43
+  },
+  "Tranquill": {
+    "attack": 77,
+    "classfication": "Wild Pigeon Pok\u00e9mon",
+    "defense": 62,
+    "hp": 62,
+    "sp_attack": 50,
+    "sp_defense": 42,
+    "speed": 65
+  },
+  "Unfezant": {
+    "attack": 115,
+    "classfication": "Proud Pok\u00e9mon",
+    "defense": 80,
+    "hp": 80,
+    "sp_attack": 65,
+    "sp_defense": 55,
+    "speed": 93
+  },
+  "Blitzle": {
+    "attack": 60,
+    "classfication": "Electrified Pok\u00e9mon",
+    "defense": 32,
+    "hp": 45,
+    "sp_attack": 50,
+    "sp_defense": 32,
+    "speed": 76
+  },
+  "Zebstrika": {
+    "attack": 100,
+    "classfication": "Thunderbolt Pok\u00e9mon",
+    "defense": 63,
+    "hp": 75,
+    "sp_attack": 80,
+    "sp_defense": 63,
+    "speed": 116
+  },
+  "Roggenrola": {
+    "attack": 75,
+    "classfication": "Mantle Pok\u00e9mon",
+    "defense": 85,
+    "hp": 55,
+    "sp_attack": 25,
+    "sp_defense": 25,
+    "speed": 15
+  },
+  "Boldore": {
+    "attack": 105,
+    "classfication": "Ore Pok\u00e9mon",
+    "defense": 105,
+    "hp": 70,
+    "sp_attack": 50,
+    "sp_defense": 40,
+    "speed": 20
+  },
+  "Gigalith": {
+    "attack": 135,
+    "classfication": "Compressed Pok\u00e9mon",
+    "defense": 130,
+    "hp": 85,
+    "sp_attack": 60,
+    "sp_defense": 80,
+    "speed": 25
+  },
+  "Woobat": {
+    "attack": 45,
+    "classfication": "Bat Pok\u00e9mon",
+    "defense": 43,
+    "hp": 65,
+    "sp_attack": 55,
+    "sp_defense": 43,
+    "speed": 72
+  },
+  "Swoobat": {
+    "attack": 57,
+    "classfication": "Courting Pok\u00e9mon",
+    "defense": 55,
+    "hp": 67,
+    "sp_attack": 77,
+    "sp_defense": 55,
+    "speed": 114
+  },
+  "Drilbur": {
+    "attack": 85,
+    "classfication": "Mole Pok\u00e9mon",
+    "defense": 40,
+    "hp": 60,
+    "sp_attack": 30,
+    "sp_defense": 45,
+    "speed": 68
+  },
+  "Excadrill": {
+    "attack": 135,
+    "classfication": "Subterrene Pok\u00e9mon",
+    "defense": 60,
+    "hp": 110,
+    "sp_attack": 50,
+    "sp_defense": 65,
+    "speed": 88
+  },
+  "Audino": {
+    "attack": 60,
+    "classfication": "Hearing Pok\u00e9mon",
+    "defense": 126,
+    "hp": 103,
+    "sp_attack": 80,
+    "sp_defense": 126,
+    "speed": 50
+  },
+  "Timburr": {
+    "attack": 80,
+    "classfication": "Muscular Pok\u00e9mon",
+    "defense": 55,
+    "hp": 75,
+    "sp_attack": 25,
+    "sp_defense": 35,
+    "speed": 35
+  },
+  "Gurdurr": {
+    "attack": 105,
+    "classfication": "Muscular Pok\u00e9mon",
+    "defense": 85,
+    "hp": 85,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 40
+  },
+  "Conkeldurr": {
+    "attack": 140,
+    "classfication": "Muscular Pok\u00e9mon",
+    "defense": 95,
+    "hp": 105,
+    "sp_attack": 55,
+    "sp_defense": 65,
+    "speed": 45
+  },
+  "Tympole": {
+    "attack": 50,
+    "classfication": "Tadpole Pok\u00e9mon",
+    "defense": 40,
+    "hp": 50,
+    "sp_attack": 50,
+    "sp_defense": 40,
+    "speed": 64
+  },
+  "Palpitoad": {
+    "attack": 65,
+    "classfication": "Vibration Pok\u00e9mon",
+    "defense": 55,
+    "hp": 75,
+    "sp_attack": 65,
+    "sp_defense": 55,
+    "speed": 69
+  },
+  "Seismitoad": {
+    "attack": 95,
+    "classfication": "Vibration Pok\u00e9mon",
+    "defense": 75,
+    "hp": 105,
+    "sp_attack": 85,
+    "sp_defense": 75,
+    "speed": 74
+  },
+  "Throh": {
+    "attack": 100,
+    "classfication": "Judo Pok\u00e9mon",
+    "defense": 85,
+    "hp": 120,
+    "sp_attack": 30,
+    "sp_defense": 85,
+    "speed": 45
+  },
+  "Sawk": {
+    "attack": 125,
+    "classfication": "Karate Pok\u00e9mon",
+    "defense": 75,
+    "hp": 75,
+    "sp_attack": 30,
+    "sp_defense": 75,
+    "speed": 85
+  },
+  "Sewaddle": {
+    "attack": 53,
+    "classfication": "Sewing Pok\u00e9mon",
+    "defense": 70,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 60,
+    "speed": 42
+  },
+  "Swadloon": {
+    "attack": 63,
+    "classfication": "Leaf-Wrapped Pok\u00e9mon",
+    "defense": 90,
+    "hp": 55,
+    "sp_attack": 50,
+    "sp_defense": 80,
+    "speed": 42
+  },
+  "Leavanny": {
+    "attack": 103,
+    "classfication": "Nurturing Pok\u00e9mon",
+    "defense": 80,
+    "hp": 75,
+    "sp_attack": 70,
+    "sp_defense": 80,
+    "speed": 92
+  },
+  "Venipede": {
+    "attack": 45,
+    "classfication": "Centipede Pok\u00e9mon",
+    "defense": 59,
+    "hp": 30,
+    "sp_attack": 30,
+    "sp_defense": 39,
+    "speed": 57
+  },
+  "Whirlipede": {
+    "attack": 55,
+    "classfication": "Curlipede Pok\u00e9mon",
+    "defense": 99,
+    "hp": 40,
+    "sp_attack": 40,
+    "sp_defense": 79,
+    "speed": 47
+  },
+  "Scolipede": {
+    "attack": 100,
+    "classfication": "Megapede Pok\u00e9mon",
+    "defense": 89,
+    "hp": 60,
+    "sp_attack": 55,
+    "sp_defense": 69,
+    "speed": 112
+  },
+  "Cottonee": {
+    "attack": 27,
+    "classfication": "Cotton Puff Pok\u00e9mon",
+    "defense": 60,
+    "hp": 40,
+    "sp_attack": 37,
+    "sp_defense": 50,
+    "speed": 66
+  },
+  "Whimsicott": {
+    "attack": 67,
+    "classfication": "Windveiled Pok\u00e9mon",
+    "defense": 85,
+    "hp": 60,
+    "sp_attack": 77,
+    "sp_defense": 75,
+    "speed": 116
+  },
+  "Petilil": {
+    "attack": 35,
+    "classfication": "Bulb Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 70,
+    "sp_defense": 50,
+    "speed": 30
+  },
+  "Lilligant": {
+    "attack": 60,
+    "classfication": "Flowering Pok\u00e9mon",
+    "defense": 75,
+    "hp": 70,
+    "sp_attack": 110,
+    "sp_defense": 75,
+    "speed": 90
+  },
+  "Basculin": {
+    "attack": 92,
+    "classfication": "Hostile Pok\u00e9mon",
+    "defense": 65,
+    "hp": 70,
+    "sp_attack": 80,
+    "sp_defense": 55,
+    "speed": 98
+  },
+  "Sandile": {
+    "attack": 72,
+    "classfication": "Desert Croc Pok\u00e9mon",
+    "defense": 35,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 65
+  },
+  "Krokorok": {
+    "attack": 82,
+    "classfication": "Desert Croc Pok\u00e9mon",
+    "defense": 45,
+    "hp": 60,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 74
+  },
+  "Krookodile": {
+    "attack": 117,
+    "classfication": "Intimidation Pok\u00e9mon",
+    "defense": 80,
+    "hp": 95,
+    "sp_attack": 65,
+    "sp_defense": 70,
+    "speed": 92
+  },
+  "Darumaka": {
+    "attack": 90,
+    "classfication": "Zen Charm Pok\u00e9mon",
+    "defense": 45,
+    "hp": 70,
+    "sp_attack": 15,
+    "sp_defense": 45,
+    "speed": 50
+  },
+  "Darmanitan": {
+    "attack": 30,
+    "classfication": "Blazing Pok\u00e9mon",
+    "defense": 105,
+    "hp": 105,
+    "sp_attack": 140,
+    "sp_defense": 105,
+    "speed": 55
+  },
+  "Maractus": {
+    "attack": 86,
+    "classfication": "Cactus Pok\u00e9mon",
+    "defense": 67,
+    "hp": 75,
+    "sp_attack": 106,
+    "sp_defense": 67,
+    "speed": 60
+  },
+  "Dwebble": {
+    "attack": 65,
+    "classfication": "Rock Inn Pok\u00e9mon",
+    "defense": 85,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 35,
+    "speed": 55
+  },
+  "Crustle": {
+    "attack": 105,
+    "classfication": "Stone Home Pok\u00e9mon",
+    "defense": 125,
+    "hp": 70,
+    "sp_attack": 65,
+    "sp_defense": 75,
+    "speed": 45
+  },
+  "Scraggy": {
+    "attack": 75,
+    "classfication": "Shedding Pok\u00e9mon",
+    "defense": 70,
+    "hp": 50,
+    "sp_attack": 35,
+    "sp_defense": 70,
+    "speed": 48
+  },
+  "Scrafty": {
+    "attack": 90,
+    "classfication": "Hoodlum Pok\u00e9mon",
+    "defense": 115,
+    "hp": 65,
+    "sp_attack": 45,
+    "sp_defense": 115,
+    "speed": 58
+  },
+  "Sigilyph": {
+    "attack": 58,
+    "classfication": "Avianoid Pok\u00e9mon",
+    "defense": 80,
+    "hp": 72,
+    "sp_attack": 103,
+    "sp_defense": 80,
+    "speed": 97
+  },
+  "Yamask": {
+    "attack": 30,
+    "classfication": "Spirit Pok\u00e9mon",
+    "defense": 85,
+    "hp": 38,
+    "sp_attack": 55,
+    "sp_defense": 65,
+    "speed": 30
+  },
+  "Cofagrigus": {
+    "attack": 50,
+    "classfication": "Coffin Pok\u00e9mon",
+    "defense": 145,
+    "hp": 58,
+    "sp_attack": 95,
+    "sp_defense": 105,
+    "speed": 30
+  },
+  "Tirtouga": {
+    "attack": 78,
+    "classfication": "Prototurtle Pok\u00e9mon",
+    "defense": 103,
+    "hp": 54,
+    "sp_attack": 53,
+    "sp_defense": 45,
+    "speed": 22
+  },
+  "Carracosta": {
+    "attack": 108,
+    "classfication": "Prototurtle Pok\u00e9mon",
+    "defense": 133,
+    "hp": 74,
+    "sp_attack": 83,
+    "sp_defense": 65,
+    "speed": 32
+  },
+  "Archen": {
+    "attack": 112,
+    "classfication": "First Bird Pok\u00e9mon",
+    "defense": 45,
+    "hp": 55,
+    "sp_attack": 74,
+    "sp_defense": 45,
+    "speed": 70
+  },
+  "Archeops": {
+    "attack": 140,
+    "classfication": "First Bird Pok\u00e9mon",
+    "defense": 65,
+    "hp": 75,
+    "sp_attack": 112,
+    "sp_defense": 65,
+    "speed": 110
+  },
+  "Trubbish": {
+    "attack": 50,
+    "classfication": "Trash Bag Pok\u00e9mon",
+    "defense": 62,
+    "hp": 50,
+    "sp_attack": 40,
+    "sp_defense": 62,
+    "speed": 65
+  },
+  "Garbodor": {
+    "attack": 95,
+    "classfication": "Trash Heap Pok\u00e9mon",
+    "defense": 82,
+    "hp": 80,
+    "sp_attack": 60,
+    "sp_defense": 82,
+    "speed": 75
+  },
+  "Zorua": {
+    "attack": 65,
+    "classfication": "Tricky Fox Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 80,
+    "sp_defense": 40,
+    "speed": 65
+  },
+  "Zoroark": {
+    "attack": 105,
+    "classfication": "Illusion Fox Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 120,
+    "sp_defense": 60,
+    "speed": 105
+  },
+  "Minccino": {
+    "attack": 50,
+    "classfication": "Chinchilla Pok\u00e9mon",
+    "defense": 40,
+    "hp": 55,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 75
+  },
+  "Cinccino": {
+    "attack": 95,
+    "classfication": "Scarf Pok\u00e9mon",
+    "defense": 60,
+    "hp": 75,
+    "sp_attack": 65,
+    "sp_defense": 60,
+    "speed": 115
+  },
+  "Gothita": {
+    "attack": 30,
+    "classfication": "Fixation Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 55,
+    "sp_defense": 65,
+    "speed": 45
+  },
+  "Gothorita": {
+    "attack": 45,
+    "classfication": "Manipulate Pok\u00e9mon",
+    "defense": 70,
+    "hp": 60,
+    "sp_attack": 75,
+    "sp_defense": 85,
+    "speed": 55
+  },
+  "Gothitelle": {
+    "attack": 55,
+    "classfication": "Astral Body Pok\u00e9mon",
+    "defense": 95,
+    "hp": 70,
+    "sp_attack": 95,
+    "sp_defense": 110,
+    "speed": 65
+  },
+  "Solosis": {
+    "attack": 30,
+    "classfication": "Cell Pok\u00e9mon",
+    "defense": 40,
+    "hp": 45,
+    "sp_attack": 105,
+    "sp_defense": 50,
+    "speed": 20
+  },
+  "Duosion": {
+    "attack": 40,
+    "classfication": "Mitosis Pok\u00e9mon",
+    "defense": 50,
+    "hp": 65,
+    "sp_attack": 125,
+    "sp_defense": 60,
+    "speed": 30
+  },
+  "Reuniclus": {
+    "attack": 65,
+    "classfication": "Multiplying Pok\u00e9mon",
+    "defense": 75,
+    "hp": 110,
+    "sp_attack": 125,
+    "sp_defense": 85,
+    "speed": 30
+  },
+  "Ducklett": {
+    "attack": 44,
+    "classfication": "Water Bird Pok\u00e9mon",
+    "defense": 50,
+    "hp": 62,
+    "sp_attack": 44,
+    "sp_defense": 50,
+    "speed": 55
+  },
+  "Swanna": {
+    "attack": 87,
+    "classfication": "White Bird Pok\u00e9mon",
+    "defense": 63,
+    "hp": 75,
+    "sp_attack": 87,
+    "sp_defense": 63,
+    "speed": 98
+  },
+  "Vanillite": {
+    "attack": 50,
+    "classfication": "Fresh Snow Pok\u00e9mon",
+    "defense": 50,
+    "hp": 36,
+    "sp_attack": 65,
+    "sp_defense": 60,
+    "speed": 44
+  },
+  "Vanillish": {
+    "attack": 65,
+    "classfication": "Icy Snow Pok\u00e9mon",
+    "defense": 65,
+    "hp": 51,
+    "sp_attack": 80,
+    "sp_defense": 75,
+    "speed": 59
+  },
+  "Vanilluxe": {
+    "attack": 95,
+    "classfication": "Snowstorm Pok\u00e9mon",
+    "defense": 85,
+    "hp": 71,
+    "sp_attack": 110,
+    "sp_defense": 95,
+    "speed": 79
+  },
+  "Deerling": {
+    "attack": 60,
+    "classfication": "Season Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 75
+  },
+  "Sawsbuck": {
+    "attack": 100,
+    "classfication": "Season Pok\u00e9mon",
+    "defense": 70,
+    "hp": 80,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 95
+  },
+  "Emolga": {
+    "attack": 75,
+    "classfication": "Sky Squirrel Pok\u00e9mon",
+    "defense": 60,
+    "hp": 55,
+    "sp_attack": 75,
+    "sp_defense": 60,
+    "speed": 103
+  },
+  "Karrablast": {
+    "attack": 75,
+    "classfication": "Clamping Pok\u00e9mon",
+    "defense": 45,
+    "hp": 50,
+    "sp_attack": 40,
+    "sp_defense": 45,
+    "speed": 60
+  },
+  "Escavalier": {
+    "attack": 135,
+    "classfication": "Cavalry Pok\u00e9mon",
+    "defense": 105,
+    "hp": 70,
+    "sp_attack": 60,
+    "sp_defense": 105,
+    "speed": 20
+  },
+  "Foongus": {
+    "attack": 55,
+    "classfication": "Mushroom Pok\u00e9mon",
+    "defense": 45,
+    "hp": 69,
+    "sp_attack": 55,
+    "sp_defense": 55,
+    "speed": 15
+  },
+  "Amoonguss": {
+    "attack": 85,
+    "classfication": "Mushroom Pok\u00e9mon",
+    "defense": 70,
+    "hp": 114,
+    "sp_attack": 85,
+    "sp_defense": 80,
+    "speed": 30
+  },
+  "Frillish": {
+    "attack": 40,
+    "classfication": "Floating Pok\u00e9mon",
+    "defense": 50,
+    "hp": 55,
+    "sp_attack": 65,
+    "sp_defense": 85,
+    "speed": 40
+  },
+  "Jellicent": {
+    "attack": 60,
+    "classfication": "Floating Pok\u00e9mon",
+    "defense": 70,
+    "hp": 100,
+    "sp_attack": 85,
+    "sp_defense": 105,
+    "speed": 60
+  },
+  "Alomomola": {
+    "attack": 75,
+    "classfication": "Caring Pok\u00e9mon",
+    "defense": 80,
+    "hp": 165,
+    "sp_attack": 40,
+    "sp_defense": 45,
+    "speed": 65
+  },
+  "Joltik": {
+    "attack": 47,
+    "classfication": "Attaching Pok\u00e9mon",
+    "defense": 50,
+    "hp": 50,
+    "sp_attack": 57,
+    "sp_defense": 50,
+    "speed": 65
+  },
+  "Galvantula": {
+    "attack": 77,
+    "classfication": "EleSpider Pok\u00e9mon",
+    "defense": 60,
+    "hp": 70,
+    "sp_attack": 97,
+    "sp_defense": 60,
+    "speed": 108
+  },
+  "Ferroseed": {
+    "attack": 50,
+    "classfication": "Thorn Seed Pok\u00e9mon",
+    "defense": 91,
+    "hp": 44,
+    "sp_attack": 24,
+    "sp_defense": 86,
+    "speed": 10
+  },
+  "Ferrothorn": {
+    "attack": 94,
+    "classfication": "Thorn Pod Pok\u00e9mon",
+    "defense": 131,
+    "hp": 74,
+    "sp_attack": 54,
+    "sp_defense": 116,
+    "speed": 20
+  },
+  "Klink": {
+    "attack": 55,
+    "classfication": "Gear Pok\u00e9mon",
+    "defense": 70,
+    "hp": 40,
+    "sp_attack": 45,
+    "sp_defense": 60,
+    "speed": 30
+  },
+  "Klang": {
+    "attack": 80,
+    "classfication": "Gear Pok\u00e9mon",
+    "defense": 95,
+    "hp": 60,
+    "sp_attack": 70,
+    "sp_defense": 85,
+    "speed": 50
+  },
+  "Klinklang": {
+    "attack": 100,
+    "classfication": "Gear Pok\u00e9mon",
+    "defense": 115,
+    "hp": 60,
+    "sp_attack": 70,
+    "sp_defense": 85,
+    "speed": 90
+  },
+  "Tynamo": {
+    "attack": 55,
+    "classfication": "EleFish Pok\u00e9mon",
+    "defense": 40,
+    "hp": 35,
+    "sp_attack": 45,
+    "sp_defense": 40,
+    "speed": 60
+  },
+  "Eelektrik": {
+    "attack": 85,
+    "classfication": "EleFish Pok\u00e9mon",
+    "defense": 70,
+    "hp": 65,
+    "sp_attack": 75,
+    "sp_defense": 70,
+    "speed": 40
+  },
+  "Eelektross": {
+    "attack": 115,
+    "classfication": "EleFish Pok\u00e9mon",
+    "defense": 80,
+    "hp": 85,
+    "sp_attack": 105,
+    "sp_defense": 80,
+    "speed": 50
+  },
+  "Elgyem": {
+    "attack": 55,
+    "classfication": "Cerebral Pok\u00e9mon",
+    "defense": 55,
+    "hp": 55,
+    "sp_attack": 85,
+    "sp_defense": 55,
+    "speed": 30
+  },
+  "Beheeyem": {
+    "attack": 75,
+    "classfication": "Cerebral Pok\u00e9mon",
+    "defense": 75,
+    "hp": 75,
+    "sp_attack": 125,
+    "sp_defense": 95,
+    "speed": 40
+  },
+  "Litwick": {
+    "attack": 30,
+    "classfication": "Candle Pok\u00e9mon",
+    "defense": 55,
+    "hp": 50,
+    "sp_attack": 65,
+    "sp_defense": 55,
+    "speed": 20
+  },
+  "Lampent": {
+    "attack": 40,
+    "classfication": "Lamp Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 95,
+    "sp_defense": 60,
+    "speed": 55
+  },
+  "Chandelure": {
+    "attack": 55,
+    "classfication": "Luring Pok\u00e9mon",
+    "defense": 90,
+    "hp": 60,
+    "sp_attack": 145,
+    "sp_defense": 90,
+    "speed": 80
+  },
+  "Axew": {
+    "attack": 87,
+    "classfication": "Tusk Pok\u00e9mon",
+    "defense": 60,
+    "hp": 46,
+    "sp_attack": 30,
+    "sp_defense": 40,
+    "speed": 57
+  },
+  "Fraxure": {
+    "attack": 117,
+    "classfication": "Axe Jaw Pok\u00e9mon",
+    "defense": 70,
+    "hp": 66,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 67
+  },
+  "Haxorus": {
+    "attack": 147,
+    "classfication": "Axe Jaw Pok\u00e9mon",
+    "defense": 90,
+    "hp": 76,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 97
+  },
+  "Cubchoo": {
+    "attack": 70,
+    "classfication": "Chill Pok\u00e9mon",
+    "defense": 40,
+    "hp": 55,
+    "sp_attack": 60,
+    "sp_defense": 40,
+    "speed": 40
+  },
+  "Beartic": {
+    "attack": 130,
+    "classfication": "Freezing Pok\u00e9mon",
+    "defense": 80,
+    "hp": 95,
+    "sp_attack": 70,
+    "sp_defense": 80,
+    "speed": 50
+  },
+  "Cryogonal": {
+    "attack": 50,
+    "classfication": "Crystallizing Pok\u00e9mon",
+    "defense": 50,
+    "hp": 80,
+    "sp_attack": 95,
+    "sp_defense": 135,
+    "speed": 105
+  },
+  "Shelmet": {
+    "attack": 40,
+    "classfication": "Snail Pok\u00e9mon",
+    "defense": 85,
+    "hp": 50,
+    "sp_attack": 40,
+    "sp_defense": 65,
+    "speed": 25
+  },
+  "Accelgor": {
+    "attack": 70,
+    "classfication": "Shell Out Pok\u00e9mon",
+    "defense": 40,
+    "hp": 80,
+    "sp_attack": 100,
+    "sp_defense": 60,
+    "speed": 145
+  },
+  "Stunfisk": {
+    "attack": 66,
+    "classfication": "Trap Pok\u00e9mon",
+    "defense": 84,
+    "hp": 109,
+    "sp_attack": 81,
+    "sp_defense": 99,
+    "speed": 32
+  },
+  "Mienfoo": {
+    "attack": 85,
+    "classfication": "Martial Arts Pok\u00e9mon",
+    "defense": 50,
+    "hp": 45,
+    "sp_attack": 55,
+    "sp_defense": 50,
+    "speed": 65
+  },
+  "Mienshao": {
+    "attack": 125,
+    "classfication": "Martial Arts Pok\u00e9mon",
+    "defense": 60,
+    "hp": 65,
+    "sp_attack": 95,
+    "sp_defense": 60,
+    "speed": 105
+  },
+  "Druddigon": {
+    "attack": 120,
+    "classfication": "Cave Pok\u00e9mon",
+    "defense": 90,
+    "hp": 77,
+    "sp_attack": 60,
+    "sp_defense": 90,
+    "speed": 48
+  },
+  "Golett": {
+    "attack": 74,
+    "classfication": "Automaton Pok\u00e9mon",
+    "defense": 50,
+    "hp": 59,
+    "sp_attack": 35,
+    "sp_defense": 50,
+    "speed": 35
+  },
+  "Golurk": {
+    "attack": 124,
+    "classfication": "Automaton Pok\u00e9mon",
+    "defense": 80,
+    "hp": 89,
+    "sp_attack": 55,
+    "sp_defense": 80,
+    "speed": 55
+  },
+  "Pawniard": {
+    "attack": 85,
+    "classfication": "Sharp Blade Pok\u00e9mon",
+    "defense": 70,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 40,
+    "speed": 60
+  },
+  "Bisharp": {
+    "attack": 125,
+    "classfication": "Sword Blade Pok\u00e9mon",
+    "defense": 100,
+    "hp": 65,
+    "sp_attack": 60,
+    "sp_defense": 70,
+    "speed": 70
+  },
+  "Bouffalant": {
+    "attack": 110,
+    "classfication": "Bash Buffalo Pok\u00e9mon",
+    "defense": 95,
+    "hp": 95,
+    "sp_attack": 40,
+    "sp_defense": 95,
+    "speed": 55
+  },
+  "Rufflet": {
+    "attack": 83,
+    "classfication": "Eaglet Pok\u00e9mon",
+    "defense": 50,
+    "hp": 70,
+    "sp_attack": 37,
+    "sp_defense": 50,
+    "speed": 60
+  },
+  "Braviary": {
+    "attack": 123,
+    "classfication": "Valiant Pok\u00e9mon",
+    "defense": 75,
+    "hp": 100,
+    "sp_attack": 57,
+    "sp_defense": 75,
+    "speed": 80
+  },
+  "Vullaby": {
+    "attack": 55,
+    "classfication": "Diapered Pok\u00e9mon",
+    "defense": 75,
+    "hp": 70,
+    "sp_attack": 45,
+    "sp_defense": 65,
+    "speed": 60
+  },
+  "Mandibuzz": {
+    "attack": 65,
+    "classfication": "Bone Vulture Pok\u00e9mon",
+    "defense": 105,
+    "hp": 110,
+    "sp_attack": 55,
+    "sp_defense": 95,
+    "speed": 80
+  },
+  "Heatmor": {
+    "attack": 97,
+    "classfication": "Anteater Pok\u00e9mon",
+    "defense": 66,
+    "hp": 85,
+    "sp_attack": 105,
+    "sp_defense": 66,
+    "speed": 65
+  },
+  "Durant": {
+    "attack": 109,
+    "classfication": "Iron Ant Pok\u00e9mon",
+    "defense": 112,
+    "hp": 58,
+    "sp_attack": 48,
+    "sp_defense": 48,
+    "speed": 109
+  },
+  "Deino": {
+    "attack": 65,
+    "classfication": "Irate Pok\u00e9mon",
+    "defense": 50,
+    "hp": 52,
+    "sp_attack": 45,
+    "sp_defense": 50,
+    "speed": 38
+  },
+  "Zweilous": {
+    "attack": 85,
+    "classfication": "Hostile Pok\u00e9mon",
+    "defense": 70,
+    "hp": 72,
+    "sp_attack": 65,
+    "sp_defense": 70,
+    "speed": 58
+  },
+  "Hydreigon": {
+    "attack": 105,
+    "classfication": "Brutal Pok\u00e9mon",
+    "defense": 90,
+    "hp": 92,
+    "sp_attack": 125,
+    "sp_defense": 90,
+    "speed": 98
+  },
+  "Larvesta": {
+    "attack": 85,
+    "classfication": "Torch Pok\u00e9mon",
+    "defense": 55,
+    "hp": 55,
+    "sp_attack": 50,
+    "sp_defense": 55,
+    "speed": 60
+  },
+  "Volcarona": {
+    "attack": 60,
+    "classfication": "Sun Pok\u00e9mon",
+    "defense": 65,
+    "hp": 85,
+    "sp_attack": 135,
+    "sp_defense": 105,
+    "speed": 100
+  },
+  "Cobalion": {
+    "attack": 90,
+    "classfication": "Iron Will Pok\u00e9mon",
+    "defense": 129,
+    "hp": 91,
+    "sp_attack": 90,
+    "sp_defense": 72,
+    "speed": 108
+  },
+  "Terrakion": {
+    "attack": 129,
+    "classfication": "Cavern Pok\u00e9mon",
+    "defense": 90,
+    "hp": 91,
+    "sp_attack": 72,
+    "sp_defense": 90,
+    "speed": 108
+  },
+  "Virizion": {
+    "attack": 90,
+    "classfication": "Grassland Pok\u00e9mon",
+    "defense": 72,
+    "hp": 91,
+    "sp_attack": 90,
+    "sp_defense": 129,
+    "speed": 108
+  },
+  "Tornadus": {
+    "attack": 100,
+    "classfication": "Cyclone Pok\u00e9mon",
+    "defense": 80,
+    "hp": 79,
+    "sp_attack": 110,
+    "sp_defense": 90,
+    "speed": 121
+  },
+  "Thundurus": {
+    "attack": 105,
+    "classfication": "Bolt Strike Pok\u00e9mon",
+    "defense": 70,
+    "hp": 79,
+    "sp_attack": 145,
+    "sp_defense": 80,
+    "speed": 101
+  },
+  "Reshiram": {
+    "attack": 120,
+    "classfication": "Vast White Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 150,
+    "sp_defense": 120,
+    "speed": 90
+  },
+  "Zekrom": {
+    "attack": 150,
+    "classfication": "Deep Black Pok\u00e9mon",
+    "defense": 120,
+    "hp": 100,
+    "sp_attack": 120,
+    "sp_defense": 100,
+    "speed": 90
+  },
+  "Landorus": {
+    "attack": 145,
+    "classfication": "Abundance Pok\u00e9mon",
+    "defense": 90,
+    "hp": 89,
+    "sp_attack": 105,
+    "sp_defense": 80,
+    "speed": 91
+  },
+  "Kyurem": {
+    "attack": 120,
+    "classfication": "Boundary Pok\u00e9mon",
+    "defense": 90,
+    "hp": 125,
+    "sp_attack": 170,
+    "sp_defense": 100,
+    "speed": 95
+  },
+  "Keldeo": {
+    "attack": 72,
+    "classfication": "Colt Pok\u00e9mon",
+    "defense": 90,
+    "hp": 91,
+    "sp_attack": 129,
+    "sp_defense": 90,
+    "speed": 108
+  },
+  "Meloetta": {
+    "attack": 128,
+    "classfication": "Melody Pok\u00e9mon",
+    "defense": 90,
+    "hp": 100,
+    "sp_attack": 77,
+    "sp_defense": 77,
+    "speed": 128
+  },
+  "Genesect": {
+    "attack": 120,
+    "classfication": "Paleozoic Pok\u00e9mon",
+    "defense": 95,
+    "hp": 71,
+    "sp_attack": 120,
+    "sp_defense": 95,
+    "speed": 99
+  },
+  "Chespin": {
+    "attack": 61,
+    "classfication": "Spiky Nut Pok\u00e9mon",
+    "defense": 65,
+    "hp": 56,
+    "sp_attack": 48,
+    "sp_defense": 45,
+    "speed": 38
+  },
+  "Quilladin": {
+    "attack": 78,
+    "classfication": "Spiny Armor Pok\u00e9mon",
+    "defense": 95,
+    "hp": 61,
+    "sp_attack": 56,
+    "sp_defense": 58,
+    "speed": 57
+  },
+  "Chesnaught": {
+    "attack": 107,
+    "classfication": "Spiny Armor Pok\u00e9mon",
+    "defense": 122,
+    "hp": 88,
+    "sp_attack": 74,
+    "sp_defense": 75,
+    "speed": 64
+  },
+  "Fennekin": {
+    "attack": 45,
+    "classfication": "Fox Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 62,
+    "sp_defense": 60,
+    "speed": 60
+  },
+  "Braixen": {
+    "attack": 59,
+    "classfication": "Fox Pok\u00e9mon",
+    "defense": 58,
+    "hp": 59,
+    "sp_attack": 90,
+    "sp_defense": 70,
+    "speed": 73
+  },
+  "Delphox": {
+    "attack": 69,
+    "classfication": "Fox Pok\u00e9mon",
+    "defense": 72,
+    "hp": 75,
+    "sp_attack": 114,
+    "sp_defense": 100,
+    "speed": 104
+  },
+  "Froakie": {
+    "attack": 56,
+    "classfication": "Bubble Frog Pok\u00e9mon",
+    "defense": 40,
+    "hp": 41,
+    "sp_attack": 62,
+    "sp_defense": 44,
+    "speed": 71
+  },
+  "Frogadier": {
+    "attack": 63,
+    "classfication": "Bubble Frog Pok\u00e9mon",
+    "defense": 52,
+    "hp": 54,
+    "sp_attack": 83,
+    "sp_defense": 56,
+    "speed": 97
+  },
+  "Greninja": {
+    "attack": 145,
+    "classfication": "Ninja Pok\u00e9mon",
+    "defense": 67,
+    "hp": 72,
+    "sp_attack": 153,
+    "sp_defense": 71,
+    "speed": 132
+  },
+  "Bunnelby": {
+    "attack": 36,
+    "classfication": "Digging Pok\u00e9mon",
+    "defense": 38,
+    "hp": 38,
+    "sp_attack": 32,
+    "sp_defense": 36,
+    "speed": 57
+  },
+  "Diggersby": {
+    "attack": 56,
+    "classfication": "Digging Pok\u00e9mon",
+    "defense": 77,
+    "hp": 85,
+    "sp_attack": 50,
+    "sp_defense": 77,
+    "speed": 78
+  },
+  "Fletchling": {
+    "attack": 50,
+    "classfication": "Tiny Robin Pok\u00e9mon",
+    "defense": 43,
+    "hp": 45,
+    "sp_attack": 40,
+    "sp_defense": 38,
+    "speed": 62
+  },
+  "Fletchinder": {
+    "attack": 73,
+    "classfication": "Ember Pok\u00e9mon",
+    "defense": 55,
+    "hp": 62,
+    "sp_attack": 56,
+    "sp_defense": 52,
+    "speed": 84
+  },
+  "Talonflame": {
+    "attack": 81,
+    "classfication": "Scorching Pok\u00e9mon",
+    "defense": 71,
+    "hp": 78,
+    "sp_attack": 74,
+    "sp_defense": 69,
+    "speed": 126
+  },
+  "Scatterbug": {
+    "attack": 35,
+    "classfication": "Scatterdust Pok\u00e9mon",
+    "defense": 40,
+    "hp": 38,
+    "sp_attack": 27,
+    "sp_defense": 25,
+    "speed": 35
+  },
+  "Spewpa": {
+    "attack": 22,
+    "classfication": "Scatterdust Pok\u00e9mon",
+    "defense": 60,
+    "hp": 45,
+    "sp_attack": 27,
+    "sp_defense": 30,
+    "speed": 29
+  },
+  "Vivillon": {
+    "attack": 52,
+    "classfication": "Scale Pok\u00e9mon",
+    "defense": 50,
+    "hp": 80,
+    "sp_attack": 90,
+    "sp_defense": 50,
+    "speed": 89
+  },
+  "Litleo": {
+    "attack": 50,
+    "classfication": "Lion Cub Pok\u00e9mon",
+    "defense": 58,
+    "hp": 62,
+    "sp_attack": 73,
+    "sp_defense": 54,
+    "speed": 72
+  },
+  "Pyroar": {
+    "attack": 68,
+    "classfication": "Royal Pok\u00e9mon",
+    "defense": 72,
+    "hp": 86,
+    "sp_attack": 109,
+    "sp_defense": 66,
+    "speed": 106
+  },
+  "Flab\u00e9b\u00e9": {
+    "attack": 38,
+    "classfication": "Single Bloom Pok\u00e9mon",
+    "defense": 39,
+    "hp": 44,
+    "sp_attack": 61,
+    "sp_defense": 79,
+    "speed": 42
+  },
+  "Floette": {
+    "attack": 65,
+    "classfication": "Fairy Pok\u00e9mon",
+    "defense": 67,
+    "hp": 74,
+    "sp_attack": 125,
+    "sp_defense": 128,
+    "speed": 92
+  },
+  "Florges": {
+    "attack": 65,
+    "classfication": "Garden Pok\u00e9mon",
+    "defense": 68,
+    "hp": 78,
+    "sp_attack": 112,
+    "sp_defense": 154,
+    "speed": 75
+  },
+  "Skiddo": {
+    "attack": 65,
+    "classfication": "Mount Pok\u00e9mon",
+    "defense": 48,
+    "hp": 66,
+    "sp_attack": 62,
+    "sp_defense": 57,
+    "speed": 52
+  },
+  "Gogoat": {
+    "attack": 100,
+    "classfication": "Mount Pok\u00e9mon",
+    "defense": 62,
+    "hp": 123,
+    "sp_attack": 97,
+    "sp_defense": 81,
+    "speed": 68
+  },
+  "Pancham": {
+    "attack": 82,
+    "classfication": "Playful Pok\u00e9mon",
+    "defense": 62,
+    "hp": 67,
+    "sp_attack": 46,
+    "sp_defense": 48,
+    "speed": 43
+  },
+  "Pangoro": {
+    "attack": 124,
+    "classfication": "Daunting Pok\u00e9mon",
+    "defense": 78,
+    "hp": 95,
+    "sp_attack": 69,
+    "sp_defense": 71,
+    "speed": 58
+  },
+  "Furfrou": {
+    "attack": 80,
+    "classfication": "Poodle Pok\u00e9mon",
+    "defense": 60,
+    "hp": 75,
+    "sp_attack": 65,
+    "sp_defense": 90,
+    "speed": 102
+  },
+  "Espurr": {
+    "attack": 48,
+    "classfication": "Restraint Pok\u00e9mon",
+    "defense": 54,
+    "hp": 62,
+    "sp_attack": 63,
+    "sp_defense": 60,
+    "speed": 68
+  },
+  "Meowstic": {
+    "attack": 48,
+    "classfication": "Constraint Pok\u00e9mon",
+    "defense": 76,
+    "hp": 74,
+    "sp_attack": 83,
+    "sp_defense": 81,
+    "speed": 104
+  },
+  "Honedge": {
+    "attack": 80,
+    "classfication": "Sword Pok\u00e9mon",
+    "defense": 100,
+    "hp": 45,
+    "sp_attack": 35,
+    "sp_defense": 37,
+    "speed": 28
+  },
+  "Doublade": {
+    "attack": 110,
+    "classfication": "Sword Pok\u00e9mon",
+    "defense": 150,
+    "hp": 59,
+    "sp_attack": 45,
+    "sp_defense": 49,
+    "speed": 35
+  },
+  "Aegislash": {
+    "attack": 150,
+    "classfication": "Royal Sword Pok\u00e9mon",
+    "defense": 50,
+    "hp": 60,
+    "sp_attack": 150,
+    "sp_defense": 50,
+    "speed": 60
+  },
+  "Spritzee": {
+    "attack": 52,
+    "classfication": "Perfume Pok\u00e9mon",
+    "defense": 60,
+    "hp": 78,
+    "sp_attack": 63,
+    "sp_defense": 65,
+    "speed": 23
+  },
+  "Aromatisse": {
+    "attack": 72,
+    "classfication": "Fragrance Pok\u00e9mon",
+    "defense": 72,
+    "hp": 101,
+    "sp_attack": 99,
+    "sp_defense": 89,
+    "speed": 29
+  },
+  "Swirlix": {
+    "attack": 48,
+    "classfication": "Cotton Candy Pok\u00e9mon",
+    "defense": 66,
+    "hp": 62,
+    "sp_attack": 59,
+    "sp_defense": 57,
+    "speed": 49
+  },
+  "Slurpuff": {
+    "attack": 80,
+    "classfication": "Meringue Pok\u00e9mon",
+    "defense": 86,
+    "hp": 82,
+    "sp_attack": 85,
+    "sp_defense": 75,
+    "speed": 72
+  },
+  "Inkay": {
+    "attack": 54,
+    "classfication": "Revolving Pok\u00e9mon",
+    "defense": 53,
+    "hp": 53,
+    "sp_attack": 37,
+    "sp_defense": 46,
+    "speed": 45
+  },
+  "Malamar": {
+    "attack": 92,
+    "classfication": "Overturning Pok\u00e9mon",
+    "defense": 88,
+    "hp": 86,
+    "sp_attack": 68,
+    "sp_defense": 75,
+    "speed": 73
+  },
+  "Binacle": {
+    "attack": 52,
+    "classfication": "Two-Handed Pok\u00e9mon",
+    "defense": 67,
+    "hp": 42,
+    "sp_attack": 39,
+    "sp_defense": 56,
+    "speed": 50
+  },
+  "Barbaracle": {
+    "attack": 105,
+    "classfication": "Collective Pok\u00e9mon",
+    "defense": 115,
+    "hp": 72,
+    "sp_attack": 54,
+    "sp_defense": 86,
+    "speed": 68
+  },
+  "Skrelp": {
+    "attack": 60,
+    "classfication": "Mock Kelp Pok\u00e9mon",
+    "defense": 60,
+    "hp": 50,
+    "sp_attack": 60,
+    "sp_defense": 60,
+    "speed": 30
+  },
+  "Dragalge": {
+    "attack": 75,
+    "classfication": "Mock Kelp Pok\u00e9mon",
+    "defense": 90,
+    "hp": 65,
+    "sp_attack": 97,
+    "sp_defense": 123,
+    "speed": 44
+  },
+  "Clauncher": {
+    "attack": 53,
+    "classfication": "Water Gun Pok\u00e9mon",
+    "defense": 62,
+    "hp": 50,
+    "sp_attack": 58,
+    "sp_defense": 63,
+    "speed": 44
+  },
+  "Clawitzer": {
+    "attack": 73,
+    "classfication": "Howitzer Pok\u00e9mon",
+    "defense": 88,
+    "hp": 71,
+    "sp_attack": 120,
+    "sp_defense": 89,
+    "speed": 59
+  },
+  "Helioptile": {
+    "attack": 38,
+    "classfication": "Generator Pok\u00e9mon",
+    "defense": 33,
+    "hp": 44,
+    "sp_attack": 61,
+    "sp_defense": 43,
+    "speed": 70
+  },
+  "Heliolisk": {
+    "attack": 55,
+    "classfication": "Generator Pok\u00e9mon",
+    "defense": 52,
+    "hp": 62,
+    "sp_attack": 109,
+    "sp_defense": 94,
+    "speed": 109
+  },
+  "Tyrunt": {
+    "attack": 89,
+    "classfication": "Royal Heir Pok\u00e9mon",
+    "defense": 77,
+    "hp": 58,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 48
+  },
+  "Tyrantrum": {
+    "attack": 121,
+    "classfication": "Despot Pok\u00e9mon",
+    "defense": 119,
+    "hp": 82,
+    "sp_attack": 69,
+    "sp_defense": 59,
+    "speed": 71
+  },
+  "Amaura": {
+    "attack": 59,
+    "classfication": "Tundra Pok\u00e9mon",
+    "defense": 50,
+    "hp": 77,
+    "sp_attack": 67,
+    "sp_defense": 63,
+    "speed": 46
+  },
+  "Aurorus": {
+    "attack": 77,
+    "classfication": "Tundra Pok\u00e9mon",
+    "defense": 72,
+    "hp": 123,
+    "sp_attack": 99,
+    "sp_defense": 92,
+    "speed": 58
+  },
+  "Sylveon": {
+    "attack": 65,
+    "classfication": "Intertwining Pok\u00e9mon",
+    "defense": 65,
+    "hp": 95,
+    "sp_attack": 110,
+    "sp_defense": 130,
+    "speed": 60
+  },
+  "Hawlucha": {
+    "attack": 92,
+    "classfication": "Wrestling Pok\u00e9mon",
+    "defense": 75,
+    "hp": 78,
+    "sp_attack": 74,
+    "sp_defense": 63,
+    "speed": 118
+  },
+  "Dedenne": {
+    "attack": 58,
+    "classfication": "Antenna Pok\u00e9mon",
+    "defense": 57,
+    "hp": 67,
+    "sp_attack": 81,
+    "sp_defense": 67,
+    "speed": 101
+  },
+  "Carbink": {
+    "attack": 50,
+    "classfication": "Jewel Pok\u00e9mon",
+    "defense": 150,
+    "hp": 50,
+    "sp_attack": 50,
+    "sp_defense": 150,
+    "speed": 50
+  },
+  "Goomy": {
+    "attack": 50,
+    "classfication": "Soft Tissue Pok\u00e9mon",
+    "defense": 35,
+    "hp": 45,
+    "sp_attack": 55,
+    "sp_defense": 75,
+    "speed": 40
+  },
+  "Sliggoo": {
+    "attack": 75,
+    "classfication": "Soft Tissue Pok\u00e9mon",
+    "defense": 53,
+    "hp": 68,
+    "sp_attack": 83,
+    "sp_defense": 113,
+    "speed": 60
+  },
+  "Goodra": {
+    "attack": 100,
+    "classfication": "Dragon Pok\u00e9mon",
+    "defense": 70,
+    "hp": 90,
+    "sp_attack": 110,
+    "sp_defense": 150,
+    "speed": 80
+  },
+  "Klefki": {
+    "attack": 80,
+    "classfication": "Key Ring Pok\u00e9mon",
+    "defense": 91,
+    "hp": 57,
+    "sp_attack": 80,
+    "sp_defense": 87,
+    "speed": 75
+  },
+  "Phantump": {
+    "attack": 70,
+    "classfication": "Stump Pok\u00e9mon",
+    "defense": 48,
+    "hp": 43,
+    "sp_attack": 50,
+    "sp_defense": 60,
+    "speed": 38
+  },
+  "Trevenant": {
+    "attack": 110,
+    "classfication": "Elder Tree Pok\u00e9mon",
+    "defense": 76,
+    "hp": 85,
+    "sp_attack": 65,
+    "sp_defense": 82,
+    "speed": 56
+  },
+  "Pumpkaboo": {
+    "attack": 66,
+    "classfication": "Pumpkin Pok\u00e9mon",
+    "defense": 70,
+    "hp": 59,
+    "sp_attack": 44,
+    "sp_defense": 55,
+    "speed": 41
+  },
+  "Gourgeist": {
+    "attack": 100,
+    "classfication": "Pumpkin Pok\u00e9mon",
+    "defense": 122,
+    "hp": 85,
+    "sp_attack": 58,
+    "sp_defense": 75,
+    "speed": 54
+  },
+  "Bergmite": {
+    "attack": 69,
+    "classfication": "Ice Chunk Pok\u00e9mon",
+    "defense": 85,
+    "hp": 55,
+    "sp_attack": 32,
+    "sp_defense": 35,
+    "speed": 28
+  },
+  "Avalugg": {
+    "attack": 117,
+    "classfication": "Iceberg Pok\u00e9mon",
+    "defense": 184,
+    "hp": 95,
+    "sp_attack": 44,
+    "sp_defense": 46,
+    "speed": 28
+  },
+  "Noibat": {
+    "attack": 30,
+    "classfication": "Sound Wave Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 45,
+    "sp_defense": 40,
+    "speed": 55
+  },
+  "Noivern": {
+    "attack": 70,
+    "classfication": "Sound Wave Pok\u00e9mon",
+    "defense": 80,
+    "hp": 85,
+    "sp_attack": 97,
+    "sp_defense": 80,
+    "speed": 123
+  },
+  "Xerneas": {
+    "attack": 131,
+    "classfication": "Life Pok\u00e9mon",
+    "defense": 95,
+    "hp": 126,
+    "sp_attack": 131,
+    "sp_defense": 98,
+    "speed": 99
+  },
+  "Yveltal": {
+    "attack": 131,
+    "classfication": "Destruction Pok\u00e9mon",
+    "defense": 95,
+    "hp": 126,
+    "sp_attack": 131,
+    "sp_defense": 98,
+    "speed": 99
+  },
+  "Zygarde": {
+    "attack": 100,
+    "classfication": "Order Pok\u00e9mon",
+    "defense": 121,
+    "hp": 216,
+    "sp_attack": 91,
+    "sp_defense": 95,
+    "speed": 85
+  },
+  "Diancie": {
+    "attack": 160,
+    "classfication": "Jewel Pok\u00e9mon",
+    "defense": 110,
+    "hp": 50,
+    "sp_attack": 160,
+    "sp_defense": 110,
+    "speed": 110
+  },
+  "Hoopa": {
+    "attack": 160,
+    "classfication": "Mischief Pok\u00e9mon (Confined)Djinn Pok\u00e9monn (Unbound)",
+    "defense": 60,
+    "hp": 80,
+    "sp_attack": 170,
+    "sp_defense": 130,
+    "speed": 80
+  },
+  "Volcanion": {
+    "attack": 110,
+    "classfication": "Steam Pok\u00e9mon",
+    "defense": 120,
+    "hp": 80,
+    "sp_attack": 130,
+    "sp_defense": 90,
+    "speed": 70
+  },
+  "Rowlet": {
+    "attack": 55,
+    "classfication": "Grass Quill Pok\u00e9mon",
+    "defense": 55,
+    "hp": 68,
+    "sp_attack": 50,
+    "sp_defense": 50,
+    "speed": 42
+  },
+  "Dartrix": {
+    "attack": 75,
+    "classfication": "Blade Quill Pok\u00e9mon",
+    "defense": 75,
+    "hp": 78,
+    "sp_attack": 70,
+    "sp_defense": 70,
+    "speed": 52
+  },
+  "Decidueye": {
+    "attack": 107,
+    "classfication": "Arrow Quill Pok\u00e9mon",
+    "defense": 75,
+    "hp": 78,
+    "sp_attack": 100,
+    "sp_defense": 100,
+    "speed": 70
+  },
+  "Litten": {
+    "attack": 65,
+    "classfication": "Fire Cat Pok\u00e9mon",
+    "defense": 40,
+    "hp": 45,
+    "sp_attack": 60,
+    "sp_defense": 40,
+    "speed": 70
+  },
+  "Torracat": {
+    "attack": 85,
+    "classfication": "Fire Cat Pok\u00e9mon",
+    "defense": 50,
+    "hp": 65,
+    "sp_attack": 80,
+    "sp_defense": 50,
+    "speed": 90
+  },
+  "Incineroar": {
+    "attack": 115,
+    "classfication": "Heel Pok\u00e9mon",
+    "defense": 90,
+    "hp": 95,
+    "sp_attack": 80,
+    "sp_defense": 90,
+    "speed": 60
+  },
+  "Popplio": {
+    "attack": 54,
+    "classfication": "Sea Lion Pok\u00e9mon",
+    "defense": 54,
+    "hp": 50,
+    "sp_attack": 66,
+    "sp_defense": 56,
+    "speed": 40
+  },
+  "Brionne": {
+    "attack": 69,
+    "classfication": "Pop Star Pok\u00e9mon",
+    "defense": 69,
+    "hp": 60,
+    "sp_attack": 91,
+    "sp_defense": 81,
+    "speed": 50
+  },
+  "Primarina": {
+    "attack": 74,
+    "classfication": "Soloist Pok\u00e9mon",
+    "defense": 74,
+    "hp": 80,
+    "sp_attack": 126,
+    "sp_defense": 116,
+    "speed": 60
+  },
+  "Pikipek": {
+    "attack": 75,
+    "classfication": "Woodpecker Pok\u00e9mon",
+    "defense": 30,
+    "hp": 35,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 65
+  },
+  "Trumbeak": {
+    "attack": 85,
+    "classfication": "Bugle Beak Pok\u00e9mon",
+    "defense": 50,
+    "hp": 55,
+    "sp_attack": 40,
+    "sp_defense": 50,
+    "speed": 75
+  },
+  "Toucannon": {
+    "attack": 120,
+    "classfication": "Cannon Pok\u00e9mon",
+    "defense": 75,
+    "hp": 80,
+    "sp_attack": 75,
+    "sp_defense": 75,
+    "speed": 60
+  },
+  "Yungoos": {
+    "attack": 70,
+    "classfication": "Loitering Pok\u00e9mon",
+    "defense": 30,
+    "hp": 48,
+    "sp_attack": 30,
+    "sp_defense": 30,
+    "speed": 45
+  },
+  "Gumshoos": {
+    "attack": 110,
+    "classfication": "Stakeout Pok\u00e9mon",
+    "defense": 60,
+    "hp": 88,
+    "sp_attack": 55,
+    "sp_defense": 60,
+    "speed": 45
+  },
+  "Grubbin": {
+    "attack": 62,
+    "classfication": "Larva Pok\u00e9mon",
+    "defense": 45,
+    "hp": 47,
+    "sp_attack": 55,
+    "sp_defense": 45,
+    "speed": 46
+  },
+  "Charjabug": {
+    "attack": 82,
+    "classfication": "Battery Pok\u00e9mon",
+    "defense": 95,
+    "hp": 57,
+    "sp_attack": 55,
+    "sp_defense": 75,
+    "speed": 36
+  },
+  "Vikavolt": {
+    "attack": 70,
+    "classfication": "Stag Beetle Pok\u00e9mon",
+    "defense": 90,
+    "hp": 77,
+    "sp_attack": 145,
+    "sp_defense": 75,
+    "speed": 43
+  },
+  "Crabrawler": {
+    "attack": 82,
+    "classfication": "Boxing Pok\u00e9mon",
+    "defense": 57,
+    "hp": 47,
+    "sp_attack": 42,
+    "sp_defense": 47,
+    "speed": 63
+  },
+  "Crabominable": {
+    "attack": 132,
+    "classfication": "Woolly Crab Pok\u00e9mon",
+    "defense": 77,
+    "hp": 97,
+    "sp_attack": 62,
+    "sp_defense": 67,
+    "speed": 43
+  },
+  "Oricorio": {
+    "attack": 70,
+    "classfication": "Dancing Pok\u00e9mon",
+    "defense": 70,
+    "hp": 75,
+    "sp_attack": 98,
+    "sp_defense": 70,
+    "speed": 93
+  },
+  "Cutiefly": {
+    "attack": 45,
+    "classfication": "Bee Fly Pok\u00e9mon",
+    "defense": 40,
+    "hp": 40,
+    "sp_attack": 55,
+    "sp_defense": 40,
+    "speed": 84
+  },
+  "Ribombee": {
+    "attack": 55,
+    "classfication": "Bee Fly Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 95,
+    "sp_defense": 70,
+    "speed": 124
+  },
+  "Rockruff": {
+    "attack": 65,
+    "classfication": "Puppy Pok\u00e9mon",
+    "defense": 40,
+    "hp": 45,
+    "sp_attack": 30,
+    "sp_defense": 40,
+    "speed": 60
+  },
+  "Lycanroc": {
+    "attack": 115,
+    "classfication": "Wolf Pok\u00e9mon",
+    "defense": 75,
+    "hp": 85,
+    "sp_attack": 55,
+    "sp_defense": 75,
+    "speed": 82
+  },
+  "Wishiwashi": {
+    "attack": 140,
+    "classfication": "Small Fry Pok\u00e9mon",
+    "defense": 130,
+    "hp": 45,
+    "sp_attack": 140,
+    "sp_defense": 135,
+    "speed": 30
+  },
+  "Mareanie": {
+    "attack": 53,
+    "classfication": "Brutal Star Pok\u00e9mon",
+    "defense": 62,
+    "hp": 50,
+    "sp_attack": 43,
+    "sp_defense": 52,
+    "speed": 45
+  },
+  "Toxapex": {
+    "attack": 63,
+    "classfication": "Brutal Star Pok\u00e9mon",
+    "defense": 152,
+    "hp": 50,
+    "sp_attack": 53,
+    "sp_defense": 142,
+    "speed": 35
+  },
+  "Mudbray": {
+    "attack": 100,
+    "classfication": "Donkey Pok\u00e9mon",
+    "defense": 70,
+    "hp": 70,
+    "sp_attack": 45,
+    "sp_defense": 55,
+    "speed": 45
+  },
+  "Mudsdale": {
+    "attack": 125,
+    "classfication": "Draft Horse Pok\u00e9mon",
+    "defense": 100,
+    "hp": 100,
+    "sp_attack": 55,
+    "sp_defense": 85,
+    "speed": 35
+  },
+  "Dewpider": {
+    "attack": 40,
+    "classfication": "Water Bubble Pok\u00e9mon",
+    "defense": 52,
+    "hp": 38,
+    "sp_attack": 40,
+    "sp_defense": 72,
+    "speed": 27
+  },
+  "Araquanid": {
+    "attack": 70,
+    "classfication": "Water Bubble Pok\u00e9mon",
+    "defense": 92,
+    "hp": 68,
+    "sp_attack": 50,
+    "sp_defense": 132,
+    "speed": 42
+  },
+  "Fomantis": {
+    "attack": 55,
+    "classfication": "Sickle Grass Pok\u00e9mon",
+    "defense": 35,
+    "hp": 40,
+    "sp_attack": 50,
+    "sp_defense": 35,
+    "speed": 35
+  },
+  "Lurantis": {
+    "attack": 105,
+    "classfication": "Bloom Sickle Pok\u00e9mon",
+    "defense": 90,
+    "hp": 70,
+    "sp_attack": 80,
+    "sp_defense": 90,
+    "speed": 45
+  },
+  "Morelull": {
+    "attack": 35,
+    "classfication": "Illuminating Pok\u00e9mon",
+    "defense": 55,
+    "hp": 40,
+    "sp_attack": 65,
+    "sp_defense": 75,
+    "speed": 15
+  },
+  "Shiinotic": {
+    "attack": 45,
+    "classfication": "Illuminating Pok\u00e9mon",
+    "defense": 80,
+    "hp": 60,
+    "sp_attack": 90,
+    "sp_defense": 100,
+    "speed": 30
+  },
+  "Salandit": {
+    "attack": 44,
+    "classfication": "Toxic Lizard Pok\u00e9mon",
+    "defense": 40,
+    "hp": 48,
+    "sp_attack": 71,
+    "sp_defense": 40,
+    "speed": 77
+  },
+  "Salazzle": {
+    "attack": 64,
+    "classfication": "Toxic Lizard Pok\u00e9mon",
+    "defense": 60,
+    "hp": 68,
+    "sp_attack": 111,
+    "sp_defense": 60,
+    "speed": 117
+  },
+  "Stufful": {
+    "attack": 75,
+    "classfication": "Flailing Pok\u00e9mon",
+    "defense": 50,
+    "hp": 70,
+    "sp_attack": 45,
+    "sp_defense": 50,
+    "speed": 50
+  },
+  "Bewear": {
+    "attack": 125,
+    "classfication": "Strong Arm Pok\u00e9mon",
+    "defense": 80,
+    "hp": 120,
+    "sp_attack": 55,
+    "sp_defense": 60,
+    "speed": 60
+  },
+  "Bounsweet": {
+    "attack": 30,
+    "classfication": "Fruit Pok\u00e9mon",
+    "defense": 38,
+    "hp": 42,
+    "sp_attack": 30,
+    "sp_defense": 38,
+    "speed": 32
+  },
+  "Steenee": {
+    "attack": 40,
+    "classfication": "Fruit Pok\u00e9mon",
+    "defense": 48,
+    "hp": 52,
+    "sp_attack": 40,
+    "sp_defense": 48,
+    "speed": 62
+  },
+  "Tsareena": {
+    "attack": 120,
+    "classfication": "Fruit Pok\u00e9mon",
+    "defense": 98,
+    "hp": 72,
+    "sp_attack": 50,
+    "sp_defense": 98,
+    "speed": 72
+  },
+  "Comfey": {
+    "attack": 52,
+    "classfication": "Posy Picker Pok\u00e9mon",
+    "defense": 90,
+    "hp": 51,
+    "sp_attack": 82,
+    "sp_defense": 110,
+    "speed": 100
+  },
+  "Oranguru": {
+    "attack": 60,
+    "classfication": "Sage Pok\u00e9mon",
+    "defense": 80,
+    "hp": 90,
+    "sp_attack": 90,
+    "sp_defense": 110,
+    "speed": 60
+  },
+  "Passimian": {
+    "attack": 120,
+    "classfication": "Teamwork Pok\u00e9mon",
+    "defense": 90,
+    "hp": 100,
+    "sp_attack": 40,
+    "sp_defense": 60,
+    "speed": 80
+  },
+  "Wimpod": {
+    "attack": 35,
+    "classfication": "Turn Tail Pok\u00e9mon",
+    "defense": 40,
+    "hp": 25,
+    "sp_attack": 20,
+    "sp_defense": 30,
+    "speed": 80
+  },
+  "Golisopod": {
+    "attack": 125,
+    "classfication": "Hard Scale Pok\u00e9mon",
+    "defense": 140,
+    "hp": 75,
+    "sp_attack": 60,
+    "sp_defense": 90,
+    "speed": 40
+  },
+  "Sandygast": {
+    "attack": 55,
+    "classfication": "Sand Heap Pok\u00e9mon",
+    "defense": 80,
+    "hp": 55,
+    "sp_attack": 70,
+    "sp_defense": 45,
+    "speed": 15
+  },
+  "Palossand": {
+    "attack": 75,
+    "classfication": "Sand Castle Pok\u00e9mon",
+    "defense": 110,
+    "hp": 85,
+    "sp_attack": 100,
+    "sp_defense": 75,
+    "speed": 35
+  },
+  "Pyukumuku": {
+    "attack": 60,
+    "classfication": "Sea Cucumber Pok\u00e9mon",
+    "defense": 130,
+    "hp": 55,
+    "sp_attack": 30,
+    "sp_defense": 130,
+    "speed": 5
+  },
+  "Type: Null": {
+    "attack": 95,
+    "classfication": "Synthetic Pok\u00e9mon",
+    "defense": 95,
+    "hp": 95,
+    "sp_attack": 95,
+    "sp_defense": 95,
+    "speed": 59
+  },
+  "Silvally": {
+    "attack": 95,
+    "classfication": "Synthetic Pok\u00e9mon",
+    "defense": 95,
+    "hp": 95,
+    "sp_attack": 95,
+    "sp_defense": 95,
+    "speed": 95
+  },
+  "Minior": {
+    "attack": 100,
+    "classfication": "Meteor Pok\u00e9mon",
+    "defense": 60,
+    "hp": 60,
+    "sp_attack": 100,
+    "sp_defense": 60,
+    "speed": 120
+  },
+  "Komala": {
+    "attack": 115,
+    "classfication": "Drowsing Pok\u00e9mon",
+    "defense": 65,
+    "hp": 65,
+    "sp_attack": 75,
+    "sp_defense": 95,
+    "speed": 65
+  },
+  "Turtonator": {
+    "attack": 78,
+    "classfication": "Blast Turtle Pok\u00e9mon",
+    "defense": 135,
+    "hp": 60,
+    "sp_attack": 91,
+    "sp_defense": 85,
+    "speed": 36
+  },
+  "Togedemaru": {
+    "attack": 98,
+    "classfication": "Roly-Poly Pok\u00e9mon",
+    "defense": 63,
+    "hp": 65,
+    "sp_attack": 40,
+    "sp_defense": 73,
+    "speed": 96
+  },
+  "Mimikyu": {
+    "attack": 90,
+    "classfication": "Disguise Pok\u00e9mon",
+    "defense": 80,
+    "hp": 55,
+    "sp_attack": 50,
+    "sp_defense": 105,
+    "speed": 96
+  },
+  "Bruxish": {
+    "attack": 105,
+    "classfication": "Gnash Teeth Pok\u00e9mon",
+    "defense": 70,
+    "hp": 68,
+    "sp_attack": 70,
+    "sp_defense": 70,
+    "speed": 92
+  },
+  "Drampa": {
+    "attack": 60,
+    "classfication": "Placid Pok\u00e9mon",
+    "defense": 85,
+    "hp": 78,
+    "sp_attack": 135,
+    "sp_defense": 91,
+    "speed": 36
+  },
+  "Dhelmise": {
+    "attack": 131,
+    "classfication": "Sea Creeper Pok\u00e9mon",
+    "defense": 100,
+    "hp": 70,
+    "sp_attack": 86,
+    "sp_defense": 90,
+    "speed": 40
+  },
+  "Jangmo-o": {
+    "attack": 55,
+    "classfication": "Scaly Pok\u00e9mon",
+    "defense": 65,
+    "hp": 45,
+    "sp_attack": 45,
+    "sp_defense": 45,
+    "speed": 45
+  },
+  "Hakamo-o": {
+    "attack": 75,
+    "classfication": "Scaly Pok\u00e9mon",
+    "defense": 90,
+    "hp": 55,
+    "sp_attack": 65,
+    "sp_defense": 70,
+    "speed": 65
+  },
+  "Kommo-o": {
+    "attack": 110,
+    "classfication": "Scaly Pok\u00e9mon",
+    "defense": 125,
+    "hp": 75,
+    "sp_attack": 100,
+    "sp_defense": 105,
+    "speed": 85
+  },
+  "Tapu Koko": {
+    "attack": 115,
+    "classfication": "Land Spirit Pok\u00e9mon",
+    "defense": 85,
+    "hp": 70,
+    "sp_attack": 95,
+    "sp_defense": 75,
+    "speed": 130
+  },
+  "Tapu Lele": {
+    "attack": 85,
+    "classfication": "Land Spirit Pok\u00e9mon",
+    "defense": 75,
+    "hp": 70,
+    "sp_attack": 130,
+    "sp_defense": 115,
+    "speed": 95
+  },
+  "Tapu Bulu": {
+    "attack": 130,
+    "classfication": "Land Spirit Pok\u00e9mon",
+    "defense": 115,
+    "hp": 70,
+    "sp_attack": 85,
+    "sp_defense": 95,
+    "speed": 75
+  },
+  "Tapu Fini": {
+    "attack": 75,
+    "classfication": "Land Spirit Pok\u00e9mon",
+    "defense": 115,
+    "hp": 70,
+    "sp_attack": 95,
+    "sp_defense": 130,
+    "speed": 85
+  },
+  "Cosmog": {
+    "attack": 29,
+    "classfication": "Nebula Pok\u00e9mon",
+    "defense": 31,
+    "hp": 43,
+    "sp_attack": 29,
+    "sp_defense": 31,
+    "speed": 37
+  },
+  "Cosmoem": {
+    "attack": 29,
+    "classfication": "Protostar Pok\u00e9mon",
+    "defense": 131,
+    "hp": 43,
+    "sp_attack": 29,
+    "sp_defense": 131,
+    "speed": 37
+  },
+  "Solgaleo": {
+    "attack": 137,
+    "classfication": "Sunne Pok\u00e9mon",
+    "defense": 107,
+    "hp": 137,
+    "sp_attack": 113,
+    "sp_defense": 89,
+    "speed": 97
+  },
+  "Lunala": {
+    "attack": 113,
+    "classfication": "Moone Pok\u00e9mon",
+    "defense": 89,
+    "hp": 137,
+    "sp_attack": 137,
+    "sp_defense": 107,
+    "speed": 97
+  },
+  "Nihilego": {
+    "attack": 53,
+    "classfication": "Parasite Pok\u00e9mon",
+    "defense": 47,
+    "hp": 109,
+    "sp_attack": 127,
+    "sp_defense": 131,
+    "speed": 103
+  },
+  "Buzzwole": {
+    "attack": 139,
+    "classfication": "Swollen Pok\u00e9mon",
+    "defense": 139,
+    "hp": 107,
+    "sp_attack": 53,
+    "sp_defense": 53,
+    "speed": 79
+  },
+  "Pheromosa": {
+    "attack": 137,
+    "classfication": "Lissome Pok\u00e9mon",
+    "defense": 37,
+    "hp": 71,
+    "sp_attack": 137,
+    "sp_defense": 37,
+    "speed": 151
+  },
+  "Xurkitree": {
+    "attack": 89,
+    "classfication": "Glowing Pok\u00e9mon",
+    "defense": 71,
+    "hp": 83,
+    "sp_attack": 173,
+    "sp_defense": 71,
+    "speed": 83
+  },
+  "Celesteela": {
+    "attack": 101,
+    "classfication": "Launch Pok\u00e9mon",
+    "defense": 103,
+    "hp": 97,
+    "sp_attack": 107,
+    "sp_defense": 101,
+    "speed": 61
+  },
+  "Kartana": {
+    "attack": 181,
+    "classfication": "Drawn Sword Pok\u00e9mon",
+    "defense": 131,
+    "hp": 59,
+    "sp_attack": 59,
+    "sp_defense": 31,
+    "speed": 109
+  },
+  "Guzzlord": {
+    "attack": 101,
+    "classfication": "Junkivore Pok\u00e9mon",
+    "defense": 53,
+    "hp": 223,
+    "sp_attack": 97,
+    "sp_defense": 53,
+    "speed": 43
+  },
+  "Necrozma": {
+    "attack": 107,
+    "classfication": "Prism Pok\u00e9mon",
+    "defense": 101,
+    "hp": 97,
+    "sp_attack": 127,
+    "sp_defense": 89,
+    "speed": 79
+  },
+  "Magearna": {
+    "attack": 95,
+    "classfication": "Artificial Pok\u00e9mon",
+    "defense": 115,
+    "hp": 80,
+    "sp_attack": 130,
+    "sp_defense": 115,
+    "speed": 65
+  }
+}
