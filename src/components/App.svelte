@@ -24,7 +24,7 @@
     const marginLeft = 50;
 
     // Load data from JSON file
-    d3.json('pokemon2.json').then(data => {
+    d3.json('pokemon3.json').then(data => {
       const root = d3.hierarchy(data);
 
       const dx = 10;
