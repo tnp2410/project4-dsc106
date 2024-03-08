@@ -1,5 +1,8 @@
 <main>
   <h1>Gotta Catch 'Em All!</h1>
+  <div class="author-line">
+    <h1>by Tracy Pham and Jenna Canicosa</h1>
+  </div>
   <h1 style="font-size: 1.2em; margin-top: 20px;">Pokemon Collapsible Tree</h1>
   <p>
     We began the project by data cleaning the Pokemon dataset by dropping unnecessary columns, fixing N/A values, and converting types into a list. The next step began by looking at examples of how to implement our visualization. Our original plan was to implement a radar chart to display how effective different types of Pokemon are against each other. After spending a few hours, we kept running into errors because we couldn’t figure out how to get the visualization to display properly. We decided to shift gears and approach our project by implementing a Zoomable sunburst and changing our goals to exploring different Pokemon types sorted by generation. As we tried to implement this visualization, we stumbled upon the Collapsible Tree visualization which was perfect for the Pokemon dataset. With this visualization, the Pokemon are sorted by generation and then by classification, which allows the users to navigate and see the variety of Pokemon. 
@@ -8,7 +11,8 @@
     The most challenging part of our project design was getting the visualization to load onto the website by connecting all the moving parts such as importing d3. We realized after many trials and errors that our issues lay in the format of our data file. We were using a csv file that was not compatible with the format needed for collapsible tree visualization. When we switched to a JSON file with the data in a hierarchical format, we were able to make significant progress. Another difficulty we faced was correctly importing the data as we intended because there was confusion in figuring out how to use the proper variables in each file. Although this is just a prototype, I anticipate further data cleaning for each Pokemon evolution will be tedious to implement. Once we figure out the finishing touches such as color coding, the visualization will look complete.
   </p>
   <p> Click on the text to collapse or decollapse the Pokemon Tree! </p>
-  <div id="weight-stats-chart-container"></div>
+  
+  <div id="bar-chart-container"></div>
   <div id="tree-container"></div>
   <div id="radar-chart-container"></div> 
 </main>
@@ -29,7 +33,7 @@
     // Load data from JSON files
     Promise.all([
       d3.json('pokemon.json'),
-      d3.json('tooltipStats.json'),
+      d3.json('tooltipStatsNew.json'),
       d3.json('avgPokemon.json'),
       d3.json('weightPokemon.json'),
       d3.json('pokemonStats.json')
@@ -129,7 +133,9 @@
     Speed - ${tooltipData[d.data.name].speed} <br>
     HP - ${tooltipData[d.data.name].hp} <br>
     Special Attack - ${tooltipData[d.data.name].sp_attack} <br>
-    Special Defense - ${tooltipData[d.data.name].sp_defense}
+    Special Defense - ${tooltipData[d.data.name].sp_defense}<br>
+    Weight (kg) - ${tooltipData[d.data.name].weight_kg} <br>
+    Legendary - ${tooltipData[d.data.name].is_legendary}
   `);
     
               // Position the tooltip relative to the mouse pointer
@@ -318,7 +324,130 @@
       }
 
       drawRadarChart(radarData);
+    const heavyPokemon = weightData.filter(pokemon => pokemon.weight_kg > 30);
+      const lightPokemon = weightData.filter(pokemon => pokemon.weight_kg <= 30);
+      
+      // Calculate average stats for heavier and lighter Pokémon
+      const averageHeavyStats = calculateAverageStats(heavyPokemon);
+      const averageLightStats = calculateAverageStats(lightPokemon);
+       drawBarChart(averageHeavyStats, averageLightStats);
+       function calculateAverageStats(pokemonData) {
+    const stats = ['attack', 'defense', 'speed', 'sp_attack', 'sp_defense'];
+    const totalStats = {};
+    stats.forEach(stat => {
+      totalStats[stat] = pokemonData.reduce((sum, pokemon) => sum + pokemon[stat], 0);
+    });
+    const count = pokemonData.length;
+    const averageStats = {};
+    stats.forEach(stat => {
+      averageStats[stat] = totalStats[stat] / count;
+    });
+    return averageStats;
+  }
+  // Function to draw the bar chart
+function drawBarChart(averageHeavyStats, averageLightStats) {
+    // Define the data for the bar chart
+    const data = [
+        { stat: 'Attack', heavy: averageHeavyStats.attack, light: averageLightStats.attack },
+        { stat: 'Defense', heavy: averageHeavyStats.defense, light: averageLightStats.defense },
+        { stat: 'Speed', heavy: averageHeavyStats.speed, light: averageLightStats.speed },
+        { stat: 'Special Attack', heavy: averageHeavyStats.sp_attack, light: averageLightStats.sp_attack },
+        { stat: 'Special Defense', heavy: averageHeavyStats.sp_defense, light: averageLightStats.sp_defense },
+    ];
 
+    // Set up the dimensions for the bar chart
+    const margin = { top: 20, right: 30, bottom: 80, left: 80 }; // Increased bottom margin
+    const width = 700 - margin.left - margin.right; // Adjusted width
+    const height = 450 - margin.top - margin.bottom; // Adjusted height
+
+// Append an SVG element to the bar chart container
+const svg = d3.select('#bar-chart-container')
+    .append('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom)
+    .append('g')
+    .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Define scales for x and y axes
+    const x = d3.scaleBand()
+        .domain(data.map(d => d.stat))
+        .range([0, width])
+        .padding(0.2);
+
+    const y = d3.scaleLinear()
+        .domain([0, d3.max(data, d => Math.max(d.heavy, d.light))])
+        .nice()
+        .range([height, 0]);
+
+    // Append x axis
+    svg.append('g')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x))
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x))
+        .selectAll('text')
+        .style('text-anchor', 'end')
+        .attr('dx', '-0.8em')
+        .attr('dy', '0.15em')
+        .attr('transform', 'rotate(-65)');
+
+    // Append y axis
+    svg.append('g')
+        .call(d3.axisLeft(y));
+
+    // Append bars for heavier Pokémon
+    svg.selectAll('.bar-heavy')
+        .data(data)
+        .enter().append('rect')
+        .attr('class', 'bar-heavy')
+        .attr('x', d => x(d.stat))
+        .attr('y', d => y(d.heavy))
+        .attr('width', x.bandwidth() / 2)
+        .attr('height', d => height - y(d.heavy))
+        .attr('fill', '#c7a008');
+
+    // Append bars for lighter Pokémon
+    svg.selectAll('.bar-light')
+        .data(data)
+        .enter().append('rect')
+        .attr('class', 'bar-light')
+        .attr('x', d => x(d.stat) + x.bandwidth() / 2)
+        .attr('y', d => y(d.light))
+        .attr('width', x.bandwidth() / 2)
+        .attr('height', d => height - y(d.light))
+        .attr('fill', '#E2DC69');
+
+    // Add legend
+    const legend = svg.append('g')
+        .attr('class', 'legend')
+        .attr('transform', `translate(${width - 60},${margin.top-30})`);
+
+    legend.append('rect')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', 15)
+        .attr('height', 15)
+        .attr('fill', '#c7a008');
+
+    legend.append('text')
+        .attr('x', 20)
+        .attr('y', 9)
+        .text('Heavier');
+
+    legend.append('rect')
+        .attr('x', 0)
+        .attr('y', 20)
+        .attr('width', 15)
+        .attr('height', 15)
+        .attr('fill', '#E2DC69');
+
+    legend.append('text')
+        .attr('x', 20)
+        .attr('y', 29)
+        .text('Lighter');
+}
+
+  
     });
   });
 </script>
