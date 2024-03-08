@@ -1,12 +1,62 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<img src="pokemon.png" style="width: 300px; height: auto; display: block; margin: 0 auto;"/> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Electrolize&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    %sveltekit.head%
+    <style>
+        /* Adjust font size for tree text */
+        #tree-container text {
+            font-family: 'Electrolize', sans-serif;
+            font-size: 15px; /* Adjust the font size as needed */
+        }
+		#tree-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+		}
+        .tooltip {
+            font-family: 'Electrolize';
+			font-size: 15px;
+        }
+        main {
+            font-family: 'Electrolize', sans-serif; /* Use Electrolize font for main content */
+        }
+        h1:first-of-type {
+            font-family: 'Press Start 2P', cursive;
+            font-weight: bold;
+			color: #3c5aa6; /* Set text color to blue */
+			display: inline-block; /* Ensure inline-block display for padding to work */
+			padding: 5px; /* Add padding for outline effect */
+			text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow;
+			display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center content horizontally */
+            align-items: center;
+        }
+        body {
+            background-color: #3c5aa6; /* You can adjust the shade of blue as needed */
+            color: white; /* Set text color to white for better visibility */
+
+        }
+        #radar-chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px; /* Adjust the height of the container as needed */
+            margin-top: 20px; /* Adjust the top margin as needed */
+        }
+		img {
+			display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center content horizontally */
+            align-items: center;
+		}
+	
+    </style>
+</head>
+<body data-sveltekit-preload-data="hover">
+<div style="display: contents">%sveltekit.body%</div>
+</body>
 </html>

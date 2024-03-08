@@ -8,6 +8,7 @@
     The most challenging part of our project design was getting the visualization to load onto the website by connecting all the moving parts such as importing d3. We realized after many trials and errors that our issues lay in the format of our data file. We were using a csv file that was not compatible with the format needed for collapsible tree visualization. When we switched to a JSON file with the data in a hierarchical format, we were able to make significant progress. Another difficulty we faced was correctly importing the data as we intended because there was confusion in figuring out how to use the proper variables in each file. Although this is just a prototype, I anticipate further data cleaning for each Pokemon evolution will be tedious to implement. Once we figure out the finishing touches such as color coding, the visualization will look complete.
   </p>
   <p> Click on the text to collapse or decollapse the Pokemon Tree! </p>
+  <div id="weight-stats-chart-container"></div>
   <div id="tree-container"></div>
   <div id="radar-chart-container"></div> 
 </main>
@@ -19,22 +20,25 @@
   let svg;
 
   onMount(() => {
-    const width = 1000;
+    const width = 1100;
     const marginTop = 30;
     const marginRight = 10;
     const marginBottom = 30;
-    const marginLeft = 200;
+    const marginLeft = 80;
 
     // Load data from JSON files
     Promise.all([
       d3.json('pokemon.json'),
       d3.json('tooltipStats.json'),
-      d3.json('avgPokemon.json')
-    ]).then(([pokemonData, tooltipData, radarData]) => {
+      d3.json('avgPokemon.json'),
+      d3.json('weightPokemon.json'),
+      d3.json('pokemonStats.json')
+    ]).then(([pokemonData, tooltipData, radarData, weightData, statsData]) => {
+    
       const root = d3.hierarchy(pokemonData);
 
-      const dx = 10;
-      const dy = (width - marginRight - marginLeft) / (1 + root.height);
+      const dx = 20;
+      const dy = ((width - marginRight - marginLeft) / (1 + root.height))+30;
 
       const tree = d3.tree().nodeSize([dx, dy]);
       const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
@@ -48,7 +52,7 @@
 
       const gLink = svg.append('g')
         .attr('fill', 'none')
-        .attr('stroke', '#831313')
+        .attr('stroke', '#ffcb05')
         .attr('stroke-opacity', 0.4)
         .attr('stroke-width', 1.8);
 
@@ -94,7 +98,7 @@
 
         nodeEnter.append('circle')
           .attr('r', 2.5)
-          .attr('fill', d => d._children ? '#400' : '#400')
+          .attr('fill', d => d._children ? '#FFFF00' : '#FFFF00')
           .attr('stroke-width', 10);
 
       nodeEnter.append('text')
@@ -104,18 +108,20 @@
         .text(d => d.data.name)
         .attr('stroke-linejoin', 'round')
         .attr('stroke-width', 4)
-        .attr('stroke', 'white')
+        .attr('stroke', 'black')
         .attr('paint-order', 'stroke')
+        .attr('fill', 'white')
         .on('mouseover', (event, d) => {
           if (!d.children) {
             const tooltip = d3.select('body').append('div')
               .attr('class', 'tooltip')
               .style('position', 'absolute')
-              .style('background-color', '#FDE6EB')
+              .style('background-color', '#ffcb05')
               .style('border', 'none')
               .style('border-width', '1px')
               .style('border-radius', '5px')
               .style('padding', '5px')
+              .style('color', 'black')
               .html(`
     Stats: <br>
     Attack - ${tooltipData[d.data.name].attack} <br>
@@ -125,7 +131,7 @@
     Special Attack - ${tooltipData[d.data.name].sp_attack} <br>
     Special Defense - ${tooltipData[d.data.name].sp_defense}
   `);
-
+    
               // Position the tooltip relative to the mouse pointer
               tooltip.style('left', (event.pageX + 10) + 'px')
                 .style('top', (event.pageY + 10) + 'px');
@@ -145,6 +151,7 @@
           .attr('transform', d => `translate(${source.y},${source.x})`)
           .attr('fill-opacity', 0)
           .attr('stroke-opacity', 0);
+
 
         const link = gLink.selectAll('path')
           .data(links, d => d.target.id);
@@ -179,99 +186,160 @@
       });
 
       update(null, root);
-
+    
       const radarChartContainer = d3.select('#radar-chart-container');
 
-function drawRadarChart(data) {
-  // Extract labels and datasets from the provided data
-  const labels = data.labels;
-  const datasets = data.datasets;
+      function drawRadarChart(data) {
+        // Extract labels and datasets from the provided data
+        const labels = data.labels;
+        const datasets = data.datasets;
 
-  // Set up the radar chart dimensions
-  const width = 400;
-  const height = 400;
-  const margin = { top: 50, right: 50, bottom: 50, left: 50 };
-  const chartWidth = width - margin.left - margin.right;
-  const chartHeight = height - margin.top - margin.bottom;
-  const radius = Math.min(chartWidth, chartHeight) / 2;
+        // Set up the radar chart dimensions
+        const width = 400;
+        const height = 400;
+        const margin = { top: 100, right: 100, bottom: 100, left: 100 };
+        const chartWidth = width - margin.left - margin.right;
+        const chartHeight = height - margin.top - margin.bottom;
+        const radius = Math.min(chartWidth, chartHeight) / 2;
 
-  // Append an SVG element to the radar chart container
-  const svg = radarChartContainer
-    .append('svg')
-    .attr('width', width)
-    .attr('height', height)
-    .append('g')
-    .attr('transform', `translate(${width / 2}, ${height / 2})`);
+        // Append an SVG element to the radar chart container
+        const svg = radarChartContainer
+          .append('svg')
+          .attr('width', width)
+          .attr('height', height)
+          .append('g')
+          .attr('transform', `translate(${width / 2}, ${height / 2})`);
 
-  // Create the radial scales for the radar chart
-  const rScale = d3.scaleLinear()
-    .domain([0, 100]) // Assuming data values range from 0 to 100
-    .range([0, radius]);
+        // Create a hexagon background
+        const hexagonData = [
+          { angle: 0, radius: radius },
+          { angle: Math.PI / 3, radius: radius },
+          { angle: (2 * Math.PI) / 3, radius: radius },
+          { angle: Math.PI, radius: radius },
+          { angle: (4 * Math.PI) / 3, radius: radius },
+          { angle: (5 * Math.PI) / 3, radius: radius },
+          { angle: 0, radius: radius } // To close the path
+        ];
 
-  // Create the angle scales for the radar chart
-  const angleScale = d3.scaleLinear()
-    .domain([0, labels.length])
-    .range([0, Math.PI * 2]);
+        // Create the hexagon line generator
+        const hexagonLine = d3.lineRadial()
+          .angle(d => d.angle)
+          .radius(d => d.radius);
 
-  // Create a radial line generator
-  const radarLine = d3.lineRadial()
-    .radius(d => rScale(d))
-    .angle((d, i) => angleScale(i));
+        
+        // Append the hexagon path
+        svg.append('path')
+          .datum(hexagonData)
+          .attr('class', 'hexagon-background')
+          .attr('d', hexagonLine)
+          .style('fill', 'none')
+          .style('stroke', '#ccc')
+          .style('stroke-width', 1)
+          .style('stroke-dasharray', '5,5');
+          
+        // Append grid lines
+        const gridData = labels.map((_, i) => {
+          const angle = i * (Math.PI * 2 / labels.length);
+          return [
+            { angle, radius: 0 },
+            { angle, radius }
+          ];
+        });
 
-  // Create a single dataset from the average data
-  const avgDataset = datasets[0];
+        const gridLines = svg.selectAll('.grid-line')
+          .data(gridData)
+          .enter().append('path')
+          .attr('class', 'grid-line')
+          .attr('d', d => hexagonLine(d))
+          .style('fill', 'none')
+          .style('stroke', '#ccc')
+          .style('stroke-width', 1)
+          .style('stroke-dasharray', '2,2');
 
-  // Add the first data point to the end for a closed path
-  avgDataset.data.push(avgDataset.data[0]);
+        // Create the radial scales for the radar chart
+        const rScale = d3.scaleLinear()
+          .domain([0, 100]) // Assuming data values range from 0 to 100
+          .range([0, radius]);
 
-  // Append the radar area path
-  svg.append('path')
-    .datum(avgDataset.data)
-    .attr('class', 'radar-area')
-    .attr('d', radarLine)
-    .style('fill', 'rgba(255, 192, 203, 0.3)'); // Adjust the fill color as needed
+        // Create the angle scales for the radar chart
+        const angleScale = d3.scaleLinear()
+          .domain([0, labels.length])
+          .range([0, Math.PI * 2]);
 
-  // Append the radar line path
-  svg.append('path')
-    .datum(avgDataset.data)
-    .attr('class', 'radar-line')
-    .attr('d', radarLine)
-    .style('fill', 'none')
-    .style('stroke', '#831313') // Adjust the line color as needed
-    .style('stroke-width', 2);
+        // Create a radial line generator
+        const radarLine = d3.lineRadial()
+          .radius(d => rScale(d))
+          .angle((d, i) => angleScale(i));
 
-  // Append the labels around the radar chart
-  const label = svg.selectAll('.radar-label')
-    .data(labels)
-    .enter()
-    .append('g')
-    .attr('class', 'radar-label');
+        // Create a single dataset from the average data
+        const avgDataset = datasets[0];
 
-  // Append the label text
-  label.append('text')
-    .attr('x', (d, i) => rScale(100) * Math.cos(angleScale(i) - Math.PI / 2))
-    .attr('y', (d, i) => rScale(100) * Math.sin(angleScale(i) - Math.PI / 2))
-    .attr('text-anchor', 'middle')
-    .text(d => d);
-}
+        // Add the first data point to the end for a closed path
+        avgDataset.data.push(avgDataset.data[0]);
 
-// Assuming you already have loaded your avgPokemon.json data
-drawRadarChart(radarData);
-      
+        // Append the radar area path
+        svg.append('path')
+          .datum(avgDataset.data)
+          .attr('class', 'radar-area')
+          .attr('d', radarLine)
+          .style('fill', '#ffcb05'); 
+
+        // Append the radar line path
+        svg.append('path')
+          .datum(avgDataset.data)
+          .attr('class', 'radar-line')
+          .attr('d', radarLine)
+          .style('fill', 'none')
+          .style('stroke', 'white') 
+          .style('stroke-width', 1);
+
+        // Append the labels around the radar chart
+        const label = svg.selectAll('.radar-label')
+          .data(labels)
+          .enter()
+          .append('g')
+          .attr('class', 'radar-label');
+
+        // Append the label text
+        label.append('text')
+          .attr('x', (d, i) => rScale(100) * Math.cos(angleScale(i) - Math.PI / 2))
+          .attr('y', (d, i) => rScale(100) * Math.sin(angleScale(i) - Math.PI / 2))
+          .attr('text-anchor', 'middle')
+          .text(d => d)
+          .style('fill', 'white');
+        svg.append('text')
+          .attr('class', 'radar-title')
+          .attr('x', 0)
+          .attr('y', -margin.top - 60)
+          .attr('text-anchor', 'middle')
+          .text('Radar Chart with Pok\u00e9mon\'s Stats') // Set your desired title text here
+          .style('fill', 'white');  
+        
+      }
+
+      drawRadarChart(radarData);
+
     });
   });
 </script>
 
 <style>
   /* Write your CSS here */
-
   p {  
     padding-left: 75px;  
-    padding-right: 80px;
+    padding-right: 40px;
   } 
 
   .tooltip {
     /* Define tooltip styles here */
+  }
+
+  .hexagon-background {
+    stroke-dasharray: 5,5;
+  }
+
+  .grid-line {
+    stroke-dasharray: 2,4;
   }
 
 </style>
