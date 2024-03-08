@@ -111,7 +111,7 @@
             const tooltip = d3.select('body').append('div')
               .attr('class', 'tooltip')
               .style('position', 'absolute')
-              .style('background-color', 'rgba(255, 192, 203, 0.3)')
+              .style('background-color', '#FDE6EB')
               .style('border', 'none')
               .style('border-width', '1px')
               .style('border-radius', '5px')
@@ -229,7 +229,7 @@ function drawRadarChart(data) {
     .datum(avgDataset.data)
     .attr('class', 'radar-area')
     .attr('d', radarLine)
-    .style('fill', 'rgba(255, 0, 0, 0.5)'); // Adjust the fill color as needed
+    .style('fill', 'rgba(255, 192, 203, 0.3)'); // Adjust the fill color as needed
 
   // Append the radar line path
   svg.append('path')
@@ -237,7 +237,7 @@ function drawRadarChart(data) {
     .attr('class', 'radar-line')
     .attr('d', radarLine)
     .style('fill', 'none')
-    .style('stroke', 'red') // Adjust the line color as needed
+    .style('stroke', '#831313') // Adjust the line color as needed
     .style('stroke-width', 2);
 
   // Append the labels around the radar chart
