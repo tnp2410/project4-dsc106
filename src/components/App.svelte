@@ -3,16 +3,28 @@
   <div class="author-line">
     <h1>by Tracy Pham and Jenna Canicosa</h1>
   </div>
-  <h1 style="font-size: 1.2em; margin-top: 20px;">Pokemon Collapsible Tree</h1>
-  <p>
-    We began the project by data cleaning the Pokemon dataset by dropping unnecessary columns, fixing N/A values, and converting types into a list. The next step began by looking at examples of how to implement our visualization. Our original plan was to implement a radar chart to display how effective different types of Pokemon are against each other. After spending a few hours, we kept running into errors because we couldn’t figure out how to get the visualization to display properly. We decided to shift gears and approach our project by implementing a Zoomable sunburst and changing our goals to exploring different Pokemon types sorted by generation. As we tried to implement this visualization, we stumbled upon the Collapsible Tree visualization which was perfect for the Pokemon dataset. With this visualization, the Pokemon are sorted by generation and then by classification, which allows the users to navigate and see the variety of Pokemon. 
-  </p>
-  <p>
-    The most challenging part of our project design was getting the visualization to load onto the website by connecting all the moving parts such as importing d3. We realized after many trials and errors that our issues lay in the format of our data file. We were using a csv file that was not compatible with the format needed for collapsible tree visualization. When we switched to a JSON file with the data in a hierarchical format, we were able to make significant progress. Another difficulty we faced was correctly importing the data as we intended because there was confusion in figuring out how to use the proper variables in each file. Although this is just a prototype, I anticipate further data cleaning for each Pokemon evolution will be tedious to implement. Once we figure out the finishing touches such as color coding, the visualization will look complete.
-  </p>
-  <p> Click on the text to collapse or decollapse the Pokemon Tree! </p>
   
+  <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokemon universe!</h1>
+  <p>
+    Ever wondered if heavier Pokemon are stronger than ligher ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 30kg) versus light Pokémon (weighing 30kg or less). Think of heavy Pokémon like Snorlax known for being a the heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out!
+  </p>
   <div id="bar-chart-container"></div>
+
+  <p>
+  Legendary Pokemon are ultra rare and known for their epic tales and immense power. But are they really stronger than non-legendary Pokemon? The following visualization compares the average stats of lgendary Pokemon against their non-legendary counterparts. 
+
+  </p>
+  <div id="legendary-bar-chart-container"></div>
+
+
+  <h1 style="font-size: 1.2em; margin-top: 20px;">Pokemon Collapsiable Tree </h1>
+  <p>
+  The visualization below allows users to explore different kinds of Pokemon sorted by generationand type. For example, if you're looking for the iconic electric mouse Pokemon, Pikachu, click on "Pokemon", "Generation 1", "Electric", "Mouse Pokemon" to reveal Pikachu.
+  </p>
+  <p> </p>
+  
+  
+  
   <div id="tree-container"></div>
   <div id="radar-chart-container"></div> 
 </main>
@@ -34,10 +46,11 @@
     Promise.all([
       d3.json('pokemon.json'),
       d3.json('tooltipStatsNew.json'),
+      d3.json('tooltipStatsNew_copy.json'),
       d3.json('avgPokemon.json'),
       d3.json('weightPokemon.json'),
       d3.json('pokemonStats.json')
-    ]).then(([pokemonData, tooltipData, radarData, weightData, statsData]) => {
+    ]).then(([pokemonData, tooltipData, tooltipCopy, radarData, weightData, statsData]) => {
     
       const root = d3.hierarchy(pokemonData);
 
@@ -446,7 +459,118 @@ const svg = d3.select('#bar-chart-container')
         .attr('y', 29)
         .text('Lighter');
 }
+// Filter legendary and non-legendary Pokémon
+const legendaryPokemon = tooltipCopy.filter(pokemon => pokemon.is_legendary == 1);
+const nonLegendaryPokemon = tooltipCopy.filter(pokemon => pokemon.is_legendary == 0);
+console.log(legendaryPokemon)
 
+// Calculate average stats for legendary and non-legendary Pokémon
+const averageLegendaryStats = calculateAverageStats(legendaryPokemon);
+const averageNonLegendaryStats = calculateAverageStats(nonLegendaryPokemon);
+
+// Draw bar chart for legendary comparison
+drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats);
+
+// Function to draw the legendary bar chart
+function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) {
+    // Define data for the bar chart
+    const data = [
+        { stat: 'Attack', legendary: averageLegendaryStats.attack, nonLegendary: averageNonLegendaryStats.attack },
+        { stat: 'Defense', legendary: averageLegendaryStats.defense, nonLegendary: averageNonLegendaryStats.defense },
+        { stat: 'Speed', legendary: averageLegendaryStats.speed, nonLegendary: averageNonLegendaryStats.speed },
+        { stat: 'Special Attack', legendary: averageLegendaryStats.sp_attack, nonLegendary: averageNonLegendaryStats.sp_attack },
+        { stat: 'Special Defense', legendary: averageLegendaryStats.sp_defense, nonLegendary: averageNonLegendaryStats.sp_defense },
+    ];
+
+    // Set up dimensions and margins for the chart
+    const margin = { top: 20, right: 30, bottom: 80, left: 80 };
+    const width = 700 - margin.left - margin.right;
+    const height = 450 - margin.top - margin.bottom;
+
+    // Append an SVG element to the legendary chart container
+    const svg = d3.select('#legendary-bar-chart-container')
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Define scales for x and y axes
+    const x = d3.scaleBand()
+        .domain(data.map(d => d.stat))
+        .range([0, width])
+        .padding(0.2);
+
+    const y = d3.scaleLinear()
+        .domain([0, d3.max(data, d => Math.max(d.legendary, d.nonLegendary))])
+        .nice()
+        .range([height, 0]);
+
+    // Append x axis
+    svg.append('g')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x))
+        .selectAll('text')
+        .style('text-anchor', 'end')
+        .attr('dx', '-0.8em')
+        .attr('dy', '0.15em')
+        .attr('transform', 'rotate(-65)');
+
+    // Append y axis
+    svg.append('g')
+        .call(d3.axisLeft(y));
+
+    // Append bars for legendary Pokémon
+    svg.selectAll('.bar-legendary')
+        .data(data)
+        .enter().append('rect')
+        .attr('class', 'bar-legendary')
+        .attr('x', d => x(d.stat))
+        .attr('y', d => y(d.legendary))
+        .attr('width', x.bandwidth() / 2)
+        .attr('height', d => height - y(d.legendary))
+        .attr('fill', '#E10A03');
+
+    // Append bars for non-legendary Pokémon
+    svg.selectAll('.bar-non-legendary')
+        .data(data)
+        .enter().append('rect')
+        .attr('class', 'bar-non-legendary')
+        .attr('x', d => x(d.stat) + x.bandwidth() / 2)
+        .attr('y', d => y(d.nonLegendary))
+        .attr('width', x.bandwidth() / 2)
+        .attr('height', d => height - y(d.nonLegendary))
+        .attr('fill', 'white');
+
+    // Add legend
+    const legend = svg.append('g')
+        .attr('class', 'legend')
+        .attr('transform', `translate(${width - 110},${margin.top - 30})`);
+
+    legend.append('rect')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', 15)
+        .attr('height', 15)
+        .attr('fill', '#E10A03');
+
+    legend.append('text')
+        .attr('x', 20)
+        .attr('y', 9)
+        .text('Legendary');
+
+    legend.append('rect')
+        .attr('x', 0)
+        .attr('y', 20)
+        .attr('width', 15)
+        .attr('height', 15)
+        .attr('fill', 'white');
+
+    legend.append('text')
+        .attr('x', 20)
+        .attr('y', 29)
+        .text('Non-Legendary');
+}
   
     });
   });
@@ -469,6 +593,18 @@ const svg = d3.select('#bar-chart-container')
 
   .grid-line {
     stroke-dasharray: 2,4;
+  }
+
+  main {
+    border: 2px solid #FFCB05;
+    padding: 20px; 
+  }
+
+  /* Add borders around the paragraphs */
+  p {
+    border: 1px solid #ccc; /* Add a border around each paragraph */
+    padding: 10px; /* Add padding to give some space between the border and text */
+    margin-bottom: 20px; /* Add margin to separate paragraphs */
   }
 
 </style>
