@@ -1,32 +1,28 @@
-<main>
-  <h1>Gotta Catch 'Em All!</h1>
-  <div class="author-line">
-    <h1>by Tracy Pham and Jenna Canicosa</h1>
-  </div>
-  
-  <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokemon universe!</h1>
-  <p>
-    Ever wondered if heavier Pokemon are stronger than ligher ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 30kg) versus light Pokémon (weighing 30kg or less). Think of heavy Pokémon like Snorlax known for being a the heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out!
+<h1>Gotta Catch 'Em All!</h1>
+<div class="author-line">
+  <h1>by Tracy Pham and Jenna Canicosa</h1>
+</div>
+
+<main style="margin-bottom: 100px;">
+  <p style="font-size: 1.5em; margin-top: 20px;">Welcome to the Pokemon universe!</p>
+  <p style="border: none; background-color: #3c5aa6; border-radius: 10px;">
+    Ever wondered if heavier Pokemon are stronger than lighter ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 30kg) versus light Pokémon (weighing 30kg or less). Think of heavy Pokémon like Snorlax known for being a the heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out!
   </p>
-  <div id="bar-chart-container"></div>
+  <div id="bar-chart-container" style="margin-top: 60px; margin-bottom: 70px;"></div>
 
-  <p>
-  Legendary Pokemon are ultra rare and known for their epic tales and immense power. But are they really stronger than non-legendary Pokemon? The following visualization compares the average stats of lgendary Pokemon against their non-legendary counterparts. 
-
+  <p style="border: none; background-color: #3c5aa6; border-radius: 10px;">
+    Legendary Pokemon are ultra rare and known for their epic tales and immense power. But are they really stronger than non-legendary Pokemon? The following visualization compares the average stats of legendary Pokemon against their non-legendary counterparts.
   </p>
-  <div id="legendary-bar-chart-container"></div>
+  <div id="legendary-bar-chart-container" style="margin-top: 60px; margin-bottom: 70px;"></div>
 
-
-  <h1 style="font-size: 1.2em; margin-top: 20px;">Pokemon Collapsiable Tree </h1>
-  <p>
-  The visualization below allows users to explore different kinds of Pokemon sorted by generationand type. For example, if you're looking for the iconic electric mouse Pokemon, Pikachu, click on "Pokemon", "Generation 1", "Electric", "Mouse Pokemon" to reveal Pikachu.
+  <p style="font-size: 1.5em; border: none; display: flex; justify-content: center; align-items: center;">Pokemon Collapsible Tree</p>
+  <p style="border: none; background-color: #3c5aa6; border-radius: 10px;">
+    The visualization below allows users to explore different kinds of Pokemon sorted by generation and type. For example, if you're looking for the iconic electric mouse Pokemon, Pikachu, click on "Pokemon", "Generation 1", "Electric", "Mouse Pokemon" to reveal Pikachu.
   </p>
-  <p> </p>
-  
-  
-  
+
   <div id="tree-container"></div>
-  <div id="radar-chart-container"></div> 
+  <div id="radar-chart-container"></div>
+  <input type="text" id="pokemon-search" placeholder="Search Pokémon">
 </main>
 
 <script>
@@ -40,22 +36,21 @@
     const marginTop = 30;
     const marginRight = 10;
     const marginBottom = 30;
-    const marginLeft = 80;
+    const marginLeft = 90;
 
     // Load data from JSON files
     Promise.all([
       d3.json('pokemon.json'),
       d3.json('tooltipStatsNew.json'),
       d3.json('tooltipStatsNew_copy.json'),
-      d3.json('avgPokemon.json'),
-      d3.json('weightPokemon.json'),
-      d3.json('pokemonStats.json')
-    ]).then(([pokemonData, tooltipData, tooltipCopy, radarData, weightData, statsData]) => {
-    
+      d3.json('pokemonStats.json'),
+      d3.json('weightPokemon.json')
+    ]).then(([pokemonData, tooltipData, tooltipCopy, radarData, weightData]) => {
+    console.log(radarData);
       const root = d3.hierarchy(pokemonData);
-
-      const dx = 20;
-      const dy = ((width - marginRight - marginLeft) / (1 + root.height))+30;
+    
+      const dx = 35;
+      const dy = ((width - marginRight - marginLeft) / (1 + root.height))+10;
 
       const tree = d3.tree().nodeSize([dx, dy]);
       const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
@@ -209,134 +204,163 @@
       const radarChartContainer = d3.select('#radar-chart-container');
 
       function drawRadarChart(data) {
-        // Extract labels and datasets from the provided data
-        const labels = data.labels;
-        const datasets = data.datasets;
+    // Extract labels and datasets from the provided data
+    const labels = data.labels;
+    const datasets = data.datasets;
 
-        // Set up the radar chart dimensions
-        const width = 400;
-        const height = 400;
-        const margin = { top: 100, right: 100, bottom: 100, left: 100 };
-        const chartWidth = width - margin.left - margin.right;
-        const chartHeight = height - margin.top - margin.bottom;
-        const radius = Math.min(chartWidth, chartHeight) / 2;
+    // Set up the radar chart dimensions
+    const width = 600;
+    const height = 800;
+    const margin = { top: 400, right: 400, bottom: 2000, left: 400 };
+    const chartWidth = 350 - 200;
+    const chartHeight = 500 -200;
+    const radius = Math.min(chartWidth, chartHeight) / 2;
 
-        // Append an SVG element to the radar chart container
-        const svg = radarChartContainer
-          .append('svg')
-          .attr('width', width)
-          .attr('height', height)
-          .append('g')
-          .attr('transform', `translate(${width / 2}, ${height / 2})`);
+    // Select the radar chart container
+    const radarChartContainer = d3.select('#radar-chart-container');
 
-        // Create a hexagon background
-        const hexagonData = [
-          { angle: 0, radius: radius },
-          { angle: Math.PI / 3, radius: radius },
-          { angle: (2 * Math.PI) / 3, radius: radius },
-          { angle: Math.PI, radius: radius },
-          { angle: (4 * Math.PI) / 3, radius: radius },
-          { angle: (5 * Math.PI) / 3, radius: radius },
-          { angle: 0, radius: radius } // To close the path
-        ];
+    // Remove any existing SVG elements within the container
+    radarChartContainer.selectAll('svg').remove();
 
-        // Create the hexagon line generator
-        const hexagonLine = d3.lineRadial()
-          .angle(d => d.angle)
-          .radius(d => d.radius);
+    // Append an SVG element to the radar chart container
+    const svg = radarChartContainer
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .append('g')
+        .attr('transform', `translate(${width / 2 +6}, ${height / 2 +30})`);
 
-        
-        // Append the hexagon path
-        svg.append('path')
-          .datum(hexagonData)
-          .attr('class', 'hexagon-background')
-          .attr('d', hexagonLine)
-          .style('fill', 'none')
-          .style('stroke', '#ccc')
-          .style('stroke-width', 1)
-          .style('stroke-dasharray', '5,5');
-          
-        // Append grid lines
-        const gridData = labels.map((_, i) => {
-          const angle = i * (Math.PI * 2 / labels.length);
-          return [
-            { angle, radius: 0 },
-            { angle, radius }
-          ];
-        });
 
-        const gridLines = svg.selectAll('.grid-line')
-          .data(gridData)
-          .enter().append('path')
-          .attr('class', 'grid-line')
-          .attr('d', d => hexagonLine(d))
-          .style('fill', 'none')
-          .style('stroke', '#ccc')
-          .style('stroke-width', 1)
-          .style('stroke-dasharray', '2,2');
+  // Define an array of colors for the layers
+  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-        // Create the radial scales for the radar chart
-        const rScale = d3.scaleLinear()
-          .domain([0, 100]) // Assuming data values range from 0 to 100
-          .range([0, radius]);
+  // Create a hexagon background
+  const hexagonData = [
+    { angle: 0, radius: radius+115},
+    { angle: Math.PI / 3, radius: radius+115},
+    { angle: (2 * Math.PI) / 3, radius: radius+115 },
+    { angle: Math.PI, radius: radius+115 },
+    { angle: (4 * Math.PI) / 3, radius: radius+115 },
+    { angle: (5 * Math.PI) / 3, radius: radius+115 },
+    { angle: 0, radius: radius+115 } // To close the path
+  ];
 
-        // Create the angle scales for the radar chart
-        const angleScale = d3.scaleLinear()
-          .domain([0, labels.length])
-          .range([0, Math.PI * 2]);
+  // Create the hexagon line generator
+  const hexagonLine = d3.lineRadial()
+    .angle(d => d.angle)
+    .radius(d => d.radius);
 
-        // Create a radial line generator
-        const radarLine = d3.lineRadial()
-          .radius(d => rScale(d))
-          .angle((d, i) => angleScale(i));
+  // Append the hexagon path
+  svg.append('path')
+    .datum(hexagonData)
+    .attr('class', 'hexagon-background')
+    .attr('d', hexagonLine)
+    .style('fill', 'none')
+    .style('stroke', '#ccc')
+    .style('stroke-width', 1)
+    .style('stroke-dasharray', '5,5');
 
-        // Create a single dataset from the average data
-        const avgDataset = datasets[0];
+  // Append grid lines
+  const gridData = labels.map((_, i) => {
+    const angle = i * (Math.PI * 2 / labels.length);
+    return [
+      { angle, radius: 0 },
+      { angle, radius }
+    ];
+  });
 
-        // Add the first data point to the end for a closed path
-        avgDataset.data.push(avgDataset.data[0]);
+  const gridLines = svg.selectAll('.grid-line')
+    .data(gridData)
+    .enter().append('path')
+    .attr('class', 'grid-line')
+    .attr('d', d => hexagonLine(d))
+    .style('fill', 'none')
+    .style('stroke', '#ccc')
+    .style('stroke-width', 1)
+    .style('stroke-dasharray', '2,2');
 
-        // Append the radar area path
-        svg.append('path')
-          .datum(avgDataset.data)
-          .attr('class', 'radar-area')
-          .attr('d', radarLine)
-          .style('fill', '#ffcb05'); 
+  // Create the radial scales for the radar chart
+  const rScale = d3.scaleLinear()
+    .domain([0, 100]) // Assuming data values range from 0 to 100
+    .range([0, radius]);
 
-        // Append the radar line path
-        svg.append('path')
-          .datum(avgDataset.data)
-          .attr('class', 'radar-line')
-          .attr('d', radarLine)
-          .style('fill', 'none')
-          .style('stroke', 'white') 
-          .style('stroke-width', 1);
+  // Create the angle scales for the radar chart
+  const angleScale = d3.scaleLinear()
+    .domain([0, labels.length])
+    .range([0, Math.PI * 2]);
 
-        // Append the labels around the radar chart
-        const label = svg.selectAll('.radar-label')
-          .data(labels)
-          .enter()
-          .append('g')
-          .attr('class', 'radar-label');
+  // Create a radial line generator
+  const radarLine = d3.lineRadial()
+    .radius(d => rScale(d))
+    .angle((d, i) => angleScale(i));
 
-        // Append the label text
-        label.append('text')
-          .attr('x', (d, i) => rScale(100) * Math.cos(angleScale(i) - Math.PI / 2))
-          .attr('y', (d, i) => rScale(100) * Math.sin(angleScale(i) - Math.PI / 2))
-          .attr('text-anchor', 'middle')
-          .text(d => d)
-          .style('fill', 'white');
-        svg.append('text')
-          .attr('class', 'radar-title')
-          .attr('x', 0)
-          .attr('y', -margin.top - 60)
-          .attr('text-anchor', 'middle')
-          .text('Radar Chart with Pok\u00e9mon\'s Stats') // Set your desired title text here
-          .style('fill', 'white');  
-        
-      }
+  // Append radar area and line paths for each dataset
+  datasets.forEach((dataset, i) => {
+    // Add the first data point to the end for a closed path
+    dataset.data.push(dataset.data[0]);
 
-      drawRadarChart(radarData);
+    // Append the radar area path
+    svg.append('path')
+      .datum(dataset.data)
+      .attr('class', 'radar-area')
+      .attr('d', radarLine)
+      .style('fill', colorScale(i));
+
+    // Append the radar line path
+    svg.append('path')
+      .datum(dataset.data)
+      .attr('class', 'radar-line')
+      .attr('d', radarLine)
+      .style('fill', 'none')
+      .style('stroke', colorScale(i))
+      .style('stroke-width', 1);
+  });
+
+  // Append the labels around the radar chart
+  const label = svg.selectAll('.radar-label')
+    .data(labels)
+    .enter()
+    .append('g')
+    .attr('class', 'radar-label');
+
+  // Append the label text
+  label.append('text')
+    .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) // Adjusted x position
+    .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) // Adjusted y position
+    .attr('text-anchor', 'middle')
+    .text(d => d)
+    .style('fill', 'white');
+  svg.append('text')
+    .attr('class', 'radar-title')
+    .attr('x', 0)
+    .attr('y', -margin.top + 160)
+    .attr('text-anchor', 'middle')
+    .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
+    .style('fill', 'white');
+}
+
+
+    drawRadarChart(radarData);
+const pokemonSearchInput = document.getElementById('pokemon-search');
+pokemonSearchInput.addEventListener('input', function () {
+    // Get the input value
+    const searchValue = pokemonSearchInput.value.toLowerCase();
+
+    // Filter radar data based on the input value
+    const filteredData = radarData.datasets.filter(dataset =>
+        dataset.label.toLowerCase().includes(searchValue)
+    );
+
+    // If no matching Pokémon found, clear the radar chart
+    if (filteredData.length === 0) {
+        radarChartContainer.selectAll('*').remove();
+        return;
+    }
+
+    // Update the radar chart with the data of the matching Pokémon
+    drawRadarChart(filteredData[0]); // Assuming only one Pokémon matches the input
+});
+
     const heavyPokemon = weightData.filter(pokemon => pokemon.weight_kg > 30);
       const lightPokemon = weightData.filter(pokemon => pokemon.weight_kg <= 30);
       
@@ -370,8 +394,8 @@ function drawBarChart(averageHeavyStats, averageLightStats) {
 
     // Set up the dimensions for the bar chart
     const margin = { top: 20, right: 30, bottom: 80, left: 80 }; // Increased bottom margin
-    const width = 700 - margin.left - margin.right; // Adjusted width
-    const height = 450 - margin.top - margin.bottom; // Adjusted height
+    const width = 800 - margin.left - margin.right; // Adjusted width
+    const height = 500 - margin.top - margin.bottom; // Adjusted height
 
 // Append an SVG element to the bar chart container
 const svg = d3.select('#bar-chart-container')
@@ -380,6 +404,18 @@ const svg = d3.select('#bar-chart-container')
     .attr('height', height + margin.top + margin.bottom)
     .append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
+
+
+// Define tooltip
+const tooltip = d3.select('#bar-chart-container')
+    .append('div')
+    .style('opacity', 0)
+    .attr('class', 'tooltip')
+    .style('position', 'absolute')
+    .style('border', 'solid')
+    .style('border-width', '1px')
+    .style('border-radius', '5px')
+    .style('padding', '10px');
 
     // Define scales for x and y axes
     const x = d3.scaleBand()
@@ -409,26 +445,59 @@ const svg = d3.select('#bar-chart-container')
         .call(d3.axisLeft(y));
 
     // Append bars for heavier Pokémon
-    svg.selectAll('.bar-heavy')
-        .data(data)
-        .enter().append('rect')
-        .attr('class', 'bar-heavy')
-        .attr('x', d => x(d.stat))
-        .attr('y', d => y(d.heavy))
-        .attr('width', x.bandwidth() / 2)
-        .attr('height', d => height - y(d.heavy))
-        .attr('fill', '#c7a008');
+svg.selectAll('.bar-heavy')
+    .data(data)
+    .enter().append('rect')
+    .attr('class', 'bar-heavy')
+    .attr('x', d => x(d.stat))
+    .attr('y', d => y(d.heavy))
+    .attr('width', x.bandwidth() / 2)
+    .attr('height', d => height - y(d.heavy))
+    .attr('fill', '#c7a008')
+    .attr('stroke', 'white')
+    // Add tooltip on hover
+    .on('mouseover', function(event, d) {
+        // Show tooltip on hover
+        tooltip.transition()
+            .duration(200)
+            .style('opacity', .9)
+            .style('background-color', '#c7a008')
+        tooltip.html(`<strong>${d.stat}:</strong> ${d.heavy}`)
+            .style('left', (event.pageX+10) + 'px')
+            .style('top', (event.pageY-30) + 'px');
+    })
+    .on('mouseout', function(d) {
+        // Hide tooltip on mouseout
+        tooltip.transition()
+            .duration(500)
+    });
 
-    // Append bars for lighter Pokémon
+// Append bars for lighter Pokémon
     svg.selectAll('.bar-light')
-        .data(data)
-        .enter().append('rect')
-        .attr('class', 'bar-light')
-        .attr('x', d => x(d.stat) + x.bandwidth() / 2)
-        .attr('y', d => y(d.light))
-        .attr('width', x.bandwidth() / 2)
-        .attr('height', d => height - y(d.light))
-        .attr('fill', '#E2DC69');
+    .data(data)
+    .enter().append('rect')
+    .attr('class', 'bar-light')
+    .attr('x', d => x(d.stat) + x.bandwidth() / 2)
+    .attr('y', d => y(d.light))
+    .attr('width', x.bandwidth() / 2)
+    .attr('height', d => height - y(d.light))
+    .attr('fill', '#E2DC69')
+    .attr('stroke', 'white')
+    // Add tooltip on hover
+    .on('mouseover', function(event, d) {
+        // Show tooltip on hover
+        tooltip.transition()
+            .duration(200)
+            .style('background-color', '#B0AB4A')
+        tooltip.html(`<strong>${d.stat}:</strong> ${d.light}`)
+            .style('left', (event.pageX+10) + 'px')
+            .style('top', (event.pageY-30) + 'px');
+    })
+    .on('mouseout', function(d) {
+        // Hide tooltip on mouseout
+        tooltip.transition()
+            .duration(700)
+    });
 
     // Add legend
     const legend = svg.append('g')
@@ -484,8 +553,8 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
 
     // Set up dimensions and margins for the chart
     const margin = { top: 20, right: 30, bottom: 80, left: 80 };
-    const width = 700 - margin.left - margin.right;
-    const height = 450 - margin.top - margin.bottom;
+    const width = 800 - margin.left - margin.right;
+    const height = 500 - margin.top - margin.bottom;
 
     // Append an SVG element to the legendary chart container
     const svg = d3.select('#legendary-bar-chart-container')
@@ -505,6 +574,15 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .domain([0, d3.max(data, d => Math.max(d.legendary, d.nonLegendary))])
         .nice()
         .range([height, 0]);
+    const legendarytooltip = d3.select('#legendary-bar-chart-container')
+    .append('div')
+    .style('opacity', 0)
+    .attr('class', 'tooltip')
+    .style('position', 'absolute')
+    .style('border', 'solid')
+    .style('border-width', '1px')
+    .style('border-radius', '5px')
+    .style('padding', '10px');
 
     // Append x axis
     svg.append('g')
@@ -520,6 +598,7 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
     svg.append('g')
         .call(d3.axisLeft(y));
 
+
     // Append bars for legendary Pokémon
     svg.selectAll('.bar-legendary')
         .data(data)
@@ -529,7 +608,23 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('y', d => y(d.legendary))
         .attr('width', x.bandwidth() / 2)
         .attr('height', d => height - y(d.legendary))
-        .attr('fill', '#E10A03');
+        .attr('fill', '#E10A03')
+        .attr('stroke', 'white')
+    // Add tooltip on hover
+    .on('mouseover', function(event, d) {
+        legendarytooltip.transition()
+            .duration(200)
+            .style('opacity', .9)
+            .style('background-color', '#E10A03')
+        legendarytooltip.html(`<strong>${d.stat}:</strong> ${d.legendary}`)
+            .style('left', (event.pageX+10) + 'px')
+            .style('top', (event.pageY-30) + 'px');
+    })
+    .on('mouseout', function(d) {
+        // Hide tooltip on mouseout
+        legendarytooltip.transition()
+            .duration(500)
+    });
 
     // Append bars for non-legendary Pokémon
     svg.selectAll('.bar-non-legendary')
@@ -540,7 +635,24 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('y', d => y(d.nonLegendary))
         .attr('width', x.bandwidth() / 2)
         .attr('height', d => height - y(d.nonLegendary))
-        .attr('fill', 'white');
+        .attr('fill', 'white')
+         .attr('stroke', 'red')
+    // Add tooltip on hover
+        .on('mouseover', function(event, d) {
+        // Show tooltip on hover
+        legendarytooltip.transition()
+            .duration(200)
+            .style('background-color', '#656561')
+        legendarytooltip.html(`<strong>${d.stat}:</strong> ${d.nonLegendary}`)
+            .style('left', (event.pageX+10) + 'px')
+            .style('top', (event.pageY-30) + 'px');
+    })
+    .on('mouseout', function(d) {
+        // Hide tooltip on mouseout
+        tooltip.transition()
+            .duration(700)
+    });
+
 
     // Add legend
     const legend = svg.append('g')
@@ -576,6 +688,7 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
   });
 </script>
 
+
 <style>
   /* Write your CSS here */
   p {  
@@ -595,10 +708,6 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
     stroke-dasharray: 2,4;
   }
 
-  main {
-    border: 2px solid #FFCB05;
-    padding: 20px; 
-  }
 
   /* Add borders around the paragraphs */
   p {
