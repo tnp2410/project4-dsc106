@@ -5,10 +5,12 @@
 
 <main style="margin-bottom: 100px;">
   <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokémon universe!</h1>
-  <h1 style="font-size: 1.2em; margin-top: 20px; text-align: center;">Welcome to the Pokémon universe!</h1>
-  <p style="border: none; background-color: #3c5aa6; border-radius: 10px; text-align: center;">
+  <div style="border: none; background-color: #3c5aa6; border-radius: 10px; text-align: center; padding: 20px;">
+  <p style="margin: 0;">
     Welcome to our project, where we delve deep into the captivating world of Pokémon to uncover what truly makes a Pokémon strong. Our endeavor is tailored for those eager to expand their knowledge about Pokémon and discover how statistics and strategic thinking can shape effective gameplay strategies. Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon GO player, or simply curious about the intricacies of Pokémon combat mechanics, you're in the right place. Join us as we embark on a journey to answer the age-old question: what makes a Pokémon strong?
-</p>
+  </p>
+</div>
+
   
 
   <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">How does weight affect stats?</h1>
@@ -31,7 +33,7 @@
 <div id="tree-container"></div>
  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokémon Radar Chart</h1>
  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-Let's dive into the statistics of each Pokémon, examining their attack, defense, HP, special attack, and special defense. While we've already established that factors like legendary status and weight don't singularly determine strength, our next step involves delving into the intricate details of each Pokémon's abilities.
+Let's dive into the statistics of each Pokémon, examining their attack, defense, HP, special attack, and special defense. While we've already established that factors like legendary status and weight do have a signficance on strength, our next step involves delving into the intricate details of each Pokémon's abilities.
     <br>
     To facilitate this analysis, we'll utilize a radar chart, which offers a comprehensive view of a Pokémon's stats across these key attributes. Unlike simplistic metrics such as weight or rarity, this approach allows us to compare the actual combat capabilities of Pokémon relative to one another.
     <br>
