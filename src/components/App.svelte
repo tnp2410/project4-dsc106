@@ -5,25 +5,39 @@
 
 <main style="margin-bottom: 100px;">
   <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokémon universe!</h1>
-  <h1 style="font-size: 1.2em; margin-top: 20px;">How does weight affect stats?</h1>
+  <h1 style="font-size: 1.2em; margin-top: 20px; text-align: center;">Welcome to the Pokémon universe!</h1>
+  <p style="border: none; background-color: #3c5aa6; border-radius: 10px; text-align: center;">
+    Welcome to our project, where we delve deep into the captivating world of Pokémon to uncover what truly makes a Pokémon strong. Our endeavor is tailored for those eager to expand their knowledge about Pokémon and discover how statistics and strategic thinking can shape effective gameplay strategies. Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon GO player, or simply curious about the intricacies of Pokémon combat mechanics, you're in the right place. Join us as we embark on a journey to answer the age-old question: what makes a Pokémon strong?
+</p>
+  
+
+  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">How does weight affect stats?</h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-    Ever wondered if heavier Pokémon are stronger than lighter ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 30kg) versus light Pokémon (weighing 30kg or less). Think of heavy Pokémon like Snorlax known for being a the heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out! 
-  </p>
+   Ever wondered if heavier Pokémon are stronger than lighter ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 65 kg) versus light Pokémon (weighing 65 kg or less). Given that the median Pokémon weight stands at 27 kgs, while the average hovers around 61 kgs, it's evident that the presence of heavier Pokémon skews the average. Hence, To provide a more accurate depiction, we've chosen a weight threshold of 65 kg, which represents the 75th percentile of Pokémon weights, to determine what is considered a heavy Pokémon. Therefore, we decided to use 65  kg as the threshold. Think of heavy Pokémon like Snorlax known for being a heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out! 
+    
+    </p>
   <div id="bar-chart-container"></div>
-  <h1 style="font-size: 1.2em; margin-top: 20px;">Are Legendary Pokémon actually stronger?</h1>
+  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Are Legendary Pokémon actually stronger?</h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-  Legendary Pokémon are ultra rare and known for their epic tales and immense power. But are they really stronger than non-legendary Pokémon? The following visualization compares the average stats of legendary Pokémon against their non-legendary counterparts. Let’s see if legendary Pokémon live up to their name!
+   Legendary Pokémon are extremely rare and known for their epic tales and immense power. They are essential for the game’s storyline through their lore and mythology. They can be worshiped, revered as guardians, or seen as symbols of power and balance. How much stronger can legendary Pokémon be compared to non-legendary Pokémon? The following visualization compares the average stats of legendary Pokémon against their non-legendary counterparts. Let’s see if legendary Pokémon live up to their name!
   </p>
   <div id="legendary-bar-chart-container"></div>
 
-  <h1 style="font-size: 1.2em; margin-top: 20px;">Pokemon Collapsible Tree </h1>
+  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokemon Collapsible Tree </h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-  The visualization below allows users to explore different kinds of Pokémon sorted by generation and type. For example, if you're looking for the iconic electric mouse Pokémon, Pikachu, click on "Pokémon", "Generation 1", "Electric", "Mouse Pokémon '' to reveal Pikachu.
+   Pokémon were released in generations based on the main series of the Pokémon video games. Each generation introduced new Pokémon species, regions to explore, gameplay mechanics, and often advances in the Pokémon storyline. There are 18 different elemental types of Pokémon each with their own strengths, weaknesses, and resistances. Knowing the type of each Pokémon can be crucial for success in battles and general strategy. The visualization below allows users to explore different kinds of Pokémon sorted by generation and type. 
+  
   </p>
 <div id="tree-container"></div>
- <h1 style="font-size: 1.2em; margin-top: 20px;">Pokémon Radar Chart</h1>
+ <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokémon Radar Chart</h1>
  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-  Let’s dive into the statistic of each Pokémon by attack, defense, hp, special attack, and special defense. The Radar chart below compares ….</p>
+Let's dive into the statistics of each Pokémon, examining their attack, defense, HP, special attack, and special defense. While we've already established that factors like legendary status and weight don't singularly determine strength, our next step involves delving into the intricate details of each Pokémon's abilities.
+    <br>
+    To facilitate this analysis, we'll utilize a radar chart, which offers a comprehensive view of a Pokémon's stats across these key attributes. Unlike simplistic metrics such as weight or rarity, this approach allows us to compare the actual combat capabilities of Pokémon relative to one another.
+    <br>
+    By plotting each Pokémon's stats on the radar chart, we can discern nuanced differences in their offensive and defensive capabilities, stamina, and special prowess. Through this method, we aim to uncover patterns and insights that transcend surface-level characteristics, providing a deeper understanding of what truly makes a Pokémon formidable in battle.
+</p>
+
   <div id="radar-chart-container"></div>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have a specific Pokémon in mind? Utilize the search bar below to learn more about that Pokémon!</p>
   <input type="text" id="pokemon-search" placeholder="Search Pokémon">
@@ -366,8 +380,8 @@ pokemonSearchInput.addEventListener('input', function () {
     drawRadarChart(filteredData[0]); // Assuming only one Pokémon matches the input
 });
 
-    const heavyPokemon = weightData.filter(pokemon => pokemon.weight_kg > 30);
-      const lightPokemon = weightData.filter(pokemon => pokemon.weight_kg <= 30);
+    const heavyPokemon = weightData.filter(pokemon => pokemon.weight_kg > 65);
+      const lightPokemon = weightData.filter(pokemon => pokemon.weight_kg <= 65);
       
       // Calculate average stats for heavier and lighter Pokémon
       const averageHeavyStats = calculateAverageStats(heavyPokemon);
