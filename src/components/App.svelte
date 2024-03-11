@@ -4,25 +4,30 @@
 </div>
 
 <main style="margin-bottom: 100px;">
-  <p style="font-size: 1.5em; margin-top: 20px;">Welcome to the Pokemon universe!</p>
-  <p style="border: none; background-color: #3c5aa6; border-radius: 10px;">
-    Ever wondered if heavier Pokemon are stronger than lighter ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 30kg) versus light Pokémon (weighing 30kg or less). Think of heavy Pokémon like Snorlax known for being a the heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out!
+  <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokémon universe!</h1>
+  <h1 style="font-size: 1.2em; margin-top: 20px;">How does weight affect stats?</h1>
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
+    Ever wondered if heavier Pokémon are stronger than lighter ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 30kg) versus light Pokémon (weighing 30kg or less). Think of heavy Pokémon like Snorlax known for being a the heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out! 
   </p>
-  <div id="bar-chart-container" style="margin-top: 60px; margin-bottom: 70px;"></div>
-
-  <p style="border: none; background-color: #3c5aa6; border-radius: 10px;">
-    Legendary Pokemon are ultra rare and known for their epic tales and immense power. But are they really stronger than non-legendary Pokemon? The following visualization compares the average stats of legendary Pokemon against their non-legendary counterparts.
+  <div id="bar-chart-container"></div>
+  <h1 style="font-size: 1.2em; margin-top: 20px;">Are Legendary Pokémon actually stronger?</h1>
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
+  Legendary Pokémon are ultra rare and known for their epic tales and immense power. But are they really stronger than non-legendary Pokémon? The following visualization compares the average stats of legendary Pokémon against their non-legendary counterparts. Let’s see if legendary Pokémon live up to their name!
   </p>
-  <div id="legendary-bar-chart-container" style="margin-top: 60px; margin-bottom: 70px;"></div>
+  <div id="legendary-bar-chart-container"></div>
 
-  <p style="font-size: 1.5em; border: none; display: flex; justify-content: center; align-items: center;">Pokemon Collapsible Tree</p>
-  <p style="border: none; background-color: #3c5aa6; border-radius: 10px;">
-    The visualization below allows users to explore different kinds of Pokemon sorted by generation and type. For example, if you're looking for the iconic electric mouse Pokemon, Pikachu, click on "Pokemon", "Generation 1", "Electric", "Mouse Pokemon" to reveal Pikachu.
+  <h1 style="font-size: 1.2em; margin-top: 20px;">Pokemon Collapsible Tree </h1>
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
+  The visualization below allows users to explore different kinds of Pokémon sorted by generation and type. For example, if you're looking for the iconic electric mouse Pokémon, Pikachu, click on "Pokémon", "Generation 1", "Electric", "Mouse Pokémon '' to reveal Pikachu.
   </p>
-
-  <div id="tree-container"></div>
+<div id="tree-container"></div>
+ <h1 style="font-size: 1.2em; margin-top: 20px;">Pokémon Radar Chart</h1>
+ <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
+  Let’s dive into the statistic of each Pokémon by attack, defense, hp, special attack, and special defense. The Radar chart below compares ….</p>
   <div id="radar-chart-container"></div>
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have a specific Pokémon in mind? Utilize the search bar below to learn more about that Pokémon!</p>
   <input type="text" id="pokemon-search" placeholder="Search Pokémon">
+
 </main>
 
 <script>
