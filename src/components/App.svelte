@@ -237,9 +237,6 @@ Let's dive into the statistics of each Pokémon, examining their attack, defense
     const chartHeight = 500 -200;
     const radius = Math.min(chartWidth, chartHeight) / 2;
 
-    // Select the radar chart container
-    const radarChartContainer = d3.select('#radar-chart-container');
-
     // Remove any existing SVG elements within the container
     radarChartContainer.selectAll('svg').remove();
 
@@ -281,24 +278,6 @@ Let's dive into the statistics of each Pokémon, examining their attack, defense
     .style('stroke-width', 1)
     .style('stroke-dasharray', '5,5');
 
-  // Append grid lines
-  const gridData = labels.map((_, i) => {
-    const angle = i * (Math.PI * 2 / labels.length);
-    return [
-      { angle, radius: 0 },
-      { angle, radius }
-    ];
-  });
-
-  const gridLines = svg.selectAll('.grid-line')
-    .data(gridData)
-    .enter().append('path')
-    .attr('class', 'grid-line')
-    .attr('d', d => hexagonLine(d))
-    .style('fill', 'none')
-    .style('stroke', '#ccc')
-    .style('stroke-width', 1)
-    .style('stroke-dasharray', '2,2');
 
   // Create the radial scales for the radar chart
   const rScale = d3.scaleLinear()
@@ -307,7 +286,7 @@ Let's dive into the statistics of each Pokémon, examining their attack, defense
 
   // Create the angle scales for the radar chart
   const angleScale = d3.scaleLinear()
-    .domain([0, labels.length])
+    .domain([0, 6])
     .range([0, Math.PI * 2]);
 
   // Create a radial line generator
@@ -315,7 +294,7 @@ Let's dive into the statistics of each Pokémon, examining their attack, defense
     .radius(d => rScale(d))
     .angle((d, i) => angleScale(i));
 
-  // Append radar area and line paths for each dataset
+    // Append radar area and line paths for each dataset
   datasets.forEach((dataset, i) => {
     // Add the first data point to the end for a closed path
     dataset.data.push(dataset.data[0]);
@@ -360,26 +339,132 @@ Let's dive into the statistics of each Pokémon, examining their attack, defense
     .style('fill', 'white');
 }
 
+function drawFilteredChart(data) {
+
+    // Set up the radar chart dimensions
+    const width = 600;
+    const height = 800;
+    const margin = { top: 400, right: 400, bottom: 2000, left: 400 };
+    const chartWidth = 350 - 200;
+    const chartHeight = 500 -200;
+    const radius = Math.min(chartWidth, chartHeight) / 2;
+
+    // Remove any existing SVG elements within the container
+    radarChartContainer.selectAll('svg').remove();
+
+    // Append an SVG element to the radar chart container
+    const svg = radarChartContainer
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .append('g')
+        .attr('transform', `translate(${width / 2 +6}, ${height / 2 +30})`);
+
+
+  // Define an array of colors for the layers
+  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+  // Create a hexagon background
+  const hexagonData = [
+    { angle: 0, radius: radius+115},
+    { angle: Math.PI / 3, radius: radius+115},
+    { angle: (2 * Math.PI) / 3, radius: radius+115 },
+    { angle: Math.PI, radius: radius+115 },
+    { angle: (4 * Math.PI) / 3, radius: radius+115 },
+    { angle: (5 * Math.PI) / 3, radius: radius+115 },
+    { angle: 0, radius: radius+115 } // To close the path
+  ];
+
+  // Create the hexagon line generator
+  const hexagonLine = d3.lineRadial()
+    .angle(d => d.angle)
+    .radius(d => d.radius);
+
+  // Append the hexagon path
+  svg.append('path')
+    .datum(hexagonData)
+    .attr('class', 'hexagon-background')
+    .attr('d', hexagonLine)
+    .style('fill', 'none')
+    .style('stroke', '#ccc')
+    .style('stroke-width', 1)
+    .style('stroke-dasharray', '5,5');
+
+
+  // Create the radial scales for the radar chart
+  const rScale = d3.scaleLinear()
+    .domain([0, 100]) // Assuming data values range from 0 to 100
+    .range([0, radius]);
+
+  // Create the angle scales for the radar chart
+  const angleScale = d3.scaleLinear()
+    .domain([0, 6])
+    .range([0, Math.PI * 2]);
+
+  // Create a radial line generator
+  const radarLine = d3.lineRadial()
+    .radius(d => rScale(d))
+    .angle((d, i) => angleScale(i));
+
+  // Append the radar area path
+  svg.append('path')
+    .datum(data.data)
+    .attr('class', 'radar-area')
+    .attr('d', radarLine)
+    .style('fill', colorScale(0)); // Use color for the single dataset
+
+  // Append the radar line path
+  svg.append('path')
+    .datum(data.data)
+    .attr('class', 'radar-line')
+    .attr('d', radarLine)
+    .style('fill', 'none')
+    .style('stroke', colorScale(0)) // Use color for the single dataset
+    .style('stroke-width', 1);
+
+  // Append the labels around the radar chart
+  const label = svg.selectAll('.radar-label')
+    .data(["attack", "defense", "speed", "hp", "sp_attack", "sp_defense"])
+    .enter()
+    .append('g')
+    .attr('class', 'radar-label');
+
+  // Append the label text
+  label.append('text')
+    .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) // Adjusted x position
+    .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) // Adjusted y position
+    .attr('text-anchor', 'middle')
+    .text(d => d)
+    .style('fill', 'white');
+  svg.append('text')
+    .attr('class', 'radar-title')
+    .attr('x', 0)
+    .attr('y', -margin.top + 160)
+    .attr('text-anchor', 'middle')
+    .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
+    .style('fill', 'white');
+}
 
     drawRadarChart(radarData);
 const pokemonSearchInput = document.getElementById('pokemon-search');
 pokemonSearchInput.addEventListener('input', function () {
-    // Get the input value
-    const searchValue = pokemonSearchInput.value.toLowerCase();
+  // Get the input value
+  const searchValue = pokemonSearchInput.value.toLowerCase();
 
-    // Filter radar data based on the input value
-    const filteredData = radarData.datasets.filter(dataset =>
-        dataset.label.toLowerCase().includes(searchValue)
-    );
+  // Filter radar data based on the input value
+  const filteredData = radarData.datasets.filter(dataset =>
+    dataset.label.toLowerCase().includes(searchValue)
+  );
+  console.log(filteredData);
 
-    // If no matching Pokémon found, clear the radar chart
-    if (filteredData.length === 0) {
-        radarChartContainer.selectAll('*').remove();
-        return;
-    }
+  // If no matching Pokémon found, clear the radar chart
+  if (filteredData.length == 0) {
+    radarChartContainer.selectAll('*').remove();
+    return;
+  }
 
-    // Update the radar chart with the data of the matching Pokémon
-    drawRadarChart(filteredData[0]); // Assuming only one Pokémon matches the input
+  // Update the radar chart with the data of the matching Pokémon
+  drawFilteredChart(filteredData[0]); // Assuming only one Pokémon matches the input
 });
 
     const heavyPokemon = weightData.filter(pokemon => pokemon.weight_kg > 65);
@@ -552,7 +637,6 @@ svg.selectAll('.bar-heavy')
 // Filter legendary and non-legendary Pokémon
 const legendaryPokemon = tooltipCopy.filter(pokemon => pokemon.is_legendary == 1);
 const nonLegendaryPokemon = tooltipCopy.filter(pokemon => pokemon.is_legendary == 0);
-console.log(legendaryPokemon)
 
 // Calculate average stats for legendary and non-legendary Pokémon
 const averageLegendaryStats = calculateAverageStats(legendaryPokemon);
