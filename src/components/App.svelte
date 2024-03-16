@@ -337,6 +337,40 @@ Let's dive into the statistics of each Pokémon, examining their attack, defense
     .attr('text-anchor', 'middle')
     .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
     .style('fill', 'white');
+  const gridLines = svg.selectAll('.grid-line')
+  .data(d3.range(80, 300, 58)) // Adjust range and step according to your preference
+  .enter()
+  .append('g')
+  .attr('class', 'grid-line');
+
+gridLines.append('path')
+  .attr('class', 'grid-line-path')
+  .attr('d', d => {
+    const gridLineData = [
+      { angle: 0, radius: rScale(d) },
+      { angle: Math.PI / 3, radius: rScale(d) },
+      { angle: (2 * Math.PI) / 3, radius: rScale(d) },
+      { angle: Math.PI, radius: rScale(d) },
+      { angle: (4 * Math.PI) / 3, radius: rScale(d) },
+      { angle: (5 * Math.PI) / 3, radius: rScale(d) },
+      { angle: 0, radius: rScale(d) } // To close the path
+    ];
+    return hexagonLine(gridLineData);
+  })
+  .style('fill', 'none')
+  .style('stroke', '#ccc')
+  .style('stroke-width', 1)
+  .style('stroke-dasharray', '3,3');
+
+  gridLines.append('text')
+  .attr('class', 'grid-line-text')
+  .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) // Adjusted x position
+  .attr('y', d => rScale(d) * Math.sin(Math.PI )) // Adjusted y position
+  .attr('dy', 5) // Adjust vertical alignment
+  .text(d => d) // Display the value of the grid line
+  .style('fill', 'yellow')
+  .style('font-size', '12px')
+  .style('text-anchor', 'middle');
 }
 
 function drawFilteredChart(data) {
@@ -443,6 +477,42 @@ function drawFilteredChart(data) {
     .attr('text-anchor', 'middle')
     .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
     .style('fill', 'white');
+  
+    const gridLines = svg.selectAll('.grid-line')
+  .data(d3.range(80, 300, 58)) // Adjust range and step according to your preference
+  .enter()
+  .append('g')
+  .attr('class', 'grid-line');
+
+gridLines.append('path')
+  .attr('class', 'grid-line-path')
+  .attr('d', d => {
+    const gridLineData = [
+      { angle: 0, radius: rScale(d) },
+      { angle: Math.PI / 3, radius: rScale(d) },
+      { angle: (2 * Math.PI) / 3, radius: rScale(d) },
+      { angle: Math.PI, radius: rScale(d) },
+      { angle: (4 * Math.PI) / 3, radius: rScale(d) },
+      { angle: (5 * Math.PI) / 3, radius: rScale(d) },
+      { angle: 0, radius: rScale(d) } // To close the path
+    ];
+    return hexagonLine(gridLineData);
+  })
+  .style('fill', 'none')
+  .style('stroke', '#ccc')
+  .style('stroke-width', 1)
+  .style('stroke-dasharray', '3,3');
+
+  gridLines.append('text')
+  .attr('class', 'grid-line-text')
+  .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) // Adjusted x position
+  .attr('y', d => rScale(d) * Math.sin(Math.PI )) // Adjusted y position
+  .attr('dy', 5) // Adjust vertical alignment
+  .text(d => d) // Display the value of the grid line
+  .style('fill', 'yellow')
+  .style('font-size', '12px')
+  .style('text-anchor', 'middle');
+
 }
 
     drawRadarChart(radarData);
