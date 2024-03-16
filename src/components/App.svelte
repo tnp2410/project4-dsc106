@@ -7,7 +7,7 @@
   <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokémon universe!</h1>
   <div style="border: none; background-color: #3c5aa6; border-radius: 10px; text-align: center; padding: 20px;">
   <p style="margin: 0;">
-    Welcome to our project, where we delve deep into the captivating world of Pokémon to uncover what truly makes a Pokémon strong. Our endeavor is tailored for those eager to expand their knowledge about Pokémon and discover how statistics and strategic thinking can shape effective gameplay strategies. Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon GO player, or simply curious about the intricacies of Pokémon combat mechanics, you're in the right place. Join us as we embark on a journey to answer the age-old question: what makes a Pokémon strong?
+  Once upon a time, in the vibrant world of Pokémon, trainers embarked on an exhilarating journey to unravel the secrets behind what truly makes a Pokémon powerful. Through this website, we will delve deep into the captivating world of Pokémon to uncover what truly makes a Pokémon strong. Our endeavor is tailored for those eager to expand their knowledge about Pokémon and discover how statistics and strategic thinking can shape effective gameplay strategies. Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon GO player, or simply curious about the intricacies of Pokémon combat mechanics, you're in the right place. Join us as we embark on a journey to answer the age-old question: what makes a Pokémon strong?
   </p>
 </div>
 
@@ -15,33 +15,36 @@
 
   <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">How does weight affect stats?</h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-   Ever wondered if heavier Pokémon are stronger than lighter ones? This visualization compares the average strengths of heavy Pokémon (weighing more than 65 kg) versus light Pokémon (weighing 65 kg or less). Given that the median Pokémon weight stands at 27 kgs, while the average hovers around 61 kgs, it's evident that the presence of heavier Pokémon skews the average. Hence, To provide a more accurate depiction, we've chosen a weight threshold of 65 kg, which represents the 75th percentile of Pokémon weights, to determine what is considered a heavy Pokémon. Therefore, we decided to use 65  kg as the threshold. Think of heavy Pokémon like Snorlax known for being a heavyweight sleepy giant, and light Pokémon like Jigglypuff, the airy songstress. Which do you think packs more punch? Let's find out! 
+In their quest for knowledge, the trainers stumbled upon a perplexing question: does a Pokémon's weight determine its strength? To answer this, they delved into the depths of data, comparing the average strengths of hefty Pokémon weighing more than 65 kg against their lighter counterparts. Given that the median Pokémon weight stands at 27 kg, while the average hovers around 61 kg, it's evident that the presence of heavier Pokémon skews the average. Hence, to provide a more accurate depiction, we've chosen a weight threshold of 65 kg, which represents the 75th percentile of Pokémon weights, to determine what is considered a heavy Pokémon. As they sifted through the statistics, they uncovered a surprising truth - weight alone did not dictate power. Instead, it was the Pokémon's innate abilities and training that truly defined its strength. 
     
     </p>
   <div id="bar-chart-container"></div>
   <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Are Legendary Pokémon actually stronger?</h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-   Legendary Pokémon are extremely rare and known for their epic tales and immense power. They are essential for the game’s storyline through their lore and mythology. They can be worshiped, revered as guardians, or seen as symbols of power and balance. How much stronger can legendary Pokémon be compared to non-legendary Pokémon? The following visualization compares the average stats of legendary Pokémon against their non-legendary counterparts. Let’s see if legendary Pokémon live up to their name!
+But their exploration didn't stop there. Legendary Pokémon, mysterious and revered for their epic tales and immense power, hold a pivotal role in the Pokémon universe. They are not merely creatures; they are the very essence of the game's storyline, steeped in lore and mythology. Whether worshiped, revered as guardians, or viewed as symbols of power and balance, their presence is undeniable.
+
+With this in mind, the trainers embarked on a daring quest to unravel the lure surrounding legendary Pokémon. How much stronger could they truly be compared to their non-legendary counterparts? Through meticulous analysis, the trainers sought to shed light on this age-old question. Each data point examined revealed the intricate nuances of power, leading to a profound discovery: strength transcends mere rarity.
   </p>
   <div id="legendary-bar-chart-container"></div>
 
   <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokemon Collapsible Tree </h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-   Pokémon were released in generations based on the main series of the Pokémon video games. Each generation introduced new Pokémon species, regions to explore, gameplay mechanics, and often advances in the Pokémon storyline. There are 18 different elemental types of Pokémon each with their own strengths, weaknesses, and resistances. Knowing the type of each Pokémon can be crucial for success in battles and general strategy. The visualization below allows users to explore different kinds of Pokémon sorted by generation and type. 
-  
+   Pokémon were released in generations based on the main series of the Pokémon video games. Each generation introduced new Pokémon species, regions to explore, gameplay mechanics, and often advances in the Pokémon storyline. There are 18 different elemental types of Pokémon each with their own strengths, weaknesses, and resistances. Knowing the type of each Pokémon can be crucial for success in battles and general strategy. The visualization below allows users to explore different kinds of Pokémon sorted by generation and type.   
   </p>
 <div id="tree-container"></div>
  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokémon Radar Chart</h1>
  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-Let's dive into the statistics of each Pokémon, examining their attack, defense, HP, special attack, and special defense. While we've already established that factors like legendary status and weight do have a signficance on strength, our next step involves delving into the intricate details of each Pokémon's abilities.
+Let's dive into the statistics of each Pokémon, examining their attack, defense, HP, special attack, and special defense. While we've already established that factors like legendary status and weight do have a significance on strength, our next step involves delving into the intricate details of each Pokémon's abilities.
     <br>
     To facilitate this analysis, we'll utilize a radar chart, which offers a comprehensive view of a Pokémon's stats across these key attributes. Unlike simplistic metrics such as weight or rarity, this approach allows us to compare the actual combat capabilities of Pokémon relative to one another.
     <br>
     By plotting each Pokémon's stats on the radar chart, we can discern nuanced differences in their offensive and defensive capabilities, stamina, and special prowess. Through this method, we aim to uncover patterns and insights that transcend surface-level characteristics, providing a deeper understanding of what truly makes a Pokémon formidable in battle.
+If you want to see an interesting comparison, type in “Flareon, Vaporeon”. The two Pokemon may have similar defense and speed stats but you can see that Flareon triumphs when it comes to hp. Depending on what you’re looking for when it comes to selecting your most important stats, this radar chart may help you find your ideal Pokemon! Hover over the radar chart to explore the stats of each pokemon. Type in a max of 3 Pokemon to explore how they compare. “__, ___, __”
 </p>
 
   <div id="radar-chart-container"></div>
-  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have a specific Pokémon in mind? Utilize the search bar below to learn more about that Pokémon!</p>
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have a specific Pokémon in mind? Utilize the search bar below to learn more about that Pokémon! 
+</p>
   <input type="text" id="pokemon-search" placeholder="Search Pokémon">
 
 </main>
@@ -373,14 +376,13 @@ gridLines.append('path')
   .style('text-anchor', 'middle');
 }
 
-function drawFilteredChart(data) {
-
+function drawFilteredChart(filteredData) {
     // Set up the radar chart dimensions
     const width = 600;
     const height = 800;
     const margin = { top: 400, right: 400, bottom: 2000, left: 400 };
     const chartWidth = 350 - 200;
-    const chartHeight = 500 -200;
+    const chartHeight = 500 - 200;
     const radius = Math.min(chartWidth, chartHeight) / 2;
 
     // Remove any existing SVG elements within the container
@@ -392,138 +394,188 @@ function drawFilteredChart(data) {
         .attr('width', width)
         .attr('height', height)
         .append('g')
-        .attr('transform', `translate(${width / 2 +6}, ${height / 2 +30})`);
+        .attr('transform', `translate(${width / 2 + 6}, ${height / 2 + 30})`);
 
+    // Define an array of colors for the layers
+    const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-  // Define an array of colors for the layers
-  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-
-  // Create a hexagon background
-  const hexagonData = [
-    { angle: 0, radius: radius+115},
-    { angle: Math.PI / 3, radius: radius+115},
-    { angle: (2 * Math.PI) / 3, radius: radius+115 },
-    { angle: Math.PI, radius: radius+115 },
-    { angle: (4 * Math.PI) / 3, radius: radius+115 },
-    { angle: (5 * Math.PI) / 3, radius: radius+115 },
-    { angle: 0, radius: radius+115 } // To close the path
-  ];
-
-  // Create the hexagon line generator
-  const hexagonLine = d3.lineRadial()
-    .angle(d => d.angle)
-    .radius(d => d.radius);
-
-  // Append the hexagon path
-  svg.append('path')
-    .datum(hexagonData)
-    .attr('class', 'hexagon-background')
-    .attr('d', hexagonLine)
-    .style('fill', 'none')
-    .style('stroke', '#ccc')
-    .style('stroke-width', 1)
-    .style('stroke-dasharray', '5,5');
-
-
-  // Create the radial scales for the radar chart
-  const rScale = d3.scaleLinear()
-    .domain([0, 100]) // Assuming data values range from 0 to 100
-    .range([0, radius]);
-
-  // Create the angle scales for the radar chart
-  const angleScale = d3.scaleLinear()
-    .domain([0, 6])
-    .range([0, Math.PI * 2]);
-
-  // Create a radial line generator
-  const radarLine = d3.lineRadial()
-    .radius(d => rScale(d))
-    .angle((d, i) => angleScale(i));
-
-  // Append the radar area path
-  svg.append('path')
-    .datum(data.data)
-    .attr('class', 'radar-area')
-    .attr('d', radarLine)
-    .style('fill', colorScale(0)); // Use color for the single dataset
-
-  // Append the radar line path
-  svg.append('path')
-    .datum(data.data)
-    .attr('class', 'radar-line')
-    .attr('d', radarLine)
-    .style('fill', 'none')
-    .style('stroke', colorScale(0)) // Use color for the single dataset
-    .style('stroke-width', 1);
-
-  // Append the labels around the radar chart
-  const label = svg.selectAll('.radar-label')
-    .data(["attack", "defense", "speed", "hp", "sp_attack", "sp_defense"])
-    .enter()
-    .append('g')
-    .attr('class', 'radar-label');
-
-  // Append the label text
-  label.append('text')
-    .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) // Adjusted x position
-    .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) // Adjusted y position
-    .attr('text-anchor', 'middle')
-    .text(d => d)
-    .style('fill', 'white');
-  svg.append('text')
-    .attr('class', 'radar-title')
-    .attr('x', 0)
-    .attr('y', -margin.top + 160)
-    .attr('text-anchor', 'middle')
-    .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
-    .style('fill', 'white');
-  
-    const gridLines = svg.selectAll('.grid-line')
-  .data(d3.range(80, 300, 58)) // Adjust range and step according to your preference
-  .enter()
-  .append('g')
-  .attr('class', 'grid-line');
-
-gridLines.append('path')
-  .attr('class', 'grid-line-path')
-  .attr('d', d => {
-    const gridLineData = [
-      { angle: 0, radius: rScale(d) },
-      { angle: Math.PI / 3, radius: rScale(d) },
-      { angle: (2 * Math.PI) / 3, radius: rScale(d) },
-      { angle: Math.PI, radius: rScale(d) },
-      { angle: (4 * Math.PI) / 3, radius: rScale(d) },
-      { angle: (5 * Math.PI) / 3, radius: rScale(d) },
-      { angle: 0, radius: rScale(d) } // To close the path
+    // Create a hexagon background
+    const hexagonData = [
+        { angle: 0, radius: radius + 115 },
+        { angle: Math.PI / 3, radius: radius + 115 },
+        { angle: (2 * Math.PI) / 3, radius: radius + 115 },
+        { angle: Math.PI, radius: radius + 115 },
+        { angle: (4 * Math.PI) / 3, radius: radius + 115 },
+        { angle: (5 * Math.PI) / 3, radius: radius + 115 },
+        { angle: 0, radius: radius + 115 } // To close the path
     ];
-    return hexagonLine(gridLineData);
-  })
-  .style('fill', 'none')
-  .style('stroke', '#ccc')
-  .style('stroke-width', 1)
-  .style('stroke-dasharray', '3,3');
 
-  gridLines.append('text')
-  .attr('class', 'grid-line-text')
-  .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) // Adjusted x position
-  .attr('y', d => rScale(d) * Math.sin(Math.PI )) // Adjusted y position
-  .attr('dy', 5) // Adjust vertical alignment
-  .text(d => d) // Display the value of the grid line
-  .style('fill', 'yellow')
-  .style('font-size', '12px')
-  .style('text-anchor', 'middle');
+    // Create the hexagon line generator
+    const hexagonLine = d3.lineRadial()
+        .angle(d => d.angle)
+        .radius(d => d.radius);
 
+    // Append the hexagon path
+    svg.append('path')
+        .datum(hexagonData)
+        .attr('class', 'hexagon-background')
+        .attr('d', hexagonLine)
+        .style('fill', 'none')
+        .style('stroke', '#ccc')
+        .style('stroke-width', 1)
+        .style('stroke-dasharray', '5,5');
+
+    // Create the radial scales for the radar chart
+    const rScale = d3.scaleLinear()
+        .domain([0, 100]) // Assuming data values range from 0 to 100
+        .range([0, radius]);
+
+    // Create the angle scales for the radar chart
+    const angleScale = d3.scaleLinear()
+        .domain([0, 6])
+        .range([0, Math.PI * 2]);
+
+    // Create a radial line generator
+    const radarLine = d3.lineRadial()
+        .radius(d => rScale(d))
+        .angle((d, i) => angleScale(i));
+
+    // Append the radar area path for each filtered dataset
+    filteredData.forEach((data, index) => {
+        svg.append('path')
+            .datum(data.data)
+            .attr('class', 'radar-area')
+            .attr('d', radarLine)
+            .style('fill', 'none')
+            .style('stroke', colorScale(index));
+    });
+
+    // Append the radar line path for each filtered dataset
+    filteredData.forEach((data, index) => {
+        svg.append('path')
+            .datum(data.data)
+            .attr('class', 'radar-line')
+            .attr('d', radarLine)
+            .style('fill', 'none')
+            .style('stroke', colorScale(index)) // Use color for each dataset
+            .style('stroke-width', 4);
+    });
+
+    // Append the labels around the radar chart
+    const label = svg.selectAll('.radar-label')
+        .data(["attack", "defense", "speed", "hp", "sp_attack", "sp_defense"])
+        .enter()
+        .append('g')
+        .attr('class', 'radar-label');
+
+    // Append the label text
+    label.append('text')
+        .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) // Adjusted x position
+        .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) // Adjusted y position
+        .attr('text-anchor', 'middle')
+        .text(d => d)
+        .style('fill', 'white');
+    svg.append('text')
+        .attr('class', 'radar-title')
+        .attr('x', 0)
+        .attr('y', -margin.top + 160)
+        .attr('text-anchor', 'middle')
+        .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
+        .style('fill', 'white');
+
+    const gridLines = svg.selectAll('.grid-line')
+        .data(d3.range(80, 300, 58)) // Adjust range and step according to your preference
+        .enter()
+        .append('g')
+        .attr('class', 'grid-line');
+
+    gridLines.append('path')
+        .attr('class', 'grid-line-path')
+        .attr('d', d => {
+            const gridLineData = [
+                { angle: 0, radius: rScale(d) },
+                { angle: Math.PI / 3, radius: rScale(d) },
+                { angle: (2 * Math.PI) / 3, radius: rScale(d) },
+                { angle: Math.PI, radius: rScale(d) },
+                { angle: (4 * Math.PI) / 3, radius: rScale(d) },
+                { angle: (5 * Math.PI) / 3, radius: rScale(d) },
+                { angle: 0, radius: rScale(d) } // To close the path
+            ];
+            return hexagonLine(gridLineData);
+        })
+        .style('fill', 'none')
+        .style('stroke', '#ccc')
+        .style('stroke-width', 1)
+        .style('stroke-dasharray', '3,3');
+
+    gridLines.append('text')
+        .attr('class', 'grid-line-text')
+        .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) // Adjusted x position
+        .attr('y', d => rScale(d) * Math.sin(Math.PI)) // Adjusted y position
+        .attr('dy', 5) // Adjust vertical alignment
+        .text(d => d) // Display the value of the grid line
+        .style('fill', 'yellow')
+        .style('font-size', '12px')
+        .style('text-anchor', 'middle');
+     const tooltip = d3.select('#radar-chart-container')
+        .append('div')
+        .attr('class', 'tooltip')
+        .style('opacity', 0);
+
+    // Add event listeners to radar areas to show/hide tooltip
+    svg.selectAll('.radar-line')
+        .on('mouseover', function(event, d) {
+            const hoveredData = d; // Assuming d contains the stats for the hovered data point
+            let tooltipContent = '';
+
+            filteredData.forEach((data, index) => {
+                const pokemonName = data.label; // Assuming each dataset contains the Pokémon name
+                const stats = data.data; // Assuming each dataset contains the stats
+                const color = colorScale(index); // Get the color for the Pokémon
+                console.log(stats)
+                // Add color swatch and Pokémon name
+                tooltipContent += `<div style="display: flex; align-items: center;">`;
+                tooltipContent += `<div style="width: 10px; height: 10px; background-color: ${color}; margin-right: 5px;"></div>`;
+                tooltipContent += `<strong>${pokemonName}</strong>`;
+                tooltipContent += `</div>`;
+              
+                // Add Pokémon stats
+                tooltipContent += `Stats:<br>`;
+                tooltipContent += `Attack: ${stats[0]}<br>`;
+                tooltipContent += `Defense: ${stats[1]}<br>`;
+                tooltipContent += `Speed: ${stats[2]}<br>`;
+                tooltipContent += `HP: ${stats[3]}<br>`;
+                tooltipContent += `Special Attack: ${stats[4]}<br>`;
+                tooltipContent += `Special Defense: ${stats[5]}<br><br>`;
+            });
+
+            // Show tooltip
+            tooltip.transition()
+                .duration(100)
+                .style('opacity', .9);
+            tooltip.html(tooltipContent)
+                .style('left', (event.pageX) + 'px')
+                .style('top', (event.pageY) + 'px');
+        })
+        .on('mouseout', function(d) {
+            // Hide tooltip
+            tooltip.transition()
+                .duration(500)
+                .style('opacity', 0);
+        });
 }
-
     drawRadarChart(radarData);
 const pokemonSearchInput = document.getElementById('pokemon-search');
 pokemonSearchInput.addEventListener('input', function () {
   // Get the input value
   const searchValue = pokemonSearchInput.value.toLowerCase();
 
-  // Filter radar data based on the input value
+  // Split the input value by comma to handle two inputs
+  const searchValues = searchValue.split(',');
+
+  // Filter radar data based on the input values
   const filteredData = radarData.datasets.filter(dataset =>
-    dataset.label.toLowerCase().includes(searchValue)
+    searchValues.some(value => dataset.label.toLowerCase().includes(value.trim()))
   );
   console.log(filteredData);
 
@@ -534,7 +586,7 @@ pokemonSearchInput.addEventListener('input', function () {
   }
 
   // Update the radar chart with the data of the matching Pokémon
-  drawFilteredChart(filteredData[0]); // Assuming only one Pokémon matches the input
+  drawFilteredChart(filteredData);
 });
 
     const heavyPokemon = weightData.filter(pokemon => pokemon.weight_kg > 65);
