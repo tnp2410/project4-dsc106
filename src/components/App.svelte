@@ -7,46 +7,77 @@
   <h1 style="font-size: 1.2em; margin-top: 20px;">Welcome to the Pokémon universe!</h1>
   <div style="border: none; background-color: #3c5aa6; border-radius: 10px; text-align: center; padding: 20px;">
   <p style="margin: 0;">
-  Once upon a time, in the vibrant world of Pokémon, trainers embarked on an exhilarating journey to unravel the secrets behind what truly makes a Pokémon powerful. Through this website, we will delve deep into the captivating world of Pokémon to uncover what truly makes a Pokémon strong. Our endeavor is tailored for those eager to expand their knowledge about Pokémon and discover how statistics and strategic thinking can shape effective gameplay strategies. Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon GO player, or simply curious about the intricacies of Pokémon combat mechanics, you're in the right place. Join us as we embark on a journey to answer the age-old question: what makes a Pokémon strong?
+  Welcome, aspiring Pokémon trainers, to an exciting training course designed to unlock the mysteries of Pokémon strength! As you step into the vibrant world of Pokémon, get ready to embark on an exhilarating journey filled with discovery and adventure.
+
+Throughout this course, we will delve deep into the captivating realm of Pokémon, where we'll uncover the secrets behind what truly makes a Pokémon powerful. Our mission is to equip you with the knowledge and skills necessary to become a formidable Pokémon trainer. <br><br>
+
+Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon GO player, or simply curious about the intricacies of Pokémon combat mechanics, this course is tailored just for you. Together, we'll explore the fascinating world of Pokémon statistics and strategic thinking.
+
+Join us as we dive into the heart of Pokémon training, where every challenge is an opportunity to grow, and every battle is a chance to showcase your skills. Are you ready to embark on this epic journey and uncover the age-old question: what truly makes a Pokémon strong? Let's begin our adventure!
   </p>
 </div>
 
-  
-
-  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">How does weight affect stats?</h1>
+  <h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> Lesson 1: Understanding the Impact of Weight on Stats!</h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-In their quest for knowledge, the trainers stumbled upon a perplexing question: does a Pokémon's weight determine its strength? To answer this, they delved into the depths of data, comparing the average strengths of hefty Pokémon weighing more than 65 kg against their lighter counterparts. Given that the median Pokémon weight stands at 27 kg, while the average hovers around 61 kg, it's evident that the presence of heavier Pokémon skews the average. Hence, to provide a more accurate depiction, we've chosen a weight threshold of 65 kg, which represents the 75th percentile of Pokémon weights, to determine what is considered a heavy Pokémon. As they sifted through the statistics, they uncovered a surprising truth - weight alone did not dictate power. Instead, it was the Pokémon's innate abilities and training that truly defined its strength. 
-    
+  As trainers eager to enhance their knowledge, let's tackle a common question: Does a Pokémon's weight directly correlate with its strength? To explore this, we'll dive into data analysis, comparing the average stats of Pokémon weighing over 65 kg with those of lighter ones. <br><br>
+  In our quest for clarity, we must first address the nuances of Pokémon weight. With the median weight at 27 kg and the average at 61 kg, heavier Pokémon skew the overall statistics. To ensure accuracy, we've set a weight threshold of 65 kg, representing the 75th percentile of Pokémon weights, to identify "heavy" Pokémon.  <br><br> 
     </p>
   <div id="bar-chart-container"></div>
-  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Are Legendary Pokémon actually stronger?</h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-But their exploration didn't stop there. Legendary Pokémon, mysterious and revered for their epic tales and immense power, hold a pivotal role in the Pokémon universe. They are not merely creatures; they are the very essence of the game's storyline, steeped in lore and mythology. Whether worshiped, revered as guardians, or viewed as symbols of power and balance, their presence is undeniable.
+Upon analyzing the data, we find that in terms of Attack, Defense, Special Attack, and Special Defense, heavier Pokémon tend to exhibit higher average values. This suggests a potential correlation between weight and these offensive and defensive attributes. However, when it comes to Speed, the story takes a different turn. Unlike the other stats, where heavy Pokémon dominate the averages, Speed shows a much more even distribution. This indicates that weight may have less influence on a Pokémon's speed compared to its other attributes. 
 
-With this in mind, the trainers embarked on a daring quest to unravel the lure surrounding legendary Pokémon. How much stronger could they truly be compared to their non-legendary counterparts? Through meticulous analysis, the trainers sought to shed light on this age-old question. Each data point examined revealed the intricate nuances of power, leading to a profound discovery: strength transcends mere rarity.
-  </p>
+This observation underscores the complexity of Pokémon statistics and highlights the importance of considering multiple factors when training and strategizing for battles. As trainers, understanding these nuances allows us to develop more effective and well-rounded battle strategies, ultimately leading to greater success in our Pokémon journey!    
+    </p>
+<h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> Lesson 2: Legendary Pokémon vs. Non-Legendary Pokémon</h1>
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
+Legendary Pokémon, revered for their power and mystique, are central to the Pokémon universe. Their enigmatic tales and mythical stature captivate trainers worldwide. As symbols of strength and balance, they embody the essence of Pokémon lore. Our quest is to unravel the mystique surrounding these legendary beings, shedding light on their true power.  <br><br> 
+To address the burning inquiry among trainers - Are legendary Pokémon genuinely superior to their non-legendary counterparts? - we embark on an extensive analysis. 
+To tackle the inquiry regarding the strength disparity between legendary and non-legendary Pokémon, we initiated our investigation by segregating Pokémon into two distinct groups: legendary and non-legendary. By partitioning the dataset based on their legendary status, we computed the average values for each stat within both categories. 
   <div id="legendary-bar-chart-container"></div>
+<p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
 
-  <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokemon Collapsible Tree </h1>
+The chart unequivocally demonstrates that legendary Pokémon outperform their non-legendary counterparts in all statistics, with a notable emphasis on special attack. This compelling visual evidence adds weight to our findings, dispelling any lingering doubts about the dominance of legendary Pokémon. <br><br>
+
+However, it's crucial to acknowledge that, despite the overall trend favoring legendary Pokémon, this is simply from taking an average so there may still be instances where individual non-legendary Pokémon excel beyond their legendary counterparts. This observation leads us to an intriguing aspect, which we will explore in our next lesson.
+ </p>
+<h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> Lesson 3: Exploring Pokémon through Collapsible Tree </h1>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
-   Pokémon were released in generations based on the main series of the Pokémon video games. Each generation introduced new Pokémon species, regions to explore, gameplay mechanics, and often advances in the Pokémon storyline. There are 18 different elemental types of Pokémon each with their own strengths, weaknesses, and resistances. Knowing the type of each Pokémon can be crucial for success in battles and general strategy. The visualization below allows users to explore different kinds of Pokémon sorted by generation and type.   
+   Pokémon were released in generations based on the main series of the Pokémon video games. Each generation introduced new Pokémon species, regions to explore, gameplay mechanics, and often advances in the Pokémon storyline. There are 18 different elemental types of Pokémon each with their own strengths, weaknesses, and resistances. Knowing the type of each Pokémon can be crucial for success in battles and general strategy. <br><br>
+   In this lesson, we'll delve into a captivating visualization that allows trainers to explore different kinds of Pokémon, categorized by generation and type. By navigating through this interactive tool, trainers can deepen their understanding of Pokémon diversity and hone their strategic skills for battles and beyond. Let's embark on this enlightening journey together! <br><br>
+  Going back to lesson one about weight:  let's conduct a comparative analysis between the lighter Pokémon Mew and  the heavier Pokémon Rhyhorn. <br>
+
+To locate Mew: click Generation 1 -> psychic -> New Species Pokémon <br>
+To locate Rhyhorn, select Generation 1 -> Ground -> Spikes Pokémon <br><br>
+
+Hover over the name of each Pokémon to reveal their respective stats, including attack, defense, speed, HP, special attack, special defense, and weight.
+
+Upon comparison, it becomes evident that despite Rhyhorn's considerable size advantage over Mew, the latter surpasses Rhyhorn in all stats. This observation underscores the notion that size alone does not determine a Pokémon's strength. Mew's superior stats highlight the importance of innate abilities and training in shaping a Pokémon's power. This analysis serves as a valuable reminder to trainers that appearances can be deceiving, and a Pokémon's true strength lies beyond its physical stature.
+
   </p>
 <div id="tree-container"></div>
- <h1 style="font-size: 1.2em; margin-top: 20px;text-align: center;">Pokémon Radar Chart</h1>
+<p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
+Whenever you find yourself in doubt or seeking clarity about a Pokémon's capabilities, don't hesitate to refer back to this chart. It's a valuable tool for understanding the strengths and weaknesses of different Pokémon based on their types, generations, and individual stats. Whether you're strategizing for battles, building your team, or simply satisfying your curiosity about Pokémon, this chart is here to assist you on your journey as a trainer. Happy exploring!
+</p>
+<h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> Final Lesson: Comparison Through Pokémon Radar Chart</h1>
  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">
 Let's dive into the statistics of each Pokémon, examining their attack, defense, HP, special attack, and special defense. While we've already established that factors like legendary status and weight do have a significance on strength, our next step involves delving into the intricate details of each Pokémon's abilities.
     <br>
     To facilitate this analysis, we'll utilize a radar chart, which offers a comprehensive view of a Pokémon's stats across these key attributes. Unlike simplistic metrics such as weight or rarity, this approach allows us to compare the actual combat capabilities of Pokémon relative to one another.
-    <br>
-    By plotting each Pokémon's stats on the radar chart, we can discern nuanced differences in their offensive and defensive capabilities, stamina, and special prowess. Through this method, we aim to uncover patterns and insights that transcend surface-level characteristics, providing a deeper understanding of what truly makes a Pokémon formidable in battle.
-If you want to see an interesting comparison, type in “Flareon, Vaporeon”. The two Pokemon may have similar defense and speed stats but you can see that Flareon triumphs when it comes to hp. Depending on what you’re looking for when it comes to selecting your most important stats, this radar chart may help you find your ideal Pokemon! Hover over the radar chart to explore the stats of each pokemon. Type in a max of 3 Pokemon to explore how they compare. “__, ___, __”
+    By utilizing this radar chart, you can delve into the nuances of each Pokémon's abilities and make informed decisions based on your strategic preferences. Whether you value resilience or strength in battle, this tool provides valuable insights to guide your choices.
+    <br><br>
+If you want to see an interesting comparison, type in “Flareon, Vaporeon”. While they may share similar defense and speed stats, Flareon excels in HP, while Vaporeon boasts superior attack power. This distinction prompts a crucial consideration: whether you prioritize endurance or offensive prowess in your Pokémon selection.
 </p>
 
   <div id="radar-chart-container"></div>
-  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have a specific Pokémon in mind? Utilize the search bar below to learn more about that Pokémon! 
+  <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have specific Pokémon in mind? Utilize the search bar below to learn more about the Pokémon! Type in a max of 3 Pokemon to explore how they compare. “__, ___, __”  Hover over the radar chart (on the drawn lines) to explore the stats of each pokemon. 
 </p>
+<div style="text-align: center;">
   <input type="text" id="pokemon-search" placeholder="Search Pokémon">
-
+</div>
+<h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> <br><br>Guide Completed! </h1>
+<p style = "border: none; background-color: #3c5aa6; border-radius:10px;  text-align: center; ">
+May your journey as a Pokémon trainer be filled with adventure, discovery, and triumph as you strive to become the ultimate Pokémon master. Gotta catch 'em all!
+</p>
 </main>
 
 <script>
@@ -575,12 +606,11 @@ pokemonSearchInput.addEventListener('input', function () {
 
   // Filter radar data based on the input values
   const filteredData = radarData.datasets.filter(dataset =>
-    searchValues.some(value => dataset.label.toLowerCase().includes(value.trim()))
+    searchValues.some(value => dataset.label.toLowerCase().trim() === value.trim())
   );
-  console.log(filteredData);
 
   // If no matching Pokémon found, clear the radar chart
-  if (filteredData.length == 0) {
+  if (filteredData.length === 0) {
     radarChartContainer.selectAll('*').remove();
     return;
   }
@@ -622,8 +652,8 @@ function drawBarChart(averageHeavyStats, averageLightStats) {
 
     // Set up the dimensions for the bar chart
     const margin = { top: 20, right: 30, bottom: 80, left: 80 }; // Increased bottom margin
-    const width = 800 - margin.left - margin.right; // Adjusted width
-    const height = 500 - margin.top - margin.bottom; // Adjusted height
+    const width = 1000 - margin.left - margin.right; // Adjusted width
+    const height = 600 - margin.top - margin.bottom; // Adjusted height
 
 // Append an SVG element to the bar chart container
 const svg = d3.select('#bar-chart-container')
@@ -633,6 +663,13 @@ const svg = d3.select('#bar-chart-container')
     .append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
+svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', 0 - (margin.top / 8))
+        .attr('text-anchor', 'middle')
+        .style('font-size', '1.5em')
+        .style('fill', 'white')
+        .text('Average Stats Comparison between Heavy and Light Pokémon'); 
 
 // Define tooltip
 const tooltip = d3.select('#bar-chart-container')
@@ -730,7 +767,7 @@ svg.selectAll('.bar-heavy')
     // Add legend
     const legend = svg.append('g')
         .attr('class', 'legend')
-        .attr('transform', `translate(${width - 60},${margin.top-30})`);
+        .attr('transform', `translate(${width - 50},${margin.top-8})`);
 
     legend.append('rect')
         .attr('x', 0)
@@ -779,9 +816,9 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
     ];
 
     // Set up dimensions and margins for the chart
-    const margin = { top: 20, right: 30, bottom: 80, left: 80 };
-    const width = 800 - margin.left - margin.right;
-    const height = 500 - margin.top - margin.bottom;
+     const margin = { top: 20, right: 30, bottom: 80, left: 80 };
+    const width = 1000 - margin.left - margin.right;
+    const height = 600 - margin.top - margin.bottom;
 
     // Append an SVG element to the legendary chart container
     const svg = d3.select('#legendary-bar-chart-container')
@@ -790,6 +827,14 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('height', height + margin.top + margin.bottom)
         .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
+      svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', 0 - (margin.top / 8))
+        .attr('text-anchor', 'middle')
+        .style('font-size', '1.5em')
+        .style('fill', 'white')
+        .text('Average Stats Comparison between Heavy and Light Pokémon'); 
+
 
     // Define scales for x and y axes
     const x = d3.scaleBand()
@@ -876,7 +921,7 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
     })
     .on('mouseout', function(d) {
         // Hide tooltip on mouseout
-        tooltip.transition()
+        legendarytooltip.transition()
             .duration(700)
     });
 
@@ -884,7 +929,7 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
     // Add legend
     const legend = svg.append('g')
         .attr('class', 'legend')
-        .attr('transform', `translate(${width - 110},${margin.top - 30})`);
+        .attr('transform', `translate(${width - 115},${margin.top - 8})`);
 
     legend.append('rect')
         .attr('x', 0)
