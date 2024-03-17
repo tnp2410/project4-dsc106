@@ -15,6 +15,7 @@ Whether you're a seasoned enthusiast of the mainline games, a dedicated Pokémon
 
 Join us as we dive into the heart of Pokémon training, where every challenge is an opportunity to grow, and every battle is a chance to showcase your skills. Are you ready to embark on this epic journey and uncover the age-old question: what truly makes a Pokémon strong? Let's begin our adventure!
   </p>
+<a href="https://youtu.be/nmdfAOuyyCE" style="color: white;" target="_blank">Watch video tutorial</a>
 </div>
 
   <h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> Lesson 1: Understanding the Impact of Weight on Stats!</h1>
