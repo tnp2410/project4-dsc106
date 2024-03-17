@@ -130,11 +130,10 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
         .attr('pointer-events', 'all');
 
       function update(event, source) {
-        const duration = event?.altKey ? 2500 : 250; // hold the alt key to slow down the transition
+        const duration = event?.altKey ? 2500 : 250; 
         const nodes = root.descendants().reverse();
         const links = root.links();
 
-        // Compute the new tree layout.
         tree(root);
 
         let left = root;
@@ -152,7 +151,6 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
           .attr('viewBox', [-marginLeft, left.x - marginTop, width, height])
           .tween('resize', window.ResizeObserver ? null : () => () => svg.dispatch('toggle'));
 
-        // Update the nodes…
         const node = gNode.selectAll('g')
           .data(nodes, d => d.id);
 
@@ -260,12 +258,10 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
     
       const radarChartContainer = d3.select('#radar-chart-container');
 
-      function drawRadarChart(data) {
-    // Extract labels and datasets from the provided data
+    function drawRadarChart(data) {
     const labels = data.labels;
     const datasets = data.datasets;
 
-    // Set up the radar chart dimensions
     const width = 600;
     const height = 800;
     const margin = { top: 400, right: 400, bottom: 2000, left: 400 };
@@ -284,11 +280,8 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
         .append('g')
         .attr('transform', `translate(${width / 2 +6}, ${height / 2 +30})`);
 
-
-  // Define an array of colors for the layers
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-  // Create a hexagon background
   const hexagonData = [
     { angle: 0, radius: radius+115},
     { angle: Math.PI / 3, radius: radius+115},
@@ -299,12 +292,10 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
     { angle: 0, radius: radius+115 } // To close the path
   ];
 
-  // Create the hexagon line generator
   const hexagonLine = d3.lineRadial()
     .angle(d => d.angle)
     .radius(d => d.radius);
 
-  // Append the hexagon path
   svg.append('path')
     .datum(hexagonData)
     .attr('class', 'hexagon-background')
@@ -317,7 +308,7 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
 
   // Create the radial scales for the radar chart
   const rScale = d3.scaleLinear()
-    .domain([0, 100]) // Assuming data values range from 0 to 100
+    .domain([0, 100]) 
     .range([0, radius]);
 
   // Create the angle scales for the radar chart
@@ -361,8 +352,8 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
 
   // Append the label text
   label.append('text')
-    .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) // Adjusted x position
-    .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) // Adjusted y position
+    .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) 
+    .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) 
     .attr('text-anchor', 'middle')
     .text(d => d)
     .style('fill', 'white');
@@ -371,10 +362,10 @@ May your journey as a Pokémon trainer be filled with adventure, discovery, and 
     .attr('x', 0)
     .attr('y', -margin.top + 160)
     .attr('text-anchor', 'middle')
-    .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
+    .text('Radar Chart with Pokémon\'s Stats') 
     .style('fill', 'white');
   const gridLines = svg.selectAll('.grid-line')
-  .data(d3.range(80, 300, 58)) // Adjust range and step according to your preference
+  .data(d3.range(80, 300, 58)) 
   .enter()
   .append('g')
   .attr('class', 'grid-line');
@@ -389,7 +380,7 @@ gridLines.append('path')
       { angle: Math.PI, radius: rScale(d) },
       { angle: (4 * Math.PI) / 3, radius: rScale(d) },
       { angle: (5 * Math.PI) / 3, radius: rScale(d) },
-      { angle: 0, radius: rScale(d) } // To close the path
+      { angle: 0, radius: rScale(d) } 
     ];
     return hexagonLine(gridLineData);
   })
@@ -400,17 +391,16 @@ gridLines.append('path')
 
   gridLines.append('text')
   .attr('class', 'grid-line-text')
-  .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) // Adjusted x position
-  .attr('y', d => rScale(d) * Math.sin(Math.PI )) // Adjusted y position
-  .attr('dy', 5) // Adjust vertical alignment
-  .text(d => d) // Display the value of the grid line
+  .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) 
+  .attr('y', d => rScale(d) * Math.sin(Math.PI )) 
+  .attr('dy', 5) 
+  .text(d => d) 
   .style('fill', 'yellow')
   .style('font-size', '12px')
   .style('text-anchor', 'middle');
 }
 
 function drawFilteredChart(filteredData) {
-    // Set up the radar chart dimensions
     const width = 600;
     const height = 800;
     const margin = { top: 400, right: 400, bottom: 2000, left: 400 };
@@ -440,7 +430,7 @@ function drawFilteredChart(filteredData) {
         { angle: Math.PI, radius: radius + 115 },
         { angle: (4 * Math.PI) / 3, radius: radius + 115 },
         { angle: (5 * Math.PI) / 3, radius: radius + 115 },
-        { angle: 0, radius: radius + 115 } // To close the path
+        { angle: 0, radius: radius + 115 } 
     ];
 
     // Create the hexagon line generator
@@ -460,7 +450,7 @@ function drawFilteredChart(filteredData) {
 
     // Create the radial scales for the radar chart
     const rScale = d3.scaleLinear()
-        .domain([0, 100]) // Assuming data values range from 0 to 100
+        .domain([0, 100]) 
         .range([0, radius]);
 
     // Create the angle scales for the radar chart
@@ -490,7 +480,7 @@ function drawFilteredChart(filteredData) {
             .attr('class', 'radar-line')
             .attr('d', radarLine)
             .style('fill', 'none')
-            .style('stroke', colorScale(index)) // Use color for each dataset
+            .style('stroke', colorScale(index))
             .style('stroke-width', 4);
     });
 
@@ -503,8 +493,8 @@ function drawFilteredChart(filteredData) {
 
     // Append the label text
     label.append('text')
-        .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2)) // Adjusted x position
-        .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) // Adjusted y position
+        .attr('x', (d, i) => (radius + 120) * Math.cos(angleScale(i) - Math.PI / 2))
+        .attr('y', (d, i) => (radius + 120) * Math.sin(angleScale(i) - Math.PI / 2)) 
         .attr('text-anchor', 'middle')
         .text(d => d)
         .style('fill', 'white');
@@ -513,11 +503,11 @@ function drawFilteredChart(filteredData) {
         .attr('x', 0)
         .attr('y', -margin.top + 160)
         .attr('text-anchor', 'middle')
-        .text('Radar Chart with Pokémon\'s Stats') // Set your desired title text here
+        .text('Radar Chart with Pokémon\'s Stats') 
         .style('fill', 'white');
 
     const gridLines = svg.selectAll('.grid-line')
-        .data(d3.range(80, 300, 58)) // Adjust range and step according to your preference
+        .data(d3.range(80, 300, 58)) 
         .enter()
         .append('g')
         .attr('class', 'grid-line');
@@ -532,7 +522,7 @@ function drawFilteredChart(filteredData) {
                 { angle: Math.PI, radius: rScale(d) },
                 { angle: (4 * Math.PI) / 3, radius: rScale(d) },
                 { angle: (5 * Math.PI) / 3, radius: rScale(d) },
-                { angle: 0, radius: rScale(d) } // To close the path
+                { angle: 0, radius: rScale(d) } 
             ];
             return hexagonLine(gridLineData);
         })
@@ -543,10 +533,10 @@ function drawFilteredChart(filteredData) {
 
     gridLines.append('text')
         .attr('class', 'grid-line-text')
-        .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) // Adjusted x position
-        .attr('y', d => rScale(d) * Math.sin(Math.PI)) // Adjusted y position
-        .attr('dy', 5) // Adjust vertical alignment
-        .text(d => d) // Display the value of the grid line
+        .attr('x', d => rScale(d) * Math.cos(Math.PI / 6)) 
+        .attr('y', d => rScale(d) * Math.sin(Math.PI)) 
+        .attr('dy', 5) 
+        .text(d => d)
         .style('fill', 'yellow')
         .style('font-size', '12px')
         .style('text-anchor', 'middle');
@@ -558,21 +548,20 @@ function drawFilteredChart(filteredData) {
     // Add event listeners to radar areas to show/hide tooltip
     svg.selectAll('.radar-line')
         .on('mouseover', function(event, d) {
-            const hoveredData = d; // Assuming d contains the stats for the hovered data point
+            const hoveredData = d;
             let tooltipContent = '';
 
             filteredData.forEach((data, index) => {
-                const pokemonName = data.label; // Assuming each dataset contains the Pokémon name
-                const stats = data.data; // Assuming each dataset contains the stats
-                const color = colorScale(index); // Get the color for the Pokémon
+                const pokemonName = data.label;
+                const stats = data.data;
+                const color = colorScale(index); 
                 console.log(stats)
-                // Add color swatch and Pokémon name
+              
                 tooltipContent += `<div style="display: flex; align-items: center;">`;
                 tooltipContent += `<div style="width: 10px; height: 10px; background-color: ${color}; margin-right: 5px;"></div>`;
                 tooltipContent += `<strong>${pokemonName}</strong>`;
                 tooltipContent += `</div>`;
               
-                // Add Pokémon stats
                 tooltipContent += `Stats:<br>`;
                 tooltipContent += `Attack: ${stats[0]}<br>`;
                 tooltipContent += `Defense: ${stats[1]}<br>`;
@@ -582,7 +571,6 @@ function drawFilteredChart(filteredData) {
                 tooltipContent += `Special Defense: ${stats[5]}<br><br>`;
             });
 
-            // Show tooltip
             tooltip.transition()
                 .duration(100)
                 .style('opacity', .9);
@@ -591,7 +579,6 @@ function drawFilteredChart(filteredData) {
                 .style('top', (event.pageY) + 'px');
         })
         .on('mouseout', function(d) {
-            // Hide tooltip
             tooltip.transition()
                 .duration(500)
                 .style('opacity', 0);
@@ -600,7 +587,7 @@ function drawFilteredChart(filteredData) {
     drawRadarChart(radarData);
 const pokemonSearchInput = document.getElementById('pokemon-search');
 pokemonSearchInput.addEventListener('input', function () {
-  // Get the input value
+
   const searchValue = pokemonSearchInput.value.toLowerCase();
 
   // Split the input value by comma to handle two inputs
@@ -653,9 +640,9 @@ function drawBarChart(averageHeavyStats, averageLightStats) {
     ];
 
     // Set up the dimensions for the bar chart
-    const margin = { top: 20, right: 30, bottom: 80, left: 80 }; // Increased bottom margin
-    const width = 1000 - margin.left - margin.right; // Adjusted width
-    const height = 600 - margin.top - margin.bottom; // Adjusted height
+    const margin = { top: 20, right: 30, bottom: 80, left: 80 }; 
+    const width = 1000 - margin.left - margin.right;
+    const height = 600 - margin.top - margin.bottom; 
 
 // Append an SVG element to the bar chart container
 const svg = d3.select('#bar-chart-container')
@@ -671,9 +658,8 @@ svg.append('text')
         .attr('text-anchor', 'middle')
         .style('font-size', '1.5em')
         .style('fill', 'white')
-        .text('Average Stats Comparison between Heavy and Light Pokémon'); 
+        .text('Heavyweight vs Lightweight Pokémon Average Stats Comparison'); 
 
-// Define tooltip
 const tooltip = d3.select('#bar-chart-container')
     .append('div')
     .style('opacity', 0)
@@ -684,7 +670,6 @@ const tooltip = d3.select('#bar-chart-container')
     .style('border-radius', '5px')
     .style('padding', '10px');
 
-    // Define scales for x and y axes
     const x = d3.scaleBand()
         .domain(data.map(d => d.stat))
         .range([0, width])
@@ -695,7 +680,6 @@ const tooltip = d3.select('#bar-chart-container')
         .nice()
         .range([height, 0]);
 
-    // Append x axis
     svg.append('g')
         .attr('transform', `translate(0,${height})`)
         .call(d3.axisBottom(x))
@@ -707,11 +691,9 @@ const tooltip = d3.select('#bar-chart-container')
         .attr('dy', '0.15em')
         .attr('transform', 'rotate(-65)');
 
-    // Append y axis
-    svg.append('g')
-        .call(d3.axisLeft(y));
+svg.append('g')
+    .call(d3.axisLeft(y));
 
-    // Append bars for heavier Pokémon
 svg.selectAll('.bar-heavy')
     .data(data)
     .enter().append('rect')
@@ -722,9 +704,7 @@ svg.selectAll('.bar-heavy')
     .attr('height', d => height - y(d.heavy))
     .attr('fill', '#c7a008')
     .attr('stroke', 'white')
-    // Add tooltip on hover
     .on('mouseover', function(event, d) {
-        // Show tooltip on hover
         tooltip.transition()
             .duration(200)
             .style('opacity', .9)
@@ -734,7 +714,6 @@ svg.selectAll('.bar-heavy')
             .style('top', (event.pageY-30) + 'px');
     })
     .on('mouseout', function(d) {
-        // Hide tooltip on mouseout
         tooltip.transition()
             .duration(500)
     });
@@ -795,20 +774,16 @@ svg.selectAll('.bar-heavy')
         .attr('y', 29)
         .text('Lighter');
 }
-// Filter legendary and non-legendary Pokémon
+
 const legendaryPokemon = tooltipCopy.filter(pokemon => pokemon.is_legendary == 1);
 const nonLegendaryPokemon = tooltipCopy.filter(pokemon => pokemon.is_legendary == 0);
 
-// Calculate average stats for legendary and non-legendary Pokémon
 const averageLegendaryStats = calculateAverageStats(legendaryPokemon);
 const averageNonLegendaryStats = calculateAverageStats(nonLegendaryPokemon);
 
-// Draw bar chart for legendary comparison
 drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats);
 
-// Function to draw the legendary bar chart
 function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) {
-    // Define data for the bar chart
     const data = [
         { stat: 'Attack', legendary: averageLegendaryStats.attack, nonLegendary: averageNonLegendaryStats.attack },
         { stat: 'Defense', legendary: averageLegendaryStats.defense, nonLegendary: averageNonLegendaryStats.defense },
@@ -817,12 +792,10 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         { stat: 'Special Defense', legendary: averageLegendaryStats.sp_defense, nonLegendary: averageNonLegendaryStats.sp_defense },
     ];
 
-    // Set up dimensions and margins for the chart
      const margin = { top: 20, right: 30, bottom: 80, left: 80 };
     const width = 1000 - margin.left - margin.right;
     const height = 600 - margin.top - margin.bottom;
 
-    // Append an SVG element to the legendary chart container
     const svg = d3.select('#legendary-bar-chart-container')
         .append('svg')
         .attr('width', width + margin.left + margin.right)
@@ -835,10 +808,9 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('text-anchor', 'middle')
         .style('font-size', '1.5em')
         .style('fill', 'white')
-        .text('Average Stats Comparison between Heavy and Light Pokémon'); 
+        .text('Legendary vs Non-Legendary Pokémon Average Stats Comparison'); 
 
 
-    // Define scales for x and y axes
     const x = d3.scaleBand()
         .domain(data.map(d => d.stat))
         .range([0, width])
@@ -858,7 +830,6 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
     .style('border-radius', '5px')
     .style('padding', '10px');
 
-    // Append x axis
     svg.append('g')
         .attr('transform', `translate(0,${height})`)
         .call(d3.axisBottom(x))
@@ -868,12 +839,10 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('dy', '0.15em')
         .attr('transform', 'rotate(-65)');
 
-    // Append y axis
     svg.append('g')
         .call(d3.axisLeft(y));
 
 
-    // Append bars for legendary Pokémon
     svg.selectAll('.bar-legendary')
         .data(data)
         .enter().append('rect')
@@ -884,7 +853,6 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('height', d => height - y(d.legendary))
         .attr('fill', '#E10A03')
         .attr('stroke', 'white')
-    // Add tooltip on hover
     .on('mouseover', function(event, d) {
         legendarytooltip.transition()
             .duration(200)
@@ -895,12 +863,10 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
             .style('top', (event.pageY-30) + 'px');
     })
     .on('mouseout', function(d) {
-        // Hide tooltip on mouseout
         legendarytooltip.transition()
             .duration(500)
     });
 
-    // Append bars for non-legendary Pokémon
     svg.selectAll('.bar-non-legendary')
         .data(data)
         .enter().append('rect')
@@ -911,9 +877,7 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
         .attr('height', d => height - y(d.nonLegendary))
         .attr('fill', 'white')
          .attr('stroke', 'red')
-    // Add tooltip on hover
         .on('mouseover', function(event, d) {
-        // Show tooltip on hover
         legendarytooltip.transition()
             .duration(200)
             .style('background-color', '#656561')
@@ -922,13 +886,11 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
             .style('top', (event.pageY-30) + 'px');
     })
     .on('mouseout', function(d) {
-        // Hide tooltip on mouseout
         legendarytooltip.transition()
             .duration(700)
     });
 
 
-    // Add legend
     const legend = svg.append('g')
         .attr('class', 'legend')
         .attr('transform', `translate(${width - 115},${margin.top - 8})`);
@@ -983,11 +945,10 @@ function drawLegendaryBarChart(averageLegendaryStats, averageNonLegendaryStats) 
   }
 
 
-  /* Add borders around the paragraphs */
   p {
-    border: 1px solid #ccc; /* Add a border around each paragraph */
-    padding: 10px; /* Add padding to give some space between the border and text */
-    margin-bottom: 20px; /* Add margin to separate paragraphs */
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin-bottom: 20px;
   }
 
 </style>
