@@ -72,8 +72,8 @@ If you want to see an interesting comparison, type in “Flareon, Vaporeon”. W
   <div id="radar-chart-container"></div>
   <p style = "border: none; background-color: #3c5aa6; border-radius:10px;">Have specific Pokémon in mind? Utilize the search bar below to learn more about the Pokémon! Type in a max of 3 Pokemon to explore how they compare. “__, ___, __”  Hover over the radar chart (on the drawn lines) to explore the stats of each pokemon. 
 </p>
-<div style="text-align: center;">
-  <input type="text" id="pokemon-search" placeholder="Search Pokémon">
+<div style="text-align: center; margin-top: 20px;">
+  <input type="text" id="pokemon-search" placeholder="Search Pokémon" style="padding: 10px; border: 2px solid #3c5aa6; border-radius: 20px; font-size: 16px; width: 300px;">
 </div>
 <h1 style="font-size: 1.2em; margin-top: 20px; font-family: 'Press Start 2P', cursive;  text-align: center;text-shadow: -1px -1px 0 #ffcb05, 1px -1px 0 #ffcb05, -1px 1px 0 #ffcb05, 1px 1px 0 yellow; color: #3c5aa6; "> <br><br>Guide Completed! </h1>
 <p style = "border: none; background-color: #3c5aa6; border-radius:10px;  text-align: center; ">
