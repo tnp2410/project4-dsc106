@@ -79,6 +79,7 @@ If you want to see an interesting comparison, type in “Flareon, Vaporeon”. W
 <p style = "border: none; background-color: #3c5aa6; border-radius:10px;  text-align: center; ">
 May your journey as a Pokémon trainer be filled with adventure, discovery, and triumph as you strive to become the ultimate Pokémon master. Gotta catch 'em all!
 </p>
+<img src="pokemonPIC.jpg" style="width: 500px; height: auto; display: block; margin: 0 auto;"/> 
 </main>
 
 <script>
